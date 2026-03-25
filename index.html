@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NWC Quiz Lab</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <aside class="left-rail">
+        <div class="brand-card">
+          <p class="eyebrow">Network Study Agent</p>
+          <h1>NWC Quiz Lab</h1>
+          <p class="brand-copy">
+            Luyện câu hỏi CCNA theo kiểu từng câu, có exhibit, đáp án, lời giải
+            và theo dõi tiến độ ngay trên máy của bạn.
+          </p>
+        </div>
+
+        <section class="rail-section">
+          <div class="section-title">Chế độ</div>
+          <div class="segmented-control" id="mode-switch">
+            <button class="segment is-active" data-mode="practice" type="button">
+              Luyện đề
+            </button>
+            <button class="segment" data-mode="review" type="button">
+              Ôn tập
+            </button>
+          </div>
+        </section>
+
+        <section class="rail-section">
+          <div class="section-title">Module</div>
+          <div class="module-list" id="module-filters"></div>
+        </section>
+
+        <section class="rail-section">
+          <div class="section-title">Bộ lọc</div>
+          <div class="segmented-control" id="status-filters">
+            <button class="segment is-active" data-filter="all" type="button">
+              Tất cả
+            </button>
+            <button class="segment" data-filter="unanswered" type="button">
+              Chưa làm
+            </button>
+            <button class="segment" data-filter="incorrect" type="button">
+              Sai
+            </button>
+            <button class="segment" data-filter="starred" type="button">
+              Đánh dấu
+            </button>
+          </div>
+        </section>
+
+        <section class="rail-section">
+          <label class="section-title" for="search-input">Tìm kiếm</label>
+          <input
+            id="search-input"
+            class="search-input"
+            type="search"
+            placeholder="Tìm theo nội dung câu hỏi..."
+          />
+        </section>
+
+        <section class="rail-section rail-actions">
+          <button class="soft-button" id="retry-incorrect-btn" type="button">
+            Luyện lại câu sai
+          </button>
+          <button class="soft-button" id="retake-incorrect-btn" type="button">
+            Thi lại câu sai
+          </button>
+          <button class="soft-button" id="exit-retake-btn" type="button">
+            Chưa có phiên thi lại
+          </button>
+          <button class="soft-button" id="shuffle-btn" type="button">Trộn câu đang lọc</button>
+          <button class="soft-button soft-button-danger" id="reset-btn" type="button">
+            Xóa tiến độ
+          </button>
+        </section>
+
+        <section class="rail-section">
+          <div class="section-title">Nguồn</div>
+          <div class="source-list" id="source-links"></div>
+        </section>
+      </aside>
+
+      <main class="workspace">
+        <header class="hero-card">
+          <div class="hero-copy">
+            <p class="eyebrow" id="progress-label">Đang tải ngân hàng câu hỏi...</p>
+            <h2 id="question-path">CCNA Quiz Practice</h2>
+            <p class="hero-note" id="hero-note">
+              Chọn một module ở bên trái để bắt đầu học.
+            </p>
+          </div>
+
+          <div class="stats-grid">
+            <article class="stat-card">
+              <span class="stat-label">Hiển thị</span>
+              <strong class="stat-value" id="stat-visible">0</strong>
+            </article>
+            <article class="stat-card">
+              <span class="stat-label">Đã làm</span>
+              <strong class="stat-value" id="stat-answered">0</strong>
+            </article>
+            <article class="stat-card">
+              <span class="stat-label">Đúng</span>
+              <strong class="stat-value" id="stat-correct">0</strong>
+            </article>
+            <article class="stat-card">
+              <span class="stat-label">Độ chính xác</span>
+              <strong class="stat-value" id="stat-accuracy">0%</strong>
+            </article>
+          </div>
+        </header>
+
+        <section class="navigator-card">
+          <div class="navigator-top">
+            <div>
+              <p class="eyebrow">Điều hướng</p>
+              <h3>Danh sách câu hỏi</h3>
+            </div>
+
+            <div class="navigator-actions">
+              <button class="ghost-button" id="prev-btn-top" type="button">Câu trước</button>
+              <button class="ghost-button" id="next-btn-top" type="button">Câu tiếp</button>
+            </div>
+          </div>
+
+          <div class="question-pills" id="question-pills"></div>
+        </section>
+
+        <section class="question-card">
+          <div class="question-head">
+            <div class="question-meta">
+              <span class="question-badge" id="question-type-badge">Single choice</span>
+              <span class="question-subtle" id="question-source-label"></span>
+            </div>
+
+            <button class="ghost-button" id="bookmark-btn" type="button">Đánh dấu câu này</button>
+          </div>
+
+          <div class="rich-content pulse-enter" id="question-content"></div>
+          <p class="instruction-line" id="instruction-line"></p>
+          <div class="options-list" id="options-list"></div>
+
+          <div class="feedback-panel" id="feedback-panel" hidden></div>
+
+          <div class="question-actions">
+            <button class="primary-button" id="check-btn" type="button">Kiểm tra đáp án</button>
+            <button class="ghost-button" id="reveal-btn" type="button">Hiện đáp án</button>
+            <button class="ghost-button" id="prev-btn-bottom" type="button">Câu trước</button>
+            <button class="ghost-button" id="next-btn-bottom" type="button">Câu tiếp</button>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="question-bank.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
