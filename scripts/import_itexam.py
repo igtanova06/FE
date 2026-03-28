@@ -90,6 +90,69 @@ SOURCES = [
         url="https://itexamanswers.net/ccna-1-version-7-00-itnv7-practice-final-exam-answers.html",
         accent="#dc2626",
     ),
+    SourcePage(
+        module_id="iao-m1-2",
+        module_label="IAO Modules 1-2: Threat Actors and Defenders",
+        module_short_label="IAO 1-2",
+        url="https://itexamanswers.net/modules-1-2-threat-actors-and-defenders-group-exam-answers.html",
+        accent="#1d4ed8",
+    ),
+    SourcePage(
+        module_id="iao-m3-4",
+        module_label="IAO Modules 3-4: Operating System Overview",
+        module_short_label="IAO 3-4",
+        url="https://itexamanswers.net/modules-3-4-operating-system-overview-group-exam-answers.html",
+        accent="#2563eb",
+    ),
+    SourcePage(
+        module_id="iao-m5-10",
+        module_label="IAO Modules 5-10: Network Fundamentals",
+        module_short_label="IAO 5-10",
+        url="https://itexamanswers.net/modules-5-10-network-fundamentals-group-exam-answers.html",
+        accent="#0891b2",
+    ),
+    SourcePage(
+        module_id="iao-m11-12",
+        module_label="IAO Modules 11-12: Network Infrastructure Security",
+        module_short_label="IAO 11-12",
+        url="https://itexamanswers.net/modules-11-12-network-infrastructure-security-group-exam-answers.html",
+        accent="#0f766e",
+    ),
+    SourcePage(
+        module_id="iao-m13-17",
+        module_label="IAO Modules 13-17: Threats and Attacks",
+        module_short_label="IAO 13-17",
+        url="https://itexamanswers.net/modules-13-17-threats-and-attacks-group-exam-answers.html",
+        accent="#65a30d",
+    ),
+    SourcePage(
+        module_id="iao-m18-20",
+        module_label="IAO Modules 18-20: Network Defense",
+        module_short_label="IAO 18-20",
+        url="https://itexamanswers.net/modules-18-20-network-defense-group-exam-answers.html",
+        accent="#ca8a04",
+    ),
+    SourcePage(
+        module_id="iao-m21-23",
+        module_label="IAO Modules 21-23: Cryptography and Endpoint Protection",
+        module_short_label="IAO 21-23",
+        url="https://itexamanswers.net/modules-21-23-cryptography-and-endpoint-protection-group-exam-answers.html",
+        accent="#ea580c",
+    ),
+    SourcePage(
+        module_id="iao-m24-25",
+        module_label="IAO Modules 24-25: Protocols and Log Files",
+        module_short_label="IAO 24-25",
+        url="https://itexamanswers.net/modules-24-25-protocols-and-log-files-group-exam-answers.html",
+        accent="#dc2626",
+    ),
+    SourcePage(
+        module_id="iao-m26-28",
+        module_label="IAO Modules 26-28: Analyzing Security Data",
+        module_short_label="IAO 26-28",
+        url="https://itexamanswers.net/modules-26-28-analyzing-security-data-group-exam-answers.html",
+        accent="#7c3aed",
+    ),
 ]
 
 
@@ -314,10 +377,14 @@ def parse_question(
         option_list = parse_options(option_block_match.group(2))
         prompt_text_before_options = html_to_text(strip_question_number(prompt_html)).lower()
         has_marked_answer = any(option["isCorrect"] for option in option_list)
+        is_ordering_or_matching = (
+            prompt_text_before_options.startswith("place the options in the following order")
+            or prompt_text_before_options.startswith("match ")
+            or prompt_text_before_options.startswith("match each")
+            or prompt_text_before_options.startswith("match the")
+        )
 
-        if option_list and not has_marked_answer and prompt_text_before_options.startswith(
-            "place the options in the following order",
-        ):
+        if option_list and not has_marked_answer and is_ordering_or_matching:
             solution_html = option_block_match.group(0).strip()
             option_list = []
     else:

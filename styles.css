@@ -221,9 +221,62 @@ button:disabled {
   background: rgba(255, 255, 255, 0.12);
 }
 
+.soft-button-accent {
+  background: linear-gradient(135deg, rgba(199, 107, 29, 0.9), rgba(15, 118, 110, 0.9));
+}
+
 .soft-button-danger {
   color: #ffd9d6;
   background: rgba(180, 35, 24, 0.16);
+}
+
+.cram-card {
+  padding: 16px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.cram-title {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #fff8ef;
+}
+
+.cram-copy {
+  margin: 10px 0 0;
+  font-size: 0.92rem;
+  line-height: 1.5;
+  color: rgba(248, 245, 237, 0.72);
+}
+
+.cram-metrics {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.cram-metric {
+  padding: 12px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.cram-metric span {
+  display: block;
+  font-size: 0.76rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: rgba(248, 245, 237, 0.56);
+}
+
+.cram-metric strong {
+  display: block;
+  margin-top: 8px;
+  font-size: 1.1rem;
+  color: #fff;
 }
 
 .source-list {

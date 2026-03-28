@@ -1,4 +1,7 @@
 const STORAGE_KEY = "nwc-quiz-lab-state-v1";
+const CRAM_TARGET_COUNT = 300;
+const CRAM_BLOCK_SIZE = 50;
+const OPTION_SHORTCUT_KEYS = ["a", "b", "c", "d", "e", "f", "g", "h", "j"];
 
 const quizBank = window.QUIZ_BANK || { modules: [], questions: [], sources: [] };
 const questionMap = new Map(quizBank.questions.map((question) => [question.id, question]));
@@ -18,13 +21,26 @@ function loadState() {
     currentQuestionId: null,
     shuffledIds: [],
     retakeSessionIds: [],
-    sessionRecords: {},
+    retakeSessionRecords: {},
+    cramSessionIds: [],
+    cramSessionRecords: {},
+    cramBlockIndex: 0,
+    cramSourceModuleId: "all",
     records: {},
   };
 
   try {
     const rawState = window.localStorage.getItem(STORAGE_KEY);
-    return rawState ? { ...defaultState, ...JSON.parse(rawState) } : defaultState;
+    if (!rawState) {
+      return defaultState;
+    }
+
+    const parsedState = JSON.parse(rawState);
+    if (parsedState.sessionRecords && !parsedState.retakeSessionRecords) {
+      parsedState.retakeSessionRecords = parsedState.sessionRecords;
+    }
+
+    return { ...defaultState, ...parsedState };
   } catch (error) {
     return defaultState;
   }
@@ -46,18 +62,23 @@ function reconcileState() {
     normalizeGlobalRecord(state.records[questionId]);
   });
 
-  Object.keys(state.sessionRecords).forEach((questionId) => {
+  Object.keys(state.retakeSessionRecords).forEach((questionId) => {
     if (!validIds.has(questionId)) {
-      delete state.sessionRecords[questionId];
+      delete state.retakeSessionRecords[questionId];
       return;
     }
 
-    normalizeSessionRecord(state.sessionRecords[questionId]);
+    normalizeSpecialRecord(state.retakeSessionRecords[questionId]);
   });
 
-  if (!validIds.has(state.currentQuestionId)) {
-    state.currentQuestionId = quizBank.questions[0]?.id || null;
-  }
+  Object.keys(state.cramSessionRecords).forEach((questionId) => {
+    if (!validIds.has(questionId)) {
+      delete state.cramSessionRecords[questionId];
+      return;
+    }
+
+    normalizeSpecialRecord(state.cramSessionRecords[questionId]);
+  });
 
   state.search = String(state.search || "");
   state.moduleId = moduleMap.has(state.moduleId) ? state.moduleId : "all";
@@ -67,6 +88,21 @@ function reconcileState() {
   state.mode = ["practice", "review"].includes(state.mode) ? state.mode : "practice";
   state.shuffledIds = normalizeIdList(state.shuffledIds, validIds);
   state.retakeSessionIds = normalizeIdList(state.retakeSessionIds, validIds);
+  state.cramSessionIds = normalizeIdList(state.cramSessionIds, validIds);
+  state.cramBlockIndex = Number.isInteger(state.cramBlockIndex) ? state.cramBlockIndex : 0;
+  state.cramSourceModuleId =
+    state.cramSourceModuleId === "all" || moduleMap.has(state.cramSourceModuleId)
+      ? state.cramSourceModuleId
+      : "all";
+
+  const totalCramBlocks = Math.ceil(state.cramSessionIds.length / CRAM_BLOCK_SIZE);
+  state.cramBlockIndex = totalCramBlocks
+    ? Math.min(state.cramBlockIndex, totalCramBlocks - 1)
+    : 0;
+
+  if (!validIds.has(state.currentQuestionId)) {
+    state.currentQuestionId = quizBank.questions[0]?.id || null;
+  }
 }
 
 function normalizeIdList(values, validIds) {
@@ -86,7 +122,7 @@ function normalizeGlobalRecord(record) {
   record.needsRetry = Boolean(record.needsRetry);
 }
 
-function normalizeSessionRecord(record) {
+function normalizeSpecialRecord(record) {
   record.selected = Array.isArray(record.selected) ? record.selected : [];
   record.checked = Boolean(record.checked);
   record.revealed = Boolean(record.revealed);
@@ -97,9 +133,104 @@ function isRetakeSessionActive() {
   return state.retakeSessionIds.length > 0;
 }
 
+function isCramSessionActive() {
+  return state.cramSessionIds.length > 0;
+}
+
+function isSpecialSessionActive() {
+  return isRetakeSessionActive() || isCramSessionActive();
+}
+
+function shouldIgnoreQuizShortcut(event) {
+  if (event.altKey || event.ctrlKey || event.metaKey) {
+    return true;
+  }
+
+  const activeElement = document.activeElement;
+  if (!activeElement) {
+    return false;
+  }
+
+  const tagName = activeElement.tagName;
+  return (
+    activeElement.isContentEditable ||
+    tagName === "INPUT" ||
+    tagName === "TEXTAREA" ||
+    tagName === "SELECT"
+  );
+}
+
+function updateSelection(question, optionId) {
+  if (!question || !question.options.length) {
+    return;
+  }
+
+  const record = getInteractionRecord(question.id);
+  if (record.checked && !isSpecialSessionActive() && state.mode !== "review") {
+    return;
+  }
+
+  if (question.type === "multiple") {
+    record.selected = toggleArrayValue(record.selected, optionId);
+  } else {
+    record.selected = record.selected[0] === optionId ? [] : [optionId];
+  }
+
+  if (!record.checked) {
+    record.revealed = false;
+    record.correct = null;
+  }
+
+  renderApp();
+}
+
+function submitCurrentAnswer() {
+  const question = getCurrentQuestion();
+  if (!question || !question.options.length) {
+    return;
+  }
+
+  const interactionRecord = getInteractionRecord(question.id);
+  if (!interactionRecord.selected.length) {
+    return;
+  }
+
+  interactionRecord.checked = true;
+  interactionRecord.revealed = true;
+  interactionRecord.correct = compareSelections(question.correctOptionIds, interactionRecord.selected);
+
+  const globalRecord = getGlobalRecord(question.id);
+  globalRecord.selected = [...interactionRecord.selected];
+  globalRecord.checked = true;
+  globalRecord.revealed = true;
+  globalRecord.correct = interactionRecord.correct;
+  globalRecord.needsRetry = !interactionRecord.correct;
+
+  renderApp();
+}
+
+function selectOptionByShortcut(shortcutKey) {
+  const question = getCurrentQuestion();
+  if (!question || !question.options.length) {
+    return;
+  }
+
+  const optionIndex = OPTION_SHORTCUT_KEYS.indexOf(shortcutKey);
+  if (optionIndex === -1) {
+    return;
+  }
+
+  const option = question.options[optionIndex];
+  if (!option) {
+    return;
+  }
+
+  updateSelection(question, option.id);
+}
+
 function bindControls() {
   document.getElementById("mode-switch").addEventListener("click", (event) => {
-    if (isRetakeSessionActive()) {
+    if (isSpecialSessionActive()) {
       return;
     }
 
@@ -116,7 +247,7 @@ function bindControls() {
   });
 
   document.getElementById("status-filters").addEventListener("click", (event) => {
-    if (isRetakeSessionActive()) {
+    if (isSpecialSessionActive()) {
       return;
     }
 
@@ -132,7 +263,7 @@ function bindControls() {
   });
 
   document.getElementById("module-filters").addEventListener("click", (event) => {
-    if (isRetakeSessionActive()) {
+    if (isSpecialSessionActive()) {
       return;
     }
 
@@ -148,7 +279,7 @@ function bindControls() {
   });
 
   document.getElementById("search-input").addEventListener("input", (event) => {
-    if (isRetakeSessionActive()) {
+    if (isSpecialSessionActive()) {
       return;
     }
 
@@ -158,8 +289,79 @@ function bindControls() {
     renderApp();
   });
 
+  document.addEventListener("keydown", (event) => {
+    if (shouldIgnoreQuizShortcut(event)) {
+      return;
+    }
+
+    if (event.key === "Enter") {
+      if (event.repeat) {
+        return;
+      }
+
+      event.preventDefault();
+      submitCurrentAnswer();
+      return;
+    }
+
+    const shortcutKey = event.key.toLowerCase();
+    if (OPTION_SHORTCUT_KEYS.includes(shortcutKey)) {
+      if (event.repeat) {
+        return;
+      }
+
+      event.preventDefault();
+      selectOptionByShortcut(shortcutKey);
+      return;
+    }
+
+    if (event.key === "ArrowLeft") {
+      event.preventDefault();
+      moveQuestion(-1);
+      return;
+    }
+
+    if (event.key === "ArrowRight") {
+      event.preventDefault();
+      moveQuestion(1);
+    }
+  });
+
+  document.getElementById("start-cram-btn").addEventListener("click", () => {
+    if (isSpecialSessionActive()) {
+      return;
+    }
+
+    startCramSession();
+    renderApp();
+  });
+
+  document.getElementById("next-cram-block-btn").addEventListener("click", () => {
+    if (!isCramSessionActive()) {
+      return;
+    }
+
+    const summary = getCramSummary();
+    if (state.cramBlockIndex >= summary.totalBlocks - 1) {
+      return;
+    }
+
+    state.cramBlockIndex += 1;
+    state.currentQuestionId = getCurrentCramBlockQuestions()[0]?.id || state.currentQuestionId;
+    renderApp();
+  });
+
+  document.getElementById("end-cram-btn").addEventListener("click", () => {
+    if (!isCramSessionActive()) {
+      return;
+    }
+
+    endCramSession();
+    renderApp();
+  });
+
   document.getElementById("retry-incorrect-btn").addEventListener("click", () => {
-    if (isRetakeSessionActive()) {
+    if (isSpecialSessionActive()) {
       return;
     }
 
@@ -193,6 +395,10 @@ function bindControls() {
   });
 
   document.getElementById("retake-incorrect-btn").addEventListener("click", () => {
+    if (isSpecialSessionActive()) {
+      return;
+    }
+
     startIncorrectRetakeSession();
     renderApp();
   });
@@ -207,7 +413,7 @@ function bindControls() {
   });
 
   document.getElementById("shuffle-btn").addEventListener("click", () => {
-    if (isRetakeSessionActive()) {
+    if (isSpecialSessionActive()) {
       return;
     }
 
@@ -223,8 +429,11 @@ function bindControls() {
     }
 
     state.records = {};
-    state.sessionRecords = {};
     state.retakeSessionIds = [];
+    state.retakeSessionRecords = {};
+    state.cramSessionIds = [];
+    state.cramSessionRecords = {};
+    state.cramBlockIndex = 0;
     state.shuffledIds = [];
     ensureCurrentQuestion();
     renderApp();
@@ -247,53 +456,11 @@ function bindControls() {
     }
 
     const question = getCurrentQuestion();
-    if (!question || !question.options.length) {
-      return;
-    }
-
-    const record = getInteractionRecord(question.id);
-    if (record.checked && !isRetakeSessionActive() && state.mode !== "review") {
-      return;
-    }
-
-    const optionId = button.dataset.optionId;
-    if (question.type === "multiple") {
-      record.selected = toggleArrayValue(record.selected, optionId);
-    } else {
-      record.selected = record.selected[0] === optionId ? [] : [optionId];
-    }
-
-    if (!record.checked) {
-      record.revealed = false;
-      record.correct = null;
-    }
-
-    renderApp();
+    updateSelection(question, button.dataset.optionId);
   });
 
   document.getElementById("check-btn").addEventListener("click", () => {
-    const question = getCurrentQuestion();
-    if (!question || !question.options.length) {
-      return;
-    }
-
-    const record = getInteractionRecord(question.id);
-    if (!record.selected.length) {
-      return;
-    }
-
-    record.checked = true;
-    record.revealed = true;
-    record.correct = compareSelections(question.correctOptionIds, record.selected);
-
-    const globalRecord = getGlobalRecord(question.id);
-    globalRecord.selected = [...record.selected];
-    globalRecord.checked = true;
-    globalRecord.revealed = true;
-    globalRecord.correct = record.correct;
-    globalRecord.needsRetry = !record.correct;
-
-    renderApp();
+    submitCurrentAnswer();
   });
 
   document.getElementById("reveal-btn").addEventListener("click", () => {
@@ -302,11 +469,12 @@ function bindControls() {
       return;
     }
 
-    const record = getInteractionRecord(question.id);
-    record.revealed = true;
-    if (!record.checked) {
-      record.correct = null;
+    const interactionRecord = getInteractionRecord(question.id);
+    interactionRecord.revealed = true;
+    if (!interactionRecord.checked) {
+      interactionRecord.correct = null;
     }
+
     renderApp();
   });
 
@@ -324,8 +492,8 @@ function bindControls() {
       return;
     }
 
-    const record = getGlobalRecord(question.id);
-    record.starred = !record.starred;
+    const globalRecord = getGlobalRecord(question.id);
+    globalRecord.starred = !globalRecord.starred;
     renderApp();
   });
 }
@@ -340,7 +508,7 @@ function startIncorrectRetakeSession() {
   }
 
   state.retakeSessionIds = sessionQuestions.map((question) => question.id);
-  state.sessionRecords = {};
+  state.retakeSessionRecords = {};
   state.mode = "practice";
   state.filter = "all";
   state.search = "";
@@ -350,15 +518,121 @@ function startIncorrectRetakeSession() {
 
 function endRetakeSession() {
   state.retakeSessionIds = [];
-  state.sessionRecords = {};
+  state.retakeSessionRecords = {};
   state.shuffledIds = [];
   ensureCurrentQuestion();
+}
+
+function startCramSession() {
+  const sessionIds = buildCramSessionIds();
+  if (!sessionIds.length) {
+    window.alert("Không có câu hỏi nào để bắt đầu Cram 1 Day.");
+    return;
+  }
+
+  state.cramSessionIds = sessionIds;
+  state.cramSessionRecords = {};
+  state.cramBlockIndex = 0;
+  state.cramSourceModuleId = state.moduleId;
+  state.mode = "practice";
+  state.filter = "all";
+  state.search = "";
+  state.shuffledIds = [];
+  state.currentQuestionId = sessionIds[0];
+}
+
+function endCramSession() {
+  state.cramSessionIds = [];
+  state.cramSessionRecords = {};
+  state.cramBlockIndex = 0;
+  state.cramSourceModuleId = "all";
+  state.shuffledIds = [];
+  ensureCurrentQuestion();
+}
+
+function buildCramSessionIds() {
+  const candidateQuestions = getCramCandidateQuestions();
+  if (!candidateQuestions.length) {
+    return [];
+  }
+
+  const incorrectQuestions = shuffleArray(
+    candidateQuestions.filter((question) => getGlobalRecord(question.id).needsRetry),
+  );
+  const incorrectIds = new Set(incorrectQuestions.map((question) => question.id));
+
+  const unansweredQuestions = shuffleArray(
+    candidateQuestions.filter(
+      (question) =>
+        !incorrectIds.has(question.id) && !isQuestionAnswered(question, state.records[question.id]),
+    ),
+  );
+  const unansweredIds = new Set(unansweredQuestions.map((question) => question.id));
+
+  const remainingQuestions = shuffleArray(
+    candidateQuestions.filter(
+      (question) => !incorrectIds.has(question.id) && !unansweredIds.has(question.id),
+    ),
+  );
+
+  return [...incorrectQuestions, ...unansweredQuestions, ...remainingQuestions]
+    .slice(0, Math.min(CRAM_TARGET_COUNT, candidateQuestions.length))
+    .map((question) => question.id);
+}
+
+function getCramCandidateQuestions() {
+  let candidateQuestions = [...quizBank.questions];
+
+  if (state.moduleId !== "all") {
+    candidateQuestions = candidateQuestions.filter((question) => question.moduleId === state.moduleId);
+  }
+
+  return candidateQuestions;
+}
+
+function getCramAllQuestions() {
+  return state.cramSessionIds
+    .map((questionId) => questionMap.get(questionId))
+    .filter(Boolean);
+}
+
+function getCurrentCramBlockQuestions() {
+  const allQuestions = getCramAllQuestions();
+  const startIndex = state.cramBlockIndex * CRAM_BLOCK_SIZE;
+  return allQuestions.slice(startIndex, startIndex + CRAM_BLOCK_SIZE);
+}
+
+function getCramSummary() {
+  const allQuestions = getCramAllQuestions();
+  const currentBlockQuestions = getCurrentCramBlockQuestions();
+  const totalBlocks = Math.ceil(allQuestions.length / CRAM_BLOCK_SIZE) || 0;
+
+  const answeredTotal = allQuestions.filter((question) =>
+    isQuestionAnswered(question, getCramSessionRecord(question.id)),
+  ).length;
+  const correctTotal = allQuestions.filter((question) => getCramSessionRecord(question.id).correct).length;
+  const answeredBlock = currentBlockQuestions.filter((question) =>
+    isQuestionAnswered(question, getCramSessionRecord(question.id)),
+  ).length;
+
+  return {
+    totalQuestions: allQuestions.length,
+    totalBlocks,
+    currentBlockIndex: totalBlocks ? state.cramBlockIndex : 0,
+    currentBlockQuestions,
+    answeredTotal,
+    correctTotal,
+    answeredBlock,
+    remainingTotal: Math.max(allQuestions.length - answeredTotal, 0),
+    finished: allQuestions.length > 0 && answeredTotal === allQuestions.length,
+  };
 }
 
 function renderApp() {
   renderModeSwitch();
   renderModuleFilters();
   renderStatusFilters();
+  renderCramPanel();
   renderActionButtons();
   renderSources();
   renderStats();
@@ -371,37 +645,89 @@ function renderApp() {
 function renderSearchState() {
   const searchInput = document.getElementById("search-input");
   searchInput.value = state.search;
-  searchInput.disabled = isRetakeSessionActive();
+  searchInput.disabled = isSpecialSessionActive();
+}
+
+function renderCramPanel() {
+  const title = document.getElementById("cram-title");
+  const copy = document.getElementById("cram-copy");
+  const goal = document.getElementById("cram-goal");
+  const block = document.getElementById("cram-block");
+  const remaining = document.getElementById("cram-remaining");
+
+  if (isCramSessionActive()) {
+    const summary = getCramSummary();
+    title.textContent = summary.finished ? "Đã hoàn thành cram hôm nay" : "Cram 1 Day đang chạy";
+    copy.textContent = summary.finished
+      ? `Bạn đã hoàn tất ${summary.totalQuestions} câu trong kế hoạch hôm nay. Có thể kết thúc cram hoặc làm lại các câu sai.`
+      : `Ưu tiên câu sai rồi câu chưa làm. Đang ở chặng ${summary.currentBlockIndex + 1}/${summary.totalBlocks}, block hiện tại đã làm ${summary.answeredBlock}/${summary.currentBlockQuestions.length} câu.`;
+    goal.textContent = String(summary.totalQuestions);
+    block.textContent = `${summary.currentBlockIndex + 1}/${summary.totalBlocks}`;
+    remaining.textContent = String(summary.remainingTotal);
+    return;
+  }
+
+  const candidateQuestions = getCramCandidateQuestions();
+  const plannedCount = Math.min(CRAM_TARGET_COUNT, candidateQuestions.length);
+  const retryCount = candidateQuestions.filter((question) => getGlobalRecord(question.id).needsRetry).length;
+  const unansweredCount = candidateQuestions.filter(
+    (question) => !isQuestionAnswered(question, state.records[question.id]),
+  ).length;
+  const plannedBlocks = Math.ceil(plannedCount / CRAM_BLOCK_SIZE) || 0;
+  const scopeLabel = getScopeLabel(state.moduleId);
+
+  title.textContent = "Kế hoạch hôm nay";
+  copy.textContent = `Từ ${scopeLabel}: tối đa ${plannedCount} câu, ưu tiên ${retryCount} câu sai và ${unansweredCount} câu chưa làm, chia theo chặng ${CRAM_BLOCK_SIZE} câu.`;
+  goal.textContent = String(plannedCount);
+  block.textContent = plannedBlocks ? `0/${plannedBlocks}` : "0/0";
+  remaining.textContent = String(plannedCount);
 }
 
 function renderActionButtons() {
   const retryCount = getRetryQuestions().length;
-  const activeSession = isRetakeSessionActive();
+  const retakeActive = isRetakeSessionActive();
+  const cramActive = isCramSessionActive();
+  const specialActive = isSpecialSessionActive();
+  const cramSummary = cramActive ? getCramSummary() : null;
+
+  const startCramButton = document.getElementById("start-cram-btn");
+  startCramButton.disabled = specialActive || getCramCandidateQuestions().length === 0;
+  startCramButton.textContent = "Bắt đầu Cram 1 Day";
+
+  const nextCramButton = document.getElementById("next-cram-block-btn");
+  nextCramButton.disabled = !cramActive || cramSummary.currentBlockIndex >= cramSummary.totalBlocks - 1;
+  nextCramButton.textContent = cramActive
+    ? `Sang chặng ${Math.min(cramSummary.currentBlockIndex + 2, cramSummary.totalBlocks)}/${cramSummary.totalBlocks}`
+    : "Sang chặng tiếp";
+
+  const endCramButton = document.getElementById("end-cram-btn");
+  endCramButton.disabled = !cramActive;
+  endCramButton.textContent = cramActive ? "Kết thúc cram" : "Chưa có cram đang chạy";
 
   const retryButton = document.getElementById("retry-incorrect-btn");
   retryButton.textContent = retryCount ? `Luyện lại câu sai (${retryCount})` : "Luyện lại câu sai";
-  retryButton.disabled = retryCount === 0 || activeSession;
+  retryButton.disabled = retryCount === 0 || specialActive;
 
   const retakeButton = document.getElementById("retake-incorrect-btn");
   retakeButton.textContent = retryCount ? `Thi lại câu sai (${retryCount})` : "Thi lại câu sai";
-  retakeButton.disabled = retryCount === 0 || activeSession;
+  retakeButton.disabled = retryCount === 0 || specialActive;
 
-  const exitButton = document.getElementById("exit-retake-btn");
-  exitButton.disabled = !activeSession;
-  exitButton.textContent = activeSession ? "Thoát phiên thi lại" : "Chưa có phiên thi lại";
+  const exitRetakeButton = document.getElementById("exit-retake-btn");
+  exitRetakeButton.disabled = !retakeActive;
+  exitRetakeButton.textContent = retakeActive ? "Thoát phiên thi lại" : "Chưa có phiên thi lại";
 
-  document.getElementById("shuffle-btn").disabled = activeSession;
+  document.getElementById("shuffle-btn").disabled = specialActive;
 
   document.querySelectorAll("#mode-switch [data-mode]").forEach((button) => {
-    button.disabled = activeSession;
+    button.disabled = specialActive;
   });
 
   document.querySelectorAll("#status-filters [data-filter]").forEach((button) => {
-    button.disabled = activeSession;
+    button.disabled = specialActive;
   });
 
   document.querySelectorAll("#module-filters [data-module-id]").forEach((button) => {
-    button.disabled = activeSession;
+    button.disabled = specialActive;
   });
 }
 
@@ -410,6 +736,10 @@ function getVisibleQuestions() {
     return state.retakeSessionIds
       .map((questionId) => questionMap.get(questionId))
       .filter(Boolean);
+  }
+
+  if (isCramSessionActive()) {
+    return getCurrentCramBlockQuestions();
   }
 
   let visibleQuestions = [...quizBank.questions];
@@ -494,9 +824,9 @@ function getGlobalRecord(questionId) {
   return state.records[questionId];
 }
 
-function getSessionRecord(questionId) {
-  if (!state.sessionRecords[questionId]) {
-    state.sessionRecords[questionId] = {
+function getRetakeSessionRecord(questionId) {
+  if (!state.retakeSessionRecords[questionId]) {
+    state.retakeSessionRecords[questionId] = {
       selected: [],
       checked: false,
       correct: null,
@@ -504,15 +834,44 @@ function getSessionRecord(questionId) {
     };
   }
 
-  return state.sessionRecords[questionId];
+  return state.retakeSessionRecords[questionId];
+}
+
+function getCramSessionRecord(questionId) {
+  if (!state.cramSessionRecords[questionId]) {
+    state.cramSessionRecords[questionId] = {
+      selected: [],
+      checked: false,
+      correct: null,
+      revealed: false,
+    };
+  }
+
+  return state.cramSessionRecords[questionId];
 }
 
 function getInteractionRecord(questionId) {
-  return isRetakeSessionActive() ? getSessionRecord(questionId) : getGlobalRecord(questionId);
+  if (isRetakeSessionActive()) {
+    return getRetakeSessionRecord(questionId);
+  }
+
+  if (isCramSessionActive()) {
+    return getCramSessionRecord(questionId);
+  }
+
+  return getGlobalRecord(questionId);
 }
 
 function getDisplayRecord(questionId) {
-  return isRetakeSessionActive() ? getSessionRecord(questionId) : getGlobalRecord(questionId);
+  if (isRetakeSessionActive()) {
+    return getRetakeSessionRecord(questionId);
+  }
+
+  if (isCramSessionActive()) {
+    return getCramSessionRecord(questionId);
+  }
+
+  return getGlobalRecord(questionId);
 }
 
 function getRetryQuestions(moduleId = null) {
@@ -526,13 +885,10 @@ function getRetryQuestions(moduleId = null) {
 }
 
 function getRetakeSessionSummary(visibleQuestions) {
-  const answered = visibleQuestions.filter((question) => {
-    const record = getSessionRecord(question.id);
-    return isQuestionAnswered(question, record);
-  }).length;
-
-  const checked = visibleQuestions.filter((question) => getSessionRecord(question.id).checked);
-  const correct = checked.filter((question) => getSessionRecord(question.id).correct).length;
+  const answered = visibleQuestions.filter((question) =>
+    isQuestionAnswered(question, getRetakeSessionRecord(question.id)),
+  ).length;
+  const correct = visibleQuestions.filter((question) => getRetakeSessionRecord(question.id).correct).length;
 
   return {
     answered,
@@ -627,6 +983,7 @@ function renderStats() {
 function renderNavigator() {
   const visibleQuestions = getVisibleQuestions();
   ensureCurrentQuestion();
+  const specialSessionActive = isSpecialSessionActive();
 
   document.getElementById("question-pills").innerHTML =
     visibleQuestions
@@ -639,7 +996,11 @@ function renderNavigator() {
           classes.push("is-current");
         } else if (displayRecord.checked && displayRecord.correct === true) {
           classes.push("is-correct");
-        } else if (isRetakeSessionActive() ? displayRecord.checked && displayRecord.correct === false : globalRecord.needsRetry) {
+        } else if (
+          specialSessionActive
+            ? displayRecord.checked && displayRecord.correct === false
+            : globalRecord.needsRetry
+        ) {
           classes.push("is-incorrect");
         }
 
@@ -666,6 +1027,13 @@ function getPillLabel(question) {
     return `Thi lại ${question.questionNumber}`;
   }
 
+  if (isCramSessionActive()) {
+    if (state.cramSourceModuleId === "all") {
+      return `${question.moduleShortLabel} · ${question.questionNumber}`;
+    }
+    return `Chặng ${state.cramBlockIndex + 1} · ${question.questionNumber}`;
+  }
+
   if (state.moduleId === "all") {
     return `${question.moduleShortLabel.replace("Modules ", "M")} · ${question.questionNumber}`;
   }
@@ -688,27 +1056,36 @@ function renderQuestion() {
   const index = visibleQuestions.findIndex((item) => item.id === question.id);
   const total = visibleQuestions.length;
   const module = moduleMap.get(question.moduleId);
-  const inRetakeSession = isRetakeSessionActive();
+  const retakeActive = isRetakeSessionActive();
+  const cramActive = isCramSessionActive();
 
-  document.getElementById("progress-label").textContent = inRetakeSession
-    ? `Phiên thi lại câu sai · ${index + 1}/${total}`
-    : `${index + 1}/${total} câu đang hiển thị`;
-
-  document.getElementById("question-path").textContent = inRetakeSession
-    ? "NWC / Thi lại câu sai"
-    : `NWC / ${question.moduleLabel}`;
-
-  if (inRetakeSession) {
+  if (cramActive) {
+    const summary = getCramSummary();
+    const scopeLabel = getScopeLabel(state.cramSourceModuleId);
+    document.getElementById("progress-label").textContent = `Cram 1 Day · Chặng ${
+      summary.currentBlockIndex + 1
+    }/${summary.totalBlocks} · ${index + 1}/${total}`;
+    document.getElementById("question-path").textContent = `NWC / Cram 1 Day / ${scopeLabel}`;
+    document.getElementById("hero-note").textContent = summary.finished
+      ? `Bạn đã hoàn tất ${summary.totalQuestions} câu trong kế hoạch hôm nay. Đúng ${summary.correctTotal} câu trong phiên cram, có thể kết thúc session hoặc xem lại phần sai.`
+      : `Ưu tiên câu sai rồi câu chưa làm. Đã xong ${summary.answeredTotal}/${summary.totalQuestions} câu, còn ${summary.remainingTotal} câu cho hôm nay.`;
+  } else if (retakeActive) {
     const summary = getRetakeSessionSummary(visibleQuestions);
+    document.getElementById("progress-label").textContent = `Phiên thi lại câu sai · ${index + 1}/${total}`;
+    document.getElementById("question-path").textContent = "NWC / Thi lại câu sai";
     document.getElementById("hero-note").textContent = summary.finished
       ? `Bạn đã làm xong phiên thi lại. Đúng ${summary.correct}/${summary.total} câu, có thể thoát phiên để quay lại học tiếp.`
       : `Bộ đề này chỉ gồm các câu từng làm sai. Đã làm ${summary.answered}/${summary.total} câu, đúng ${summary.correct} câu.`;
   } else if (state.filter === "incorrect") {
     const retryCount = getRetryQuestions(state.moduleId !== "all" ? state.moduleId : null).length;
+    document.getElementById("progress-label").textContent = `${index + 1}/${total} câu đang hiển thị`;
+    document.getElementById("question-path").textContent = `NWC / ${question.moduleLabel}`;
     document.getElementById("hero-note").textContent = retryCount
       ? `Bạn đang ôn lại ${retryCount} câu sai còn lại. Làm đúng xong là câu sẽ tự rời khỏi hàng đợi.`
       : "Bạn đã hoàn thành hết các câu sai trong phạm vi đang xem.";
   } else {
+    document.getElementById("progress-label").textContent = `${index + 1}/${total} câu đang hiển thị`;
+    document.getElementById("question-path").textContent = `NWC / ${question.moduleLabel}`;
     document.getElementById("hero-note").textContent =
       "Làm bài theo nhịp riêng của bạn, nhấn kiểm tra khi đã chọn xong đáp án.";
   }
@@ -728,7 +1105,10 @@ function renderQuestion() {
   content.classList.add("pulse-enter");
   content.innerHTML = question.promptHtml || '<div class="empty-state">Không có nội dung câu hỏi.</div>';
 
-  document.getElementById("instruction-line").textContent = getInstruction(question, inRetakeSession);
+  document.getElementById("instruction-line").textContent = getInstruction(question, {
+    retake: retakeActive,
+    cram: cramActive,
+  });
 
   const optionsList = document.getElementById("options-list");
   if (!question.options.length) {
@@ -936,18 +1316,23 @@ function getTypeLabel(questionType) {
   return "Single choice";
 }
 
-function getInstruction(question, inRetakeSession) {
-  if (question.type === "multiple") {
-    return inRetakeSession
-      ? "Phiên thi lại: chọn nhiều đáp án đúng rồi nhấn kiểm tra."
-      : "Chọn nhiều đáp án đúng rồi nhấn kiểm tra.";
-  }
-
+function getInstruction(question, sessionFlags = {}) {
   if (question.type === "study") {
     return "Câu này không phải trắc nghiệm thuần. Dùng nút xem lời giải để ôn phần đáp án.";
   }
 
-  return inRetakeSession ? "Phiên thi lại: chọn 1 đáp án đúng." : "Chọn 1 đáp án đúng.";
+  const prefix = sessionFlags.cram ? "Chặng cram: " : sessionFlags.retake ? "Phiên thi lại: " : "";
+  return question.type === "multiple"
+    ? `${prefix}Chọn nhiều đáp án đúng rồi nhấn kiểm tra.`
+    : `${prefix}Chọn 1 đáp án đúng.`;
+}
+
+function getScopeLabel(moduleId) {
+  if (moduleId === "all") {
+    return "tất cả modules";
+  }
+
+  return moduleMap.get(moduleId)?.shortLabel || "module đã chọn";
 }
 
 function isQuestionAnswered(question, record) {

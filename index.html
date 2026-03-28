@@ -13,8 +13,8 @@
           <p class="eyebrow">Network Study Agent</p>
           <h1>NWC Quiz Lab</h1>
           <p class="brand-copy">
-            Luyện câu hỏi CCNA theo kiểu từng câu, có exhibit, đáp án, lời giải
-            và theo dõi tiến độ ngay trên máy của bạn.
+            Luyện câu hỏi theo kiểu từng câu, có exhibit, đáp án, lời giải và
+            theo dõi tiến độ ngay trên máy của bạn.
           </p>
         </div>
 
@@ -63,7 +63,41 @@
           />
         </section>
 
+        <section class="rail-section">
+          <div class="section-title">Cram 1 Day</div>
+          <div class="cram-card">
+            <p class="cram-title" id="cram-title">Kế hoạch hôm nay</p>
+            <p class="cram-copy" id="cram-copy">
+              Tối đa 300 câu, ưu tiên câu sai rồi câu chưa làm, chia thành các
+              chặng 50 câu.
+            </p>
+            <div class="cram-metrics">
+              <article class="cram-metric">
+                <span>Mục tiêu</span>
+                <strong id="cram-goal">0</strong>
+              </article>
+              <article class="cram-metric">
+                <span>Chặng</span>
+                <strong id="cram-block">0/0</strong>
+              </article>
+              <article class="cram-metric">
+                <span>Còn lại</span>
+                <strong id="cram-remaining">0</strong>
+              </article>
+            </div>
+          </div>
+        </section>
+
         <section class="rail-section rail-actions">
+          <button class="soft-button soft-button-accent" id="start-cram-btn" type="button">
+            Bắt đầu Cram 1 Day
+          </button>
+          <button class="soft-button" id="next-cram-block-btn" type="button">
+            Sang chặng tiếp
+          </button>
+          <button class="soft-button" id="end-cram-btn" type="button">
+            Kết thúc cram
+          </button>
           <button class="soft-button" id="retry-incorrect-btn" type="button">
             Luyện lại câu sai
           </button>
@@ -73,7 +107,9 @@
           <button class="soft-button" id="exit-retake-btn" type="button">
             Chưa có phiên thi lại
           </button>
-          <button class="soft-button" id="shuffle-btn" type="button">Trộn câu đang lọc</button>
+          <button class="soft-button" id="shuffle-btn" type="button">
+            Trộn câu đang lọc
+          </button>
           <button class="soft-button soft-button-danger" id="reset-btn" type="button">
             Xóa tiến độ
           </button>

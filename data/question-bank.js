@@ -1,5 +1,5 @@
 window.QUIZ_BANK = {
-  "generatedAt": "2026-03-25T06:11:12.920354+00:00",
+  "generatedAt": "2026-03-26T15:19:54.781097+00:00",
   "sources": [
     {
       "id": "ccna2-m1-4",
@@ -30,6 +30,51 @@ window.QUIZ_BANK = {
       "id": "ccna1-final-practice",
       "label": "CCNA 1 Version 7.00: ITNv7 Practice Final Exam",
       "url": "https://itexamanswers.net/ccna-1-version-7-00-itnv7-practice-final-exam-answers.html"
+    },
+    {
+      "id": "iao-m1-2",
+      "label": "IAO Modules 1-2: Threat Actors and Defenders",
+      "url": "https://itexamanswers.net/modules-1-2-threat-actors-and-defenders-group-exam-answers.html"
+    },
+    {
+      "id": "iao-m3-4",
+      "label": "IAO Modules 3-4: Operating System Overview",
+      "url": "https://itexamanswers.net/modules-3-4-operating-system-overview-group-exam-answers.html"
+    },
+    {
+      "id": "iao-m5-10",
+      "label": "IAO Modules 5-10: Network Fundamentals",
+      "url": "https://itexamanswers.net/modules-5-10-network-fundamentals-group-exam-answers.html"
+    },
+    {
+      "id": "iao-m11-12",
+      "label": "IAO Modules 11-12: Network Infrastructure Security",
+      "url": "https://itexamanswers.net/modules-11-12-network-infrastructure-security-group-exam-answers.html"
+    },
+    {
+      "id": "iao-m13-17",
+      "label": "IAO Modules 13-17: Threats and Attacks",
+      "url": "https://itexamanswers.net/modules-13-17-threats-and-attacks-group-exam-answers.html"
+    },
+    {
+      "id": "iao-m18-20",
+      "label": "IAO Modules 18-20: Network Defense",
+      "url": "https://itexamanswers.net/modules-18-20-network-defense-group-exam-answers.html"
+    },
+    {
+      "id": "iao-m21-23",
+      "label": "IAO Modules 21-23: Cryptography and Endpoint Protection",
+      "url": "https://itexamanswers.net/modules-21-23-cryptography-and-endpoint-protection-group-exam-answers.html"
+    },
+    {
+      "id": "iao-m24-25",
+      "label": "IAO Modules 24-25: Protocols and Log Files",
+      "url": "https://itexamanswers.net/modules-24-25-protocols-and-log-files-group-exam-answers.html"
+    },
+    {
+      "id": "iao-m26-28",
+      "label": "IAO Modules 26-28: Analyzing Security Data",
+      "url": "https://itexamanswers.net/modules-26-28-analyzing-security-data-group-exam-answers.html"
     }
   ],
   "modules": [
@@ -80,9 +125,81 @@ window.QUIZ_BANK = {
       "accent": "#dc2626",
       "questionCount": 55,
       "sourceUrl": "https://itexamanswers.net/ccna-1-version-7-00-itnv7-practice-final-exam-answers.html"
+    },
+    {
+      "id": "iao-m1-2",
+      "label": "IAO Modules 1-2: Threat Actors and Defenders",
+      "shortLabel": "IAO 1-2",
+      "accent": "#1d4ed8",
+      "questionCount": 27,
+      "sourceUrl": "https://itexamanswers.net/modules-1-2-threat-actors-and-defenders-group-exam-answers.html"
+    },
+    {
+      "id": "iao-m3-4",
+      "label": "IAO Modules 3-4: Operating System Overview",
+      "shortLabel": "IAO 3-4",
+      "accent": "#2563eb",
+      "questionCount": 37,
+      "sourceUrl": "https://itexamanswers.net/modules-3-4-operating-system-overview-group-exam-answers.html"
+    },
+    {
+      "id": "iao-m5-10",
+      "label": "IAO Modules 5-10: Network Fundamentals",
+      "shortLabel": "IAO 5-10",
+      "accent": "#0891b2",
+      "questionCount": 51,
+      "sourceUrl": "https://itexamanswers.net/modules-5-10-network-fundamentals-group-exam-answers.html"
+    },
+    {
+      "id": "iao-m11-12",
+      "label": "IAO Modules 11-12: Network Infrastructure Security",
+      "shortLabel": "IAO 11-12",
+      "accent": "#0f766e",
+      "questionCount": 36,
+      "sourceUrl": "https://itexamanswers.net/modules-11-12-network-infrastructure-security-group-exam-answers.html"
+    },
+    {
+      "id": "iao-m13-17",
+      "label": "IAO Modules 13-17: Threats and Attacks",
+      "shortLabel": "IAO 13-17",
+      "accent": "#65a30d",
+      "questionCount": 51,
+      "sourceUrl": "https://itexamanswers.net/modules-13-17-threats-and-attacks-group-exam-answers.html"
+    },
+    {
+      "id": "iao-m18-20",
+      "label": "IAO Modules 18-20: Network Defense",
+      "shortLabel": "IAO 18-20",
+      "accent": "#ca8a04",
+      "questionCount": 33,
+      "sourceUrl": "https://itexamanswers.net/modules-18-20-network-defense-group-exam-answers.html"
+    },
+    {
+      "id": "iao-m21-23",
+      "label": "IAO Modules 21-23: Cryptography and Endpoint Protection",
+      "shortLabel": "IAO 21-23",
+      "accent": "#ea580c",
+      "questionCount": 37,
+      "sourceUrl": "https://itexamanswers.net/modules-21-23-cryptography-and-endpoint-protection-group-exam-answers.html"
+    },
+    {
+      "id": "iao-m24-25",
+      "label": "IAO Modules 24-25: Protocols and Log Files",
+      "shortLabel": "IAO 24-25",
+      "accent": "#dc2626",
+      "questionCount": 29,
+      "sourceUrl": "https://itexamanswers.net/modules-24-25-protocols-and-log-files-group-exam-answers.html"
+    },
+    {
+      "id": "iao-m26-28",
+      "label": "IAO Modules 26-28: Analyzing Security Data",
+      "shortLabel": "IAO 26-28",
+      "accent": "#7c3aed",
+      "questionCount": 37,
+      "sourceUrl": "https://itexamanswers.net/modules-26-28-analyzing-security-data-group-exam-answers.html"
     }
   ],
-  "questionCount": 399,
+  "questionCount": 737,
   "questions": [
     {
       "id": "ccna2-m1-4-q001",
@@ -14211,6 +14328,12030 @@ window.QUIZ_BANK = {
       "solutionHtml": "",
       "explanationHtml": "<p>Topic 13.2.2<br />\n127.0.0.1 is an address reserved by TCP/IP to test the NIC, drivers and TCP/IP implementation of the device.</p>",
       "sourceUrl": "https://itexamanswers.net/ccna-1-version-7-00-itnv7-practice-final-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m1-2-q001",
+      "moduleId": "iao-m1-2",
+      "moduleLabel": "IAO Modules 1-2: Threat Actors and Defenders",
+      "moduleShortLabel": "IAO 1-2",
+      "questionNumber": 1,
+      "type": "single",
+      "promptHtml": "<p><strong>Which organization is an international nonprofit organization that offers the CISSP certification?</strong></p><div class=\"92f2483bb651eed307c93e619d752c78\" data-index=\"2\" style=\"float: none; margin:10px 0 10px 0; text-align:center;\">\n<div id=\"adngin-incontent_auto_large-0\"></div>\n</div>",
+      "promptText": "Which organization is an international nonprofit organization that offers the CISSP certification?",
+      "options": [
+        {
+          "id": "A",
+          "text": "CompTIA"
+        },
+        {
+          "id": "B",
+          "text": "(ISC)2"
+        },
+        {
+          "id": "C",
+          "text": "IEEE"
+        },
+        {
+          "id": "D",
+          "text": "GIAC"
+        }
+      ],
+      "correctOptionIds": [
+        "B"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>(ISC)<sup>2</sup> is an international nonprofit organization that offers the CISSP certification.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-1-2-threat-actors-and-defenders-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m1-2-q002",
+      "moduleId": "iao-m1-2",
+      "moduleLabel": "IAO Modules 1-2: Threat Actors and Defenders",
+      "moduleShortLabel": "IAO 1-2",
+      "questionNumber": 2,
+      "type": "single",
+      "promptHtml": "<p><strong>What is a benefit to an organization of using SOAR as part of the SIEM system?</strong></p>",
+      "promptText": "What is a benefit to an organization of using SOAR as part of the SIEM system?",
+      "options": [
+        {
+          "id": "A",
+          "text": "SOAR was designed to address critical security events and high-end investigation."
+        },
+        {
+          "id": "B",
+          "text": "SOAR would benefit smaller organizations because it requires no cybersecurity analyst involvement once installed."
+        },
+        {
+          "id": "C",
+          "text": "SOAR automates incident investigation and responds to workflows based on playbooks."
+        },
+        {
+          "id": "D",
+          "text": "SOAR automation guarantees an uptime factor of “5 nines”."
+        }
+      ],
+      "correctOptionIds": [
+        "C"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>SIEM systems are used for collecting and filtering data, detecting and classifying threats, and analyzing and investigating threats. SOAR technology does the same as SIEMs but it also includes automation. SOAR integrates threat intelligence and automates incident investigation. SOAR also responds to events using response workflows based on previously developed playbooks.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-1-2-threat-actors-and-defenders-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m1-2-q003",
+      "moduleId": "iao-m1-2",
+      "moduleLabel": "IAO Modules 1-2: Threat Actors and Defenders",
+      "moduleShortLabel": "IAO 1-2",
+      "questionNumber": 3,
+      "type": "single",
+      "promptHtml": "<p><strong>Which personnel in a SOC are assigned the task of hunting for potential threats and implementing threat detection tools?</strong></p>",
+      "promptText": "Which personnel in a SOC are assigned the task of hunting for potential threats and implementing threat detection tools?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tier 3 SME"
+        },
+        {
+          "id": "B",
+          "text": "Tier 2 Incident Reporter"
+        },
+        {
+          "id": "C",
+          "text": "Tier 1 Analyst"
+        },
+        {
+          "id": "D",
+          "text": "SOC Manager"
+        }
+      ],
+      "correctOptionIds": [
+        "A"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>In a SOC, Tier 3 SMEs have expert-level skills in network, endpoint, threat intelligence, and malware reverse engineering (RE). They are deeply involved in hunting for potential security threats and implementing threat detection tools.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-1-2-threat-actors-and-defenders-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m1-2-q004",
+      "moduleId": "iao-m1-2",
+      "moduleLabel": "IAO Modules 1-2: Threat Actors and Defenders",
+      "moduleShortLabel": "IAO 1-2",
+      "questionNumber": 4,
+      "type": "multiple",
+      "promptHtml": "<p><strong>Which three technologies should be included in a SOC security information and event management system? (Choose three.)</strong></p>",
+      "promptText": "Which three technologies should be included in a SOC security information and event management system? (Choose three.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "security monitoring"
+        },
+        {
+          "id": "B",
+          "text": "threat intelligence"
+        },
+        {
+          "id": "C",
+          "text": "proxy service"
+        },
+        {
+          "id": "D",
+          "text": "firewall appliance"
+        },
+        {
+          "id": "E",
+          "text": "intrusion prevention"
+        },
+        {
+          "id": "F",
+          "text": "log management"
+        }
+      ],
+      "correctOptionIds": [
+        "A",
+        "B",
+        "F"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Technologies in a SOC should include the following:<br />\nEvent collection, correlation, and analysis<br />\nSecurity monitoring<br />\nSecurity control<br />\nLog management<br />\nVulnerability assessment<br />\nVulnerability tracking<br />\nThreat intelligence<br />\nProxy server, VPN, and IPS are security devices deployed in the network infrastructure.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-1-2-threat-actors-and-defenders-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m1-2-q005",
+      "moduleId": "iao-m1-2",
+      "moduleLabel": "IAO Modules 1-2: Threat Actors and Defenders",
+      "moduleShortLabel": "IAO 1-2",
+      "questionNumber": 5,
+      "type": "single",
+      "promptHtml": "<p><strong>The term cyber operations analyst refers to which group of personnel in a SOC?</strong></p>",
+      "promptText": "The term cyber operations analyst refers to which group of personnel in a SOC?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tier 1 personnel"
+        },
+        {
+          "id": "B",
+          "text": "Tier 3 personnel"
+        },
+        {
+          "id": "C",
+          "text": "Tier 2 personnel"
+        },
+        {
+          "id": "D",
+          "text": "SOC managers"
+        }
+      ],
+      "correctOptionIds": [
+        "A"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>In a typical SOC, the Tier 1 personnel are called alert analysts, also known as cyberoperations analysts.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-1-2-threat-actors-and-defenders-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m1-2-q006",
+      "moduleId": "iao-m1-2",
+      "moduleLabel": "IAO Modules 1-2: Threat Actors and Defenders",
+      "moduleShortLabel": "IAO 1-2",
+      "questionNumber": 6,
+      "type": "single",
+      "promptHtml": "<p><strong>How does a security information and event management system (SIEM) in a SOC help the personnel fight against security threats?</strong></p>",
+      "promptText": "How does a security information and event management system (SIEM) in a SOC help the personnel fight against security threats?",
+      "options": [
+        {
+          "id": "A",
+          "text": "by analyzing logging data in real time"
+        },
+        {
+          "id": "B",
+          "text": "by combining data from multiple technologies"
+        },
+        {
+          "id": "C",
+          "text": "by integrating all security devices and appliances in an organization"
+        },
+        {
+          "id": "D",
+          "text": "by dynamically implementing firewall rules"
+        }
+      ],
+      "correctOptionIds": [
+        "B"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>A security information and event management system (SIEM) combines data from multiple sources to help SOC personnel collect and filter data, detect and classify threats, analyze and investigate threats, and manage resources to implement preventive measures.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-1-2-threat-actors-and-defenders-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m1-2-q007",
+      "moduleId": "iao-m1-2",
+      "moduleLabel": "IAO Modules 1-2: Threat Actors and Defenders",
+      "moduleShortLabel": "IAO 1-2",
+      "questionNumber": 7,
+      "type": "single",
+      "promptHtml": "<p><strong>An SOC is searching for a professional to fill a job opening. The employee must have expert-level skills in networking, endpoint, threat intelligence, and malware reverse engineering in order to search for cyber threats hidden within the network. Which job within an SOC requires a professional with those skills?</strong></p>",
+      "promptText": "An SOC is searching for a professional to fill a job opening. The employee must have expert-level skills in networking, endpoint, threat intelligence, and malware reverse engineering in order to search for cyber threats hidden within the network. Which job within an SOC requires a professional with those skills?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Incident Responder"
+        },
+        {
+          "id": "B",
+          "text": "Alert Analyst"
+        },
+        {
+          "id": "C",
+          "text": "SOC Manager"
+        },
+        {
+          "id": "D",
+          "text": "Threat Hunter"
+        }
+      ],
+      "correctOptionIds": [
+        "D"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Tier 3 professionals called Threat Hunters must have expert-level skills in networking, endpoint, threat intelligence, and malware reverse engineering. They are experts at tracing the processes of malware to determine the impact of the malware and how it can be removed.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-1-2-threat-actors-and-defenders-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m1-2-q008",
+      "moduleId": "iao-m1-2",
+      "moduleLabel": "IAO Modules 1-2: Threat Actors and Defenders",
+      "moduleShortLabel": "IAO 1-2",
+      "questionNumber": 8,
+      "type": "multiple",
+      "promptHtml": "<p><strong>Which three are major categories of elements in a security operations center? (Choose three.)</strong></p>",
+      "promptText": "Which three are major categories of elements in a security operations center? (Choose three.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "technologies"
+        },
+        {
+          "id": "B",
+          "text": "Internet connection"
+        },
+        {
+          "id": "C",
+          "text": "processes"
+        },
+        {
+          "id": "D",
+          "text": "data center"
+        },
+        {
+          "id": "E",
+          "text": "people"
+        },
+        {
+          "id": "F",
+          "text": "database engine"
+        }
+      ],
+      "correctOptionIds": [
+        "A",
+        "C",
+        "E"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>The three major categories of elements of a security operations center are people, processes, and technologies. A database engine, a data center, and an Internet connection are components in the technologies category.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-1-2-threat-actors-and-defenders-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m1-2-q009",
+      "moduleId": "iao-m1-2",
+      "moduleLabel": "IAO Modules 1-2: Threat Actors and Defenders",
+      "moduleShortLabel": "IAO 1-2",
+      "questionNumber": 9,
+      "type": "single",
+      "promptHtml": "<p><strong>Which KPI metric does SOAR use to measure the time required to stop the spread of malware in the network?</strong></p>",
+      "promptText": "Which KPI metric does SOAR use to measure the time required to stop the spread of malware in the network?",
+      "options": [
+        {
+          "id": "A",
+          "text": "MITR"
+        },
+        {
+          "id": "B",
+          "text": "Time to Control"
+        },
+        {
+          "id": "C",
+          "text": "MITC"
+        },
+        {
+          "id": "D",
+          "text": "MTTD"
+        }
+      ],
+      "correctOptionIds": [
+        "B"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p><br />\nThe common key performance indicator (KPI) metrics compiled by SOC managers are as follows:<br />\n• Dwell Time: the length of time that threat actors have access to a network before they are detected and the access of the threat actors stopped<br />\n• Mean Time to Detect (MTTD): the average time that it takes for the SOC personnel to identify that valid security incidents have occurred in the network<br />\n• Mean Time to Respond (MTTR): the average time that it takes to stop and remediate a security incident<br />\n• Mean Time to contain (MTTC): the time required to stop the incident from causing further damage to systems or data<br />\n• Time to Control the time required to stop the spread of malware in the network</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-1-2-threat-actors-and-defenders-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m1-2-q010",
+      "moduleId": "iao-m1-2",
+      "moduleLabel": "IAO Modules 1-2: Threat Actors and Defenders",
+      "moduleShortLabel": "IAO 1-2",
+      "questionNumber": 10,
+      "type": "single",
+      "promptHtml": "<p><strong>What job would require verification that an alert represents a true security incident or a false positive?</strong></p>",
+      "promptText": "What job would require verification that an alert represents a true security incident or a false positive?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Alert Analyst"
+        },
+        {
+          "id": "B",
+          "text": "Threat Hunter"
+        },
+        {
+          "id": "C",
+          "text": "SOC Manager"
+        },
+        {
+          "id": "D",
+          "text": "Incident Reporter"
+        }
+      ],
+      "correctOptionIds": [
+        "A"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>A Cybersecurity Analyst monitors security alert queues and uses a ticketing system to assign alerts to a queue for an analyst to investigate. Because the software that generates alerts can trigger false alarms, one job of the Cybersecurity Analyst would be to verify that an alert represents a true security incident.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-1-2-threat-actors-and-defenders-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m1-2-q011",
+      "moduleId": "iao-m1-2",
+      "moduleLabel": "IAO Modules 1-2: Threat Actors and Defenders",
+      "moduleShortLabel": "IAO 1-2",
+      "questionNumber": 11,
+      "type": "single",
+      "promptHtml": "<p><strong>When a user turns on the PC on Wednesday, the PC displays a message indicating that all of the user files have been locked. In order to get the files unencrypted, the user is supposed to send an email and include a specific ID in the email title. The message also includes ways to buy and submit bitcoins as payment for the file decryption. After inspecting the message, the technician suspects a security breach occurred. What type of malware could be responsible?</strong></p>",
+      "promptText": "When a user turns on the PC on Wednesday, the PC displays a message indicating that all of the user files have been locked. In order to get the files unencrypted, the user is supposed to send an email and include a specific ID in the email title. The message also includes ways to buy and submit bitcoins as payment for the file decryption. After inspecting the message, the technician suspects a security breach occurred. What type of malware could be responsible?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Trojan"
+        },
+        {
+          "id": "B",
+          "text": "spyware"
+        },
+        {
+          "id": "C",
+          "text": "adware"
+        },
+        {
+          "id": "D",
+          "text": "ransomware"
+        }
+      ],
+      "correctOptionIds": [
+        "D"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Ransomware requires payment for access to the computer or files. Bitcoin is a type of digital currency that does not go through a particular bank.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-1-2-threat-actors-and-defenders-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m1-2-q012",
+      "moduleId": "iao-m1-2",
+      "moduleLabel": "IAO Modules 1-2: Threat Actors and Defenders",
+      "moduleShortLabel": "IAO 1-2",
+      "questionNumber": 12,
+      "type": "single",
+      "promptHtml": "<p><strong>An employee connects wirelessly to the company network using a cell phone. The employee then configures the cell phone to act as a wireless access point that will allow new employees to connect to the company network. Which type of security threat best describes this situation?</strong></p>",
+      "promptText": "An employee connects wirelessly to the company network using a cell phone. The employee then configures the cell phone to act as a wireless access point that will allow new employees to connect to the company network. Which type of security threat best describes this situation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "rogue access point"
+        },
+        {
+          "id": "B",
+          "text": "cracking"
+        },
+        {
+          "id": "C",
+          "text": "spoofing"
+        },
+        {
+          "id": "D",
+          "text": "denial of service"
+        }
+      ],
+      "correctOptionIds": [
+        "A"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Configuring the cell phone to act as a wireless access point means that the cell phone is now a rogue access point. The employee unknowingly breached the security of the company network by allowing a user to access the network without connecting through the company access point. Cracking is the process of obtaining passwords from data stored or transmitted on a network. Denial of service attacks refer to sending large amounts of data to a networked device, such as a server, to prevent legitimate access to the server. Spoofing refers to access gained to a network or data by an attacker appearing to be a legitimate network device or user.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-1-2-threat-actors-and-defenders-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m1-2-q013",
+      "moduleId": "iao-m1-2",
+      "moduleLabel": "IAO Modules 1-2: Threat Actors and Defenders",
+      "moduleShortLabel": "IAO 1-2",
+      "questionNumber": 13,
+      "type": "multiple",
+      "promptHtml": "<p><strong>What are two examples of personally identifiable information (PII)? (Choose two.)</strong></p>",
+      "promptText": "What are two examples of personally identifiable information (PII)? (Choose two.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "first name"
+        },
+        {
+          "id": "B",
+          "text": "IP address"
+        },
+        {
+          "id": "C",
+          "text": "language preference"
+        },
+        {
+          "id": "D",
+          "text": "street address"
+        },
+        {
+          "id": "E",
+          "text": "credit card number"
+        }
+      ],
+      "correctOptionIds": [
+        "D",
+        "E"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Personally identifiable information (PII) is any data that could potentially identify and track a specific individual. A credit card number and street address are the best examples of PII.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-1-2-threat-actors-and-defenders-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m1-2-q014",
+      "moduleId": "iao-m1-2",
+      "moduleLabel": "IAO Modules 1-2: Threat Actors and Defenders",
+      "moduleShortLabel": "IAO 1-2",
+      "questionNumber": 14,
+      "type": "single",
+      "promptHtml": "<p><strong>What is the dark web?</strong></p><div class=\"92f2483bb651eed307c93e619d752c78\" data-index=\"1\" style=\"float: none; margin:10px 0 10px 0; text-align:center;\">\n<div id=\"adngin-incontent_auto-0\"></div>\n</div>",
+      "promptText": "What is the dark web?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It is a website that reports the most recent activities of cybercriminals all over the world."
+        },
+        {
+          "id": "B",
+          "text": "It is a website that sells stolen credit cards."
+        },
+        {
+          "id": "C",
+          "text": "It is part of the internet where a person can obtain personally identifiable information from anyone for free"
+        },
+        {
+          "id": "D",
+          "text": "It is part of the internet that can only be accessed with special software."
+        }
+      ],
+      "correctOptionIds": [
+        "D"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>One of the more lucrative goals of cybercriminals is obtaining lists of personally identifiable information that can then be sold on the dark web. The dark web can only be accessed with special software and is used by cybercriminals to shield their activities. Stolen PII can be used to create fake accounts, such as credit cards and short-term loans.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-1-2-threat-actors-and-defenders-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m1-2-q015",
+      "moduleId": "iao-m1-2",
+      "moduleLabel": "IAO Modules 1-2: Threat Actors and Defenders",
+      "moduleShortLabel": "IAO 1-2",
+      "questionNumber": 15,
+      "type": "single",
+      "promptHtml": "<p><strong>A company has just had a cybersecurity incident. The threat actor appeared to have a goal of network disruption and appeared to use a common security hack tool that overwhelmed a particular server with a large amount of traffic. This traffic rendered the server inoperable. How would a certified cybersecurity analyst classify this type of threat actor?</strong></p>",
+      "promptText": "A company has just had a cybersecurity incident. The threat actor appeared to have a goal of network disruption and appeared to use a common security hack tool that overwhelmed a particular server with a large amount of traffic. This traffic rendered the server inoperable. How would a certified cybersecurity analyst classify this type of threat actor?",
+      "options": [
+        {
+          "id": "A",
+          "text": "terrorist"
+        },
+        {
+          "id": "B",
+          "text": "hacktivist"
+        },
+        {
+          "id": "C",
+          "text": "state-sponsored"
+        },
+        {
+          "id": "D",
+          "text": "amateur"
+        }
+      ],
+      "correctOptionIds": [
+        "D"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Amateurs or script kiddies use common, existing tools found on the internet to launch attacks. Hacktivists disrupt services in protest against organizations or governments for a particular political or social idea. State-sponsored threat actors use cyberspace for industrial espionage or interfering with another country in some way. Terrorist groups attack for a specific cause.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-1-2-threat-actors-and-defenders-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m1-2-q016",
+      "moduleId": "iao-m1-2",
+      "moduleLabel": "IAO Modules 1-2: Threat Actors and Defenders",
+      "moduleShortLabel": "IAO 1-2",
+      "questionNumber": 16,
+      "type": "single",
+      "promptHtml": "<p><strong>A user calls the help desk complaining that the password to access the wireless network has changed without warning. The user is allowed to change the password, but an hour later, the same thing occurs. What might be happening in this situation?</strong></p>",
+      "promptText": "A user calls the help desk complaining that the password to access the wireless network has changed without warning. The user is allowed to change the password, but an hour later, the same thing occurs. What might be happening in this situation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "rogue access point"
+        },
+        {
+          "id": "B",
+          "text": "password policy"
+        },
+        {
+          "id": "C",
+          "text": "weak password"
+        },
+        {
+          "id": "D",
+          "text": "user error"
+        },
+        {
+          "id": "E",
+          "text": "user laptop"
+        }
+      ],
+      "correctOptionIds": [
+        "A"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Man-in-the-middle attacks are a threat that results in lost credentials and data. These type of attacks can occur for different reasons including traffic sniffing.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-1-2-threat-actors-and-defenders-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m1-2-q017",
+      "moduleId": "iao-m1-2",
+      "moduleLabel": "IAO Modules 1-2: Threat Actors and Defenders",
+      "moduleShortLabel": "IAO 1-2",
+      "questionNumber": 17,
+      "type": "single",
+      "promptHtml": "<p><strong>Which regulatory law regulates the identification, storage, and transmission of patient personal healthcare information?</strong></p>",
+      "promptText": "Which regulatory law regulates the identification, storage, and transmission of patient personal healthcare information?",
+      "options": [
+        {
+          "id": "A",
+          "text": "FISMA"
+        },
+        {
+          "id": "B",
+          "text": "HIPAA"
+        },
+        {
+          "id": "C",
+          "text": "PCI-DSS"
+        },
+        {
+          "id": "D",
+          "text": "GLBA"
+        }
+      ],
+      "correctOptionIds": [
+        "B"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>The Health Insurance Portability and Accountability Act (HIPAA) requires that all patient personally identifiable healthcare information be stored, maintained, and transmitted in ways that ensure patient privacy and confidentiality.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-1-2-threat-actors-and-defenders-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m1-2-q018",
+      "moduleId": "iao-m1-2",
+      "moduleLabel": "IAO Modules 1-2: Threat Actors and Defenders",
+      "moduleShortLabel": "IAO 1-2",
+      "questionNumber": 18,
+      "type": "single",
+      "promptHtml": "<p><strong>A worker in the records department of a hospital accidentally sends a medical record of a patient to a printer in another department. When the worker arrives at the printer, the patient record printout is missing. What breach of confidentiality does this situation describe?</strong></p>",
+      "promptText": "A worker in the records department of a hospital accidentally sends a medical record of a patient to a printer in another department. When the worker arrives at the printer, the patient record printout is missing. What breach of confidentiality does this situation describe?",
+      "options": [
+        {
+          "id": "A",
+          "text": "EMR"
+        },
+        {
+          "id": "B",
+          "text": "PII"
+        },
+        {
+          "id": "C",
+          "text": "PSI"
+        },
+        {
+          "id": "D",
+          "text": "PHI"
+        }
+      ],
+      "correctOptionIds": [
+        "D"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Protected Health Information (PHI) includes patient name, addresses, visiting dates and more. The Health Insurance Portability and Accountability Act (HIPAA) regulates and provides severe penalties for breaches of PHI. EMRs (Electronic Medical Records) are documents created and maintained by the medical community that contain PHI. Personally identifiable information (PII) is any information that can be used to positively identify an individual, such as name and social security number. Personal Security Information (PSI) is related to information about an individual such as passwords, access keys, and account details.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-1-2-threat-actors-and-defenders-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m1-2-q019",
+      "moduleId": "iao-m1-2",
+      "moduleLabel": "IAO Modules 1-2: Threat Actors and Defenders",
+      "moduleShortLabel": "IAO 1-2",
+      "questionNumber": 19,
+      "type": "single",
+      "promptHtml": "<p><strong>What type of cyberwarfare weapon was Stuxnet?</strong></p>",
+      "promptText": "What type of cyberwarfare weapon was Stuxnet?",
+      "options": [
+        {
+          "id": "A",
+          "text": "botnet"
+        },
+        {
+          "id": "B",
+          "text": "virus"
+        },
+        {
+          "id": "C",
+          "text": "worm"
+        },
+        {
+          "id": "D",
+          "text": "ransomware"
+        }
+      ],
+      "correctOptionIds": [
+        "C"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>The Stuxnet worm was an excellent example of a sophisticated cyberwarfare weapon. In 2010, it was used to attack programmable logic controllers that operated uranium enrichment centrifuges in Iran.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-1-2-threat-actors-and-defenders-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m1-2-q020",
+      "moduleId": "iao-m1-2",
+      "moduleLabel": "IAO Modules 1-2: Threat Actors and Defenders",
+      "moduleShortLabel": "IAO 1-2",
+      "questionNumber": 20,
+      "type": "single",
+      "promptHtml": "<p><strong>Which example illustrates how malware might be concealed?</strong><br />\n<img src=\"assets/exhibits/iao-m1-2/q020-1-011ec6cd12.jpg\" alt=\"CyberOps Associate (Version 1.0) - Modules 1 - 2: Threat Actors and Defenders Group Exam\" /></p>",
+      "promptText": "Which example illustrates how malware might be concealed?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A hacker uses techniques to improve the ranking of a website so that users are redirected to a malicious site."
+        },
+        {
+          "id": "B",
+          "text": "An attack is launched against the public website of an online retailer with the objective of blocking its response to visitors."
+        },
+        {
+          "id": "C",
+          "text": "A botnet of zombies carry personal information back to the hacker."
+        },
+        {
+          "id": "D",
+          "text": "An email is sent to the employees of an organization with an attachment that looks like an antivirus update, but the attachment actually consists of spyware."
+        }
+      ],
+      "correctOptionIds": [
+        "D"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>An email attachment that appears as valid software but actually contains spyware shows how malware might be concealed. An attack to block access to a website is a DoS attack. A hacker uses search engine optimization (SEO) poisoning to improve the ranking of a website so that users are directed to a malicious site that hosts malware or uses social engineering methods to obtain information. A botnet of zombie computers is used to launch a DDoS attack.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-1-2-threat-actors-and-defenders-group-exam-answers.html",
+      "assetPaths": [
+        "assets/exhibits/iao-m1-2/q020-1-011ec6cd12.jpg"
+      ]
+    },
+    {
+      "id": "iao-m1-2-q022",
+      "moduleId": "iao-m1-2",
+      "moduleLabel": "IAO Modules 1-2: Threat Actors and Defenders",
+      "moduleShortLabel": "IAO 1-2",
+      "questionNumber": 22,
+      "type": "single",
+      "promptHtml": "<p><strong>In a smart home, an owner has connected many home devices to the Internet, such as the refrigerator and the coffee maker. The owner is concerned that these devices will make the wireless network vulnerable to attacks. What action could be taken to address this issue?</strong></p>",
+      "promptText": "In a smart home, an owner has connected many home devices to the Internet, such as the refrigerator and the coffee maker. The owner is concerned that these devices will make the wireless network vulnerable to attacks. What action could be taken to address this issue?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Configure mixed mode wireless operation."
+        },
+        {
+          "id": "B",
+          "text": "Install the latest firmware versions for the devices."
+        },
+        {
+          "id": "C",
+          "text": "Assign static IP addresses to the wireless devices."
+        },
+        {
+          "id": "D",
+          "text": "Disable the SSID broadcast."
+        }
+      ],
+      "correctOptionIds": [
+        "B"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>The Internet of Things (IoT) is facilitating the connection of different kinds of devices to the internet, like home devices such as coffee makers and refrigerators, and also wearable devices. In order to make these devices secure and not vulnerable to attacks, they have to be updated with the latest firmware.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-1-2-threat-actors-and-defenders-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m1-2-q023",
+      "moduleId": "iao-m1-2",
+      "moduleLabel": "IAO Modules 1-2: Threat Actors and Defenders",
+      "moduleShortLabel": "IAO 1-2",
+      "questionNumber": 23,
+      "type": "study",
+      "promptHtml": "<p><strong>Match the SOC metric to the description. (Not all options are used.)</strong><br />\n<img src=\"assets/exhibits/iao-m1-2/q023-1-0423631ecb.jpg\" alt=\"\" /><br />",
+      "promptText": "Match the SOC metric to the description. (Not all options are used.)",
+      "options": [],
+      "correctOptionIds": [],
+      "solutionHtml": "",
+      "explanationHtml": "<p>SOCs use many metrics as performance indicators of how long it takes personnel to locate, stop, and remediate security incidents.</p>\n<ul>\n<li>Dwell Time</li>\n<li>Mean Time to Detect (MTTD)</li>\n<li>Mean Time to Respond (MTTR)</li>\n<li>Mean Time to Contain (MTTC)</li>\n<li>Time to Control</li>\n</ul>\n<p></p>",
+      "sourceUrl": "https://itexamanswers.net/modules-1-2-threat-actors-and-defenders-group-exam-answers.html",
+      "assetPaths": [
+        "assets/exhibits/iao-m1-2/q023-1-0423631ecb.jpg"
+      ]
+    },
+    {
+      "id": "iao-m1-2-q024",
+      "moduleId": "iao-m1-2",
+      "moduleLabel": "IAO Modules 1-2: Threat Actors and Defenders",
+      "moduleShortLabel": "IAO 1-2",
+      "questionNumber": 24,
+      "type": "single",
+      "promptHtml": "<p><b>A group of users on the same network are all complaining about their computers running slowly. After investigating, the technician determines that these computers are part of a zombie network. Which type of malware is used to control these computers?</b></p>",
+      "promptText": "A group of users on the same network are all complaining about their computers running slowly. After investigating, the technician determines that these computers are part of a zombie network. Which type of malware is used to control these computers?",
+      "options": [
+        {
+          "id": "A",
+          "text": "botnet"
+        },
+        {
+          "id": "B",
+          "text": "spyware"
+        },
+        {
+          "id": "C",
+          "text": "virus"
+        },
+        {
+          "id": "D",
+          "text": "rootkit"
+        }
+      ],
+      "correctOptionIds": [
+        "A"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>A botnet is a network of infected computers called a zombie network. The computers are controlled by a hacker and are used to attack other computers or to steal data.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-1-2-threat-actors-and-defenders-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m1-2-q025",
+      "moduleId": "iao-m1-2",
+      "moduleLabel": "IAO Modules 1-2: Threat Actors and Defenders",
+      "moduleShortLabel": "IAO 1-2",
+      "questionNumber": 25,
+      "type": "single",
+      "promptHtml": "<p><b>Which statement describes cyberwarfare?</b></p>",
+      "promptText": "Which statement describes cyberwarfare?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It is Internet-based conflict that involves the penetration of information systems of other nations."
+        },
+        {
+          "id": "B",
+          "text": "It is simulation software for Air Force pilots that allows them to practice under a simulated war scenario."
+        },
+        {
+          "id": "C",
+          "text": "Cyberwarfare is an attack carried out by a group of script kiddies."
+        },
+        {
+          "id": "D",
+          "text": "It is a series of personal protective equipment developed for soldiers involved in nuclear war"
+        }
+      ],
+      "correctOptionIds": [
+        "A"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Cyberwarfare is Internet-based conflict that involves the penetration of the networks and computer systems of other nations. Organized hackers are typically involved in such an attack.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-1-2-threat-actors-and-defenders-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m1-2-q026",
+      "moduleId": "iao-m1-2",
+      "moduleLabel": "IAO Modules 1-2: Threat Actors and Defenders",
+      "moduleShortLabel": "IAO 1-2",
+      "questionNumber": 26,
+      "type": "single",
+      "promptHtml": "<p><b>Why do IoT devices pose a greater risk than other computing devices on a network?</b></p>",
+      "promptText": "Why do IoT devices pose a greater risk than other computing devices on a network?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Most IoT devices do not receive frequent firmware updates."
+        },
+        {
+          "id": "B",
+          "text": "Most IoT devices do not require an Internet connection and are unable to receive new updates."
+        },
+        {
+          "id": "C",
+          "text": "IoT devices cannot function on an isolated network with only an Internet connection."
+        },
+        {
+          "id": "D",
+          "text": "IoT devices require unencrypted wireless connections."
+        }
+      ],
+      "correctOptionIds": [
+        "A"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>IoT devices commonly operate using their original firmware and do not receive updates as frequently as laptops, desktops, and mobile platforms.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-1-2-threat-actors-and-defenders-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m1-2-q027",
+      "moduleId": "iao-m1-2",
+      "moduleLabel": "IAO Modules 1-2: Threat Actors and Defenders",
+      "moduleShortLabel": "IAO 1-2",
+      "questionNumber": 27,
+      "type": "single",
+      "promptHtml": "<p><b>Which cyber attack involves a coordinated attack from a botnet of zombie computers?</b></p>",
+      "promptText": "Which cyber attack involves a coordinated attack from a botnet of zombie computers?",
+      "options": [
+        {
+          "id": "A",
+          "text": "DDoS"
+        },
+        {
+          "id": "B",
+          "text": "MITM"
+        },
+        {
+          "id": "C",
+          "text": "address spoofing"
+        },
+        {
+          "id": "D",
+          "text": "ICMP redirect"
+        }
+      ],
+      "correctOptionIds": [
+        "A"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>DDoS is a distributed denial-of-services attack. A DDoS attack is launched from multiple coordinated sources. The sources of the attack are zombie hosts that the cybercriminal has built into a botnet. When ready, the cybercriminal instructs the botnet of zombies to attack the chosen target.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-1-2-threat-actors-and-defenders-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m1-2-q028",
+      "moduleId": "iao-m1-2",
+      "moduleLabel": "IAO Modules 1-2: Threat Actors and Defenders",
+      "moduleShortLabel": "IAO 1-2",
+      "questionNumber": 28,
+      "type": "single",
+      "promptHtml": "<p><b>What is the main purpose of cyberwarfare?</b></p>",
+      "promptText": "What is the main purpose of cyberwarfare?",
+      "options": [
+        {
+          "id": "A",
+          "text": "to protect cloud-based data centers"
+        },
+        {
+          "id": "B",
+          "text": "to develop advanced network devices"
+        },
+        {
+          "id": "C",
+          "text": "to gain advantage over adversaries"
+        },
+        {
+          "id": "D",
+          "text": "to simulate possible war scenarios among nations"
+        }
+      ],
+      "correctOptionIds": [
+        "C"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Cyberwarfare is Internet-based conflict that involves the penetration of the networks and computer systems of other nations. The main purpose of cyberwarfare is to gain advantage over adversaries, whether they are nations or competitors.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-1-2-threat-actors-and-defenders-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m3-4-q001",
+      "moduleId": "iao-m3-4",
+      "moduleLabel": "IAO Modules 3-4: Operating System Overview",
+      "moduleShortLabel": "IAO 3-4",
+      "questionNumber": 1,
+      "type": "single",
+      "promptHtml": "<p><strong>Why would a network administrator choose Linux as an operating system in the Security Operations Center (SOC)?</strong></p><div class=\"92f2483bb651eed307c93e619d752c78\" data-index=\"2\" style=\"float: none; margin:10px 0 10px 0; text-align:center;\">\n<div id=\"adngin-incontent_auto_large-0\"></div>\n</div>",
+      "promptText": "Why would a network administrator choose Linux as an operating system in the Security Operations Center (SOC)?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It is easier to use than other operating systems."
+        },
+        {
+          "id": "B",
+          "text": "More network applications are created for this environment."
+        },
+        {
+          "id": "C",
+          "text": "It is more secure than other server operating systems."
+        },
+        {
+          "id": "D",
+          "text": "The administrator has more control over the operating system."
+        }
+      ],
+      "correctOptionIds": [
+        "D"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>There are several reasons why Linux is a good choice for the SOC.<br />\nLinux is open source.<br />\nThe command line interface is a very powerful environment.<br />\nThe user has more control over the operating system.<br />\nLinux allows for better network communication control.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-3-4-operating-system-overview-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m3-4-q002",
+      "moduleId": "iao-m3-4",
+      "moduleLabel": "IAO Modules 3-4: Operating System Overview",
+      "moduleShortLabel": "IAO 3-4",
+      "questionNumber": 2,
+      "type": "multiple",
+      "promptHtml": "<p><strong>Which two methods can be used to harden a computing device? (Choose two.)</strong></p>",
+      "promptText": "Which two methods can be used to harden a computing device? (Choose two.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "Allow default services to remain enabled."
+        },
+        {
+          "id": "B",
+          "text": "Allow USB auto-detection."
+        },
+        {
+          "id": "C",
+          "text": "Enforce the password history mechanism."
+        },
+        {
+          "id": "D",
+          "text": "Update patches on a strict annual basis irrespective of release date."
+        },
+        {
+          "id": "E",
+          "text": "Ensure physical security."
+        }
+      ],
+      "correctOptionIds": [
+        "C",
+        "E"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>The basic best practices for device hardening are as follows:<br />\nEnsure physical security.<br />\nMinimize installed packages.<br />\nDisable unused services.<br />\nUse SSH and disable the root account login over SSH.<br />\nKeep the system updated.<br />\nDisable USB auto-detection.<br />\nEnforce strong passwords.<br />\nForce periodic password changes.<br />\nKeep users from reusing old passwords.<br />\nReview logs regularly.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-3-4-operating-system-overview-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m3-4-q003",
+      "moduleId": "iao-m3-4",
+      "moduleLabel": "IAO Modules 3-4: Operating System Overview",
+      "moduleShortLabel": "IAO 3-4",
+      "questionNumber": 3,
+      "type": "single",
+      "promptHtml": "<p><strong>Which Linux command can be used to display the name of the current working directory?</strong></p>",
+      "promptText": "Which Linux command can be used to display the name of the current working directory?",
+      "options": [
+        {
+          "id": "A",
+          "text": "sudo"
+        },
+        {
+          "id": "B",
+          "text": "ps"
+        },
+        {
+          "id": "C",
+          "text": "pwd"
+        },
+        {
+          "id": "D",
+          "text": "chmod"
+        }
+      ],
+      "correctOptionIds": [
+        "C"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>One of the most important commands in Linux is the pwd command, which stands for print working directory. It shows users the physical path for the directory they are working in.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-3-4-operating-system-overview-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m3-4-q004",
+      "moduleId": "iao-m3-4",
+      "moduleLabel": "IAO Modules 3-4: Operating System Overview",
+      "moduleShortLabel": "IAO 3-4",
+      "questionNumber": 4,
+      "type": "single",
+      "promptHtml": "<p><strong>Consider the result of the <code>ls -l</code> command in the Linux output below. What are the file permissions assigned to the sales user for the <code>analyst.txt</code> file?</strong></p>\n<pre>ls –l analyst.txt\n-rwxrw-r-- sales staff 1028 May 28 15:50 analyst.txt</pre>",
+      "promptText": "Consider the result of the ls -l command in the Linux output below. What are the file permissions assigned to the sales user for the analyst.txt file?\nls –l analyst.txt\n-rwxrw-r-- sales staff 1028 May 28 15:50 analyst.txt",
+      "options": [
+        {
+          "id": "A",
+          "text": "write only"
+        },
+        {
+          "id": "B",
+          "text": "read, write"
+        },
+        {
+          "id": "C",
+          "text": "read only"
+        },
+        {
+          "id": "D",
+          "text": "read, write, execute"
+        }
+      ],
+      "correctOptionIds": [
+        "D"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>The file permissions are always displayed in the User Group and Other order. In the example displayed, the file has the following permissions:<br />\nThe dash ( &#8211; ) means that this is a file. For directories, the first dash would replaced with a &#8220;d&#8221;.<br />\nThe first set of characters is for user permission (rwx).<br />\nThe user, sales, who owns the file can read, write and execute the file.<br />\nThe second set of characters is for group permissions (rw-). The group, staff, who owns the file can read and write to the file.<br />\nThe third set of characters is for any other user or group permissions (r&#8211;). Any other user or group on the computer can only read the file.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-3-4-operating-system-overview-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m3-4-q005",
+      "moduleId": "iao-m3-4",
+      "moduleLabel": "IAO Modules 3-4: Operating System Overview",
+      "moduleShortLabel": "IAO 3-4",
+      "questionNumber": 5,
+      "type": "single",
+      "promptHtml": "<p><strong>A Linux system boots into the GUI by default, so which application can a network administrator use in order to access the CLI environment?</strong></p>",
+      "promptText": "A Linux system boots into the GUI by default, so which application can a network administrator use in order to access the CLI environment?",
+      "options": [
+        {
+          "id": "A",
+          "text": "system viewer"
+        },
+        {
+          "id": "B",
+          "text": "file viewer"
+        },
+        {
+          "id": "C",
+          "text": "package management tool"
+        },
+        {
+          "id": "D",
+          "text": "terminal emulator"
+        }
+      ],
+      "correctOptionIds": [
+        "D"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>A terminal emulator is an application program a user of Linux can use in order to access the CLI environment.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-3-4-operating-system-overview-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m3-4-q006",
+      "moduleId": "iao-m3-4",
+      "moduleLabel": "IAO Modules 3-4: Operating System Overview",
+      "moduleShortLabel": "IAO 3-4",
+      "questionNumber": 6,
+      "type": "single",
+      "promptHtml": "<p><strong>What is the well-known port address number used by DNS to serve requests?</strong></p>",
+      "promptText": "What is the well-known port address number used by DNS to serve requests?",
+      "options": [
+        {
+          "id": "A",
+          "text": "25"
+        },
+        {
+          "id": "B",
+          "text": "53"
+        },
+        {
+          "id": "C",
+          "text": "110"
+        },
+        {
+          "id": "D",
+          "text": "60"
+        }
+      ],
+      "correctOptionIds": [
+        "B"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Port numbers are used in TCP and UDP communications to differentiate between the various services running on a device. The well-known port number used by DNS is port 53.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-3-4-operating-system-overview-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m3-4-q007",
+      "moduleId": "iao-m3-4",
+      "moduleLabel": "IAO Modules 3-4: Operating System Overview",
+      "moduleShortLabel": "IAO 3-4",
+      "questionNumber": 7,
+      "type": "single",
+      "promptHtml": "<p><strong>Which user can override file permissions on a Linux computer?</strong></p>",
+      "promptText": "Which user can override file permissions on a Linux computer?",
+      "options": [
+        {
+          "id": "A",
+          "text": "any user that has ‘group’ permission to the file"
+        },
+        {
+          "id": "B",
+          "text": "only the creator of the file"
+        },
+        {
+          "id": "C",
+          "text": "any user that has ‘other’ permission to the file"
+        },
+        {
+          "id": "D",
+          "text": "root user"
+        }
+      ],
+      "correctOptionIds": [
+        "D"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>A user has as much rights to a file as the file permissions allow. The only user that can override file permission on a Linux computer is the root user. Because the root user has the power to override file permissions, the root user can write to any file.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-3-4-operating-system-overview-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m3-4-q008",
+      "moduleId": "iao-m3-4",
+      "moduleLabel": "IAO Modules 3-4: Operating System Overview",
+      "moduleShortLabel": "IAO 3-4",
+      "questionNumber": 8,
+      "type": "multiple",
+      "promptHtml": "<p><strong>Match the commonly used ports on a Linux server with the corresponding service.</strong><br />\n<img src=\"assets/exhibits/iao-m3-4/q008-1-a9dc0cd9ab.jpg\" alt=\"\" /></p>",
+      "promptText": "Match the commonly used ports on a Linux server with the corresponding service.",
+      "options": [
+        {
+          "id": "A",
+          "text": "SMTP: 25"
+        },
+        {
+          "id": "B",
+          "text": "DNS: 53"
+        },
+        {
+          "id": "C",
+          "text": "HTTPS: 443"
+        },
+        {
+          "id": "D",
+          "text": "SSH: 22"
+        },
+        {
+          "id": "E",
+          "text": "TELNET: 23"
+        }
+      ],
+      "correctOptionIds": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "",
+      "sourceUrl": "https://itexamanswers.net/modules-3-4-operating-system-overview-group-exam-answers.html",
+      "assetPaths": [
+        "assets/exhibits/iao-m3-4/q008-1-a9dc0cd9ab.jpg"
+      ]
+    },
+    {
+      "id": "iao-m3-4-q009",
+      "moduleId": "iao-m3-4",
+      "moduleLabel": "IAO Modules 3-4: Operating System Overview",
+      "moduleShortLabel": "IAO 3-4",
+      "questionNumber": 9,
+      "type": "multiple",
+      "promptHtml": "<p><strong>Match typical Linux log files to the function.</strong><br />\n<div id=\"attachment_102537\" style=\"width: 1151px\" class=\"wp-caption aligncenter\"><img src=\"assets/exhibits/iao-m3-4/q009-1-e6adc514b2.jpg\" alt=\"\" /><p id=\"caption-attachment-102537\" class=\"wp-caption-text\">Operating Systems Basics Final Exam Q13</p></div></p>",
+      "promptText": "Match typical Linux log files to the function.\nOperating Systems Basics Final Exam Q13",
+      "options": [
+        {
+          "id": "A",
+          "text": "used by RedHat and CentOS computers and tracks authentication-related events: /var/log/secure"
+        },
+        {
+          "id": "B",
+          "text": "contains generic computer activity logs, and is used to store informational and noncritical system messages: /var/log/messages"
+        },
+        {
+          "id": "C",
+          "text": "stores information related to hardware devices and their drivers: /var/log/dmesg"
+        },
+        {
+          "id": "D",
+          "text": "used by Debian and Ubuntu computers and stores all authentication-related events: /var/log/auth.log"
+        }
+      ],
+      "correctOptionIds": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "",
+      "sourceUrl": "https://itexamanswers.net/modules-3-4-operating-system-overview-group-exam-answers.html",
+      "assetPaths": [
+        "assets/exhibits/iao-m3-4/q009-1-e6adc514b2.jpg"
+      ]
+    },
+    {
+      "id": "iao-m3-4-q010",
+      "moduleId": "iao-m3-4",
+      "moduleLabel": "IAO Modules 3-4: Operating System Overview",
+      "moduleShortLabel": "IAO 3-4",
+      "questionNumber": 10,
+      "type": "single",
+      "promptHtml": "<p><strong>Which type of tool allows administrators to observe and understand every detail of a network transaction?</strong></p>",
+      "promptText": "Which type of tool allows administrators to observe and understand every detail of a network transaction?",
+      "options": [
+        {
+          "id": "A",
+          "text": "log manager"
+        },
+        {
+          "id": "B",
+          "text": "malware analysis tool"
+        },
+        {
+          "id": "C",
+          "text": "ticketing system"
+        },
+        {
+          "id": "D",
+          "text": "packet capture software"
+        }
+      ],
+      "correctOptionIds": [
+        "D"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Network packet capture software is an important tool because it makes it possible to observe and understand the details of a network transaction.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-3-4-operating-system-overview-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m3-4-q011",
+      "moduleId": "iao-m3-4",
+      "moduleLabel": "IAO Modules 3-4: Operating System Overview",
+      "moduleShortLabel": "IAO 3-4",
+      "questionNumber": 11,
+      "type": "single",
+      "promptHtml": "<p><strong>Why is Kali Linux a popular choice in testing the network security of an organization?</strong></p>",
+      "promptText": "Why is Kali Linux a popular choice in testing the network security of an organization?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It is a network scanning tool that prioritizes security risks."
+        },
+        {
+          "id": "B",
+          "text": "It is an open source Linux security distribution containing many penetration tools."
+        },
+        {
+          "id": "C",
+          "text": "It can be used to test weaknesses by using only malicious software."
+        },
+        {
+          "id": "D",
+          "text": "It can be used to intercept and log network traffic."
+        }
+      ],
+      "correctOptionIds": [
+        "B"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Kali is an open source Linux security distribution that is commonly used by IT professionals to test the security of networks.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-3-4-operating-system-overview-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m3-4-q012",
+      "moduleId": "iao-m3-4",
+      "moduleLabel": "IAO Modules 3-4: Operating System Overview",
+      "moduleShortLabel": "IAO 3-4",
+      "questionNumber": 12,
+      "type": "multiple",
+      "promptHtml": "<p><strong>Match the octal value to the file permission description in Linux. (Not all options are used.)</strong><br />\n<img src=\"assets/exhibits/iao-m3-4/q012-1-a4da38b198.png\" alt=\"\" /></p>",
+      "promptText": "Match the octal value to the file permission description in Linux. (Not all options are used.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "write only ~~> 010"
+        },
+        {
+          "id": "B",
+          "text": "read and execute ~~> 101"
+        },
+        {
+          "id": "C",
+          "text": "read and write ~~> 110"
+        },
+        {
+          "id": "D",
+          "text": "execute only ~~> 001"
+        },
+        {
+          "id": "E",
+          "text": "write and execute ~~> NOT SCORED"
+        },
+        {
+          "id": "F",
+          "text": "no access ~~> 000"
+        }
+      ],
+      "correctOptionIds": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "F"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "",
+      "sourceUrl": "https://itexamanswers.net/modules-3-4-operating-system-overview-group-exam-answers.html",
+      "assetPaths": [
+        "assets/exhibits/iao-m3-4/q012-1-a4da38b198.png"
+      ]
+    },
+    {
+      "id": "iao-m3-4-q013",
+      "moduleId": "iao-m3-4",
+      "moduleLabel": "IAO Modules 3-4: Operating System Overview",
+      "moduleShortLabel": "IAO 3-4",
+      "questionNumber": 13,
+      "type": "multiple",
+      "promptHtml": "<p><strong>Match the Linux command to the function. (Not all options are used.)</strong><br />\n<img src=\"assets/exhibits/iao-m3-4/q013-1-e9e08ad1e9.jpg\" alt=\"\" /></p>",
+      "promptText": "Match the Linux command to the function. (Not all options are used.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "Displays the name of the current working directory: pwd"
+        },
+        {
+          "id": "B",
+          "text": "runs a command as another user: sudo"
+        },
+        {
+          "id": "C",
+          "text": "modifies file permissions: chmod"
+        },
+        {
+          "id": "D",
+          "text": "shuts down the system: Empty"
+        },
+        {
+          "id": "E",
+          "text": "lists the processes that are currently running: ps"
+        }
+      ],
+      "correctOptionIds": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "",
+      "sourceUrl": "https://itexamanswers.net/modules-3-4-operating-system-overview-group-exam-answers.html",
+      "assetPaths": [
+        "assets/exhibits/iao-m3-4/q013-1-e9e08ad1e9.jpg"
+      ]
+    },
+    {
+      "id": "iao-m3-4-q014",
+      "moduleId": "iao-m3-4",
+      "moduleLabel": "IAO Modules 3-4: Operating System Overview",
+      "moduleShortLabel": "IAO 3-4",
+      "questionNumber": 14,
+      "type": "multiple",
+      "promptHtml": "<p><strong>What are two advantages of the NTFS file system compared with FAT32? (Choose two.)</strong></p>",
+      "promptText": "What are two advantages of the NTFS file system compared with FAT32? (Choose two.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "NTFS is easier to configure."
+        },
+        {
+          "id": "B",
+          "text": "NTFS supports larger files."
+        },
+        {
+          "id": "C",
+          "text": "NTFS allows faster formatting of drives."
+        },
+        {
+          "id": "D",
+          "text": "NTFS allows the automatic detection of bad sectors."
+        },
+        {
+          "id": "E",
+          "text": "NTFS allows faster access to external peripherals such as a USB drive."
+        },
+        {
+          "id": "F",
+          "text": "NTFS provides more security features."
+        }
+      ],
+      "correctOptionIds": [
+        "B",
+        "F"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>The file system has no control over the speed of access or formatting of drives, and the ease of configuration is not file system-dependent.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-3-4-operating-system-overview-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m3-4-q015",
+      "moduleId": "iao-m3-4",
+      "moduleLabel": "IAO Modules 3-4: Operating System Overview",
+      "moduleShortLabel": "IAO 3-4",
+      "questionNumber": 15,
+      "type": "single",
+      "promptHtml": "<p><strong>A PC user issues the netstat command without any options. What is displayed as the result of this command?</strong></p>",
+      "promptText": "A PC user issues the netstat command without any options. What is displayed as the result of this command?",
+      "options": [
+        {
+          "id": "A",
+          "text": "a historical list of successful pings that have been sent"
+        },
+        {
+          "id": "B",
+          "text": "a list of all established active TCP connections"
+        },
+        {
+          "id": "C",
+          "text": "a network connection and usage report"
+        },
+        {
+          "id": "D",
+          "text": "a local routing table"
+        }
+      ],
+      "correctOptionIds": [
+        "B"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>When used by itself (without any options), the netstat command will display all the active TCP connections that are available.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-3-4-operating-system-overview-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m3-4-q016",
+      "moduleId": "iao-m3-4",
+      "moduleLabel": "IAO Modules 3-4: Operating System Overview",
+      "moduleShortLabel": "IAO 3-4",
+      "questionNumber": 16,
+      "type": "multiple",
+      "promptHtml": "<p><strong>Which two commands could be used to check if DNS name resolution is working properly on a Windows PC? (Choose two.)</strong></p>",
+      "promptText": "Which two commands could be used to check if DNS name resolution is working properly on a Windows PC? (Choose two.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "nslookup cisco.com"
+        },
+        {
+          "id": "B",
+          "text": "net cisco.com"
+        },
+        {
+          "id": "C",
+          "text": "ipconfig /flushdns"
+        },
+        {
+          "id": "D",
+          "text": "nbtstat cisco.com"
+        },
+        {
+          "id": "E",
+          "text": "ping cisco.com"
+        }
+      ],
+      "correctOptionIds": [
+        "A",
+        "E"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>The <code>ping</code> command tests the connection between two hosts. When ping uses a host domain name to test the connection, the resolver on the PC will first perform the name resolution to query the DNS server for the IP address of the host. If the ping command is unable to resolve the domain name to an IP address, an error will result.</p>\n<p>Nslookup is a tool for testing and troubleshooting DNS servers.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-3-4-operating-system-overview-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m3-4-q017",
+      "moduleId": "iao-m3-4",
+      "moduleLabel": "IAO Modules 3-4: Operating System Overview",
+      "moduleShortLabel": "IAO 3-4",
+      "questionNumber": 17,
+      "type": "single",
+      "promptHtml": "<p><strong>What is the purpose of using the net accounts command in Windows?</strong></p>",
+      "promptText": "What is the purpose of using the net accounts command in Windows?",
+      "options": [
+        {
+          "id": "A",
+          "text": "to display information about shared network resources"
+        },
+        {
+          "id": "B",
+          "text": "to show a list of computers and network devices on the network"
+        },
+        {
+          "id": "C",
+          "text": "to start a network service"
+        },
+        {
+          "id": "D",
+          "text": "to review the settings of password and logon requirements for users"
+        }
+      ],
+      "correctOptionIds": [
+        "D"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>These are some common net commands:<br />\nnet accounts – sets password and logon requirements for users<br />\nnet start – starts a network service or lists running network services<br />\nnet use – connects, disconnects, and displays information about shared network resources<br />\nnet view – shows a list of computers and network devices on the network<br />\nWhen used without options, the net accounts command displays the current settings for password, logon limitations, and domain information.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-3-4-operating-system-overview-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m3-4-q018",
+      "moduleId": "iao-m3-4",
+      "moduleLabel": "IAO Modules 3-4: Operating System Overview",
+      "moduleShortLabel": "IAO 3-4",
+      "questionNumber": 18,
+      "type": "study",
+      "promptHtml": "<p><strong>Match the Windows 10 boot sequence after the boot manager (bootmgr.exe) loads.</strong><br />\n<img src=\"assets/exhibits/iao-m3-4/q018-1-d2317dc756.jpg\" alt=\"\" /><br />",
+      "promptText": "Match the Windows 10 boot sequence after the boot manager (bootmgr.exe) loads.",
+      "options": [],
+      "correctOptionIds": [],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Boot Sequence for Windows:<br />\n&#8211; Power on Self Test (POST)<br />\n&#8211; POST for each adapter card that has a BIOS<br />\n&#8211; BIOS reads the MBR<br />\n&#8211; MBR takes over control of the boot process and starts BOOTMGR<br />\n&#8211; BOOTMGR reads the Boot Configuration Data file to know which OS to load and where to find the OS on the boot partition<br />\n&#8211; <b>BOOTMGR invokes WINLOAD.EXE in order to load the NTOSKRNL.EXE file and HAL.DLL</b><br />\n&#8211; <b>BOOTMGR reads the registry files and loads device drivers</b><br />\n&#8211; <b>NTOSKRNL.EXE starts the WINLOGON.EXE program and displays the Windows login screen</b></p>",
+      "sourceUrl": "https://itexamanswers.net/modules-3-4-operating-system-overview-group-exam-answers.html",
+      "assetPaths": [
+        "assets/exhibits/iao-m3-4/q018-1-d2317dc756.jpg"
+      ]
+    },
+    {
+      "id": "iao-m3-4-q019",
+      "moduleId": "iao-m3-4",
+      "moduleLabel": "IAO Modules 3-4: Operating System Overview",
+      "moduleShortLabel": "IAO 3-4",
+      "questionNumber": 19,
+      "type": "single",
+      "promptHtml": "<p><strong>A technician has installed a third party utility that is used to manage a Windows 7 computer. However, the utility does not automatically start whenever the computer is started. What can the technician do to resolve this problem?</strong></p>",
+      "promptText": "A technician has installed a third party utility that is used to manage a Windows 7 computer. However, the utility does not automatically start whenever the computer is started. What can the technician do to resolve this problem?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Set the application registry key value to one."
+        },
+        {
+          "id": "B",
+          "text": "Use the Add or Remove Programs utility to set program access and defaults."
+        },
+        {
+          "id": "C",
+          "text": "Change the startup type for the utility to Automatic in Services ."
+        },
+        {
+          "id": "D",
+          "text": "Uninstall the program and then choose Add New Programs in the Add or Remove Programs utility to install the application."
+        }
+      ],
+      "correctOptionIds": [
+        "C"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>The Services console in Windows OS allows for the management of all the services on the local and remote computers. The setting of Automatic in the Services console enables the chosen service to start when the computer is started.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-3-4-operating-system-overview-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m3-4-q020",
+      "moduleId": "iao-m3-4",
+      "moduleLabel": "IAO Modules 3-4: Operating System Overview",
+      "moduleShortLabel": "IAO 3-4",
+      "questionNumber": 20,
+      "type": "single",
+      "promptHtml": "<p><strong>Which statement describes the function of the Server Message Block (SMB) protocol?</strong></p>",
+      "promptText": "Which statement describes the function of the Server Message Block (SMB) protocol?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It is used to stream media contents."
+        },
+        {
+          "id": "B",
+          "text": "It is used to manage remote PCs."
+        },
+        {
+          "id": "C",
+          "text": "It is used to compress files stored on a disk."
+        },
+        {
+          "id": "D",
+          "text": "It is used to share network resources."
+        }
+      ],
+      "correctOptionIds": [
+        "D"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>The Server Message Block (SMB) protocol is primarily used by Microsoft to share network resources.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-3-4-operating-system-overview-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m3-4-q021",
+      "moduleId": "iao-m3-4",
+      "moduleLabel": "IAO Modules 3-4: Operating System Overview",
+      "moduleShortLabel": "IAO 3-4",
+      "questionNumber": 21,
+      "type": "single",
+      "promptHtml": "<p><strong>A user creates a file with .ps1 extension in Windows. What type of file is it?</strong></p>",
+      "promptText": "A user creates a file with .ps1 extension in Windows. What type of file is it?",
+      "options": [
+        {
+          "id": "A",
+          "text": "PowerShell function"
+        },
+        {
+          "id": "B",
+          "text": "PowerShell cmdlet"
+        },
+        {
+          "id": "C",
+          "text": "PowerShell documentation"
+        },
+        {
+          "id": "D",
+          "text": "PowerShell script"
+        }
+      ],
+      "correctOptionIds": [
+        "D"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>The types of commands that PowerShell can execute include the following:</p>\n<ul>\n<li>cmdlets &#8211; perform an action and return an output or object to the next command that will be executed</li>\n<li>PowerShell scripts &#8211; files with a .ps1 extension that contain PowerShell commands that are executed</li>\n<li>PowerShell functions &#8211; pieces of code that can be referenced in a script</li>\n</ul>\n<p></p>",
+      "sourceUrl": "https://itexamanswers.net/modules-3-4-operating-system-overview-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m3-4-q022",
+      "moduleId": "iao-m3-4",
+      "moduleLabel": "IAO Modules 3-4: Operating System Overview",
+      "moduleShortLabel": "IAO 3-4",
+      "questionNumber": 22,
+      "type": "multiple",
+      "promptHtml": "<p><strong>Match the Windows command to the description.</strong><br />\n<div id=\"attachment_102561\" style=\"width: 909px\" class=\"wp-caption aligncenter\"><img src=\"assets/exhibits/iao-m3-4/q022-1-ad931c5082.jpg\" alt=\"\" /><p id=\"caption-attachment-102561\" class=\"wp-caption-text\">Modules 3 &#8211; 4: Operating System Overview Group Exam</p></div></p>",
+      "promptText": "Match the Windows command to the description.\nModules 3 – 4: Operating System Overview Group Exam",
+      "options": [
+        {
+          "id": "A",
+          "text": "renames a file ~~> ren"
+        },
+        {
+          "id": "B",
+          "text": "creates a new directory ~~> mkdir"
+        },
+        {
+          "id": "C",
+          "text": "changes the current directory ~~> cd"
+        },
+        {
+          "id": "D",
+          "text": "lists files in a directory ~~> dir"
+        }
+      ],
+      "correctOptionIds": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "",
+      "sourceUrl": "https://itexamanswers.net/modules-3-4-operating-system-overview-group-exam-answers.html",
+      "assetPaths": [
+        "assets/exhibits/iao-m3-4/q022-1-ad931c5082.jpg"
+      ]
+    },
+    {
+      "id": "iao-m3-4-q023",
+      "moduleId": "iao-m3-4",
+      "moduleLabel": "IAO Modules 3-4: Operating System Overview",
+      "moduleShortLabel": "IAO 3-4",
+      "questionNumber": 23,
+      "type": "single",
+      "promptHtml": "<p><strong>A user logs in to Windows with a regular user account and attempts to use an application that requires administrative privileges. What can the user do to successfully use the application?</strong></p>",
+      "promptText": "A user logs in to Windows with a regular user account and attempts to use an application that requires administrative privileges. What can the user do to successfully use the application?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Right-click the application and choose Run as Priviledge ."
+        },
+        {
+          "id": "B",
+          "text": "Right-click the application and choose Run as Superuser ."
+        },
+        {
+          "id": "C",
+          "text": "Right-click the application and choose Run as Administrator ."
+        },
+        {
+          "id": "D",
+          "text": "Right-click the application and choose Run as root ."
+        }
+      ],
+      "correctOptionIds": [
+        "C"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>As a security best practice, it is advisable not to log on to Windows using the Administrator account or an account with administrative privileges. When it is necessary to run or install software that requires the privileges of the Administrator, the user can right-click the software in the Windows File Explorer and choose <b>Run as Administrator</b> .</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-3-4-operating-system-overview-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m3-4-q024",
+      "moduleId": "iao-m3-4",
+      "moduleLabel": "IAO Modules 3-4: Operating System Overview",
+      "moduleShortLabel": "IAO 3-4",
+      "questionNumber": 24,
+      "type": "single",
+      "promptHtml": "<p><strong>An IT technician wants to create a rule on two Windows 10 computers to prevent an installed application from accessing the public Internet. Which tool would the technician use to accomplish this task?</strong></p>",
+      "promptText": "An IT technician wants to create a rule on two Windows 10 computers to prevent an installed application from accessing the public Internet. Which tool would the technician use to accomplish this task?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Local Security Policy"
+        },
+        {
+          "id": "B",
+          "text": "Computer Management"
+        },
+        {
+          "id": "C",
+          "text": "Windows Defender Firewall with Advanced Security"
+        },
+        {
+          "id": "D",
+          "text": "DMZ"
+        }
+      ],
+      "correctOptionIds": [
+        "C"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Windows Firewall with Advanced Security or the Windows 10 Windows Defender Firewall with Advanced Security is used to create inbound and outbound rules, connection security rules such as security traffic between two computers, and monitoring any active connection security rules.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-3-4-operating-system-overview-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m3-4-q025",
+      "moduleId": "iao-m3-4",
+      "moduleLabel": "IAO Modules 3-4: Operating System Overview",
+      "moduleShortLabel": "IAO 3-4",
+      "questionNumber": 25,
+      "type": "single",
+      "promptHtml": "<p><strong>What technology was created to replace the BIOS program on modern personal computer motherboards?</strong></p>",
+      "promptText": "What technology was created to replace the BIOS program on modern personal computer motherboards?",
+      "options": [
+        {
+          "id": "A",
+          "text": "UEFI"
+        },
+        {
+          "id": "B",
+          "text": "MBR"
+        },
+        {
+          "id": "C",
+          "text": "CMOS"
+        },
+        {
+          "id": "D",
+          "text": "RAM"
+        }
+      ],
+      "correctOptionIds": [
+        "A"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>As of 2015, most personal computer motherboards are shipped with UEFI as the replacement for the BIOS program.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-3-4-operating-system-overview-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m3-4-q026",
+      "moduleId": "iao-m3-4",
+      "moduleLabel": "IAO Modules 3-4: Operating System Overview",
+      "moduleShortLabel": "IAO 3-4",
+      "questionNumber": 26,
+      "type": "multiple",
+      "promptHtml": "<p><strong>Match the Linux system component with the description. (Not all options are used.)</strong><br />\n<img src=\"assets/exhibits/iao-m3-4/q026-1-1c70a3b386.jpg\" alt=\"Match the Linux system component with the description.\" /></p>",
+      "promptText": "Match the Linux system component with the description. (Not all options are used.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "CLI : a text based interface that accepts user commands"
+        },
+        {
+          "id": "B",
+          "text": "shell : a program that interprets and executes user commands"
+        },
+        {
+          "id": "C",
+          "text": "daemon : a background process that runs without the need for user interaction"
+        },
+        {
+          "id": "D",
+          "text": "(Empty) : a program that manages CPU and RAM allocation to processes, system calls, and file systems"
+        }
+      ],
+      "correctOptionIds": [
+        "A",
+        "B",
+        "C"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "",
+      "sourceUrl": "https://itexamanswers.net/modules-3-4-operating-system-overview-group-exam-answers.html",
+      "assetPaths": [
+        "assets/exhibits/iao-m3-4/q026-1-1c70a3b386.jpg"
+      ]
+    },
+    {
+      "id": "iao-m3-4-q027",
+      "moduleId": "iao-m3-4",
+      "moduleLabel": "IAO Modules 3-4: Operating System Overview",
+      "moduleShortLabel": "IAO 3-4",
+      "questionNumber": 27,
+      "type": "single",
+      "promptHtml": "<p><b>What is the outcome when a Linux administrator enters the man man command?</b></p>",
+      "promptText": "What is the outcome when a Linux administrator enters the man man command?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The man man command configures the network interface with a manual address"
+        },
+        {
+          "id": "B",
+          "text": "The man man command opens the most recent log file"
+        },
+        {
+          "id": "C",
+          "text": "The man man command provides a list of commands available at the current prompt"
+        },
+        {
+          "id": "D",
+          "text": "The man man command provides documentation about the man command"
+        }
+      ],
+      "correctOptionIds": [
+        "D"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>The man command is short for manual and is used to obtain documentation about a Linux command. The command man man would provide documentation about how to use the manual.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-3-4-operating-system-overview-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m3-4-q028",
+      "moduleId": "iao-m3-4",
+      "moduleLabel": "IAO Modules 3-4: Operating System Overview",
+      "moduleShortLabel": "IAO 3-4",
+      "questionNumber": 28,
+      "type": "multiple",
+      "promptHtml": "<p><b>Match the description to the Linux term. (Not all options are used.)</b><br />\n<img src=\"assets/exhibits/iao-m3-4/q028-1-7c497cd543.jpg\" alt=\"\" /></p>",
+      "promptText": "Match the description to the Linux term. (Not all options are used.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "a type of file that is a reference to another file or directory ~~> symlink"
+        },
+        {
+          "id": "B",
+          "text": "a running background process that does not need user interaction ~~> daemon"
+        },
+        {
+          "id": "C",
+          "text": "protecting remote access ~~> hardening"
+        },
+        {
+          "id": "D",
+          "text": "(Empty) ~~>logging"
+        }
+      ],
+      "correctOptionIds": [
+        "A",
+        "B",
+        "C"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "",
+      "sourceUrl": "https://itexamanswers.net/modules-3-4-operating-system-overview-group-exam-answers.html",
+      "assetPaths": [
+        "assets/exhibits/iao-m3-4/q028-1-7c497cd543.jpg"
+      ]
+    },
+    {
+      "id": "iao-m3-4-q029",
+      "moduleId": "iao-m3-4",
+      "moduleLabel": "IAO Modules 3-4: Operating System Overview",
+      "moduleShortLabel": "IAO 3-4",
+      "questionNumber": 29,
+      "type": "multiple",
+      "promptHtml": "<p><b>What are two benefits of using an ext4 partition instead of ext3? (Choose two.)</b></p>",
+      "promptText": "What are two benefits of using an ext4 partition instead of ext3? (Choose two.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "an increase in the number of supported devices"
+        },
+        {
+          "id": "B",
+          "text": "improved performance"
+        },
+        {
+          "id": "C",
+          "text": "compatibility with NTFS"
+        },
+        {
+          "id": "D",
+          "text": "increase in the size of supported files"
+        },
+        {
+          "id": "E",
+          "text": "decreased load time"
+        },
+        {
+          "id": "F",
+          "text": "compatibility with CDFS"
+        }
+      ],
+      "correctOptionIds": [
+        "B",
+        "D"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Based on the ex3 file system, an ext4 partition includes extensions that improve performance and an increase in the of supported files. An ext4 partition also supports journaling, a file system feature that minimizes the risk of file system corruption if power is suddenly lost to the system.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-3-4-operating-system-overview-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m3-4-q030",
+      "moduleId": "iao-m3-4",
+      "moduleLabel": "IAO Modules 3-4: Operating System Overview",
+      "moduleShortLabel": "IAO 3-4",
+      "questionNumber": 30,
+      "type": "single",
+      "promptHtml": "<p><b>Consider the result of the ls -l command in the Linux output below. What are the file permissions assigned to the sales user for the analyst.txt file?</b></p>\n<pre>ls -l analyst.txt\n-rwxrw-r-- sales staff 1028 May 28 15:50 analyst.txt</pre>",
+      "promptText": "Consider the result of the ls -l command in the Linux output below. What are the file permissions assigned to the sales user for the analyst.txt file?\nls -l analyst.txt\n-rwxrw-r-- sales staff 1028 May 28 15:50 analyst.txt",
+      "options": [
+        {
+          "id": "A",
+          "text": "read, write, execute"
+        },
+        {
+          "id": "B",
+          "text": "write only"
+        },
+        {
+          "id": "C",
+          "text": "read only"
+        },
+        {
+          "id": "D",
+          "text": "read, write"
+        }
+      ],
+      "correctOptionIds": [
+        "A"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>The file permissions are always displayed in the User Group and Other order. In the example displayed, the file has the following permissions:<br />\nThe dash ( &#8211; ) means that this is a file. For directories, the first dash would replaced with a &#8220;d&#8221;.<br />\nThe first set of characters is for user permission (rwx).<br />\nThe user, sales, who owns the file can read, write and execute the file.<br />\nThe second set of characters is for group permissions (rw-). The group, staff, who owns the file can read and write to the file.<br />\nThe third set of characters is for any other user or group permissions (r&#8211;). Any other user or group on the computer can only read the file.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-3-4-operating-system-overview-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m3-4-q031",
+      "moduleId": "iao-m3-4",
+      "moduleLabel": "IAO Modules 3-4: Operating System Overview",
+      "moduleShortLabel": "IAO 3-4",
+      "questionNumber": 31,
+      "type": "single",
+      "promptHtml": "<p><b>What is the purpose of entering the netsh command on a Windows PC?</b></p>",
+      "promptText": "What is the purpose of entering the netsh command on a Windows PC?",
+      "options": [
+        {
+          "id": "A",
+          "text": "to configure networking parameters for the PC"
+        },
+        {
+          "id": "B",
+          "text": "to change the computer name for the PC"
+        },
+        {
+          "id": "C",
+          "text": "to create user accounts"
+        },
+        {
+          "id": "D",
+          "text": "to test the hardware devices on the PC"
+        }
+      ],
+      "correctOptionIds": [
+        "A"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>The <b>netsh.exe</b> tool can be used to configure networking parameters for the PC from a command prompt.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-3-4-operating-system-overview-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m3-4-q032",
+      "moduleId": "iao-m3-4",
+      "moduleLabel": "IAO Modules 3-4: Operating System Overview",
+      "moduleShortLabel": "IAO 3-4",
+      "questionNumber": 32,
+      "type": "single",
+      "promptHtml": "<p><b>Which type of Windows PowerShell command performs an action and returns an output or object to the next command that will be executed?</b></p>",
+      "promptText": "Which type of Windows PowerShell command performs an action and returns an output or object to the next command that will be executed?",
+      "options": [
+        {
+          "id": "A",
+          "text": "cmdlets"
+        },
+        {
+          "id": "B",
+          "text": "functions"
+        },
+        {
+          "id": "C",
+          "text": "routines"
+        },
+        {
+          "id": "D",
+          "text": "scripts"
+        }
+      ],
+      "correctOptionIds": [
+        "A"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>The types of commands that PowerShell can execute include the following:</p>\n<ul>\n<li><b>cmdlets</b> – perform an action and return an output or object to the next command that will be executed</li>\n<li><b>PowerShell scripts</b> – files with a .ps1 extension that contain PowerShell commands that are executed</li>\n<li><b>PowerShell functions</b> &#8211; pieces of code that can be referenced in a script</li>\n</ul>\n<p></p>",
+      "sourceUrl": "https://itexamanswers.net/modules-3-4-operating-system-overview-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m3-4-q034",
+      "moduleId": "iao-m3-4",
+      "moduleLabel": "IAO Modules 3-4: Operating System Overview",
+      "moduleShortLabel": "IAO 3-4",
+      "questionNumber": 34,
+      "type": "multiple",
+      "promptHtml": "<p><b>Match the Windows system tool with the description. (Not all options are used.)</b><br />\n<div id=\"attachment_102568\" style=\"width: 961px\" class=\"wp-caption aligncenter\"><img src=\"assets/exhibits/iao-m3-4/q034-1-0d7a853164.jpg\" alt=\"\" /><p id=\"caption-attachment-102568\" class=\"wp-caption-text\">Modules 3 &#8211; 4: Operating System Overview Group Exam 34</p></div></p>",
+      "promptText": "Match the Windows system tool with the description. (Not all options are used.)\nModules 3 – 4: Operating System Overview Group Exam 34",
+      "options": [
+        {
+          "id": "A",
+          "text": "Registry : a hierarchical database of all system and user information"
+        },
+        {
+          "id": "B",
+          "text": "Windows Firewall : selectively denies traffic on specified interfaces"
+        },
+        {
+          "id": "C",
+          "text": "PowerShell : a CLI environment used to run scripts and automate tasks"
+        },
+        {
+          "id": "D",
+          "text": "Event Viewer : maintains system logs"
+        },
+        {
+          "id": "E",
+          "text": "(Empty) : provides information on system resources and processes"
+        },
+        {
+          "id": "F",
+          "text": "(Empty) : provides virus and spyware protection"
+        }
+      ],
+      "correctOptionIds": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "",
+      "sourceUrl": "https://itexamanswers.net/modules-3-4-operating-system-overview-group-exam-answers.html",
+      "assetPaths": [
+        "assets/exhibits/iao-m3-4/q034-1-0d7a853164.jpg"
+      ]
+    },
+    {
+      "id": "iao-m3-4-q035",
+      "moduleId": "iao-m3-4",
+      "moduleLabel": "IAO Modules 3-4: Operating System Overview",
+      "moduleShortLabel": "IAO 3-4",
+      "questionNumber": 35,
+      "type": "single",
+      "promptHtml": "<p><b>In the Linux shell, which character is used between two commands to instruct the shell to combine and execute these two commands in sequence?</b></p>",
+      "promptText": "In the Linux shell, which character is used between two commands to instruct the shell to combine and execute these two commands in sequence?",
+      "options": [
+        {
+          "id": "A",
+          "text": "$"
+        },
+        {
+          "id": "B",
+          "text": "#"
+        },
+        {
+          "id": "C",
+          "text": "%"
+        },
+        {
+          "id": "D",
+          "text": "|"
+        }
+      ],
+      "correctOptionIds": [
+        "D"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>In the Linux shell, several commands can be combined to perform a complex task. This technique is known as piping. The piping process is indicated by inserting the character &#8220;|&#8221; between two consecutive commands.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-3-4-operating-system-overview-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m3-4-q036",
+      "moduleId": "iao-m3-4",
+      "moduleLabel": "IAO Modules 3-4: Operating System Overview",
+      "moduleShortLabel": "IAO 3-4",
+      "questionNumber": 36,
+      "type": "single",
+      "promptHtml": "<p><b>Why is Linux considered to be better protected against malware than other operating systems?</b></p>",
+      "promptText": "Why is Linux considered to be better protected against malware than other operating systems?",
+      "options": [
+        {
+          "id": "A",
+          "text": "customizable penetration and protection tools"
+        },
+        {
+          "id": "B",
+          "text": "fewer deployments"
+        },
+        {
+          "id": "C",
+          "text": "file system structure, file permissions, and user account restrictions"
+        },
+        {
+          "id": "D",
+          "text": "integrated firewall"
+        }
+      ],
+      "correctOptionIds": [
+        "C"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>The Linux operating design including how the file system is structured, standard file permissions, and user account restrictions make Linux a better protected operating system. However, Linux still has vulnerabilities and can have malware installed that affects the operating system.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-3-4-operating-system-overview-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m3-4-q037",
+      "moduleId": "iao-m3-4",
+      "moduleLabel": "IAO Modules 3-4: Operating System Overview",
+      "moduleShortLabel": "IAO 3-4",
+      "questionNumber": 37,
+      "type": "study",
+      "promptHtml": "<p><b>Match the commonly used ports on a Linux server with the corresponding service. (Not all options are used.)</b><br />\n<img src=\"assets/exhibits/iao-m3-4/q037-1-8917c4b7d8.jpg\" alt=\"\" /></p>",
+      "promptText": "Match the commonly used ports on a Linux server with the corresponding service. (Not all options are used.)",
+      "options": [],
+      "correctOptionIds": [],
+      "solutionHtml": "",
+      "explanationHtml": "",
+      "sourceUrl": "https://itexamanswers.net/modules-3-4-operating-system-overview-group-exam-answers.html",
+      "assetPaths": [
+        "assets/exhibits/iao-m3-4/q037-1-8917c4b7d8.jpg"
+      ]
+    },
+    {
+      "id": "iao-m3-4-q038",
+      "moduleId": "iao-m3-4",
+      "moduleLabel": "IAO Modules 3-4: Operating System Overview",
+      "moduleShortLabel": "IAO 3-4",
+      "questionNumber": 38,
+      "type": "single",
+      "promptHtml": "<p><b>Which Windows tool can be used by a cybersecurity administrator to secure stand-alone computers that are not part of an active directory domain?</b></p>",
+      "promptText": "Which Windows tool can be used by a cybersecurity administrator to secure stand-alone computers that are not part of an active directory domain?",
+      "options": [
+        {
+          "id": "A",
+          "text": "PowerShell"
+        },
+        {
+          "id": "B",
+          "text": "Windows Defender"
+        },
+        {
+          "id": "C",
+          "text": "Windows Firewall"
+        },
+        {
+          "id": "D",
+          "text": "Local Security Policy"
+        }
+      ],
+      "correctOptionIds": [
+        "D"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Windows systems that are not part of an Active Directory Domain can use the Windows Local Security Policy to enforce security settings on each stand-alone system.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-3-4-operating-system-overview-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m5-10-q001",
+      "moduleId": "iao-m5-10",
+      "moduleLabel": "IAO Modules 5-10: Network Fundamentals",
+      "moduleShortLabel": "IAO 5-10",
+      "questionNumber": 1,
+      "type": "single",
+      "promptHtml": "<p><strong>When a wireless network in a small office is being set up, which type of IP addressing is typically used on the networked devices?</strong></p><div class=\"92f2483bb651eed307c93e619d752c78\" data-index=\"2\" style=\"float: none; margin:10px 0 10px 0; text-align:center;\">\n<div id=\"adngin-incontent_auto_large-0\"></div>\n</div>",
+      "promptText": "When a wireless network in a small office is being set up, which type of IP addressing is typically used on the networked devices?",
+      "options": [
+        {
+          "id": "A",
+          "text": "private"
+        },
+        {
+          "id": "B",
+          "text": "public"
+        },
+        {
+          "id": "C",
+          "text": "network"
+        },
+        {
+          "id": "D",
+          "text": "wireless"
+        }
+      ],
+      "correctOptionIds": [
+        "A"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>In setting up the wireless network in a small office, it is a best practice to use private IP addressing because of the flexibility and easy management it offers.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-5-10-network-fundamentals-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m5-10-q002",
+      "moduleId": "iao-m5-10",
+      "moduleLabel": "IAO Modules 5-10: Network Fundamentals",
+      "moduleShortLabel": "IAO 5-10",
+      "questionNumber": 2,
+      "type": "multiple",
+      "promptHtml": "<p><strong>Which two parts are components of an IPv4 address? (Choose two.)</strong></p>",
+      "promptText": "Which two parts are components of an IPv4 address? (Choose two.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "logical portion"
+        },
+        {
+          "id": "B",
+          "text": "host portion"
+        },
+        {
+          "id": "C",
+          "text": "broadcast portion"
+        },
+        {
+          "id": "D",
+          "text": "subnet portion"
+        },
+        {
+          "id": "E",
+          "text": "network portion"
+        },
+        {
+          "id": "F",
+          "text": "physical portion"
+        }
+      ],
+      "correctOptionIds": [
+        "B",
+        "E"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>An IPv4 address is divided into two parts: a network portion &#8211; to identify the specific network on which a host resides, and a host portion &#8211; to identify specific hosts on a network. A subnet mask is used to identify the length of each portion.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-5-10-network-fundamentals-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m5-10-q003",
+      "moduleId": "iao-m5-10",
+      "moduleLabel": "IAO Modules 5-10: Network Fundamentals",
+      "moduleShortLabel": "IAO 5-10",
+      "questionNumber": 3,
+      "type": "study",
+      "promptHtml": "<p><strong>Match each IPv4 address to the appropriate address category. (Not all options are used.)</strong><br />\n<img src=\"assets/exhibits/iao-m5-10/q003-1-3c4eafa85a.jpg\" alt=\"\" /><br />\n<span style=\"color: #ff0000;\"><strong>host address:</strong></span></p>",
+      "promptText": "Match each IPv4 address to the appropriate address category. (Not all options are used.)\nhost address:",
+      "options": [],
+      "correctOptionIds": [],
+      "solutionHtml": "<ul>\n<li>192.168.100.161/25</li>\n<li>203.0.113.100/24</li>\n</ul>",
+      "explanationHtml": "<p>To determine whether a given IPv4 address is a network, host, or broadcast address, first determine the address space based on the subnet mask. Convert the address and mask to binary values, then perform the ANDing function to determine the network address. To calculate the of the address space, use the number of host bits in the subnet mask as an exponent of 2. The number of valid host addresses in the space is that number minus 2. The network address will have all zeroes in the host portion, and the broadcast address will have all ones. For example, 10.0.50.10/30 yields a network IP address of 10.0.50.8 when the mask is ANDed with the given address. Because there are only 2 host bits in the mask, there are only 2 valid host addresses (4-2). 10.0.50.10 is one of the two valid host IP addresses.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-5-10-network-fundamentals-group-exam-answers.html",
+      "assetPaths": [
+        "assets/exhibits/iao-m5-10/q003-1-3c4eafa85a.jpg"
+      ]
+    },
+    {
+      "id": "iao-m5-10-q005",
+      "moduleId": "iao-m5-10",
+      "moduleLabel": "IAO Modules 5-10: Network Fundamentals",
+      "moduleShortLabel": "IAO 5-10",
+      "questionNumber": 5,
+      "type": "single",
+      "promptHtml": "<p><strong>A cybersecurity analyst believes an attacker is spoofing the MAC address of the default gateway to perform a man-in-the-middle attack. Which command should the analyst use to view the MAC address a host is using to reach the default gateway?</strong></p>",
+      "promptText": "A cybersecurity analyst believes an attacker is spoofing the MAC address of the default gateway to perform a man-in-the-middle attack. Which command should the analyst use to view the MAC address a host is using to reach the default gateway?",
+      "options": [
+        {
+          "id": "A",
+          "text": "route print"
+        },
+        {
+          "id": "B",
+          "text": "ipconfig /all"
+        },
+        {
+          "id": "C",
+          "text": "netstat -r"
+        },
+        {
+          "id": "D",
+          "text": "arp -a"
+        }
+      ],
+      "correctOptionIds": [
+        "D"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>ARP is a protocol used with IPv4 to map a MAC address to an associated specific IP address. The command arp -a will display the MAC address table on a Windows PC.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-5-10-network-fundamentals-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m5-10-q006",
+      "moduleId": "iao-m5-10",
+      "moduleLabel": "IAO Modules 5-10: Network Fundamentals",
+      "moduleShortLabel": "IAO 5-10",
+      "questionNumber": 6,
+      "type": "single",
+      "promptHtml": "<p><strong>A user sends an HTTP request to a web server on a remote network. During encapsulation for this request, what information is added to the address field of a frame to indicate the destination?</strong></p>",
+      "promptText": "A user sends an HTTP request to a web server on a remote network. During encapsulation for this request, what information is added to the address field of a frame to indicate the destination?",
+      "options": [
+        {
+          "id": "A",
+          "text": "the network domain of the destination host"
+        },
+        {
+          "id": "B",
+          "text": "the MAC address of the destination host"
+        },
+        {
+          "id": "C",
+          "text": "the IP address of the default gateway"
+        },
+        {
+          "id": "D",
+          "text": "the MAC address of the default gateway"
+        }
+      ],
+      "correctOptionIds": [
+        "D"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>A frame is encapsulated with source and destination MAC addresses. The source device will not know the MAC address of the remote host. An ARP request will be sent by the source and will be responded to by the router. The router will respond with the MAC address of its interface, the one which is connected to the same network as the source.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-5-10-network-fundamentals-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m5-10-q007",
+      "moduleId": "iao-m5-10",
+      "moduleLabel": "IAO Modules 5-10: Network Fundamentals",
+      "moduleShortLabel": "IAO 5-10",
+      "questionNumber": 7,
+      "type": "single",
+      "promptHtml": "<p><strong>What addresses are mapped by ARP?</strong></p>",
+      "promptText": "What addresses are mapped by ARP?",
+      "options": [
+        {
+          "id": "A",
+          "text": "destination IPv4 address to the source MAC address"
+        },
+        {
+          "id": "B",
+          "text": "IPv4 address to a destination MAC address"
+        },
+        {
+          "id": "C",
+          "text": "destination MAC address to the source IPv4 address"
+        },
+        {
+          "id": "D",
+          "text": "destination IPv4 address to the destination host name"
+        }
+      ],
+      "correctOptionIds": [
+        "B"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>ARP, or the Address Resolution Protocol, works by mapping a destination MAC address to a destination IPv4 address. The host knows the destination IPv4 address and uses ARP to resolve the corresponding destination MAC address.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-5-10-network-fundamentals-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m5-10-q008",
+      "moduleId": "iao-m5-10",
+      "moduleLabel": "IAO Modules 5-10: Network Fundamentals",
+      "moduleShortLabel": "IAO 5-10",
+      "questionNumber": 8,
+      "type": "single",
+      "promptHtml": "<p><strong>What type of information is contained in an ARP table?</strong></p>",
+      "promptText": "What type of information is contained in an ARP table?",
+      "options": [
+        {
+          "id": "A",
+          "text": "domain name to IP address mappings"
+        },
+        {
+          "id": "B",
+          "text": "switch ports associated with destination MAC addresses"
+        },
+        {
+          "id": "C",
+          "text": "routes to reach destination networks"
+        },
+        {
+          "id": "D",
+          "text": "IPv4 address to MAC address mappings"
+        }
+      ],
+      "correctOptionIds": [
+        "D"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>ARP tables are used to store mappings of IP addresses to MAC addresses. When a network device needs to forward a packet, the device knows only the IP address. To deliver the packet on an Ethernet network, a MAC address is needed. ARP resolves the MAC address and stores it in an ARP table.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-5-10-network-fundamentals-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m5-10-q009",
+      "moduleId": "iao-m5-10",
+      "moduleLabel": "IAO Modules 5-10: Network Fundamentals",
+      "moduleShortLabel": "IAO 5-10",
+      "questionNumber": 9,
+      "type": "study",
+      "promptHtml": "<p><strong>Match the characteristic to the protocol category. (Not all options are used.)</strong><br />\n<img src=\"assets/exhibits/iao-m5-10/q009-1-44b9cc1f71.jpg\" alt=\"\" /><br />\n<span style=\"color: #ff0000;\"><strong>TCP:</strong></span></p>",
+      "promptText": "Match the characteristic to the protocol category. (Not all options are used.)\nTCP:",
+      "options": [],
+      "correctOptionIds": [],
+      "solutionHtml": "<ul>\n<li>3-wayhandshake</li>\n<li>window size</li>\n</ul>",
+      "explanationHtml": "<p>TCP uses 3-way handshaking as part of being able to provide reliable communication and window size to provide data flow control. UDP is a connectionless protocol that is great for video conferencing. Both TCP and UDP have port numbers to distinguish between applications and application windows and a checksum field for error detection.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-5-10-network-fundamentals-group-exam-answers.html",
+      "assetPaths": [
+        "assets/exhibits/iao-m5-10/q009-1-44b9cc1f71.jpg"
+      ]
+    },
+    {
+      "id": "iao-m5-10-q012",
+      "moduleId": "iao-m5-10",
+      "moduleLabel": "IAO Modules 5-10: Network Fundamentals",
+      "moduleShortLabel": "IAO 5-10",
+      "questionNumber": 12,
+      "type": "single",
+      "promptHtml": "<p><strong>A PC is downloading a large file from a server. The TCP window is 1000 bytes. The server is sending the file using 100-byte segments. How many segments will the server send before it requires an acknowledgment from the PC?</strong></p>",
+      "promptText": "A PC is downloading a large file from a server. The TCP window is 1000 bytes. The server is sending the file using 100-byte segments. How many segments will the server send before it requires an acknowledgment from the PC?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1000 segments"
+        },
+        {
+          "id": "B",
+          "text": "100 segments"
+        },
+        {
+          "id": "C",
+          "text": "1 segment"
+        },
+        {
+          "id": "D",
+          "text": "10 segments"
+        }
+      ],
+      "correctOptionIds": [
+        "D"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>With a window of 1000 bytes, the destination host accepts segments until all 1000 bytes of data have been received. Then the destination host sends an acknowledgment.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-5-10-network-fundamentals-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m5-10-q014",
+      "moduleId": "iao-m5-10",
+      "moduleLabel": "IAO Modules 5-10: Network Fundamentals",
+      "moduleShortLabel": "IAO 5-10",
+      "questionNumber": 14,
+      "type": "multiple",
+      "promptHtml": "<p><strong>Which two commands can be used on a Windows host to display the routing table? (Choose two.)</strong></p>",
+      "promptText": "Which two commands can be used on a Windows host to display the routing table? (Choose two.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "netstat -r"
+        },
+        {
+          "id": "B",
+          "text": "show ip route"
+        },
+        {
+          "id": "C",
+          "text": "netstat -s"
+        },
+        {
+          "id": "D",
+          "text": "route print"
+        },
+        {
+          "id": "E",
+          "text": "tracert"
+        }
+      ],
+      "correctOptionIds": [
+        "A",
+        "D"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>On a Windows host, the <code>route print</code> or <code>netstat -r</code> commands can be used to display the host routing table. Both commands generate the same output. On a router, the <code>show ip route</code> command is used to display the routing table. The <code>netstat -s</code> command is used to display per-protocol statistics. The <code>tracert</code> command is used to display the path that a packet travels to its destination.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-5-10-network-fundamentals-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m5-10-q015",
+      "moduleId": "iao-m5-10",
+      "moduleLabel": "IAO Modules 5-10: Network Fundamentals",
+      "moduleShortLabel": "IAO 5-10",
+      "questionNumber": 15,
+      "type": "single",
+      "promptHtml": "<p><strong>A user issues a ping 2001:db8:FACE:39::10 command and receives a response that includes a code of 2 . What does this code represent?</strong></p>",
+      "promptText": "A user issues a ping 2001:db8:FACE:39::10 command and receives a response that includes a code of 2 . What does this code represent?",
+      "options": [
+        {
+          "id": "A",
+          "text": "host unreachable"
+        },
+        {
+          "id": "B",
+          "text": "port unreachable"
+        },
+        {
+          "id": "C",
+          "text": "network unreachable"
+        },
+        {
+          "id": "D",
+          "text": "protocol unreachable"
+        }
+      ],
+      "correctOptionIds": [
+        "D"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>When a host or gateway receives a packet that it cannot deliver, it can use an ICMP Destination Unreachable message to notify the source that the destination or service is unreachable. The message will include a code that indicates why the packet could not be delivered. These are some of the Destination Unreachable codes for ICMPv4:</p>\n<p>0 : net unreachable<br />\n1 : host unreachable<br />\n2 : protocol unreachable<br />\n3 : port unreachable</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-5-10-network-fundamentals-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m5-10-q017",
+      "moduleId": "iao-m5-10",
+      "moduleLabel": "IAO Modules 5-10: Network Fundamentals",
+      "moduleShortLabel": "IAO 5-10",
+      "questionNumber": 17,
+      "type": "single",
+      "promptHtml": "<p><strong>What is the purpose of ICMP messages?</strong></p>",
+      "promptText": "What is the purpose of ICMP messages?",
+      "options": [
+        {
+          "id": "A",
+          "text": "to inform routers about network topology changes"
+        },
+        {
+          "id": "B",
+          "text": "to ensure the delivery of an IP packet"
+        },
+        {
+          "id": "C",
+          "text": "to provide feedback of IP packet transmissions"
+        },
+        {
+          "id": "D",
+          "text": "to monitor the process of a domain name to IP address resolution"
+        }
+      ],
+      "correctOptionIds": [
+        "C"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>The purpose of ICMP messages is to provide feedback about issues that are related to the processing of IP packets.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-5-10-network-fundamentals-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m5-10-q018",
+      "moduleId": "iao-m5-10",
+      "moduleLabel": "IAO Modules 5-10: Network Fundamentals",
+      "moduleShortLabel": "IAO 5-10",
+      "questionNumber": 18,
+      "type": "multiple",
+      "promptHtml": "<p><strong>Match the HTTP status code group to the type of message generated by the HTTP server.</strong><br />\n<img src=\"assets/exhibits/iao-m5-10/q018-1-ac3edaa7d3.jpg\" alt=\"\" /></p>",
+      "promptText": "Match the HTTP status code group to the type of message generated by the HTTP server.",
+      "options": [
+        {
+          "id": "A",
+          "text": "client error: ~~> 4xx"
+        },
+        {
+          "id": "B",
+          "text": "redirection: ~~> 3xx"
+        },
+        {
+          "id": "C",
+          "text": "success: ~~> 2xx"
+        },
+        {
+          "id": "D",
+          "text": "informational: ~~> 1xx"
+        },
+        {
+          "id": "E",
+          "text": "server error: ~~> 5xx"
+        }
+      ],
+      "correctOptionIds": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "",
+      "sourceUrl": "https://itexamanswers.net/modules-5-10-network-fundamentals-group-exam-answers.html",
+      "assetPaths": [
+        "assets/exhibits/iao-m5-10/q018-1-ac3edaa7d3.jpg"
+      ]
+    },
+    {
+      "id": "iao-m5-10-q019",
+      "moduleId": "iao-m5-10",
+      "moduleLabel": "IAO Modules 5-10: Network Fundamentals",
+      "moduleShortLabel": "IAO 5-10",
+      "questionNumber": 19,
+      "type": "single",
+      "promptHtml": "<p><strong>What network service uses the WHOIS protocol?</strong></p>",
+      "promptText": "What network service uses the WHOIS protocol?",
+      "options": [
+        {
+          "id": "A",
+          "text": "HTTPS"
+        },
+        {
+          "id": "B",
+          "text": "DNS"
+        },
+        {
+          "id": "C",
+          "text": "SMTP"
+        },
+        {
+          "id": "D",
+          "text": "FTP"
+        }
+      ],
+      "correctOptionIds": [
+        "B"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>WHOIS is a TCP-based protocol that is used to identify the owners of internet domains through the DNS system.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-5-10-network-fundamentals-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m5-10-q022",
+      "moduleId": "iao-m5-10",
+      "moduleLabel": "IAO Modules 5-10: Network Fundamentals",
+      "moduleShortLabel": "IAO 5-10",
+      "questionNumber": 22,
+      "type": "study",
+      "promptHtml": "<p><strong>Match each characteristic to the appropriate email protocol. (Not all options are used.)</strong><br />\n<img src=\"assets/exhibits/iao-m5-10/q022-1-31bca2b5dd.png\" alt=\"\" /><br />\n<span style=\"color: #ff0000;\"><strong>POP:</strong></span></p>",
+      "promptText": "Match each characteristic to the appropriate email protocol. (Not all options are used.)\nPOP:",
+      "options": [],
+      "correctOptionIds": [],
+      "solutionHtml": "<ul>\n<li>does not require a centralized backup solution.</li>\n<li>mail is deleted as it is downloaded.</li>\n<li>desirable for an ISP or large business.</li>\n</ul>",
+      "explanationHtml": "<p>Both POP and IMAP are used to retrieve email messages. SMTP is the default protocol used to send email. However, POP does not store messages and automatically deletes them as they are downloaded. A large business or ISP would prefer this, not a small business. It is the responsibility of the client to store and organize messages. IMAP requires a centralized backup because it stores all messages until they are manually deleted. This means that more disk space must be allocated to IMAP.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-5-10-network-fundamentals-group-exam-answers.html",
+      "assetPaths": [
+        "assets/exhibits/iao-m5-10/q022-1-31bca2b5dd.png"
+      ]
+    },
+    {
+      "id": "iao-m5-10-q023",
+      "moduleId": "iao-m5-10",
+      "moduleLabel": "IAO Modules 5-10: Network Fundamentals",
+      "moduleShortLabel": "IAO 5-10",
+      "questionNumber": 23,
+      "type": "single",
+      "promptHtml": "<p><strong>What is done to an IP packet before it is transmitted over the physical medium?</strong></p>",
+      "promptText": "What is done to an IP packet before it is transmitted over the physical medium?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It is tagged with information guaranteeing reliable delivery."
+        },
+        {
+          "id": "B",
+          "text": "It is segmented into smaller individual pieces."
+        },
+        {
+          "id": "C",
+          "text": "It is encapsulated in a Layer 2 frame."
+        },
+        {
+          "id": "D",
+          "text": "It is encapsulated into a TCP segment."
+        }
+      ],
+      "correctOptionIds": [
+        "C"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>When messages are sent on a network, the encapsulation process works from the top of the OSI or TCP/IP model to the bottom. At each layer of the model, the upper layer information is encapsulated into the data field of the next protocol. For example, before an IP packet can be sent, it is encapsulated in a data link frame at Layer 2 so that it can be sent over the physical medium.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-5-10-network-fundamentals-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m5-10-q025",
+      "moduleId": "iao-m5-10",
+      "moduleLabel": "IAO Modules 5-10: Network Fundamentals",
+      "moduleShortLabel": "IAO 5-10",
+      "questionNumber": 25,
+      "type": "single",
+      "promptHtml": "<p><strong>Which networking model is being used when an author uploads one chapter document to a file server of a book publisher?</strong></p>",
+      "promptText": "Which networking model is being used when an author uploads one chapter document to a file server of a book publisher?",
+      "options": [
+        {
+          "id": "A",
+          "text": "peer-to-peer"
+        },
+        {
+          "id": "B",
+          "text": "client/server"
+        },
+        {
+          "id": "C",
+          "text": "master-slave"
+        },
+        {
+          "id": "D",
+          "text": "point-to-point"
+        }
+      ],
+      "correctOptionIds": [
+        "B"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>In the client/server network model, a network device assumes the role of server in order to provide a particular service such as file transfer and storage. In the client/server network model, a dedicated server does not have to be used, but if one is present, the network model being used is the client/server model. In contrast, a peer-to-peer network does not have a dedicated server.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-5-10-network-fundamentals-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m5-10-q030",
+      "moduleId": "iao-m5-10",
+      "moduleLabel": "IAO Modules 5-10: Network Fundamentals",
+      "moduleShortLabel": "IAO 5-10",
+      "questionNumber": 30,
+      "type": "single",
+      "promptHtml": "<p><strong>Which protocol is a client/server file sharing protocol and also a request/response protocol?</strong></p>",
+      "promptText": "Which protocol is a client/server file sharing protocol and also a request/response protocol?",
+      "options": [
+        {
+          "id": "A",
+          "text": "FTP"
+        },
+        {
+          "id": "B",
+          "text": "UDP"
+        },
+        {
+          "id": "C",
+          "text": "TCP"
+        },
+        {
+          "id": "D",
+          "text": "SMB"
+        }
+      ],
+      "correctOptionIds": [
+        "D"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>The Server Message Block (SMB) is a client/server file sharing protocol that describes the structure of shared network resources such as directories, files, printers, and serial ports. SMB is also a request/response protocol.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-5-10-network-fundamentals-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m5-10-q031",
+      "moduleId": "iao-m5-10",
+      "moduleLabel": "IAO Modules 5-10: Network Fundamentals",
+      "moduleShortLabel": "IAO 5-10",
+      "questionNumber": 31,
+      "type": "single",
+      "promptHtml": "<p><strong>How is a DHCPDISCOVER transmitted on a network to reach a DHCP server?</strong></p>",
+      "promptText": "How is a DHCPDISCOVER transmitted on a network to reach a DHCP server?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A DHCPDISCOVER message is sent with the broadcast IP address as the destination address."
+        },
+        {
+          "id": "B",
+          "text": "A DHCPDISCOVER message is sent with a multicast IP address that all DHCP servers listen to as the destination address."
+        },
+        {
+          "id": "C",
+          "text": "A DHCPDISCOVER message is sent with the IP address of the default gateway as the destination address."
+        },
+        {
+          "id": "D",
+          "text": "A DHCPDISCOVER message is sent with the IP address of the DHCP server as the destination address."
+        }
+      ],
+      "correctOptionIds": [
+        "A"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>The DHCPDISCOVER message is sent by a DHCPv4 client and targets a broadcast IP along with the destination port 67. The DHCPv4 server or servers respond to the DHCPv4 clients by targeting port 68.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-5-10-network-fundamentals-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m5-10-q032",
+      "moduleId": "iao-m5-10",
+      "moduleLabel": "IAO Modules 5-10: Network Fundamentals",
+      "moduleShortLabel": "IAO 5-10",
+      "questionNumber": 32,
+      "type": "single",
+      "promptHtml": "<p><strong>What is a description of a DNS zone transfer?</strong></p>",
+      "promptText": "What is a description of a DNS zone transfer?",
+      "options": [
+        {
+          "id": "A",
+          "text": "transferring blocks of DNS data from a DNS server to another server"
+        },
+        {
+          "id": "B",
+          "text": "the action taken when a DNS server sends a query on behalf of a DNS resolver"
+        },
+        {
+          "id": "C",
+          "text": "forwarding a request from a DNS server in a subdomain to an authoritative source"
+        },
+        {
+          "id": "D",
+          "text": "finding an address match and transferring the numbered address from a DNS server to the original requesting client"
+        }
+      ],
+      "correctOptionIds": [
+        "A"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>When a server requires data for a zone, it will request a transfer of that data from an authoritative server for that zone. The process of transferring blocks of DNS data between servers is known as a zone transfer.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-5-10-network-fundamentals-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m5-10-q035",
+      "moduleId": "iao-m5-10",
+      "moduleLabel": "IAO Modules 5-10: Network Fundamentals",
+      "moduleShortLabel": "IAO 5-10",
+      "questionNumber": 35,
+      "type": "single",
+      "promptHtml": "<p><strong>Which statement describes a feature of the IP protocol?</strong></p>",
+      "promptText": "Which statement describes a feature of the IP protocol?",
+      "options": [
+        {
+          "id": "A",
+          "text": "IP relies on Layer 2 protocols for transmission error control."
+        },
+        {
+          "id": "B",
+          "text": "MAC addresses are used during the IP packet encapsulation."
+        },
+        {
+          "id": "C",
+          "text": "IP relies on upper layer services to handle situations of missing or out-of-order packets."
+        },
+        {
+          "id": "D",
+          "text": "IP encapsulation is modified based on network media."
+        }
+      ],
+      "correctOptionIds": [
+        "C"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>IP protocol is a connection-less protocol, considered unreliable in terms of end-to-end delivery. It does not provide error control in the cases where receiving packets are out-of-order or in cases of missing packets. It relies on upper layer services, such as TCP, to resolve these issues.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-5-10-network-fundamentals-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m5-10-q040",
+      "moduleId": "iao-m5-10",
+      "moduleLabel": "IAO Modules 5-10: Network Fundamentals",
+      "moduleShortLabel": "IAO 5-10",
+      "questionNumber": 40,
+      "type": "single",
+      "promptHtml": "<p><strong>Which method would an IPv6-enabled host using SLAAC employ to learn the address of the default gateway? </strong></p>",
+      "promptText": "Which method would an IPv6-enabled host using SLAAC employ to learn the address of the default gateway?",
+      "options": [
+        {
+          "id": "A",
+          "text": "router advertisement messages received from the link router"
+        },
+        {
+          "id": "B",
+          "text": "router solicitation messages received from the link router"
+        },
+        {
+          "id": "C",
+          "text": "neighbor advertisement messages received from link neighbors"
+        },
+        {
+          "id": "D",
+          "text": "neighbor solicitation messages sent to link neighbors"
+        }
+      ],
+      "correctOptionIds": [
+        "A"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>When using SLAAC, a host will learn from the router advertisement that is sent by the link router the address to use as a default gateway.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-5-10-network-fundamentals-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m5-10-q041",
+      "moduleId": "iao-m5-10",
+      "moduleLabel": "IAO Modules 5-10: Network Fundamentals",
+      "moduleShortLabel": "IAO 5-10",
+      "questionNumber": 41,
+      "type": "single",
+      "promptHtml": "<p><strong>Refer to the exhibit. This PC is unable to communicate with the host at 172.16.0.100. What information can be gathered from the displayed output? </strong><br />\n<img src=\"assets/exhibits/iao-m5-10/q041-1-3a63d0cddc.jpg\" alt=\"\" /></p>",
+      "promptText": "Refer to the exhibit. This PC is unable to communicate with the host at 172.16.0.100. What information can be gathered from the displayed output?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The target host is turned off."
+        },
+        {
+          "id": "B",
+          "text": "The communication fails after the default gateway."
+        },
+        {
+          "id": "C",
+          "text": "172.16.0.100 is only a single hop away."
+        },
+        {
+          "id": "D",
+          "text": "This PC has the wrong subnet configured on its NIC"
+        }
+      ],
+      "correctOptionIds": [
+        "B"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>The <code>tracert</code> command shows the path a packet takes through the network to the destination. In this example, only a response from the first router in the path is received, and all other responses time out. The first router is the default gateway for this host, and because a response is received from the router, it can be assumed that this host is on the same subnet as the router.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-5-10-network-fundamentals-group-exam-answers.html",
+      "assetPaths": [
+        "assets/exhibits/iao-m5-10/q041-1-3a63d0cddc.jpg"
+      ]
+    },
+    {
+      "id": "iao-m5-10-q042",
+      "moduleId": "iao-m5-10",
+      "moduleLabel": "IAO Modules 5-10: Network Fundamentals",
+      "moduleShortLabel": "IAO 5-10",
+      "questionNumber": 42,
+      "type": "single",
+      "promptHtml": "<p><strong>A user issues a ping 192.168.250.103 command and receives a response that includes a code of 1. What does this code represent?</strong></p>",
+      "promptText": "A user issues a ping 192.168.250.103 command and receives a response that includes a code of 1. What does this code represent?",
+      "options": [
+        {
+          "id": "A",
+          "text": "network unreachable"
+        },
+        {
+          "id": "B",
+          "text": "port unreachable"
+        },
+        {
+          "id": "C",
+          "text": "protocol unreachable"
+        },
+        {
+          "id": "D",
+          "text": "host unreachable"
+        }
+      ],
+      "correctOptionIds": [
+        "D"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "",
+      "sourceUrl": "https://itexamanswers.net/modules-5-10-network-fundamentals-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m5-10-q043",
+      "moduleId": "iao-m5-10",
+      "moduleLabel": "IAO Modules 5-10: Network Fundamentals",
+      "moduleShortLabel": "IAO 5-10",
+      "questionNumber": 43,
+      "type": "multiple",
+      "promptHtml": "<p><strong>What are three responsibilities of the transport layer? (Choose three.)</strong></p>",
+      "promptText": "What are three responsibilities of the transport layer? (Choose three.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "identifying the applications and services on the client and server that should handle transmitted data"
+        },
+        {
+          "id": "B",
+          "text": "conducting error detection of the contents in frames"
+        },
+        {
+          "id": "C",
+          "text": "meeting the reliability requirements of applications, if any"
+        },
+        {
+          "id": "D",
+          "text": "directing packets towards the destination network"
+        },
+        {
+          "id": "E",
+          "text": "formatting data into a compatible form for receipt by the destination devices"
+        },
+        {
+          "id": "F",
+          "text": "multiplexing multiple communication streams from many users or applications on the same network"
+        }
+      ],
+      "correctOptionIds": [
+        "A",
+        "C",
+        "F"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>The transport layer has several responsibilities. Some of the primary responsibilities include the following:<br />\nTracking the individual communication streams between applications on the source and destination hosts<br />\nSegmenting data at the source and reassembling the data at the destination<br />\nIdentifying the proper application for each communication stream through the use of port numbers<br />\nMultiplexing the communications of multiple users or applications over a single network<br />\nManaging the reliability requirements of applications</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-5-10-network-fundamentals-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m5-10-q044",
+      "moduleId": "iao-m5-10",
+      "moduleLabel": "IAO Modules 5-10: Network Fundamentals",
+      "moduleShortLabel": "IAO 5-10",
+      "questionNumber": 44,
+      "type": "single",
+      "promptHtml": "<p><strong>How does network scanning help assess operations security?</strong></p>",
+      "promptText": "How does network scanning help assess operations security?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It can detect open TCP ports on network systems."
+        },
+        {
+          "id": "B",
+          "text": "It can detect weak or blank passwords."
+        },
+        {
+          "id": "C",
+          "text": "It can simulate attacks from malicious sources."
+        },
+        {
+          "id": "D",
+          "text": "It can log abnormal activity."
+        }
+      ],
+      "correctOptionIds": [
+        "A"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Network scanning can help a network administrator strengthen the security of the network and systems by identifying open TCP and UDP ports that could be targets of an attack.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-5-10-network-fundamentals-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m5-10-q046",
+      "moduleId": "iao-m5-10",
+      "moduleLabel": "IAO Modules 5-10: Network Fundamentals",
+      "moduleShortLabel": "IAO 5-10",
+      "questionNumber": 46,
+      "type": "multiple",
+      "promptHtml": "<p><strong>Which two operations are provided by TCP but not by UDP? (Choose two.)</strong></p>",
+      "promptText": "Which two operations are provided by TCP but not by UDP? (Choose two.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "retransmitting any unacknowledged data"
+        },
+        {
+          "id": "B",
+          "text": "acknowledging received data"
+        },
+        {
+          "id": "C",
+          "text": "reconstructing data in the order received"
+        },
+        {
+          "id": "D",
+          "text": "identifying the applications"
+        },
+        {
+          "id": "E",
+          "text": "tracking individual conversations"
+        }
+      ],
+      "correctOptionIds": [
+        "A",
+        "B"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Numbering and tracking data segments, acknowledging received data, and retransmitting any unacknowledged data are reliability operations to ensure that all of the data arrives at the destination. UDP does not provide reliability. Both TCP and UDP identify the applications and track individual conversations. UDP does not number data segments and reconstructs data in the order that it is received. </p>",
+      "sourceUrl": "https://itexamanswers.net/modules-5-10-network-fundamentals-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m5-10-q047",
+      "moduleId": "iao-m5-10",
+      "moduleLabel": "IAO Modules 5-10: Network Fundamentals",
+      "moduleShortLabel": "IAO 5-10",
+      "questionNumber": 47,
+      "type": "single",
+      "promptHtml": "<p><strong>A user is executing a tracert to a remote device. At what point would a router, which is in the path to the destination device, stop forwarding the packet?</strong></p>",
+      "promptText": "A user is executing a tracert to a remote device. At what point would a router, which is in the path to the destination device, stop forwarding the packet?",
+      "options": [
+        {
+          "id": "A",
+          "text": "when the router receives an ICMP Time Exceeded message"
+        },
+        {
+          "id": "B",
+          "text": "when the RTT value reaches zero"
+        },
+        {
+          "id": "C",
+          "text": "when the values of both the Echo Request and Echo Reply messages reach zero"
+        },
+        {
+          "id": "D",
+          "text": "when the host responds with an ICMP Echo Reply message"
+        },
+        {
+          "id": "E",
+          "text": "when the value in the TTL field reaches zero"
+        }
+      ],
+      "correctOptionIds": [
+        "E"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>When a router receives a traceroute packet, the value in the TTL field is decremented by 1. When the value in the field reaches zero, the receiving router will not forward the packet, and will send an ICMP Time Exceeded message back to the source.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-5-10-network-fundamentals-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m5-10-q048",
+      "moduleId": "iao-m5-10",
+      "moduleLabel": "IAO Modules 5-10: Network Fundamentals",
+      "moduleShortLabel": "IAO 5-10",
+      "questionNumber": 48,
+      "type": "single",
+      "promptHtml": "<p><strong>A network administrator is testing network connectivity by issuing the ping command on a router. Which symbol will be displayed to indicate that a time expired during the wait for an ICMP echo reply message?</strong></p>",
+      "promptText": "A network administrator is testing network connectivity by issuing the ping command on a router. Which symbol will be displayed to indicate that a time expired during the wait for an ICMP echo reply message?",
+      "options": [
+        {
+          "id": "A",
+          "text": "U"
+        },
+        {
+          "id": "B",
+          "text": "."
+        },
+        {
+          "id": "C",
+          "text": "!"
+        },
+        {
+          "id": "D",
+          "text": "$"
+        }
+      ],
+      "correctOptionIds": [
+        "B"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>When the <code>ping</code> command is issued on a router, the most common indicators are as follows:<br />\n<b>!</b> &#8211; indicates receipt of an ICMP echo reply message<br />\n<b>.</b> &#8211; indicates a time expired while waiting for an ICMP echo reply message<br />\n<b>U</b> &#8211; an ICMP message of unreachability was received</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-5-10-network-fundamentals-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m5-10-q049",
+      "moduleId": "iao-m5-10",
+      "moduleLabel": "IAO Modules 5-10: Network Fundamentals",
+      "moduleShortLabel": "IAO 5-10",
+      "questionNumber": 49,
+      "type": "single",
+      "promptHtml": "<p><strong>A technician is configuring email on a mobile device. The user wants to be able to keep the original email on the server, organize it into folders, and synchronize the folders between the mobile device and the server. Which email protocol should the technician use?</strong></p>",
+      "promptText": "A technician is configuring email on a mobile device. The user wants to be able to keep the original email on the server, organize it into folders, and synchronize the folders between the mobile device and the server. Which email protocol should the technician use?",
+      "options": [
+        {
+          "id": "A",
+          "text": "SMTP"
+        },
+        {
+          "id": "B",
+          "text": "MIME"
+        },
+        {
+          "id": "C",
+          "text": "POP3"
+        },
+        {
+          "id": "D",
+          "text": "IMAP"
+        }
+      ],
+      "correctOptionIds": [
+        "D"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>The IMAP protocol allows email data to be synchronized between a client and server. Changes made in one location, such as marking an email as read, are automatically applied to the other location. POP3 is also an email protocol. However, the data is not synchronized between the client and the server. SMTP is used for sending email, and is typically used in conjunction with the POP3 protocol. MIME is an email standard that is used to define attachment types, and allows extra content like pictures and documents to be attached to email messages.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-5-10-network-fundamentals-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m5-10-q050",
+      "moduleId": "iao-m5-10",
+      "moduleLabel": "IAO Modules 5-10: Network Fundamentals",
+      "moduleShortLabel": "IAO 5-10",
+      "questionNumber": 50,
+      "type": "single",
+      "promptHtml": "<p><strong>At which OSI layer is a source MAC address added to a PDU during the encapsulation process?</strong></p>",
+      "promptText": "At which OSI layer is a source MAC address added to a PDU during the encapsulation process?",
+      "options": [
+        {
+          "id": "A",
+          "text": "application layer"
+        },
+        {
+          "id": "B",
+          "text": "presentation layer"
+        },
+        {
+          "id": "C",
+          "text": "data link layer"
+        },
+        {
+          "id": "D",
+          "text": "transport layer"
+        }
+      ],
+      "correctOptionIds": [
+        "C"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "",
+      "sourceUrl": "https://itexamanswers.net/modules-5-10-network-fundamentals-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m5-10-q051",
+      "moduleId": "iao-m5-10",
+      "moduleLabel": "IAO Modules 5-10: Network Fundamentals",
+      "moduleShortLabel": "IAO 5-10",
+      "questionNumber": 51,
+      "type": "single",
+      "promptHtml": "<p><strong>Which value, that is contained in an IPv4 header field, is decremented by each router that receives a packet?</strong></p>",
+      "promptText": "Which value, that is contained in an IPv4 header field, is decremented by each router that receives a packet?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Time-to-Live"
+        },
+        {
+          "id": "B",
+          "text": "Fragment Offset"
+        },
+        {
+          "id": "C",
+          "text": "Header Length"
+        },
+        {
+          "id": "D",
+          "text": "Differentiated Services"
+        }
+      ],
+      "correctOptionIds": [
+        "A"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>When a router receives a packet, the router will decrement the Time-to-Live (TTL) field by one. When the field reaches zero, the receiving router will discard the packet and will send an ICMP Time Exceeded message to the sender.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-5-10-network-fundamentals-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m5-10-q052",
+      "moduleId": "iao-m5-10",
+      "moduleLabel": "IAO Modules 5-10: Network Fundamentals",
+      "moduleShortLabel": "IAO 5-10",
+      "questionNumber": 52,
+      "type": "multiple",
+      "promptHtml": "<p><strong>What are three responsibilities of the transport layer? (Choose three.)</strong></p>",
+      "promptText": "What are three responsibilities of the transport layer? (Choose three.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "identifying the applications and services on the client and server that should handle transmitted data"
+        },
+        {
+          "id": "B",
+          "text": "conducting error detection of the contents in frames"
+        },
+        {
+          "id": "C",
+          "text": "meeting the reliability requirements of applications, if any"
+        },
+        {
+          "id": "D",
+          "text": "directing packets towards the destination network"
+        },
+        {
+          "id": "E",
+          "text": "formatting data into a compatible form for receipt by the destination devices"
+        },
+        {
+          "id": "F",
+          "text": "multiplexing multiple communication streams from many users or applications on the same network"
+        }
+      ],
+      "correctOptionIds": [
+        "A",
+        "C",
+        "F"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>The transport layer has several responsibilities. Some of the primary responsibilities include the following:<br />\nTracking the individual communication streams between applications on the source and destination hosts<br />\nSegmenting data at the source and reassembling the data at the destination<br />\nIdentifying the proper application for each communication stream through the use of port numbers<br />\nMultiplexing the communications of multiple users or applications over a single network<br />\nManaging the reliability requirements of applications</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-5-10-network-fundamentals-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m5-10-q053",
+      "moduleId": "iao-m5-10",
+      "moduleLabel": "IAO Modules 5-10: Network Fundamentals",
+      "moduleShortLabel": "IAO 5-10",
+      "questionNumber": 53,
+      "type": "multiple",
+      "promptHtml": "<p><strong>Which two ICMP messages are used by both IPv4 and IPv6 protocols? (Choose two.)</strong></p>",
+      "promptText": "Which two ICMP messages are used by both IPv4 and IPv6 protocols? (Choose two.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "route redirection"
+        },
+        {
+          "id": "B",
+          "text": "neighbor solicitation"
+        },
+        {
+          "id": "C",
+          "text": "router solicitation"
+        },
+        {
+          "id": "D",
+          "text": "router advertisement"
+        },
+        {
+          "id": "E",
+          "text": "protocol unreachable"
+        }
+      ],
+      "correctOptionIds": [
+        "A",
+        "E"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>The ICMP messages common to both ICMPv4 and ICMPv6 include: host confirmation, destination (net, host, protocol, port) or service unreachable, time exceeded, and route redirection. Router solicitation, neighbor solicitation, and router advertisement are new protocols implemented in ICMPv6.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-5-10-network-fundamentals-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m5-10-q054",
+      "moduleId": "iao-m5-10",
+      "moduleLabel": "IAO Modules 5-10: Network Fundamentals",
+      "moduleShortLabel": "IAO 5-10",
+      "questionNumber": 54,
+      "type": "single",
+      "promptHtml": "<p><strong>What mechanism is used by a router to prevent a received IPv4 packet from traveling endlessly on a network?</strong></p>",
+      "promptText": "What mechanism is used by a router to prevent a received IPv4 packet from traveling endlessly on a network?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It checks the value of the TTL field and if it is 100, it discards the packet and sends a Destination Unreachable message to the source host."
+        },
+        {
+          "id": "B",
+          "text": "It decrements the value of the TTL field by 1 and if the result is 0, it discards the packet and sends a Time Exceeded message to the source host."
+        },
+        {
+          "id": "C",
+          "text": "It checks the value of the TTL field and if it is 0, it discards the packet and sends a Destination Unreachable message to the source host."
+        },
+        {
+          "id": "D",
+          "text": "It increments the value of the TTL field by 1 and if the result is 100, it discards the packet and sends a Parameter Problem message to the source host."
+        }
+      ],
+      "correctOptionIds": [
+        "B"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>To prevent an IPv4 packet to travel in the network endlessly, TCP/IP protocols use ICMPv4 protocol to provide feedback about issues. When a router receives a packet and decrements the TTL field in the IPv4 packet by 1 and if the result is zero, it discards the packet and sends a Time Exceeded message to the source host.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-5-10-network-fundamentals-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m5-10-q055",
+      "moduleId": "iao-m5-10",
+      "moduleLabel": "IAO Modules 5-10: Network Fundamentals",
+      "moduleShortLabel": "IAO 5-10",
+      "questionNumber": 55,
+      "type": "single",
+      "promptHtml": "<p><strong>A device has been assigned the IPv6 address of 2001:0db8:cafe:4500:1000:00d8:0058:00ab/64. Which is the host identifier of the device?</strong></p>",
+      "promptText": "A device has been assigned the IPv6 address of 2001:0db8:cafe:4500:1000:00d8:0058:00ab/64. Which is the host identifier of the device?",
+      "options": [
+        {
+          "id": "A",
+          "text": "2001:0db8:cafe:4500:1000:00d8:0058:00ab"
+        },
+        {
+          "id": "B",
+          "text": "00ab"
+        },
+        {
+          "id": "C",
+          "text": "2001:0db8:cafe:4500"
+        },
+        {
+          "id": "D",
+          "text": "1000:00d8:0058:00ab"
+        }
+      ],
+      "correctOptionIds": [
+        "D"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>The address has a prefix length of /64. Thus the first 64 bits represent the network portion, whereas the last 64 bits represent the host portion of the IPv6 address.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-5-10-network-fundamentals-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m5-10-q056",
+      "moduleId": "iao-m5-10",
+      "moduleLabel": "IAO Modules 5-10: Network Fundamentals",
+      "moduleShortLabel": "IAO 5-10",
+      "questionNumber": 56,
+      "type": "multiple",
+      "promptHtml": "<p><strong>What three application layer protocols are part of the TCP/IP protocol suite? (Choose three.)</strong></p>",
+      "promptText": "What three application layer protocols are part of the TCP/IP protocol suite? (Choose three.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "DHCP"
+        },
+        {
+          "id": "B",
+          "text": "PPP"
+        },
+        {
+          "id": "C",
+          "text": "FTP"
+        },
+        {
+          "id": "D",
+          "text": "DNS"
+        },
+        {
+          "id": "E",
+          "text": "NAT"
+        },
+        {
+          "id": "F",
+          "text": "ARP"
+        }
+      ],
+      "correctOptionIds": [
+        "A",
+        "C",
+        "D"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>DNS, DHCP, and FTP are all application layer protocols in the TCP/IP protocol suite. ARP and PPP are network access layer protocols, and NAT is an internet layer protocol in the TCP/IP protocol suite.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-5-10-network-fundamentals-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m5-10-q057",
+      "moduleId": "iao-m5-10",
+      "moduleLabel": "IAO Modules 5-10: Network Fundamentals",
+      "moduleShortLabel": "IAO 5-10",
+      "questionNumber": 57,
+      "type": "single",
+      "promptHtml": "<p><strong>A computer can access devices on the same network but cannot access devices on other networks. What is the probable cause of this problem?</strong></p>",
+      "promptText": "A computer can access devices on the same network but cannot access devices on other networks. What is the probable cause of this problem?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The computer has an invalid IP address."
+        },
+        {
+          "id": "B",
+          "text": "The cable is not connected properly to the NIC."
+        },
+        {
+          "id": "C",
+          "text": "The computer has an incorrect subnet mask."
+        },
+        {
+          "id": "D",
+          "text": "The computer has an invalid default gateway address."
+        }
+      ],
+      "correctOptionIds": [
+        "D"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>The default gateway is the address of the device a host uses to access the Internet or another network. If the default gateway is missing or incorrect, that host will not be able to communicate outside the local network. Because the host can access other hosts on the local network, the network cable and the other parts of the IP configuration are working.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-5-10-network-fundamentals-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m5-10-q058",
+      "moduleId": "iao-m5-10",
+      "moduleLabel": "IAO Modules 5-10: Network Fundamentals",
+      "moduleShortLabel": "IAO 5-10",
+      "questionNumber": 58,
+      "type": "single",
+      "promptHtml": "<p><strong>Refer to the exhibit. PC1 issues an ARP request because it needs to send a packet to PC3. In this scenario, what will happen next?</strong><br />\n<img src=\"assets/exhibits/iao-m5-10/q058-1-74a69b2d40.jpg\" alt=\"\" /></p>",
+      "promptText": "Refer to the exhibit. PC1 issues an ARP request because it needs to send a packet to PC3. In this scenario, what will happen next?",
+      "options": [
+        {
+          "id": "A",
+          "text": "RT1 will send an ARP reply with its own Fa0/1 MAC address."
+        },
+        {
+          "id": "B",
+          "text": "SW1 will send an ARP reply with its Fa0/1 MAC address."
+        },
+        {
+          "id": "C",
+          "text": "RT1 will send an ARP reply with the PC3 MAC address."
+        },
+        {
+          "id": "D",
+          "text": "RT1 will forward the ARP request to PC3."
+        },
+        {
+          "id": "E",
+          "text": "RT1 will send an ARP reply with its own Fa0/0 MAC address."
+        }
+      ],
+      "correctOptionIds": [
+        "E"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>When a network device has to communicate with a device on another network, it broadcasts an ARP request asking for the default gateway MAC address. The default gateway (RT1) unicasts an ARP reply with the Fa0/0 MAC address.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-5-10-network-fundamentals-group-exam-answers.html",
+      "assetPaths": [
+        "assets/exhibits/iao-m5-10/q058-1-74a69b2d40.jpg"
+      ]
+    },
+    {
+      "id": "iao-m5-10-q059",
+      "moduleId": "iao-m5-10",
+      "moduleLabel": "IAO Modules 5-10: Network Fundamentals",
+      "moduleShortLabel": "IAO 5-10",
+      "questionNumber": 59,
+      "type": "single",
+      "promptHtml": "<p><strong>A user who is unable to connect to the file server contacts the help desk. The helpdesk technician asks the user to ping the IP address of the default gateway that is configured on the workstation. What is the purpose for this ping command?</strong></p>",
+      "promptText": "A user who is unable to connect to the file server contacts the help desk. The helpdesk technician asks the user to ping the IP address of the default gateway that is configured on the workstation. What is the purpose for this ping command?",
+      "options": [
+        {
+          "id": "A",
+          "text": "to resolve the domain name of the file server to its IP address"
+        },
+        {
+          "id": "B",
+          "text": "to request that gateway forward the connection request to the file server"
+        },
+        {
+          "id": "C",
+          "text": "to obtain a dynamic IP address from the server"
+        },
+        {
+          "id": "D",
+          "text": "to test that the host has the capability to reach hosts on other networks"
+        }
+      ],
+      "correctOptionIds": [
+        "D"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>The <code>ping</code> command is used to test connectivity between hosts. The other options describe tasks not performed by ping . Pinging the default gateway will test whether the host has the capability to reach hosts on its own network and on other networks.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-5-10-network-fundamentals-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m5-10-q060",
+      "moduleId": "iao-m5-10",
+      "moduleLabel": "IAO Modules 5-10: Network Fundamentals",
+      "moduleShortLabel": "IAO 5-10",
+      "questionNumber": 60,
+      "type": "single",
+      "promptHtml": "<p><strong>A user gets an IP address of 192.168.0.1 from the company network administrator. A friend of the user at a different company gets the same IP address on another PC. How can two PCs use the same IP address and still reach the Internet, send and receive email, and search the web?</strong></p>",
+      "promptText": "A user gets an IP address of 192.168.0.1 from the company network administrator. A friend of the user at a different company gets the same IP address on another PC. How can two PCs use the same IP address and still reach the Internet, send and receive email, and search the web?",
+      "options": [
+        {
+          "id": "A",
+          "text": "ISPs use Domain Name Service to change a user IP address into a public IP address that can be used on the Internet."
+        },
+        {
+          "id": "B",
+          "text": "Both users must be using the same Internet Service Provider."
+        },
+        {
+          "id": "C",
+          "text": "Both users must be on the same network."
+        },
+        {
+          "id": "D",
+          "text": "ISPs use Network Address Translation to change a user IP address into an address that can be used on the Internet."
+        }
+      ],
+      "correctOptionIds": [
+        "D"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>As user traffic from behind an ISP firewall reaches the gateway device, Network Address Translation changes private IP addresses into a public, routable IP address. Private user addresses remain hidden from the public Internet, and thus more than one user can have the same private IP address, regardless of ISP.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-5-10-network-fundamentals-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m5-10-q061",
+      "moduleId": "iao-m5-10",
+      "moduleLabel": "IAO Modules 5-10: Network Fundamentals",
+      "moduleShortLabel": "IAO 5-10",
+      "questionNumber": 61,
+      "type": "single",
+      "promptHtml": "<p><strong>How many host addresses are available on the 192.168.10.128/26 network?</strong></p>",
+      "promptText": "How many host addresses are available on the 192.168.10.128/26 network?",
+      "options": [
+        {
+          "id": "A",
+          "text": "30"
+        },
+        {
+          "id": "B",
+          "text": "32"
+        },
+        {
+          "id": "C",
+          "text": "60"
+        },
+        {
+          "id": "D",
+          "text": "62"
+        },
+        {
+          "id": "E",
+          "text": "64"
+        }
+      ],
+      "correctOptionIds": [
+        "D"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>A /26 prefix gives 6 host bits, which provides a total of 64 addresses, because 2^6 = 64. Subtracting the network and broadcast addresses leaves 62 usable host addresses.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-5-10-network-fundamentals-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m5-10-q062",
+      "moduleId": "iao-m5-10",
+      "moduleLabel": "IAO Modules 5-10: Network Fundamentals",
+      "moduleShortLabel": "IAO 5-10",
+      "questionNumber": 62,
+      "type": "multiple",
+      "promptHtml": "<p><strong>What are the three ranges of IP addresses that are reserved for internal private use? (Choose three.)</strong></p>",
+      "promptText": "What are the three ranges of IP addresses that are reserved for internal private use? (Choose three.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "64.100.0.0/14"
+        },
+        {
+          "id": "B",
+          "text": "192.168.0.0/16"
+        },
+        {
+          "id": "C",
+          "text": "192.31.7.0/24"
+        },
+        {
+          "id": "D",
+          "text": "172.16.0.0/12"
+        },
+        {
+          "id": "E",
+          "text": "10.0.0.0/8"
+        },
+        {
+          "id": "F",
+          "text": "127.16.0.0/12"
+        }
+      ],
+      "correctOptionIds": [
+        "B",
+        "D",
+        "E"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>The private IP address blocks that are used inside companies are as follows:10.0.0.0 /8 (any address that starts with 10 in the first octet)<br />\n172.16.0.0 /12 (any address that starts with 172.16 in the first two octets through 172.31.255.255)<br />\n192.168.0.0 /16 (any address that starts with 192.168 in the first two octets)</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-5-10-network-fundamentals-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m5-10-q063",
+      "moduleId": "iao-m5-10",
+      "moduleLabel": "IAO Modules 5-10: Network Fundamentals",
+      "moduleShortLabel": "IAO 5-10",
+      "questionNumber": 63,
+      "type": "single",
+      "promptHtml": "<p><strong>Refer to the exhibit. A cybersecurity analyst is viewing captured packets forwarded on switch S1. Which device has the MAC address 50:6a:03:96:71:22?</strong></p>\n<p><img src=\"assets/exhibits/iao-m5-10/q063-1-c039f55a25.jpg\" alt=\"\" /></p>",
+      "promptText": "Refer to the exhibit. A cybersecurity analyst is viewing captured packets forwarded on switch S1. Which device has the MAC address 50:6a:03:96:71:22?",
+      "options": [
+        {
+          "id": "A",
+          "text": "PC-A"
+        },
+        {
+          "id": "B",
+          "text": "router DG"
+        },
+        {
+          "id": "C",
+          "text": "DSN server"
+        },
+        {
+          "id": "D",
+          "text": "router ISP"
+        },
+        {
+          "id": "E",
+          "text": "web server"
+        }
+      ],
+      "correctOptionIds": [
+        "B"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>The Wireshark capture is of a DNS query from PC-A to the DNS server. Because the DNS server is on a remote network, the PC will send the query to the default gateway router, router DG, using the MAC address of the router G0/0 interface on the router.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-5-10-network-fundamentals-group-exam-answers.html",
+      "assetPaths": [
+        "assets/exhibits/iao-m5-10/q063-1-c039f55a25.jpg"
+      ]
+    },
+    {
+      "id": "iao-m5-10-q064",
+      "moduleId": "iao-m5-10",
+      "moduleLabel": "IAO Modules 5-10: Network Fundamentals",
+      "moduleShortLabel": "IAO 5-10",
+      "questionNumber": 64,
+      "type": "single",
+      "promptHtml": "<p><b>A host PC is attempting to lease an address through DHCP. What message is sent by the server to let the client know it is able to use the provided IP information?</b></p>",
+      "promptText": "A host PC is attempting to lease an address through DHCP. What message is sent by the server to let the client know it is able to use the provided IP information?",
+      "options": [
+        {
+          "id": "A",
+          "text": "DHCPDISCOVER"
+        },
+        {
+          "id": "B",
+          "text": "DHCPOFFER"
+        },
+        {
+          "id": "C",
+          "text": "DHCPREQUEST"
+        },
+        {
+          "id": "D",
+          "text": "DHCPACK"
+        },
+        {
+          "id": "E",
+          "text": "DHCPNACK"
+        }
+      ],
+      "correctOptionIds": [
+        "D"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>When a host uses DHCP to automatically configure an IP address, the typically sends two messages: the DHCPDISCOVER message and the DHCPREQUEST message. These two messages are usually sent as broadcasts to ensure that all DHCP servers receive them. The servers respond to these messages using DHCPOFFER, DHCPACK, and DHCPNACK messages, depending on the circumstance.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-5-10-network-fundamentals-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m5-10-q065",
+      "moduleId": "iao-m5-10",
+      "moduleLabel": "IAO Modules 5-10: Network Fundamentals",
+      "moduleShortLabel": "IAO 5-10",
+      "questionNumber": 65,
+      "type": "multiple",
+      "promptHtml": "<p><b>An employee complains that a Windows PC cannot connect to the Internet. A network technician issues the ipconfig command on the PC and is shown an IP address of 169.254.10.3. Which two conclusions can be drawn? (Choose two.)</b></p>",
+      "promptText": "An employee complains that a Windows PC cannot connect to the Internet. A network technician issues the ipconfig command on the PC and is shown an IP address of 169.254.10.3. Which two conclusions can be drawn? (Choose two.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "The PC is configured to obtain an IP address automatically."
+        },
+        {
+          "id": "B",
+          "text": "The default gateway address is not configured."
+        },
+        {
+          "id": "C",
+          "text": "The DNS server address is misconfigured."
+        },
+        {
+          "id": "D",
+          "text": "The enterprise network is misconfigured for dynamic routing."
+        },
+        {
+          "id": "E",
+          "text": "The PC cannot contact a DHCP server."
+        }
+      ],
+      "correctOptionIds": [
+        "A",
+        "E"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>When a Windows PC is configured to obtain an IP address automatically, the PC will try to obtain an IP address from a DHCP server. When the PC cannot contact a DHCP server, Windows will automatically assign an address belonging to the 169.254.0.0/16 range.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-5-10-network-fundamentals-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m5-10-q066",
+      "moduleId": "iao-m5-10",
+      "moduleLabel": "IAO Modules 5-10: Network Fundamentals",
+      "moduleShortLabel": "IAO 5-10",
+      "questionNumber": 66,
+      "type": "single",
+      "promptHtml": "<p><strong>What is a function of the <code>tracert</code> command that differs from the <code>ping</code> command when they are used on a workstation?</strong></p>",
+      "promptText": "What is a function of the tracert command that differs from the ping command when they are used on a workstation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The tracert command is used to test the connectivity between two devices."
+        },
+        {
+          "id": "B",
+          "text": "The tracert command reaches the destination faster."
+        },
+        {
+          "id": "C",
+          "text": "The tracert command shows the information of routers in the path."
+        },
+        {
+          "id": "D",
+          "text": "The tracert command sends one ICMP message to each hop in the path."
+        }
+      ],
+      "correctOptionIds": [
+        "C"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>The <code>tracert</code> command sends three pings to each hop (router) in the path toward the destination and displays the domain name and IP address of hops from their responses. Because tracert uses the <code>ping</code> command, the travel time is the same as a standalone <code>ping</code> command. The primary function of a standalone <code>ping</code> command is to test the connectivity between two hosts.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-5-10-network-fundamentals-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m5-10-q067",
+      "moduleId": "iao-m5-10",
+      "moduleLabel": "IAO Modules 5-10: Network Fundamentals",
+      "moduleShortLabel": "IAO 5-10",
+      "questionNumber": 67,
+      "type": "multiple",
+      "promptHtml": "<p><strong>Which two functions or operations are performed by the MAC sublayer? (Choose two.)</strong></p>",
+      "promptText": "Which two functions or operations are performed by the MAC sublayer? (Choose two.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "It is responsible for Media Access Control."
+        },
+        {
+          "id": "B",
+          "text": "It performs the function of NIC driver software."
+        },
+        {
+          "id": "C",
+          "text": "It adds a header and trailer to form an OSI Layer 2 PDU."
+        },
+        {
+          "id": "D",
+          "text": "It handles communication between upper and lower layers."
+        },
+        {
+          "id": "E",
+          "text": "It adds control information to network protocol layer data."
+        }
+      ],
+      "correctOptionIds": [
+        "A",
+        "C"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>The MAC sublayer is the lower of the two data link sublayers and is closest to the physical layer. The two primary functions of the MAC sublayer are to encapsulate the data from the upper layer protocols and to control access to the media.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-5-10-network-fundamentals-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m5-10-q068",
+      "moduleId": "iao-m5-10",
+      "moduleLabel": "IAO Modules 5-10: Network Fundamentals",
+      "moduleShortLabel": "IAO 5-10",
+      "questionNumber": 68,
+      "type": "single",
+      "promptHtml": "<p><strong>Which field in an IPv4 packet header will typically stay the same during its transmission?</strong></p>",
+      "promptText": "Which field in an IPv4 packet header will typically stay the same during its transmission?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Flag"
+        },
+        {
+          "id": "B",
+          "text": "Time-to-Live"
+        },
+        {
+          "id": "C",
+          "text": "Packet Length"
+        },
+        {
+          "id": "D",
+          "text": "Destination Address"
+        }
+      ],
+      "correctOptionIds": [
+        "D"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>The value in the Destination Address field in an IPv4 header will stay the same during its transmission. The other options might change during its transmission.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-5-10-network-fundamentals-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m5-10-q069",
+      "moduleId": "iao-m5-10",
+      "moduleLabel": "IAO Modules 5-10: Network Fundamentals",
+      "moduleShortLabel": "IAO 5-10",
+      "questionNumber": 69,
+      "type": "study",
+      "promptHtml": "<p><strong>Match each statement about FTP communications to the connection it describes. (Not all options are used.)</strong></p>\n<div id=\"attachment_71895\" style=\"width: 915px\" class=\"wp-caption aligncenter\"><img src=\"assets/exhibits/iao-m5-10/q069-1-7477bd0c12.jpg\" alt=\"CyberOps Associate (Version 1.0) - Modules 5 - 10: Network Fundamentals Group Exam\" /><p id=\"caption-attachment-71895\" class=\"wp-caption-text\">CyberOps Associate (Version 1.0) &#8211; Modules 5 &#8211; 10: Network Fundamentals Group Exam</p></div>",
+      "promptText": "Match each statement about FTP communications to the connection it describes. (Not all options are used.)\nCyberOps Associate (Version 1.0) – Modules 5 – 10: Network Fundamentals Group Exam",
+      "options": [],
+      "correctOptionIds": [],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Both connections that are required for FTP operations are established from the client to the FTP server. The client first opens a control connection via TCP port 21. The client then opens a data connection for the actual file transfer via TCP port 20.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-5-10-network-fundamentals-group-exam-answers.html",
+      "assetPaths": [
+        "assets/exhibits/iao-m5-10/q069-1-7477bd0c12.jpg"
+      ]
+    },
+    {
+      "id": "iao-m5-10-q070",
+      "moduleId": "iao-m5-10",
+      "moduleLabel": "IAO Modules 5-10: Network Fundamentals",
+      "moduleShortLabel": "IAO 5-10",
+      "questionNumber": 70,
+      "type": "multiple",
+      "promptHtml": "<p><strong>What are the two sizes (minimum and expected maximum) of an Ethernet frame? (Choose two.)</strong></p>",
+      "promptText": "What are the two sizes (minimum and expected maximum) of an Ethernet frame? (Choose two.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "128 bytes"
+        },
+        {
+          "id": "B",
+          "text": "1024 bytes"
+        },
+        {
+          "id": "C",
+          "text": "1518 bytes"
+        },
+        {
+          "id": "D",
+          "text": "64 bytes"
+        },
+        {
+          "id": "E",
+          "text": "56 bytes"
+        }
+      ],
+      "correctOptionIds": [
+        "C",
+        "D"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>The minimum Ethernet frame is 64 bytes. The maximum expected Ethernet frame is 1518 bytes. A network technician must know the minimum and expected maximum frame size in order to recognize runt and jumbo frames.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-5-10-network-fundamentals-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m11-12-q001",
+      "moduleId": "iao-m11-12",
+      "moduleLabel": "IAO Modules 11-12: Network Infrastructure Security",
+      "moduleShortLabel": "IAO 11-12",
+      "questionNumber": 1,
+      "type": "single",
+      "promptHtml": "<p><strong>What is an advantage of HIPS that is not provided by IDS?</strong></p><div class=\"92f2483bb651eed307c93e619d752c78\" data-index=\"2\" style=\"float: none; margin:10px 0 10px 0; text-align:center;\">\n<div id=\"adngin-incontent_auto_large-0\"></div>\n</div>",
+      "promptText": "What is an advantage of HIPS that is not provided by IDS?",
+      "options": [
+        {
+          "id": "A",
+          "text": "HIPS protects critical system resources and monitors operating system processes."
+        },
+        {
+          "id": "B",
+          "text": "HIPS deploys sensors at network entry points and protects critical network segments."
+        },
+        {
+          "id": "C",
+          "text": "HIPS monitors network processes and protects critical files."
+        },
+        {
+          "id": "D",
+          "text": "HIPS provides quick analysis of events through detailed logging."
+        }
+      ],
+      "correctOptionIds": [
+        "A"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Network-based IDS (NIDS) sensors are typically deployed in offline mode. They do not protect individual hosts. Host-based IPS (HIPS) is software installed on a single host to monitor and analyze suspicious activity. It can monitor and protect operating system and critical system processes that are specific to that host. HIPS can be thought of as a combination of antivirus software, antimalware software, and a firewall.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-11-12-network-infrastructure-security-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m11-12-q002",
+      "moduleId": "iao-m11-12",
+      "moduleLabel": "IAO Modules 11-12: Network Infrastructure Security",
+      "moduleShortLabel": "IAO 11-12",
+      "questionNumber": 2,
+      "type": "single",
+      "promptHtml": "<p><strong>Which statement describes a difference between RADIUS and TACACS+?</strong></p>",
+      "promptText": "Which statement describes a difference between RADIUS and TACACS+?",
+      "options": [
+        {
+          "id": "A",
+          "text": "RADIUS separates authentication and authorization whereas TACACS+ combines them as one process."
+        },
+        {
+          "id": "B",
+          "text": "RADIUS is supported by the Cisco Secure ACS software whereas TACACS+ is not."
+        },
+        {
+          "id": "C",
+          "text": "RADIUS uses TCP whereas TACACS+ uses UDP."
+        },
+        {
+          "id": "D",
+          "text": "RADIUS encrypts only the password whereas TACACS+ encrypts all communication."
+        }
+      ],
+      "correctOptionIds": [
+        "D"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>TACACS+ uses TCP, encrypts the entire packet (not just the password), and separates authentication and authorization into two distinct processes. Both protocols are supported by the Cisco Secure ACS software.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-11-12-network-infrastructure-security-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m11-12-q003",
+      "moduleId": "iao-m11-12",
+      "moduleLabel": "IAO Modules 11-12: Network Infrastructure Security",
+      "moduleShortLabel": "IAO 11-12",
+      "questionNumber": 3,
+      "type": "multiple",
+      "promptHtml": "<p><strong>What are two disadvantages of using an IDS? (Choose two.) </strong></p>",
+      "promptText": "What are two disadvantages of using an IDS? (Choose two.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "The IDS does not stop malicious traffic."
+        },
+        {
+          "id": "B",
+          "text": "The IDS works offline using copies of network traffic."
+        },
+        {
+          "id": "C",
+          "text": "The IDS has no impact on traffic."
+        },
+        {
+          "id": "D",
+          "text": "The IDS analyzes actual forwarded packets."
+        },
+        {
+          "id": "E",
+          "text": "The IDS requires other devices to respond to attacks."
+        }
+      ],
+      "correctOptionIds": [
+        "A",
+        "E"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>The disadvantage of operating with mirrored traffic is that the IDS cannot stop malicious single-packet attacks from reaching the target before responding to the attack. Also, an IDS often requires assistance from other networking devices, such as routers and firewalls, to respond to an attack. An advantage of an IDS is that by working offline using mirrored traffic, it has no impact on traffic flow.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-11-12-network-infrastructure-security-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m11-12-q004",
+      "moduleId": "iao-m11-12",
+      "moduleLabel": "IAO Modules 11-12: Network Infrastructure Security",
+      "moduleShortLabel": "IAO 11-12",
+      "questionNumber": 4,
+      "type": "single",
+      "promptHtml": "<p><strong>Which statement describes one of the rules that govern interface behavior in the context of implementing a zone-based policy firewall configuration?</strong></p>",
+      "promptText": "Which statement describes one of the rules that govern interface behavior in the context of implementing a zone-based policy firewall configuration?",
+      "options": [
+        {
+          "id": "A",
+          "text": "An administrator can assign interfaces to zones, regardless of whether the zone has been configured."
+        },
+        {
+          "id": "B",
+          "text": "An administrator can assign an interface to multiple security zones."
+        },
+        {
+          "id": "C",
+          "text": "By default, traffic is allowed to flow among interfaces that are members of the same zone."
+        },
+        {
+          "id": "D",
+          "text": "By default, traffic is allowed to flow between a zone member interface and any interface that is not a zone member."
+        }
+      ],
+      "correctOptionIds": [
+        "C"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>An interface can belong to only one zone. Creating a zone is the first step in configuring a zone-based policy firewall. A zone cannot be assigned to an interface if the zone has not been created. Traffic can never flow between an interface that is assigned to a zone and an interface that has not been assigned to a zone.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-11-12-network-infrastructure-security-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m11-12-q005",
+      "moduleId": "iao-m11-12",
+      "moduleLabel": "IAO Modules 11-12: Network Infrastructure Security",
+      "moduleShortLabel": "IAO 11-12",
+      "questionNumber": 5,
+      "type": "single",
+      "promptHtml": "<p><strong>Which technique is necessary to ensure a private transfer of data using a VPN?</strong></p>",
+      "promptText": "Which technique is necessary to ensure a private transfer of data using a VPN?",
+      "options": [
+        {
+          "id": "A",
+          "text": "encryption"
+        },
+        {
+          "id": "B",
+          "text": "virtualization"
+        },
+        {
+          "id": "C",
+          "text": "scalability"
+        },
+        {
+          "id": "D",
+          "text": "authorization"
+        }
+      ],
+      "correctOptionIds": [
+        "A"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Confidential and secure transfers of data with VPNs require data encryption.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-11-12-network-infrastructure-security-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m11-12-q006",
+      "moduleId": "iao-m11-12",
+      "moduleLabel": "IAO Modules 11-12: Network Infrastructure Security",
+      "moduleShortLabel": "IAO 11-12",
+      "questionNumber": 6,
+      "type": "single",
+      "promptHtml": "<p><strong>What is the function of the distribution layer of the three-layer network design model?</strong></p>",
+      "promptText": "What is the function of the distribution layer of the three-layer network design model?",
+      "options": [
+        {
+          "id": "A",
+          "text": "providing direct access to the network"
+        },
+        {
+          "id": "B",
+          "text": "providing secure access to the Internet"
+        },
+        {
+          "id": "C",
+          "text": "aggregating access layer connections"
+        },
+        {
+          "id": "D",
+          "text": "providing high speed connection to the network edge"
+        }
+      ],
+      "correctOptionIds": [
+        "C"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>The function of the distribution layer is to provide connectivity to services and to aggregate the access layer connections</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-11-12-network-infrastructure-security-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m11-12-q007",
+      "moduleId": "iao-m11-12",
+      "moduleLabel": "IAO Modules 11-12: Network Infrastructure Security",
+      "moduleShortLabel": "IAO 11-12",
+      "questionNumber": 7,
+      "type": "multiple",
+      "promptHtml": "<p><strong>What two components of traditional web security appliances are examples of functions integrated into a Cisco Web Security Appliance? (Choose two.)</strong></p>",
+      "promptText": "What two components of traditional web security appliances are examples of functions integrated into a Cisco Web Security Appliance? (Choose two.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "email virus and spam filtering"
+        },
+        {
+          "id": "B",
+          "text": "VPN connection"
+        },
+        {
+          "id": "C",
+          "text": "firewall"
+        },
+        {
+          "id": "D",
+          "text": "web reporting"
+        },
+        {
+          "id": "E",
+          "text": "URL filtering"
+        }
+      ],
+      "correctOptionIds": [
+        "D",
+        "E"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>The Cisco Web Security Appliance is a secure web gateway which combines advanced malware protection, application visibility and control, acceptable use policy controls, reporting, and secure mobility functions. With traditional web security appliances, these functions are typically provided through multiple appliances. It is not a firewall appliance in that it only filters web traffic. It does not provide VPN connections, nor does it provide email virus and spam filtering; the Cisco Email Security Appliance provides these functions.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-11-12-network-infrastructure-security-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m11-12-q008",
+      "moduleId": "iao-m11-12",
+      "moduleLabel": "IAO Modules 11-12: Network Infrastructure Security",
+      "moduleShortLabel": "IAO 11-12",
+      "questionNumber": 8,
+      "type": "single",
+      "promptHtml": "<p><strong>Which AAA component can be established using token cards?</strong></p>",
+      "promptText": "Which AAA component can be established using token cards?",
+      "options": [
+        {
+          "id": "A",
+          "text": "authentication"
+        },
+        {
+          "id": "B",
+          "text": "accounting"
+        },
+        {
+          "id": "C",
+          "text": "authorization"
+        },
+        {
+          "id": "D",
+          "text": "auditing"
+        }
+      ],
+      "correctOptionIds": [
+        "A"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>The authentication component of AAA is established using username and password combinations, challenge and response questions, and token cards. The authorization component of AAA determines which resources the user can access and which operations the user is allowed to perform. The accounting and auditing component of AAA keeps track of how network resources are used.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-11-12-network-infrastructure-security-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m11-12-q009",
+      "moduleId": "iao-m11-12",
+      "moduleLabel": "IAO Modules 11-12: Network Infrastructure Security",
+      "moduleShortLabel": "IAO 11-12",
+      "questionNumber": 9,
+      "type": "single",
+      "promptHtml": "<p><strong>Which statement describes a VPN?</strong></p>",
+      "promptText": "Which statement describes a VPN?",
+      "options": [
+        {
+          "id": "A",
+          "text": "VPNs use open source virtualization software to create the tunnel through the Internet."
+        },
+        {
+          "id": "B",
+          "text": "VPNs use dedicated physical connections to transfer data between remote users."
+        },
+        {
+          "id": "C",
+          "text": "VPNs use logical connections to create public networks through the Internet."
+        },
+        {
+          "id": "D",
+          "text": "VPNs use virtual connections to create a private network through a public network."
+        }
+      ],
+      "correctOptionIds": [
+        "D"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>A VPN is a private network that is created over a public network. Instead of using dedicated physical connections, a VPN uses virtual connections routed through a public network between two network devices.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-11-12-network-infrastructure-security-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m11-12-q010",
+      "moduleId": "iao-m11-12",
+      "moduleLabel": "IAO Modules 11-12: Network Infrastructure Security",
+      "moduleShortLabel": "IAO 11-12",
+      "questionNumber": 10,
+      "type": "single",
+      "promptHtml": "<p><strong>What is a host-based intrusion detection system (HIDS)?</strong></p>",
+      "promptText": "What is a host-based intrusion detection system (HIDS)?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It detects and stops potential direct attacks but does not scan for malware."
+        },
+        {
+          "id": "B",
+          "text": "It is an agentless system that scans files on a host for potential malware."
+        },
+        {
+          "id": "C",
+          "text": "It identifies potential attacks and sends alerts but does not stop the traffic."
+        },
+        {
+          "id": "D",
+          "text": "It combines the functionalities of antimalware applications with firewall protection."
+        }
+      ],
+      "correctOptionIds": [
+        "D"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Accurrent HIDS is a comprehensive security application that combines the functionalities of antimalware applications with firewall protection. An HIDS not only detects malware but also prevents it from executing.<br />\nBecause the HIDS runs directly on the host, itis considered an agent-based system.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-11-12-network-infrastructure-security-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m11-12-q011",
+      "moduleId": "iao-m11-12",
+      "moduleLabel": "IAO Modules 11-12: Network Infrastructure Security",
+      "moduleShortLabel": "IAO 11-12",
+      "questionNumber": 11,
+      "type": "multiple",
+      "promptHtml": "<p><strong>Which two devices would commonly be found at the access layer of the hierarchical enterprise LAN design model? (Choose two.)</strong></p>",
+      "promptText": "Which two devices would commonly be found at the access layer of the hierarchical enterprise LAN design model? (Choose two.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "modular switch"
+        },
+        {
+          "id": "B",
+          "text": "Layer 3 device"
+        },
+        {
+          "id": "C",
+          "text": "Layer 2 switch"
+        },
+        {
+          "id": "D",
+          "text": "firewall"
+        },
+        {
+          "id": "E",
+          "text": "access point"
+        }
+      ],
+      "correctOptionIds": [
+        "C",
+        "E"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>While some designs do route at the access layer, the two devices that should always be placed at the access layer of the hierarchical design model are an access point and a Layer 2 switch. A modular switch is commonly used at the core layer. Routing by a Layer 3 device is commonly used in the distribution layer. The firewall is a device in the Internet edge network design.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-11-12-network-infrastructure-security-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m11-12-q012",
+      "moduleId": "iao-m11-12",
+      "moduleLabel": "IAO Modules 11-12: Network Infrastructure Security",
+      "moduleShortLabel": "IAO 11-12",
+      "questionNumber": 12,
+      "type": "multiple",
+      "promptHtml": "<p><strong>Which two statements are true about NTP servers in an enterprise network? (Choose two.)</strong></p>",
+      "promptText": "Which two statements are true about NTP servers in an enterprise network? (Choose two.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "There can only be one NTP server on an enterprise network."
+        },
+        {
+          "id": "B",
+          "text": "NTP servers at stratum 1 are directly connected to an authoritative time source."
+        },
+        {
+          "id": "C",
+          "text": "NTP servers control the mean time between failures (MTBF) for key network devices."
+        },
+        {
+          "id": "D",
+          "text": "NTP servers ensure an accurate time stamp on logging and debugging information."
+        },
+        {
+          "id": "E",
+          "text": "All NTP servers synchronize directly to a stratum 1 time source."
+        }
+      ],
+      "correctOptionIds": [
+        "B",
+        "D"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Network Time Protocol (NTP) is used to synchronize the time across all devices on the network to make sure accurate timestamping on devices for managing, securing and troubleshooting. NTP networks use a hierarchical system of time sources. Each level in this hierarchical system is called a stratum. The stratum 1 devices are directly connected to the authoritative time sources.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-11-12-network-infrastructure-security-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m11-12-q013",
+      "moduleId": "iao-m11-12",
+      "moduleLabel": "IAO Modules 11-12: Network Infrastructure Security",
+      "moduleShortLabel": "IAO 11-12",
+      "questionNumber": 13,
+      "type": "single",
+      "promptHtml": "<p><strong>In the data gathering process, which type of device will listen for traffic, but only gather traffic statistics?</strong></p>",
+      "promptText": "In the data gathering process, which type of device will listen for traffic, but only gather traffic statistics?",
+      "options": [
+        {
+          "id": "A",
+          "text": "NetFlow collector"
+        },
+        {
+          "id": "B",
+          "text": "NMS"
+        },
+        {
+          "id": "C",
+          "text": "SNMP agent"
+        },
+        {
+          "id": "D",
+          "text": "syslog server"
+        }
+      ],
+      "correctOptionIds": [
+        "A"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>A NetFlow collector is the device that receives traffic statistics from networking devices. NetFlow only gathers traffic statistics, unlike syslog and SNMP which can collect various network events.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-11-12-network-infrastructure-security-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m11-12-q014",
+      "moduleId": "iao-m11-12",
+      "moduleLabel": "IAO Modules 11-12: Network Infrastructure Security",
+      "moduleShortLabel": "IAO 11-12",
+      "questionNumber": 14,
+      "type": "multiple",
+      "promptHtml": "<p><strong>Which two protocols are link-state routing protocols? (Choose two.)</strong></p>",
+      "promptText": "Which two protocols are link-state routing protocols? (Choose two.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "ISIS"
+        },
+        {
+          "id": "B",
+          "text": "EIGRP"
+        },
+        {
+          "id": "C",
+          "text": "BGP"
+        },
+        {
+          "id": "D",
+          "text": "RIP"
+        },
+        {
+          "id": "E",
+          "text": "OSPF"
+        }
+      ],
+      "correctOptionIds": [
+        "A",
+        "E"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>ISIS and OSPF are link-state routing protocols. EIGRP and RIP are distance vector routing protocols. BGP is a path vector protocol.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-11-12-network-infrastructure-security-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m11-12-q015",
+      "moduleId": "iao-m11-12",
+      "moduleLabel": "IAO Modules 11-12: Network Infrastructure Security",
+      "moduleShortLabel": "IAO 11-12",
+      "questionNumber": 15,
+      "type": "single",
+      "promptHtml": "<p><strong>What type of route is created when a network administrator manually configures a route that has an active exit interface?</strong></p>",
+      "promptText": "What type of route is created when a network administrator manually configures a route that has an active exit interface?",
+      "options": [
+        {
+          "id": "A",
+          "text": "directly connected"
+        },
+        {
+          "id": "B",
+          "text": "static"
+        },
+        {
+          "id": "C",
+          "text": "local"
+        },
+        {
+          "id": "D",
+          "text": "dynamic"
+        }
+      ],
+      "correctOptionIds": [
+        "B"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>A static route is one that is manually configured by the network administrator.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-11-12-network-infrastructure-security-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m11-12-q016",
+      "moduleId": "iao-m11-12",
+      "moduleLabel": "IAO Modules 11-12: Network Infrastructure Security",
+      "moduleShortLabel": "IAO 11-12",
+      "questionNumber": 16,
+      "type": "single",
+      "promptHtml": "<p><strong>Which characteristic describes a wireless client operating in active mode?</strong></p><div class=\"92f2483bb651eed307c93e619d752c78\" data-index=\"1\" style=\"float: none; margin:10px 0 10px 0; text-align:center;\">\n<div id=\"adngin-incontent_auto-0\"></div>\n</div>",
+      "promptText": "Which characteristic describes a wireless client operating in active mode?",
+      "options": [
+        {
+          "id": "A",
+          "text": "must be configured for security before attaching to an AP"
+        },
+        {
+          "id": "B",
+          "text": "broadcasts probes that request the SSID"
+        },
+        {
+          "id": "C",
+          "text": "ability to dynamically change channels"
+        },
+        {
+          "id": "D",
+          "text": "must know the SSID to connect to an AP"
+        }
+      ],
+      "correctOptionIds": [
+        "D"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>A wireless client operating in active mode must know the name of the SSID. Probe requests are broadcast by a client across multiple channels and include the SSID name and supported standards. Active mode is used if an AP is configured to not broadcast beacon frames.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-11-12-network-infrastructure-security-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m11-12-q017",
+      "moduleId": "iao-m11-12",
+      "moduleLabel": "IAO Modules 11-12: Network Infrastructure Security",
+      "moduleShortLabel": "IAO 11-12",
+      "questionNumber": 17,
+      "type": "multiple",
+      "promptHtml": "<p><strong>What are two types of addresses found on network end devices? (Choose two.)</strong></p>",
+      "promptText": "What are two types of addresses found on network end devices? (Choose two.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "return"
+        },
+        {
+          "id": "B",
+          "text": "IP"
+        },
+        {
+          "id": "C",
+          "text": "MAC"
+        },
+        {
+          "id": "D",
+          "text": "TCP"
+        },
+        {
+          "id": "E",
+          "text": "UDP"
+        }
+      ],
+      "correctOptionIds": [
+        "B",
+        "C"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Intermediary devices use two types of addresses when sending messages to the final destination device, MAC and IP addresses. TCP and UDP are protocols used at Layer 4 to identify what port numbers are being used on the source and destination devices. A return address is used when mailing a letter, not in networking.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-11-12-network-infrastructure-security-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m11-12-q018",
+      "moduleId": "iao-m11-12",
+      "moduleLabel": "IAO Modules 11-12: Network Infrastructure Security",
+      "moduleShortLabel": "IAO 11-12",
+      "questionNumber": 18,
+      "type": "single",
+      "promptHtml": "<p><strong>What is a characteristic of the WLAN passive discover mode?</strong></p>",
+      "promptText": "What is a characteristic of the WLAN passive discover mode?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The client must know the name of the SSID to begin the discover process."
+        },
+        {
+          "id": "B",
+          "text": "The client begins the discover process by sending a probe request."
+        },
+        {
+          "id": "C",
+          "text": "The beaconing feature on the AP is disabled."
+        },
+        {
+          "id": "D",
+          "text": "The AP periodically sends beacon frames containing the SSID."
+        }
+      ],
+      "correctOptionIds": [
+        "D"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>In passive mode, the wireless clients learn what networks and APs are available. The client learns this information from beacon frames, sent by the APs, that contain the WLAN SSID, supported standards, and security settings.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-11-12-network-infrastructure-security-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m11-12-q019",
+      "moduleId": "iao-m11-12",
+      "moduleLabel": "IAO Modules 11-12: Network Infrastructure Security",
+      "moduleShortLabel": "IAO 11-12",
+      "questionNumber": 19,
+      "type": "single",
+      "promptHtml": "<p><strong>What is a characteristic of a routed port that is configured on a Cisco switch?</strong></p>",
+      "promptText": "What is a characteristic of a routed port that is configured on a Cisco switch?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It supports subinterfaces."
+        },
+        {
+          "id": "B",
+          "text": "It is associated with a single VLAN."
+        },
+        {
+          "id": "C",
+          "text": "It runs STP to prevent loops."
+        },
+        {
+          "id": "D",
+          "text": "It is assigned an IP address."
+        }
+      ],
+      "correctOptionIds": [
+        "D"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Routed ports on a Cisco switch behave similarly to those on a router. They are configured with an IP address and forward Layer 3 packets. Unlike Layer 2 switch interfaces, routed ports do not support STP, nor do they support subinterfaces as routers do.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-11-12-network-infrastructure-security-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m11-12-q020",
+      "moduleId": "iao-m11-12",
+      "moduleLabel": "IAO Modules 11-12: Network Infrastructure Security",
+      "moduleShortLabel": "IAO 11-12",
+      "questionNumber": 20,
+      "type": "single",
+      "promptHtml": "<p><strong>What action does an Ethernet switch take when it receives a frame with an unknown Layer 2 source address?</strong></p>",
+      "promptText": "What action does an Ethernet switch take when it receives a frame with an unknown Layer 2 source address?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It forwards the frame out all interfaces except the interface on which it was received."
+        },
+        {
+          "id": "B",
+          "text": "It forwards the frame to the default gateway."
+        },
+        {
+          "id": "C",
+          "text": "It records the source address in the address table of the switch."
+        },
+        {
+          "id": "D",
+          "text": "It drops the frame."
+        }
+      ],
+      "correctOptionIds": [
+        "C"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>When an Ethernet switch receives a frame with an unknown Layer 2 address, the switch records that address in the address table.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-11-12-network-infrastructure-security-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m11-12-q021",
+      "moduleId": "iao-m11-12",
+      "moduleLabel": "IAO Modules 11-12: Network Infrastructure Security",
+      "moduleShortLabel": "IAO 11-12",
+      "questionNumber": 21,
+      "type": "study",
+      "promptHtml": "<p><strong>. Match each device to a category.</strong><br />\n<img src=\"assets/exhibits/iao-m11-12/q021-1-4f2a62b48e.jpg\" alt=\"\" /></p>",
+      "promptText": ". Match each device to a category.",
+      "options": [],
+      "correctOptionIds": [],
+      "solutionHtml": "",
+      "explanationHtml": "",
+      "sourceUrl": "https://itexamanswers.net/modules-11-12-network-infrastructure-security-group-exam-answers.html",
+      "assetPaths": [
+        "assets/exhibits/iao-m11-12/q021-1-4f2a62b48e.jpg"
+      ]
+    },
+    {
+      "id": "iao-m11-12-q022",
+      "moduleId": "iao-m11-12",
+      "moduleLabel": "IAO Modules 11-12: Network Infrastructure Security",
+      "moduleShortLabel": "IAO 11-12",
+      "questionNumber": 22,
+      "type": "single",
+      "promptHtml": "<p><strong>Which routing protocol is used to exchange routes between internet service providers?</strong></p>",
+      "promptText": "Which routing protocol is used to exchange routes between internet service providers?",
+      "options": [
+        {
+          "id": "A",
+          "text": "OSPF"
+        },
+        {
+          "id": "B",
+          "text": "EIGRP"
+        },
+        {
+          "id": "C",
+          "text": "ISIS"
+        },
+        {
+          "id": "D",
+          "text": "BGP"
+        },
+        {
+          "id": "E",
+          "text": "RIP"
+        }
+      ],
+      "correctOptionIds": [
+        "D"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>BGP is a path vector routing protocol and it is used by internet service providers to exchange routes.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-11-12-network-infrastructure-security-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m11-12-q023",
+      "moduleId": "iao-m11-12",
+      "moduleLabel": "IAO Modules 11-12: Network Infrastructure Security",
+      "moduleShortLabel": "IAO 11-12",
+      "questionNumber": 23,
+      "type": "single",
+      "promptHtml": "<p><strong>What is the first step in the CSMA/CA process when a wireless client is attempting to communicate on the wireless network?</strong></p>",
+      "promptText": "What is the first step in the CSMA/CA process when a wireless client is attempting to communicate on the wireless network?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The client sends an RTS message to the AP."
+        },
+        {
+          "id": "B",
+          "text": "The client sends a test frame onto the channel."
+        },
+        {
+          "id": "C",
+          "text": "The client listens for traffic on the channel."
+        },
+        {
+          "id": "D",
+          "text": "The AP sends a CTS message to the client."
+        }
+      ],
+      "correctOptionIds": [
+        "C"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>When a wireless client is attempting to communicate on the network, it will first listen to the channel to be sure it is idle. Next, the client sends an RTS message to the AP to request dedicated access to the network. The AP will then send a CTS message granting access to the client. The client will then transmit data.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-11-12-network-infrastructure-security-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m11-12-q024",
+      "moduleId": "iao-m11-12",
+      "moduleLabel": "IAO Modules 11-12: Network Infrastructure Security",
+      "moduleShortLabel": "IAO 11-12",
+      "questionNumber": 24,
+      "type": "single",
+      "promptHtml": "<p><strong>What Wi-Fi management frame is regularly broadcast by APs to announce their presence?</strong></p>",
+      "promptText": "What Wi-Fi management frame is regularly broadcast by APs to announce their presence?",
+      "options": [
+        {
+          "id": "A",
+          "text": "authentication"
+        },
+        {
+          "id": "B",
+          "text": "beacon"
+        },
+        {
+          "id": "C",
+          "text": "probe"
+        },
+        {
+          "id": "D",
+          "text": "association"
+        }
+      ],
+      "correctOptionIds": [
+        "B"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Beacon frames are broadcast periodically by the AP to advertise its wireless networks to potential clients. Probing, association, and authentication frames are only sent when a client is associating to the AP.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-11-12-network-infrastructure-security-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m11-12-q025",
+      "moduleId": "iao-m11-12",
+      "moduleLabel": "IAO Modules 11-12: Network Infrastructure Security",
+      "moduleShortLabel": "IAO 11-12",
+      "questionNumber": 25,
+      "type": "multiple",
+      "promptHtml": "<p><strong>What are the three parts of all Layer 2 frames? (Choose three.)</strong></p>",
+      "promptText": "What are the three parts of all Layer 2 frames? (Choose three.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "source and destination IP address"
+        },
+        {
+          "id": "B",
+          "text": "payload"
+        },
+        {
+          "id": "C",
+          "text": "sequence number"
+        },
+        {
+          "id": "D",
+          "text": "frame check sequence"
+        },
+        {
+          "id": "E",
+          "text": "time-to-live"
+        },
+        {
+          "id": "F",
+          "text": "header"
+        }
+      ],
+      "correctOptionIds": [
+        "B",
+        "D",
+        "F"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Layer 2 frames have three components: the header, the payload, and a frame check sequence at the end.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-11-12-network-infrastructure-security-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m11-12-q026",
+      "moduleId": "iao-m11-12",
+      "moduleLabel": "IAO Modules 11-12: Network Infrastructure Security",
+      "moduleShortLabel": "IAO 11-12",
+      "questionNumber": 26,
+      "type": "single",
+      "promptHtml": "<p><strong>What is a function of SNMP?</strong></p>",
+      "promptText": "What is a function of SNMP?",
+      "options": [
+        {
+          "id": "A",
+          "text": "synchronizes the time across all devices on the network"
+        },
+        {
+          "id": "B",
+          "text": "captures packets entering and exiting the network interface card"
+        },
+        {
+          "id": "C",
+          "text": "provides a message format for communication between network device managers and agents"
+        },
+        {
+          "id": "D",
+          "text": "provides statistical analysis on packets flowing through a Cisco router or multilayer switch"
+        }
+      ],
+      "correctOptionIds": [
+        "C"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>SNMP is an application layer protocol that allows administrators to manage devices on the network by providing a messaging format for communication between network device managers and agents.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-11-12-network-infrastructure-security-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m11-12-q027",
+      "moduleId": "iao-m11-12",
+      "moduleLabel": "IAO Modules 11-12: Network Infrastructure Security",
+      "moduleShortLabel": "IAO 11-12",
+      "questionNumber": 27,
+      "type": "single",
+      "promptHtml": "<p><strong>Which firewall feature is used to ensure that packets coming into a network are legitimate responses to requests initiated from internal hosts?</strong></p>",
+      "promptText": "Which firewall feature is used to ensure that packets coming into a network are legitimate responses to requests initiated from internal hosts?",
+      "options": [
+        {
+          "id": "A",
+          "text": "application filtering"
+        },
+        {
+          "id": "B",
+          "text": "stateful packet inspection"
+        },
+        {
+          "id": "C",
+          "text": "packet filtering"
+        },
+        {
+          "id": "D",
+          "text": "URL filtering"
+        }
+      ],
+      "correctOptionIds": [
+        "B"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Stateful packet inspection on a firewall checks that incoming packets are actually legitimate responses to requests originating from hosts inside the network. Packet filtering can be used to permit or deny access to resources based on IP or MAC address. Application filtering can permit or deny access based on port number. URL filtering is used to permit or deny access based on URL or on keywords.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-11-12-network-infrastructure-security-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m11-12-q028",
+      "moduleId": "iao-m11-12",
+      "moduleLabel": "IAO Modules 11-12: Network Infrastructure Security",
+      "moduleShortLabel": "IAO 11-12",
+      "questionNumber": 28,
+      "type": "single",
+      "promptHtml": "<p><strong>In which memory location is the routing table of a router maintained?</strong></p>",
+      "promptText": "In which memory location is the routing table of a router maintained?",
+      "options": [
+        {
+          "id": "A",
+          "text": "ROM"
+        },
+        {
+          "id": "B",
+          "text": "flash"
+        },
+        {
+          "id": "C",
+          "text": "NVRAM"
+        },
+        {
+          "id": "D",
+          "text": "RAM"
+        }
+      ],
+      "correctOptionIds": [
+        "D"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>The routing table of a router is maintained in RAM, which is volatile memory. If a router loses power or is rebooted, the content of RAM is lost and the routing table must be rebuilt.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-11-12-network-infrastructure-security-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m11-12-q029",
+      "moduleId": "iao-m11-12",
+      "moduleLabel": "IAO Modules 11-12: Network Infrastructure Security",
+      "moduleShortLabel": "IAO 11-12",
+      "questionNumber": 29,
+      "type": "multiple",
+      "promptHtml": "<p><strong>Lightweight access points forward data between which two devices on the network? (Choose two.)</strong></p>",
+      "promptText": "Lightweight access points forward data between which two devices on the network? (Choose two.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "wireless router"
+        },
+        {
+          "id": "B",
+          "text": "default gateway"
+        },
+        {
+          "id": "C",
+          "text": "wireless LAN controller"
+        },
+        {
+          "id": "D",
+          "text": "autonomous access point"
+        },
+        {
+          "id": "E",
+          "text": "wireless client"
+        }
+      ],
+      "correctOptionIds": [
+        "C",
+        "E"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>In a wireless deployment that is using lightweight access points (LWAPs), the LWAP forwards data between the wireless clients and the wireless LAN controller (WLC).</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-11-12-network-infrastructure-security-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m11-12-q030",
+      "moduleId": "iao-m11-12",
+      "moduleLabel": "IAO Modules 11-12: Network Infrastructure Security",
+      "moduleShortLabel": "IAO 11-12",
+      "questionNumber": 30,
+      "type": "multiple",
+      "promptHtml": "<p><strong>A Cisco router is running IOS 15. What are the two routing table entry types that will be added when a network administrator brings an interface up and assigns an IP address to the interface? (Choose two.)</strong></p>",
+      "promptText": "A Cisco router is running IOS 15. What are the two routing table entry types that will be added when a network administrator brings an interface up and assigns an IP address to the interface? (Choose two.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "route that is manually entered by a network administrator"
+        },
+        {
+          "id": "B",
+          "text": "local route interface"
+        },
+        {
+          "id": "C",
+          "text": "route that is learned via OSPF"
+        },
+        {
+          "id": "D",
+          "text": "directly connected interface"
+        },
+        {
+          "id": "E",
+          "text": "route that is learned via EIGRP"
+        }
+      ],
+      "correctOptionIds": [
+        "B",
+        "D"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>A local route interface routing table entry is found when a router runs IOS 15 or higher or if IPv6 routing is enabled. Whenever an interface is addressed and enabled (made active), a directly connected interface is automatically shown in the routing table.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-11-12-network-infrastructure-security-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m11-12-q031",
+      "moduleId": "iao-m11-12",
+      "moduleLabel": "IAO Modules 11-12: Network Infrastructure Security",
+      "moduleShortLabel": "IAO 11-12",
+      "questionNumber": 31,
+      "type": "study",
+      "promptHtml": "<p><strong>Match the secunty service with the description.</strong><br />\n<strong>Match the security service with the description.</strong><br />\n<img src=\"assets/exhibits/iao-m11-12/q031-1-5e2f670edd.jpg\" alt=\"\" /></p>",
+      "promptText": "Match the secunty service with the description.\nMatch the security service with the description.",
+      "options": [],
+      "correctOptionIds": [],
+      "solutionHtml": "<table>\n<tbody style=\"content-visibility: auto;contain-intrinsic-size: auto 242px;\">\n<tr>\n<td>Allows administrators to manage network devices</td>\n<td>SNMP</td>\n</tr>\n<tr>\n<td>Provides statistics on packets flowing through a Cisco router or multilayer switch</td>\n<td>NetFlow</td>\n</tr>\n<tr>\n<td>Allows a switch to make duplicate copies of traffic that is sent to a traffic analyzer</td>\n<td>Port mirroring</td>\n</tr>\n<tr>\n<td>A series of commands that control whether a device forwards or drops packets</td>\n<td>ACL</td>\n</tr>\n</tbody>\n</table>",
+      "explanationHtml": "",
+      "sourceUrl": "https://itexamanswers.net/modules-11-12-network-infrastructure-security-group-exam-answers.html",
+      "assetPaths": [
+        "assets/exhibits/iao-m11-12/q031-1-5e2f670edd.jpg"
+      ]
+    },
+    {
+      "id": "iao-m11-12-q032",
+      "moduleId": "iao-m11-12",
+      "moduleLabel": "IAO Modules 11-12: Network Infrastructure Security",
+      "moduleShortLabel": "IAO 11-12",
+      "questionNumber": 32,
+      "type": "study",
+      "promptHtml": "<p><strong>Match the network security device type with the descnption.</strong><br />\n<img src=\"assets/exhibits/iao-m11-12/q032-1-7bc0743d0d.jpg\" alt=\"\" /></p>",
+      "promptText": "Match the network security device type with the descnption.",
+      "options": [],
+      "correctOptionIds": [],
+      "solutionHtml": "",
+      "explanationHtml": "",
+      "sourceUrl": "https://itexamanswers.net/modules-11-12-network-infrastructure-security-group-exam-answers.html",
+      "assetPaths": [
+        "assets/exhibits/iao-m11-12/q032-1-7bc0743d0d.jpg"
+      ]
+    },
+    {
+      "id": "iao-m11-12-q033",
+      "moduleId": "iao-m11-12",
+      "moduleLabel": "IAO Modules 11-12: Network Infrastructure Security",
+      "moduleShortLabel": "IAO 11-12",
+      "questionNumber": 33,
+      "type": "single",
+      "promptHtml": "<p><strong>What is used on WLANs to avoid packet collisions?</strong></p>",
+      "promptText": "What is used on WLANs to avoid packet collisions?",
+      "options": [
+        {
+          "id": "A",
+          "text": "SVIs"
+        },
+        {
+          "id": "B",
+          "text": "STP"
+        },
+        {
+          "id": "C",
+          "text": "CSMA/CA"
+        },
+        {
+          "id": "D",
+          "text": "VLANs"
+        }
+      ],
+      "correctOptionIds": [
+        "C"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>WLANs are half-duplex networks which means that only one client can transmit or receive at any given moment. WLANs use carrier sense multiple access with collision avoidance (CSMA/CA) to determine when to send data on the network to avoid packet collisions.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-11-12-network-infrastructure-security-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m11-12-q034",
+      "moduleId": "iao-m11-12",
+      "moduleLabel": "IAO Modules 11-12: Network Infrastructure Security",
+      "moduleShortLabel": "IAO 11-12",
+      "questionNumber": 34,
+      "type": "single",
+      "promptHtml": "<p><strong>What information within a data packet does a router use to make forwarding decisions?</strong></p>",
+      "promptText": "What information within a data packet does a router use to make forwarding decisions?",
+      "options": [
+        {
+          "id": "A",
+          "text": "the destination MAC address"
+        },
+        {
+          "id": "B",
+          "text": "the destination host name"
+        },
+        {
+          "id": "C",
+          "text": "the destination service requested"
+        },
+        {
+          "id": "D",
+          "text": "the destination IP address"
+        }
+      ],
+      "correctOptionIds": [
+        "D"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>A Layer 3 device like a router uses a Layer 3 destination IP address to make a forwarding decision.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-11-12-network-infrastructure-security-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m11-12-q035",
+      "moduleId": "iao-m11-12",
+      "moduleLabel": "IAO Modules 11-12: Network Infrastructure Security",
+      "moduleShortLabel": "IAO 11-12",
+      "questionNumber": 35,
+      "type": "single",
+      "promptHtml": "<p><strong>What is a characteristic of a hub?</strong></p>",
+      "promptText": "What is a characteristic of a hub?",
+      "options": [
+        {
+          "id": "A",
+          "text": "operates at Layer 2"
+        },
+        {
+          "id": "B",
+          "text": "regenerates signals received on one port out all other ports"
+        },
+        {
+          "id": "C",
+          "text": "subdivides the network into collision domains"
+        },
+        {
+          "id": "D",
+          "text": "uses CSMA/CA to avoid collisions"
+        }
+      ],
+      "correctOptionIds": [
+        "B"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>A hub is a Layer 1 device that regenerates signals out all ports other than the ingress port. All ports on a hub belong to the same collision domain. Hubs use CSMA/CD to detect collisions on the network.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-11-12-network-infrastructure-security-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m11-12-q036",
+      "moduleId": "iao-m11-12",
+      "moduleLabel": "IAO Modules 11-12: Network Infrastructure Security",
+      "moduleShortLabel": "IAO 11-12",
+      "questionNumber": 36,
+      "type": "study",
+      "promptHtml": "<p><strong>Match the network security device type with the description.</strong><br />\n<img src=\"assets/exhibits/iao-m11-12/q036-1-a5206f8526.jpg\" alt=\"\" /></p>\n\n<div style=\"font-size: 0px; height: 0px; line-height: 0px; margin: 0; padding: 0; clear: both;\"></div>\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\n\t<nav class=\"navigation post-navigation\" aria-label=\"Posts\">\n\t\t<h2 class=\"screen-reader-text\">Post navigation</h2>\n\t\t<div class=\"nav-links\"><div class=\"nav-previous\"><a href=\"https://itexamanswers.net/modules-5-10-network-fundamentals-group-exam-answers.html\" rel=\"prev\">← Previous Article <p class=\"post-title\">Modules 5 &#8211; 10: Network Fundamentals Group Exam (Answers)</p></a></div><div class=\"nav-next\"><a href=\"https://itexamanswers.net/modules-13-17-threats-and-attacks-group-exam-answers.html\" rel=\"next\">Next Article → <p class=\"post-title\">Modules 13 &#8211; 17: Threats and Attacks Group Exam (Answers)</p></a></div></div>\n\t</nav>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"bottomad\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<div id=\"ad-bottom\" style=\"width: 970px;\"><div id=\"adngin-bottom-0\"></div></div>\t\t\t\t\t\t\t\t\t\t\t\t</div>",
+      "promptText": "Match the network security device type with the description.\nPost navigation\n← Previous Article Modules 5 – 10: Network Fundamentals Group Exam (Answers)\nNext Article → Modules 13 – 17: Threats and Attacks Group Exam (Answers)",
+      "options": [],
+      "correctOptionIds": [],
+      "solutionHtml": "",
+      "explanationHtml": "",
+      "sourceUrl": "https://itexamanswers.net/modules-11-12-network-infrastructure-security-group-exam-answers.html",
+      "assetPaths": [
+        "assets/exhibits/iao-m11-12/q036-1-a5206f8526.jpg"
+      ]
+    },
+    {
+      "id": "iao-m13-17-q001",
+      "moduleId": "iao-m13-17",
+      "moduleLabel": "IAO Modules 13-17: Threats and Attacks",
+      "moduleShortLabel": "IAO 13-17",
+      "questionNumber": 1,
+      "type": "single",
+      "promptHtml": "<p><b>What is the significant characteristic of worm malware?</b></p><div class=\"92f2483bb651eed307c93e619d752c78\" data-index=\"2\" style=\"float: none; margin:10px 0 10px 0; text-align:center;\">\n<div id=\"adngin-incontent_auto_large-0\"></div>\n</div>",
+      "promptText": "What is the significant characteristic of worm malware?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Worm malware disguises itself as legitimate software."
+        },
+        {
+          "id": "B",
+          "text": "Once installed on a host system, a worm does not replicate itself."
+        },
+        {
+          "id": "C",
+          "text": "A worm must be triggered by an event on the host system."
+        },
+        {
+          "id": "D",
+          "text": "A worm can execute independently of the host system."
+        }
+      ],
+      "correctOptionIds": [
+        "D"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Worm malware can execute and copy itself without being triggered by a host program. It is a significant network and Internet security threat.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-13-17-threats-and-attacks-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m13-17-q002",
+      "moduleId": "iao-m13-17",
+      "moduleLabel": "IAO Modules 13-17: Threats and Attacks",
+      "moduleShortLabel": "IAO 13-17",
+      "questionNumber": 2,
+      "type": "multiple",
+      "promptHtml": "<p><b>What are the three major components of a worm attack? (Choose three.)</b></p>",
+      "promptText": "What are the three major components of a worm attack? (Choose three.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "a payload"
+        },
+        {
+          "id": "B",
+          "text": "a propagation mechanism"
+        },
+        {
+          "id": "C",
+          "text": "an infecting vulnerability"
+        },
+        {
+          "id": "D",
+          "text": "a probing mechanism"
+        },
+        {
+          "id": "E",
+          "text": "an enabling vulnerability"
+        },
+        {
+          "id": "F",
+          "text": "a penetration mechanism"
+        }
+      ],
+      "correctOptionIds": [
+        "A",
+        "B",
+        "E"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>A computer can have a worm installed through an email attachment, an executable program file, or a Trojan Horse. The worm attack not only affects one computer, but replicates to other computers. What the worm leaves behind is the payload–the code that results in some action.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-13-17-threats-and-attacks-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m13-17-q003",
+      "moduleId": "iao-m13-17",
+      "moduleLabel": "IAO Modules 13-17: Threats and Attacks",
+      "moduleShortLabel": "IAO 13-17",
+      "questionNumber": 3,
+      "type": "multiple",
+      "promptHtml": "<p><b>A user is curious about how someone might know a computer has been infected with malware. What are two common malware behaviors? (Choose two.)</b></p>",
+      "promptText": "A user is curious about how someone might know a computer has been infected with malware. What are two common malware behaviors? (Choose two.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "The computer emits a hissing sound every time the pencil sharpener is used."
+        },
+        {
+          "id": "B",
+          "text": "The computer beeps once during the boot process."
+        },
+        {
+          "id": "C",
+          "text": "The computer gets increasingly slower to respond."
+        },
+        {
+          "id": "D",
+          "text": "No sound emits when an audio CD is played."
+        },
+        {
+          "id": "E",
+          "text": "The computer freezes and requires reboots."
+        }
+      ],
+      "correctOptionIds": [
+        "C",
+        "E"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Common symptoms of computers infected with malware:<br />\nAppearance of files, applications, or desktop icons<br />\nSecurity tools such as antivirus software or firewalls turned off or changed<br />\nSystem crashes<br />\nEmails spontaneously sent to others<br />\nModified or missing files<br />\nSlow system or browser response<br />\nUnfamiliar processes or services running<br />\nUnknown TCP or UDP ports open<br />\nConnections made to unknown remote devices</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-13-17-threats-and-attacks-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m13-17-q004",
+      "moduleId": "iao-m13-17",
+      "moduleLabel": "IAO Modules 13-17: Threats and Attacks",
+      "moduleShortLabel": "IAO 13-17",
+      "questionNumber": 4,
+      "type": "multiple",
+      "promptHtml": "<p><b>Which two types of attacks are examples of reconnaissance attacks? (Choose two.)</b></p>",
+      "promptText": "Which two types of attacks are examples of reconnaissance attacks? (Choose two.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "brute force"
+        },
+        {
+          "id": "B",
+          "text": "port scan"
+        },
+        {
+          "id": "C",
+          "text": "ping sweep"
+        },
+        {
+          "id": "D",
+          "text": "man-in-the-middle"
+        },
+        {
+          "id": "E",
+          "text": "SYN flood"
+        }
+      ],
+      "correctOptionIds": [
+        "B",
+        "C"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Reconnaissance attacks attempt to gather information about the targets. Ping sweeps will indicate which hosts are up and responding to pings, whereas port scans will indicate on which TCP and UDP ports the target is listening for incoming connections. Man-in-the-middle and brute force attacks are both examples of access attacks, and a SYN flood is an example of a denial of service (DoS) attack.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-13-17-threats-and-attacks-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m13-17-q005",
+      "moduleId": "iao-m13-17",
+      "moduleLabel": "IAO Modules 13-17: Threats and Attacks",
+      "moduleShortLabel": "IAO 13-17",
+      "questionNumber": 5,
+      "type": "single",
+      "promptHtml": "<p><b>An administrator discovers a vulnerability in the network. On analysis of the vulnerability the administrator decides the cost of managing the risk outweighs the cost of the risk itself. The risk is accepted, and no action is taken. What risk management strategy has been adopted?</b></p>",
+      "promptText": "An administrator discovers a vulnerability in the network. On analysis of the vulnerability the administrator decides the cost of managing the risk outweighs the cost of the risk itself. The risk is accepted, and no action is taken. What risk management strategy has been adopted?",
+      "options": [
+        {
+          "id": "A",
+          "text": "risk transfer"
+        },
+        {
+          "id": "B",
+          "text": "risk acceptance"
+        },
+        {
+          "id": "C",
+          "text": "risk reduction"
+        },
+        {
+          "id": "D",
+          "text": "risk avoidance"
+        }
+      ],
+      "correctOptionIds": [
+        "B"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Risk acceptance is when the cost of risk management options outweighs the cost of the risk itself, the risk is accepted, and no action is taken.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-13-17-threats-and-attacks-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m13-17-q006",
+      "moduleId": "iao-m13-17",
+      "moduleLabel": "IAO Modules 13-17: Threats and Attacks",
+      "moduleShortLabel": "IAO 13-17",
+      "questionNumber": 6,
+      "type": "single",
+      "promptHtml": "<p><b>Which protocol is exploited by cybercriminals who create malicious iFrames?</b></p>",
+      "promptText": "Which protocol is exploited by cybercriminals who create malicious iFrames?",
+      "options": [
+        {
+          "id": "A",
+          "text": "HTTP"
+        },
+        {
+          "id": "B",
+          "text": "DNS"
+        },
+        {
+          "id": "C",
+          "text": "ARP"
+        },
+        {
+          "id": "D",
+          "text": "DHCP"
+        }
+      ],
+      "correctOptionIds": [
+        "A"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>An HTML element known as an inline frame or iFrame allows the browser to load a different web page from another source.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-13-17-threats-and-attacks-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m13-17-q007",
+      "moduleId": "iao-m13-17",
+      "moduleLabel": "IAO Modules 13-17: Threats and Attacks",
+      "moduleShortLabel": "IAO 13-17",
+      "questionNumber": 7,
+      "type": "single",
+      "promptHtml": "<p><b>How can a DNS tunneling attack be mitigated?</b></p>",
+      "promptText": "How can a DNS tunneling attack be mitigated?",
+      "options": [
+        {
+          "id": "A",
+          "text": "by preventing devices from using gratuitous ARP"
+        },
+        {
+          "id": "B",
+          "text": "by using a filter that inspects DNS traffic"
+        },
+        {
+          "id": "C",
+          "text": "by securing all domain owner accounts"
+        },
+        {
+          "id": "D",
+          "text": "by using strong passwords and two-factor authentication"
+        }
+      ],
+      "correctOptionIds": [
+        "B"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>To be able to stop DNS tunneling, a filter that inspects DNS traffic must be used. Also, DNS solutions such as Cisco OpenDNS block much of the DNS tunneling traffic by identifying suspicious domains.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-13-17-threats-and-attacks-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m13-17-q008",
+      "moduleId": "iao-m13-17",
+      "moduleLabel": "IAO Modules 13-17: Threats and Attacks",
+      "moduleShortLabel": "IAO 13-17",
+      "questionNumber": 8,
+      "type": "single",
+      "promptHtml": "<p><b>What is the function of a gratuitous ARP sent by a networked device when it boots up?</b></p>",
+      "promptText": "What is the function of a gratuitous ARP sent by a networked device when it boots up?",
+      "options": [
+        {
+          "id": "A",
+          "text": "to request the netbios name of the connected system"
+        },
+        {
+          "id": "B",
+          "text": "to request the MAC address of the DNS server"
+        },
+        {
+          "id": "C",
+          "text": "to request the IP address of the connected network"
+        },
+        {
+          "id": "D",
+          "text": "to advise connected devices of its MAC address"
+        }
+      ],
+      "correctOptionIds": [
+        "D"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>A gratuitous ARP is often sent when a device first boots up to inform all other devices on the local network of the MAC address of the new device.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-13-17-threats-and-attacks-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m13-17-q009",
+      "moduleId": "iao-m13-17",
+      "moduleLabel": "IAO Modules 13-17: Threats and Attacks",
+      "moduleShortLabel": "IAO 13-17",
+      "questionNumber": 9,
+      "type": "single",
+      "promptHtml": "<p><b>What is the result of a passive ARP poisoning attack?</b></p>",
+      "promptText": "What is the result of a passive ARP poisoning attack?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Data is modified in transit or malicious data is inserted in transit."
+        },
+        {
+          "id": "B",
+          "text": "Network clients experience a denial of service."
+        },
+        {
+          "id": "C",
+          "text": "Confidential information is stolen."
+        },
+        {
+          "id": "D",
+          "text": "Multiple subdomains are created."
+        }
+      ],
+      "correctOptionIds": [
+        "C"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>ARP poisoning attacks can be passive or active. The result of a passive attack is that cybercriminals steal confidential information. With an active attack, cybercriminals modify data in transit or they inject malicious data.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-13-17-threats-and-attacks-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m13-17-q010",
+      "moduleId": "iao-m13-17",
+      "moduleLabel": "IAO Modules 13-17: Threats and Attacks",
+      "moduleShortLabel": "IAO 13-17",
+      "questionNumber": 10,
+      "type": "multiple",
+      "promptHtml": "<p><b>What are two methods used by cybercriminals to mask DNS attacks? (Choose two.)</b></p>",
+      "promptText": "What are two methods used by cybercriminals to mask DNS attacks? (Choose two.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "reflection"
+        },
+        {
+          "id": "B",
+          "text": "shadowing"
+        },
+        {
+          "id": "C",
+          "text": "domain generation algorithms"
+        },
+        {
+          "id": "D",
+          "text": "fast flux"
+        },
+        {
+          "id": "E",
+          "text": "tunneling"
+        }
+      ],
+      "correctOptionIds": [
+        "C",
+        "D"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Fast flux, double IP flux, and domain generation algorithms are used by cybercrimals to attack DNS servers and affect DNS services. Fast flux is a technique used to hide phishing and malware delivery sites behind a quickly-changing network of compromised DNS hosts (bots within botnets). The double IP flux technique rapidly changes the hostname to IP address mappings and the authoritative name server. Domain generation algorithms randomly generate domain names to be used as rendezvous points.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-13-17-threats-and-attacks-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m13-17-q011",
+      "moduleId": "iao-m13-17",
+      "moduleLabel": "IAO Modules 13-17: Threats and Attacks",
+      "moduleShortLabel": "IAO 13-17",
+      "questionNumber": 11,
+      "type": "study",
+      "promptHtml": "<p><b>Match the security tool with the description. (Not all options apply.)</b><br />\n<img src=\"assets/exhibits/iao-m13-17/q011-1-b57260d480.jpg\" alt=\"\" /></p>",
+      "promptText": "Match the security tool with the description. (Not all options apply.)",
+      "options": [],
+      "correctOptionIds": [],
+      "solutionHtml": "",
+      "explanationHtml": "",
+      "sourceUrl": "https://itexamanswers.net/modules-13-17-threats-and-attacks-group-exam-answers.html",
+      "assetPaths": [
+        "assets/exhibits/iao-m13-17/q011-1-b57260d480.jpg"
+      ]
+    },
+    {
+      "id": "iao-m13-17-q012",
+      "moduleId": "iao-m13-17",
+      "moduleLabel": "IAO Modules 13-17: Threats and Attacks",
+      "moduleShortLabel": "IAO 13-17",
+      "questionNumber": 12,
+      "type": "study",
+      "promptHtml": "<p><b>Match the type of cyberattackers to the description. (Not all options are used.)</b><br />\n<img src=\"assets/exhibits/iao-m13-17/q012-1-b6b1b96924.jpg\" alt=\"\" /></p>",
+      "promptText": "Match the type of cyberattackers to the description. (Not all options are used.)",
+      "options": [],
+      "correctOptionIds": [],
+      "solutionHtml": "",
+      "explanationHtml": "",
+      "sourceUrl": "https://itexamanswers.net/modules-13-17-threats-and-attacks-group-exam-answers.html",
+      "assetPaths": [
+        "assets/exhibits/iao-m13-17/q012-1-b6b1b96924.jpg"
+      ]
+    },
+    {
+      "id": "iao-m13-17-q013",
+      "moduleId": "iao-m13-17",
+      "moduleLabel": "IAO Modules 13-17: Threats and Attacks",
+      "moduleShortLabel": "IAO 13-17",
+      "questionNumber": 13,
+      "type": "study",
+      "promptHtml": "<p><b>Match the threat actors with the descriptions. (Not all options are used.)</b><br />\n<img src=\"assets/exhibits/iao-m13-17/q013-1-4f2d7ab939.jpg\" alt=\"\" /></p>",
+      "promptText": "Match the threat actors with the descriptions. (Not all options are used.)",
+      "options": [],
+      "correctOptionIds": [],
+      "solutionHtml": "<ul>\n<li><b>hacktivists</b> : threat actors that publicly protest against organizations or governments by posting articles, videos, leaking sensitive information, and performing distributed denial of service (DDoS) attacks</li>\n<li><b>script kiddies</b> : inexperienced threat actors running existing scripts, tools, and exploits, to cause harm, but typically not for profit</li>\n<li><b>State-sponsored</b> : threat actors who steal government secrets, gather intelligence, and sabotage networks of foreign governments, terrorist groups, and corporations</li>\n</ul>",
+      "explanationHtml": "",
+      "sourceUrl": "https://itexamanswers.net/modules-13-17-threats-and-attacks-group-exam-answers.html",
+      "assetPaths": [
+        "assets/exhibits/iao-m13-17/q013-1-4f2d7ab939.jpg"
+      ]
+    },
+    {
+      "id": "iao-m13-17-q014",
+      "moduleId": "iao-m13-17",
+      "moduleLabel": "IAO Modules 13-17: Threats and Attacks",
+      "moduleShortLabel": "IAO 13-17",
+      "questionNumber": 14,
+      "type": "single",
+      "promptHtml": "<p><b>What scenario describes a vulnerability broker?</b></p>",
+      "promptText": "What scenario describes a vulnerability broker?",
+      "options": [
+        {
+          "id": "A",
+          "text": "a teenager running existing scripts, tools, and exploits, to cause harm, but typically not for profit"
+        },
+        {
+          "id": "B",
+          "text": "a threat actor attempting to discover exploits and report them to vendors, sometimes for prizes or rewards"
+        },
+        {
+          "id": "C",
+          "text": "a threat actor publicly protesting against governments by posting articles and leaking sensitive information"
+        },
+        {
+          "id": "D",
+          "text": "a State-Sponsored threat actor who steals government secrets and sabotages networks of foreign governments"
+        }
+      ],
+      "correctOptionIds": [
+        "B"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Vulnerability brokers typically refers to grey hat hackers who attempt to discover exploits and report them to vendors, sometimes for prizes or rewards.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-13-17-threats-and-attacks-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m13-17-q015",
+      "moduleId": "iao-m13-17",
+      "moduleLabel": "IAO Modules 13-17: Threats and Attacks",
+      "moduleShortLabel": "IAO 13-17",
+      "questionNumber": 15,
+      "type": "single",
+      "promptHtml": "<p><b>In what type of attack is a cybercriminal attempting to prevent legitimate users from accessing network services?</b></p>",
+      "promptText": "In what type of attack is a cybercriminal attempting to prevent legitimate users from accessing network services?",
+      "options": [
+        {
+          "id": "A",
+          "text": "DoS"
+        },
+        {
+          "id": "B",
+          "text": "session hijacking"
+        },
+        {
+          "id": "C",
+          "text": "MITM"
+        },
+        {
+          "id": "D",
+          "text": "address spoofing"
+        }
+      ],
+      "correctOptionIds": [
+        "A"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>In a DoS or denial-of-service attack, the goal of the attacker is to prevent legitimate users from accessing network services.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-13-17-threats-and-attacks-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m13-17-q016",
+      "moduleId": "iao-m13-17",
+      "moduleLabel": "IAO Modules 13-17: Threats and Attacks",
+      "moduleShortLabel": "IAO 13-17",
+      "questionNumber": 16,
+      "type": "single",
+      "promptHtml": "<p><b>Which field in the IPv6 header points to optional network layer information that is carried in the IPv6 packet?</b></p>",
+      "promptText": "Which field in the IPv6 header points to optional network layer information that is carried in the IPv6 packet?",
+      "options": [
+        {
+          "id": "A",
+          "text": "traffic class"
+        },
+        {
+          "id": "B",
+          "text": "version"
+        },
+        {
+          "id": "C",
+          "text": "flow label"
+        },
+        {
+          "id": "D",
+          "text": "next header"
+        }
+      ],
+      "correctOptionIds": [
+        "D"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Optional Layer 3 information about fragmentation, security, and mobility is carried inside of extension headers in an IPv6 packet. The next header field of the IPv6 header acts as a pointer to these optional extension headers if they are present.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-13-17-threats-and-attacks-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m13-17-q017",
+      "moduleId": "iao-m13-17",
+      "moduleLabel": "IAO Modules 13-17: Threats and Attacks",
+      "moduleShortLabel": "IAO 13-17",
+      "questionNumber": 17,
+      "type": "single",
+      "promptHtml": "<p><b>Which type of attack is carried out by threat actors against a network to determine which IP addresses, protocols, and ports are allowed by ACLs?</b></p>",
+      "promptText": "Which type of attack is carried out by threat actors against a network to determine which IP addresses, protocols, and ports are allowed by ACLs?",
+      "options": [
+        {
+          "id": "A",
+          "text": "social engineering"
+        },
+        {
+          "id": "B",
+          "text": "denial of service"
+        },
+        {
+          "id": "C",
+          "text": "phishing"
+        },
+        {
+          "id": "D",
+          "text": "reconnaissance"
+        }
+      ],
+      "correctOptionIds": [
+        "D"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Packet filtering ACLs use rules to filter incoming and outgoing traffic. These rules are defined by specifying IP addresses, port numbers, and protocols to be matched. Threat actors can use a reconnaissance attack involving port scanning or penetration testing to determine which IP addresses, protocols, and ports are allowed by ACLs.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-13-17-threats-and-attacks-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m13-17-q018",
+      "moduleId": "iao-m13-17",
+      "moduleLabel": "IAO Modules 13-17: Threats and Attacks",
+      "moduleShortLabel": "IAO 13-17",
+      "questionNumber": 18,
+      "type": "single",
+      "promptHtml": "<p><b>What kind of ICMP message can be used by threat actors to create a man-in-the-middle attack?</b></p>",
+      "promptText": "What kind of ICMP message can be used by threat actors to create a man-in-the-middle attack?",
+      "options": [
+        {
+          "id": "A",
+          "text": "ICMP echo request"
+        },
+        {
+          "id": "B",
+          "text": "ICMP unreachable"
+        },
+        {
+          "id": "C",
+          "text": "ICMP redirects"
+        },
+        {
+          "id": "D",
+          "text": "ICMP mask reply"
+        }
+      ],
+      "correctOptionIds": [
+        "C"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Common ICMP messages of interest to threat actors include the following:<br />\nICMP echo request and echo reply: used to perform host verification and DoS attacks<br />\nICMP unreachable: used to perform network reconnaissance and scanning attacks<br />\nICMP mask reply: used to map an internal IP network<br />\nICMP redirects: used to lure a target host into sending all traffic through a compromised device and create a man-in-the-middle attack<br />\nICMP router discovery: used to inject bogus route entries into the routing table of a target host</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-13-17-threats-and-attacks-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m13-17-q019",
+      "moduleId": "iao-m13-17",
+      "moduleLabel": "IAO Modules 13-17: Threats and Attacks",
+      "moduleShortLabel": "IAO 13-17",
+      "questionNumber": 19,
+      "type": "multiple",
+      "promptHtml": "<p><b>What are two purposes of launching a reconnaissance attack on a network? (Choose two.)</b></p>",
+      "promptText": "What are two purposes of launching a reconnaissance attack on a network? (Choose two.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "to escalate access privileges"
+        },
+        {
+          "id": "B",
+          "text": "to prevent other users from accessing the system"
+        },
+        {
+          "id": "C",
+          "text": "to scan for accessibility"
+        },
+        {
+          "id": "D",
+          "text": "to gather information about the network and devices"
+        },
+        {
+          "id": "E",
+          "text": "to retrieve and modify data"
+        }
+      ],
+      "correctOptionIds": [
+        "C",
+        "D"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Gathering information about a network and scanning for access is a reconnaissance attack. Preventing other users from accessing a system is a denial of service attack. Attempting to retrieve and modify data, and attempting to escalate access privileges are types of access attacks.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-13-17-threats-and-attacks-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m13-17-q020",
+      "moduleId": "iao-m13-17",
+      "moduleLabel": "IAO Modules 13-17: Threats and Attacks",
+      "moduleShortLabel": "IAO 13-17",
+      "questionNumber": 20,
+      "type": "single",
+      "promptHtml": "<p><b>Which type of network attack involves randomly opening many Telnet requests to a router and results in a valid network administrator not being able to access the device?</b></p>",
+      "promptText": "Which type of network attack involves randomly opening many Telnet requests to a router and results in a valid network administrator not being able to access the device?",
+      "options": [
+        {
+          "id": "A",
+          "text": "DNS poisoning"
+        },
+        {
+          "id": "B",
+          "text": "man-in-the-middle"
+        },
+        {
+          "id": "C",
+          "text": "SYN flooding"
+        },
+        {
+          "id": "D",
+          "text": "spoofing"
+        }
+      ],
+      "correctOptionIds": [
+        "C"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>The TCP SYN Flood attack exploits the TCP three-way handshake. The threat actor continually sends TCP SYN session request packets with a randomly spoofed source IP address to an intended target. The target device replies with a TCP SYN-ACK packet to the spoofed IP address and waits for a TCP ACK packet. Those responses never arrive. Eventually the target host is overwhelmed with half-open TCP connections and denies TCP services.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-13-17-threats-and-attacks-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m13-17-q021",
+      "moduleId": "iao-m13-17",
+      "moduleLabel": "IAO Modules 13-17: Threats and Attacks",
+      "moduleShortLabel": "IAO 13-17",
+      "questionNumber": 21,
+      "type": "single",
+      "promptHtml": "<p><b>What functionality is provided by Cisco SPAN in a switched network?</b></p>",
+      "promptText": "What functionality is provided by Cisco SPAN in a switched network?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It mirrors traffic that passes through a switch port or VLAN to another port for traffic analysis."
+        },
+        {
+          "id": "B",
+          "text": "It prevents traffic on a LAN from being disrupted by a broadcast storm."
+        },
+        {
+          "id": "C",
+          "text": "It protects the switched network from receiving BPDUs on ports that should not be receiving them."
+        },
+        {
+          "id": "D",
+          "text": "It copies traffic that passes through a switch interface and sends the data directly to a syslog or SNMP server for analysis."
+        },
+        {
+          "id": "E",
+          "text": "It inspects voice protocols to ensure that SIP, SCCP, H.323, and MGCP requests conform to voice standards."
+        },
+        {
+          "id": "F",
+          "text": "It mitigates MAC address overflow attacks."
+        }
+      ],
+      "correctOptionIds": [
+        "A"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>SPAN is a Cisco technology used by network administrators to monitor suspicious traffic or to capture traffic to be analyzed.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-13-17-threats-and-attacks-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m13-17-q022",
+      "moduleId": "iao-m13-17",
+      "moduleLabel": "IAO Modules 13-17: Threats and Attacks",
+      "moduleShortLabel": "IAO 13-17",
+      "questionNumber": 22,
+      "type": "single",
+      "promptHtml": "<p><b>Which statement describes an operational characteristic of NetFlow?</b></p>",
+      "promptText": "Which statement describes an operational characteristic of NetFlow?",
+      "options": [
+        {
+          "id": "A",
+          "text": "NetFlow collects basic information about the packet flow, not the flow data itself."
+        },
+        {
+          "id": "B",
+          "text": "NetFlow captures the entire contents of a packet."
+        },
+        {
+          "id": "C",
+          "text": "NetFlow flow records can be viewed by the tcpdump tool."
+        },
+        {
+          "id": "D",
+          "text": "NetFlow can provide services for user access control."
+        }
+      ],
+      "correctOptionIds": [
+        "A"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>NetFlow does not capture the entire contents of a packet. Instead, NetFlow collects metadata, or data about the flow, not the flow data itself. NetFlow information can be viewed with tools such as <b>nfdump</b> and FlowViewer.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-13-17-threats-and-attacks-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m13-17-q023",
+      "moduleId": "iao-m13-17",
+      "moduleLabel": "IAO Modules 13-17: Threats and Attacks",
+      "moduleShortLabel": "IAO 13-17",
+      "questionNumber": 23,
+      "type": "study",
+      "promptHtml": "<p><b>. Match the network monitoring solution with a description. (Not all options are used.)</b><br />\n<img src=\"assets/exhibits/iao-m13-17/q023-1-680865f1d1.jpg\" alt=\"\" /></p>",
+      "promptText": ". Match the network monitoring solution with a description. (Not all options are used.)",
+      "options": [],
+      "correctOptionIds": [],
+      "solutionHtml": "",
+      "explanationHtml": "",
+      "sourceUrl": "https://itexamanswers.net/modules-13-17-threats-and-attacks-group-exam-answers.html",
+      "assetPaths": [
+        "assets/exhibits/iao-m13-17/q023-1-680865f1d1.jpg"
+      ]
+    },
+    {
+      "id": "iao-m13-17-q024",
+      "moduleId": "iao-m13-17",
+      "moduleLabel": "IAO Modules 13-17: Threats and Attacks",
+      "moduleShortLabel": "IAO 13-17",
+      "questionNumber": 24,
+      "type": "single",
+      "promptHtml": "<p><b>Which technology is a proprietary SIEM system?</b></p>",
+      "promptText": "Which technology is a proprietary SIEM system?",
+      "options": [
+        {
+          "id": "A",
+          "text": "StealthWatch"
+        },
+        {
+          "id": "B",
+          "text": "NetFlow collector"
+        },
+        {
+          "id": "C",
+          "text": "SNMP agent"
+        },
+        {
+          "id": "D",
+          "text": "Splunk"
+        }
+      ],
+      "correctOptionIds": [
+        "D"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Security Information Event Management (SIEM) is a technology that is used in enterprise organizations to provide real-time reporting and long-term analysis of security events. Splunk is a proprietary SIEM system.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-13-17-threats-and-attacks-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m13-17-q025",
+      "moduleId": "iao-m13-17",
+      "moduleLabel": "IAO Modules 13-17: Threats and Attacks",
+      "moduleShortLabel": "IAO 13-17",
+      "questionNumber": 25,
+      "type": "multiple",
+      "promptHtml": "<p><b>What are three functionalities provided by SOAR? (Choose three.)</b></p>",
+      "promptText": "What are three functionalities provided by SOAR? (Choose three.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "It automates complex incident response procedures and investigations."
+        },
+        {
+          "id": "B",
+          "text": "It provides 24×7 statistics on packets that flow through a Cisco router or multilayer switch."
+        },
+        {
+          "id": "C",
+          "text": "It uses artificial intelligence to detect incidents and aid in incident analysis and response."
+        },
+        {
+          "id": "D",
+          "text": "It presents the correlated and aggregated event data in real-time monitoring and long-term summaries."
+        },
+        {
+          "id": "E",
+          "text": "It provides a complete audit trail of basic information about every IP flow forwarded on a device."
+        },
+        {
+          "id": "F",
+          "text": "It provides case management tools that allow cybersecurity personnel to research and investigate incidents."
+        }
+      ],
+      "correctOptionIds": [
+        "A",
+        "C",
+        "F"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>SOAR security platforms offer these functionalities:<br />\n• Gather alarm data from each component of the system<br />\n• Provide tools that enable cases to be researched, assessed, and investigated<br />\n• Emphasize integration as a means of automating complex incident response workflows that enable more rapid response and adaptive defense strategies<br />\n• Include predefined playbooks that enable automatic response to specific threats</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-13-17-threats-and-attacks-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m13-17-q026",
+      "moduleId": "iao-m13-17",
+      "moduleLabel": "IAO Modules 13-17: Threats and Attacks",
+      "moduleShortLabel": "IAO 13-17",
+      "questionNumber": 26,
+      "type": "single",
+      "promptHtml": "<p><b>Which devices should be secured to mitigate against MAC address spoofing attacks?</b></p>",
+      "promptText": "Which devices should be secured to mitigate against MAC address spoofing attacks?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Layer 7 devices"
+        },
+        {
+          "id": "B",
+          "text": "Layer 4 devices"
+        },
+        {
+          "id": "C",
+          "text": "Layer 3 devices"
+        },
+        {
+          "id": "D",
+          "text": "Layer 2 devices"
+        }
+      ],
+      "correctOptionIds": [
+        "D"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Layer 2 attacks such as MAC address spoofing can be mitigated by securing Layer 2 devices.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-13-17-threats-and-attacks-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m13-17-q027",
+      "moduleId": "iao-m13-17",
+      "moduleLabel": "IAO Modules 13-17: Threats and Attacks",
+      "moduleShortLabel": "IAO 13-17",
+      "questionNumber": 27,
+      "type": "single",
+      "promptHtml": "<p><b>A network administrator is checking the system logs and notices unusual connectivity tests to multiple well-known ports on a server. What kind of potential network attack could this indicate?</b></p><div class=\"92f2483bb651eed307c93e619d752c78\" data-index=\"1\" style=\"float: none; margin:10px 0 10px 0; text-align:center;\">\n<div id=\"adngin-incontent_auto-0\"></div>\n</div>",
+      "promptText": "A network administrator is checking the system logs and notices unusual connectivity tests to multiple well-known ports on a server. What kind of potential network attack could this indicate?",
+      "options": [
+        {
+          "id": "A",
+          "text": "access"
+        },
+        {
+          "id": "B",
+          "text": "denial of service"
+        },
+        {
+          "id": "C",
+          "text": "information theft"
+        },
+        {
+          "id": "D",
+          "text": "reconnaissance"
+        }
+      ],
+      "correctOptionIds": [
+        "D"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>A reconnaissance attack is the unauthorized discovery and mapping of systems, services, or vulnerabilities. One of the most common reconnaissance attacks is performed by using utilities that automatically discover hosts on the networks and determine which ports are currently listening for connections.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-13-17-threats-and-attacks-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m13-17-q028",
+      "moduleId": "iao-m13-17",
+      "moduleLabel": "IAO Modules 13-17: Threats and Attacks",
+      "moduleShortLabel": "IAO 13-17",
+      "questionNumber": 28,
+      "type": "single",
+      "promptHtml": "<p><b>What is a vulnerability that allows criminals to inject scripts into web pages viewed by users?</b></p>",
+      "promptText": "What is a vulnerability that allows criminals to inject scripts into web pages viewed by users?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cross-site scripting"
+        },
+        {
+          "id": "B",
+          "text": "XML injection"
+        },
+        {
+          "id": "C",
+          "text": "buffer overflow"
+        },
+        {
+          "id": "D",
+          "text": "SQL injection"
+        }
+      ],
+      "correctOptionIds": [
+        "A"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Cross-site scripting (XSS) allows criminals to inject scripts that contain malicious code into web applications.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-13-17-threats-and-attacks-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m13-17-q029",
+      "moduleId": "iao-m13-17",
+      "moduleLabel": "IAO Modules 13-17: Threats and Attacks",
+      "moduleShortLabel": "IAO 13-17",
+      "questionNumber": 29,
+      "type": "single",
+      "promptHtml": "<p><b>Which cyber attack involves a coordinated attack from a botnet of zombie computers?</b></p>",
+      "promptText": "Which cyber attack involves a coordinated attack from a botnet of zombie computers?",
+      "options": [
+        {
+          "id": "A",
+          "text": "ICMP redirect"
+        },
+        {
+          "id": "B",
+          "text": "MITM"
+        },
+        {
+          "id": "C",
+          "text": "DDoS"
+        },
+        {
+          "id": "D",
+          "text": "address spoofing"
+        }
+      ],
+      "correctOptionIds": [
+        "C"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>DDoS is a distributed denial-of-services attack. A DDoS attack is launched from multiple coordinated sources. The sources of the attack are zombie hosts that the cybercriminal has built into a botnet. When ready, the cybercriminal instructs the botnet of zombies to attack the chosen target.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-13-17-threats-and-attacks-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m13-17-q030",
+      "moduleId": "iao-m13-17",
+      "moduleLabel": "IAO Modules 13-17: Threats and Attacks",
+      "moduleShortLabel": "IAO 13-17",
+      "questionNumber": 30,
+      "type": "single",
+      "promptHtml": "<p><b>What technique is a security attack that depletes the pool of IP addresses available for legitimate hosts?</b></p>",
+      "promptText": "What technique is a security attack that depletes the pool of IP addresses available for legitimate hosts?",
+      "options": [
+        {
+          "id": "A",
+          "text": "reconnaissance attack"
+        },
+        {
+          "id": "B",
+          "text": "DHCP starvation"
+        },
+        {
+          "id": "C",
+          "text": "DHCP spoofing"
+        },
+        {
+          "id": "D",
+          "text": "DHCP snooping"
+        }
+      ],
+      "correctOptionIds": [
+        "B"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>DHCP starvation attacks create a denial of service for network clients. The attacker sends DHCP discovery messages that contain fake MAC addresses in an attempt to lease all of the IP addresses. In contrast, DHCP spoofing occurs when a cybercriminal configures a rogue DHCP server to provide network clients with incorrect IP configuration information.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-13-17-threats-and-attacks-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m13-17-q032",
+      "moduleId": "iao-m13-17",
+      "moduleLabel": "IAO Modules 13-17: Threats and Attacks",
+      "moduleShortLabel": "IAO 13-17",
+      "questionNumber": 32,
+      "type": "multiple",
+      "promptHtml": "<p><b>What are two examples of DoS attacks? (Choose two.)</b></p>",
+      "promptText": "What are two examples of DoS attacks? (Choose two.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "buffer overflow"
+        },
+        {
+          "id": "B",
+          "text": "SQL injection"
+        },
+        {
+          "id": "C",
+          "text": "port scanning"
+        },
+        {
+          "id": "D",
+          "text": "phishing"
+        },
+        {
+          "id": "E",
+          "text": "ping of death"
+        }
+      ],
+      "correctOptionIds": [
+        "A",
+        "E"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>The buffer overflow and ping of death DoS attacks exploit system memory-related flaws on a server by sending an unexpected amount of data or malformed data to the server.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-13-17-threats-and-attacks-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m13-17-q033",
+      "moduleId": "iao-m13-17",
+      "moduleLabel": "IAO Modules 13-17: Threats and Attacks",
+      "moduleShortLabel": "IAO 13-17",
+      "questionNumber": 33,
+      "type": "single",
+      "promptHtml": "<p><b>Why would a rootkit be used by a hacker?</b></p>",
+      "promptText": "Why would a rootkit be used by a hacker?",
+      "options": [
+        {
+          "id": "A",
+          "text": "to try to guess a password"
+        },
+        {
+          "id": "B",
+          "text": "to reverse engineer binary files"
+        },
+        {
+          "id": "C",
+          "text": "to gain access to a device without being detected"
+        },
+        {
+          "id": "D",
+          "text": "to do reconnaissance"
+        }
+      ],
+      "correctOptionIds": [
+        "C"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Hackers use rootkits to avoid detection as well as hide any software installed by the hacker.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-13-17-threats-and-attacks-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m13-17-q034",
+      "moduleId": "iao-m13-17",
+      "moduleLabel": "IAO Modules 13-17: Threats and Attacks",
+      "moduleShortLabel": "IAO 13-17",
+      "questionNumber": 34,
+      "type": "single",
+      "promptHtml": "<p><b>What causes a buffer overflow?</b></p>",
+      "promptText": "What causes a buffer overflow?",
+      "options": [
+        {
+          "id": "A",
+          "text": "sending too much information to two or more interfaces of the same device, thereby causing dropped packets"
+        },
+        {
+          "id": "B",
+          "text": "attempting to write more data to a memory location than that location can hold"
+        },
+        {
+          "id": "C",
+          "text": "sending repeated connections such as Telnet to a particular device, thus denying other data sources"
+        },
+        {
+          "id": "D",
+          "text": "downloading and installing too many software updates at one time"
+        },
+        {
+          "id": "E",
+          "text": "launching a security countermeasure to mitigate a Trojan horse"
+        }
+      ],
+      "correctOptionIds": [
+        "B"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>By sending too much data to a specific area of memory, adjacent memory locations are overwritten, which causes a security issue because the program in the overwritten memory location is affected.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-13-17-threats-and-attacks-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m13-17-q035",
+      "moduleId": "iao-m13-17",
+      "moduleLabel": "IAO Modules 13-17: Threats and Attacks",
+      "moduleShortLabel": "IAO 13-17",
+      "questionNumber": 35,
+      "type": "single",
+      "promptHtml": "<p><b>Which type of security threat would be responsible if a spreadsheet add-on disables the local software firewall?</b></p>",
+      "promptText": "Which type of security threat would be responsible if a spreadsheet add-on disables the local software firewall?",
+      "options": [
+        {
+          "id": "A",
+          "text": "DoS"
+        },
+        {
+          "id": "B",
+          "text": "Trojan horse"
+        },
+        {
+          "id": "C",
+          "text": "buffer overflow"
+        },
+        {
+          "id": "D",
+          "text": "brute-force attack"
+        }
+      ],
+      "correctOptionIds": [
+        "B"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>A Trojan horse is software that does something harmful, but is hidden in legitimate software code. A denial of service (DoS) attack results in interruption of network services to users, network devices, or applications. A brute-force attack commonly involves trying to access a network device. A buffer overflow occurs when a program attempts to store more data in a memory location than it can hold.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-13-17-threats-and-attacks-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m13-17-q036",
+      "moduleId": "iao-m13-17",
+      "moduleLabel": "IAO Modules 13-17: Threats and Attacks",
+      "moduleShortLabel": "IAO 13-17",
+      "questionNumber": 36,
+      "type": "multiple",
+      "promptHtml": "<p><b>Which two types of hackers are typically classified as grey hat hackers? (Choose two.)</b></p>",
+      "promptText": "Which two types of hackers are typically classified as grey hat hackers? (Choose two.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "hacktivists"
+        },
+        {
+          "id": "B",
+          "text": "cyber criminals"
+        },
+        {
+          "id": "C",
+          "text": "vulnerability brokers"
+        },
+        {
+          "id": "D",
+          "text": "script kiddies"
+        },
+        {
+          "id": "E",
+          "text": "state-sponsored hackers"
+        }
+      ],
+      "correctOptionIds": [
+        "A",
+        "C"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Grey hat hackers may do unethical or illegal things, but not for personal gain or to cause damage. Hacktivists use their hacking as a form of political or social protest, and vulnerability brokers hack to uncover weaknesses and report them to vendors. Depending on the perspective one possesses, state-sponsored hackers are either white hat or black hat operators. Script kiddies create hacking scripts to cause damage or disruption. Cyber criminals use hacking to obtain financial gain by illegal means.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-13-17-threats-and-attacks-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m13-17-q037",
+      "moduleId": "iao-m13-17",
+      "moduleLabel": "IAO Modules 13-17: Threats and Attacks",
+      "moduleShortLabel": "IAO 13-17",
+      "questionNumber": 37,
+      "type": "single",
+      "promptHtml": "<p><b>A white hat hacker is using a security tool called Skipfish to discover the vulnerabilities of a computer system. What type of tool is this?</b></p>",
+      "promptText": "A white hat hacker is using a security tool called Skipfish to discover the vulnerabilities of a computer system. What type of tool is this?",
+      "options": [
+        {
+          "id": "A",
+          "text": "debugger"
+        },
+        {
+          "id": "B",
+          "text": "fuzzer"
+        },
+        {
+          "id": "C",
+          "text": "vulnerability scanner"
+        },
+        {
+          "id": "D",
+          "text": "packet sniffer"
+        }
+      ],
+      "correctOptionIds": [
+        "B"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Fuzzers are tools used by threat actors when attempting to discover the vulnerabilities of a computer system. Examples of fuzzers include Skipfish, Wapiti, and W3af.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-13-17-threats-and-attacks-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m13-17-q038",
+      "moduleId": "iao-m13-17",
+      "moduleLabel": "IAO Modules 13-17: Threats and Attacks",
+      "moduleShortLabel": "IAO 13-17",
+      "questionNumber": 38,
+      "type": "multiple",
+      "promptHtml": "<p><b>Which two functions are provided by NetFlow? (Choose two.)</b></p>",
+      "promptText": "Which two functions are provided by NetFlow? (Choose two.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "It uses artificial intelligence to detect incidents and aid in incident analysis and response."
+        },
+        {
+          "id": "B",
+          "text": "It provides a complete audit trail of basic information about every IP flow forwarded on a device."
+        },
+        {
+          "id": "C",
+          "text": "It provides 24×7 statistics on packets that flow through a Cisco router or multilayer switch."
+        },
+        {
+          "id": "D",
+          "text": "It allows an administrator to capture real-time network traffic and analyze the entire contents of packets."
+        },
+        {
+          "id": "E",
+          "text": "It presents correlated and aggregated event data in real-time monitoring and long-term summaries."
+        }
+      ],
+      "correctOptionIds": [
+        "B",
+        "C"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>NetFlow is a Cisco IOS technology that provides statistics and complete audit trails on TCP/IP flows on the network. Some of the capabilities of NetFlow include the following: 24&#215;7 network and security monitoring, network planning, traffic analysis, identification of network bottlenecks, and IP accounting for billing purposes.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-13-17-threats-and-attacks-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m13-17-q039",
+      "moduleId": "iao-m13-17",
+      "moduleLabel": "IAO Modules 13-17: Threats and Attacks",
+      "moduleShortLabel": "IAO 13-17",
+      "questionNumber": 39,
+      "type": "single",
+      "promptHtml": "<p><b>Which statement describes the function of the SPAN tool used in a Cisco switch?</b></p>",
+      "promptText": "Which statement describes the function of the SPAN tool used in a Cisco switch?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It is a secure channel for a switch to send logging to a syslog server."
+        },
+        {
+          "id": "B",
+          "text": "It provides interconnection between VLANs over multiple switches."
+        },
+        {
+          "id": "C",
+          "text": "It supports the SNMP trap operation on a switch."
+        },
+        {
+          "id": "D",
+          "text": "It copies the traffic from one switch port and sends it to another switch port that is connected to a monitoring device."
+        }
+      ],
+      "correctOptionIds": [
+        "D"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>To analyze network traffic passing through a switch, switched port analyzer (SPAN) can be used. SPAN can send a copy of traffic from one port to another port on the same switch where a network analyzer or monitoring device is connected. SPAN is not required for syslog or SNMP. SPAN is used to mirror traffic, while syslog and SNMP are configured to send data directly to the appropriate server.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-13-17-threats-and-attacks-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m13-17-q040",
+      "moduleId": "iao-m13-17",
+      "moduleLabel": "IAO Modules 13-17: Threats and Attacks",
+      "moduleShortLabel": "IAO 13-17",
+      "questionNumber": 40,
+      "type": "multiple",
+      "promptHtml": "<p><b>What are two evasion methods used by hackers? (Choose two.)</b></p>",
+      "promptText": "What are two evasion methods used by hackers? (Choose two.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "scanning"
+        },
+        {
+          "id": "B",
+          "text": "access attack"
+        },
+        {
+          "id": "C",
+          "text": "resource exhaustion"
+        },
+        {
+          "id": "D",
+          "text": "phishing"
+        },
+        {
+          "id": "E",
+          "text": "encryption"
+        }
+      ],
+      "correctOptionIds": [
+        "C",
+        "E"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>The following methods are used by hackers to avoid detection:Encryption and tunneling – hide or scramble the malware content<br />\nResource exhaustion – keep the host device too busy to detect the invasion<br />\nTraffic fragmentation – split the malware into multiple packets<br />\nProtocol-level misinterpretation – sneak by the firewall<br />\nPivot – use a compromised network device to attempt access to another device<br />\nRootkit – allow the hacker to avoid detection as well as hide software installed by the hacker</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-13-17-threats-and-attacks-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m13-17-q041",
+      "moduleId": "iao-m13-17",
+      "moduleLabel": "IAO Modules 13-17: Threats and Attacks",
+      "moduleShortLabel": "IAO 13-17",
+      "questionNumber": 41,
+      "type": "single",
+      "promptHtml": "<p><b>Which attack involves threat actors positioning themselves between a source and destination with the intent of transparently monitoring, capturing, and controlling the communication?</b></p>",
+      "promptText": "Which attack involves threat actors positioning themselves between a source and destination with the intent of transparently monitoring, capturing, and controlling the communication?",
+      "options": [
+        {
+          "id": "A",
+          "text": "man-in-the-middle attack"
+        },
+        {
+          "id": "B",
+          "text": "DoS attack"
+        },
+        {
+          "id": "C",
+          "text": "ICMP attack"
+        },
+        {
+          "id": "D",
+          "text": "SYN flood attack"
+        }
+      ],
+      "correctOptionIds": [
+        "A"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>The man-in-the-middle attack is a common IP-related attack where threat actors position themselves between a source and destination to transparently monitor, capture, and control the communication.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-13-17-threats-and-attacks-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m13-17-q042",
+      "moduleId": "iao-m13-17",
+      "moduleLabel": "IAO Modules 13-17: Threats and Attacks",
+      "moduleShortLabel": "IAO 13-17",
+      "questionNumber": 42,
+      "type": "single",
+      "promptHtml": "<p><b>What is the goal of a white hat hacker?</b></p>",
+      "promptText": "What is the goal of a white hat hacker?",
+      "options": [
+        {
+          "id": "A",
+          "text": "validating data"
+        },
+        {
+          "id": "B",
+          "text": "modifying data"
+        },
+        {
+          "id": "C",
+          "text": "stealing data"
+        },
+        {
+          "id": "D",
+          "text": "protecting data"
+        }
+      ],
+      "correctOptionIds": [
+        "D"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>White hat hackers are actually &#8220;good guys&#8221; and are paid by companies and governments to test for security vulnerabilities so that data is better protected.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-13-17-threats-and-attacks-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m13-17-q043",
+      "moduleId": "iao-m13-17",
+      "moduleLabel": "IAO Modules 13-17: Threats and Attacks",
+      "moduleShortLabel": "IAO 13-17",
+      "questionNumber": 43,
+      "type": "single",
+      "promptHtml": "<p><b>Once a cyber threat has been verified, the US Cybersecurity Infrastructure and Security Agency (CISA) automatically shares the cybersecurity information with public and private organizations. What is this automated system called?</b></p>",
+      "promptText": "Once a cyber threat has been verified, the US Cybersecurity Infrastructure and Security Agency (CISA) automatically shares the cybersecurity information with public and private organizations. What is this automated system called?",
+      "options": [
+        {
+          "id": "A",
+          "text": "AIS"
+        },
+        {
+          "id": "B",
+          "text": "NCSA"
+        },
+        {
+          "id": "C",
+          "text": "ENISA"
+        },
+        {
+          "id": "D",
+          "text": "NCASM"
+        }
+      ],
+      "correctOptionIds": [
+        "A"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Governments are now actively promoting cybersecurity. For instance, the US Cybersecurity Infrastructure and Security Agency (CISA) is leading efforts to automate the sharing of cybersecurity information with public and private organizations at no cost. CISA use a system called Automated Indicator Sharing (AIS). AIS enables the sharing of attack indicators between the US government and the private sector as soon as threats are verified. CISA offers many resources that help to limit the size of the United States attack surface.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-13-17-threats-and-attacks-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m13-17-q044",
+      "moduleId": "iao-m13-17",
+      "moduleLabel": "IAO Modules 13-17: Threats and Attacks",
+      "moduleShortLabel": "IAO 13-17",
+      "questionNumber": 44,
+      "type": "single",
+      "promptHtml": "<p><b>A user receives a phone call from a person who claims to represent IT services and then asks that user for confirmation of username and password for auditing purposes. Which security threat does this phone call represent?</b></p>",
+      "promptText": "A user receives a phone call from a person who claims to represent IT services and then asks that user for confirmation of username and password for auditing purposes. Which security threat does this phone call represent?",
+      "options": [
+        {
+          "id": "A",
+          "text": "spam"
+        },
+        {
+          "id": "B",
+          "text": "anonymous keylogging"
+        },
+        {
+          "id": "C",
+          "text": "DDoS"
+        },
+        {
+          "id": "D",
+          "text": "social engineering"
+        }
+      ],
+      "correctOptionIds": [
+        "D"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Social engineering attempts to gain the confidence of an employee and convince that person to divulge confidential and sensitive information, such as usernames and passwords. DDoS attacks, spam, and keylogging are all examples of software based security threats, not social engineering.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-13-17-threats-and-attacks-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m13-17-q045",
+      "moduleId": "iao-m13-17",
+      "moduleLabel": "IAO Modules 13-17: Threats and Attacks",
+      "moduleShortLabel": "IAO 13-17",
+      "questionNumber": 45,
+      "type": "multiple",
+      "promptHtml": "<p><b>Which two characteristics describe a worm? (Choose two)</b></p>",
+      "promptText": "Which two characteristics describe a worm? (Choose two)",
+      "options": [
+        {
+          "id": "A",
+          "text": "is self-replicating"
+        },
+        {
+          "id": "B",
+          "text": "travels to new computers without any intervention or knowledge of the user"
+        },
+        {
+          "id": "C",
+          "text": "infects computers by attaching to software code"
+        },
+        {
+          "id": "D",
+          "text": "hides in a dormant state until needed by an attacker"
+        },
+        {
+          "id": "E",
+          "text": "executes when software is run on a computer"
+        }
+      ],
+      "correctOptionIds": [
+        "A",
+        "B"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Worms are self-replicating pieces of software that consume bandwidth on a network as they propagate from system to system. They do not require a host application, unlike a virus. Viruses, on the other hand, carry executable malicious code which harms the target machine on which they reside.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-13-17-threats-and-attacks-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m13-17-q046",
+      "moduleId": "iao-m13-17",
+      "moduleLabel": "IAO Modules 13-17: Threats and Attacks",
+      "moduleShortLabel": "IAO 13-17",
+      "questionNumber": 46,
+      "type": "single",
+      "promptHtml": "<p><b>An attacker is redirecting traffic to a false default gateway in an attempt to intercept the data traffic of a switched network. What type of attack could achieve this?</b></p>",
+      "promptText": "An attacker is redirecting traffic to a false default gateway in an attempt to intercept the data traffic of a switched network. What type of attack could achieve this?",
+      "options": [
+        {
+          "id": "A",
+          "text": "MAC address snoopin"
+        },
+        {
+          "id": "B",
+          "text": "DHCP snooping"
+        },
+        {
+          "id": "C",
+          "text": "MAC address starvation"
+        },
+        {
+          "id": "D",
+          "text": "DHCP spoofing"
+        }
+      ],
+      "correctOptionIds": [
+        "D"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>In DHCP spoofing attacks, an attacker configures a fake DHCP server on the network to issue DHCP addresses to clients with the aim of forcing the clients to use a false default gateway, and other false services. DHCP snooping is a Cisco switch feature that can mitigate DHCP attacks. MAC address starvation and MAC address snooping are not recognized security attacks. MAC address spoofing is a network security threat.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-13-17-threats-and-attacks-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m13-17-q047",
+      "moduleId": "iao-m13-17",
+      "moduleLabel": "IAO Modules 13-17: Threats and Attacks",
+      "moduleShortLabel": "IAO 13-17",
+      "questionNumber": 47,
+      "type": "single",
+      "promptHtml": "<p><b>What would be the target of an SQL injection attack?</b></p>",
+      "promptText": "What would be the target of an SQL injection attack?",
+      "options": [
+        {
+          "id": "A",
+          "text": "DHCP"
+        },
+        {
+          "id": "B",
+          "text": "DNS"
+        },
+        {
+          "id": "C",
+          "text": "email"
+        },
+        {
+          "id": "D",
+          "text": "database"
+        }
+      ],
+      "correctOptionIds": [
+        "D"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>SQL is the language used to query a relational database. Cybercriminals use SQL injections to get information, create fake or malicious queries, or to breach the database in some other way.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-13-17-threats-and-attacks-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m13-17-q048",
+      "moduleId": "iao-m13-17",
+      "moduleLabel": "IAO Modules 13-17: Threats and Attacks",
+      "moduleShortLabel": "IAO 13-17",
+      "questionNumber": 48,
+      "type": "single",
+      "promptHtml": "<p><b>The IT department is reporting that a company web server is receiving an abnormally high number of web page requests from different locations simultaneously. Which type of security attack is occurring?</b></p>",
+      "promptText": "The IT department is reporting that a company web server is receiving an abnormally high number of web page requests from different locations simultaneously. Which type of security attack is occurring?",
+      "options": [
+        {
+          "id": "A",
+          "text": "social engineering"
+        },
+        {
+          "id": "B",
+          "text": "adware"
+        },
+        {
+          "id": "C",
+          "text": "DDoS"
+        },
+        {
+          "id": "D",
+          "text": "phishing"
+        },
+        {
+          "id": "E",
+          "text": "spyware"
+        }
+      ],
+      "correctOptionIds": [
+        "C"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Phishing, spyware, and social engineering are security attacks that collect network and user information. Adware consists, typically, of annoying popup windows. Unlike a DDoS attack, none of these attacks generate large amounts of data traffic that can restrict access to network services.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-13-17-threats-and-attacks-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m13-17-q049",
+      "moduleId": "iao-m13-17",
+      "moduleLabel": "IAO Modules 13-17: Threats and Attacks",
+      "moduleShortLabel": "IAO 13-17",
+      "questionNumber": 49,
+      "type": "single",
+      "promptHtml": "<p><b>Why would an attacker want to spoof a MAC address?</b></p>",
+      "promptText": "Why would an attacker want to spoof a MAC address?",
+      "options": [
+        {
+          "id": "A",
+          "text": "so that the attacker can capture traffic from multiple VLANs rather than from just the VLAN that is assigned to the port to which the attacker device is attached"
+        },
+        {
+          "id": "B",
+          "text": "so that a switch on the LAN will start forwarding frames to the attacker instead of to the legitimate host"
+        },
+        {
+          "id": "C",
+          "text": "so that a switch on the LAN will start forwarding all frames toward the device that is under control of the attacker (that can then capture the LAN traffic)"
+        },
+        {
+          "id": "D",
+          "text": "so that the attacker can launch another type of attack in order to gain access to the switch"
+        }
+      ],
+      "correctOptionIds": [
+        "B"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>MAC address spoofing is used to bypass security measures by allowing an attacker to impersonate a legitimate host device, usually for the purpose of collecting network traffic.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-13-17-threats-and-attacks-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m13-17-q050",
+      "moduleId": "iao-m13-17",
+      "moduleLabel": "IAO Modules 13-17: Threats and Attacks",
+      "moduleShortLabel": "IAO 13-17",
+      "questionNumber": 50,
+      "type": "study",
+      "promptHtml": "<p><b>Match the security concept to the description.</b><br />\n<img src=\"assets/exhibits/iao-m13-17/q050-1-2f28368db4.jpg\" alt=\"\" /></p>",
+      "promptText": "Match the security concept to the description.",
+      "options": [],
+      "correctOptionIds": [],
+      "solutionHtml": "",
+      "explanationHtml": "",
+      "sourceUrl": "https://itexamanswers.net/modules-13-17-threats-and-attacks-group-exam-answers.html",
+      "assetPaths": [
+        "assets/exhibits/iao-m13-17/q050-1-2f28368db4.jpg"
+      ]
+    },
+    {
+      "id": "iao-m13-17-q051",
+      "moduleId": "iao-m13-17",
+      "moduleLabel": "IAO Modules 13-17: Threats and Attacks",
+      "moduleShortLabel": "IAO 13-17",
+      "questionNumber": 51,
+      "type": "multiple",
+      "promptHtml": "<p><strong>Which two characteristics describe a virus? (Choose two.)</strong></p>",
+      "promptText": "Which two characteristics describe a virus? (Choose two.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "Malicious code that can remain dormant before executing an unwanted action."
+        },
+        {
+          "id": "B",
+          "text": "Malware that executes arbitrary code and installs copies of itself in memory."
+        },
+        {
+          "id": "C",
+          "text": "Malware that relies on the action of a user or a program to activate."
+        },
+        {
+          "id": "D",
+          "text": "Program code specifically designed to corrupt memory in network devices."
+        },
+        {
+          "id": "E",
+          "text": "A self-replicating attack that is independently launched."
+        }
+      ],
+      "correctOptionIds": [
+        "A",
+        "C"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>A virus is malicious code that is attached to legitimate programs or executable files. Most viruses require end user activation, can lie dormant for an extended period, and then activate at a specific time or date. In contrast, a worm executes arbitrary code and installs copies of itself in the memory of the infected computer. The main purpose of a worm is automatic replication to spread quickly across a network. A worm does not require a host program to run.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-13-17-threats-and-attacks-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m13-17-q052",
+      "moduleId": "iao-m13-17",
+      "moduleLabel": "IAO Modules 13-17: Threats and Attacks",
+      "moduleShortLabel": "IAO 13-17",
+      "questionNumber": 52,
+      "type": "single",
+      "promptHtml": "<p><b>Which type of security attack would attempt a buffer overflow?</b></p>",
+      "promptText": "Which type of security attack would attempt a buffer overflow?",
+      "options": [
+        {
+          "id": "A",
+          "text": "ransomware"
+        },
+        {
+          "id": "B",
+          "text": "reconnaissance"
+        },
+        {
+          "id": "C",
+          "text": "DoS"
+        },
+        {
+          "id": "D",
+          "text": "scareware"
+        }
+      ],
+      "correctOptionIds": [
+        "C"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Denial of service (DoS) attacks attempt to disrupt service on the network by either sending a particular device an overwhelming amount of data so no other devices can access the attacked device or by sending malformed packets.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-13-17-threats-and-attacks-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m18-20-q001",
+      "moduleId": "iao-m18-20",
+      "moduleLabel": "IAO Modules 18-20: Network Defense",
+      "moduleShortLabel": "IAO 18-20",
+      "questionNumber": 1,
+      "type": "single",
+      "promptHtml": "<p><b>Why is asset management a critical function of a growing organization against security threats?</b></p><div class=\"92f2483bb651eed307c93e619d752c78\" data-index=\"2\" style=\"float: none; margin:10px 0 10px 0; text-align:center;\">\n<div id=\"adngin-incontent_auto_large-0\"></div>\n</div>",
+      "promptText": "Why is asset management a critical function of a growing organization against security threats?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It identifies the ever increasing attack surface to threats."
+        },
+        {
+          "id": "B",
+          "text": "It allows for a build of a comprehensive AUP."
+        },
+        {
+          "id": "C",
+          "text": "It serves to preserve an audit trail of all new purchases."
+        },
+        {
+          "id": "D",
+          "text": "It prevents theft of older assets that are decommissioned."
+        }
+      ],
+      "correctOptionIds": [
+        "A"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Asset management is a critical component of a growing organization from a security aspect. Asset management consists of inventorying all assets, and then developing and implementing policies and procedures to protect them. As an organization grows, so does the attack surface in terms of security threats. Each of these assets can attract different threat actors who have different skill levels and motivations. Asset management can help mitigate these threats by inventorying the risks as the attack surface grows.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-18-20-network-defense-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m18-20-q002",
+      "moduleId": "iao-m18-20",
+      "moduleLabel": "IAO Modules 18-20: Network Defense",
+      "moduleShortLabel": "IAO 18-20",
+      "questionNumber": 2,
+      "type": "multiple",
+      "promptHtml": "<p><b>In a defense-in-depth approach, which three options must be identified to effectively defend a network against attacks? (Choose three.)</b></p>",
+      "promptText": "In a defense-in-depth approach, which three options must be identified to effectively defend a network against attacks? (Choose three.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "total number of devices that attach to the wired and wireless network"
+        },
+        {
+          "id": "B",
+          "text": "assets that need protection"
+        },
+        {
+          "id": "C",
+          "text": "vulnerabilities in the system"
+        },
+        {
+          "id": "D",
+          "text": "location of attacker or attackers"
+        },
+        {
+          "id": "E",
+          "text": "past security breaches"
+        },
+        {
+          "id": "F",
+          "text": "threats to assets"
+        }
+      ],
+      "correctOptionIds": [
+        "B",
+        "C",
+        "F"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>In order to prepare for a security attack, IT security personnel must identify assets that need to be protected such as servers, routers, access points, and end devices. They must also identify potential threats to the assets and vulnerabilities in the system or design.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-18-20-network-defense-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m18-20-q003",
+      "moduleId": "iao-m18-20",
+      "moduleLabel": "IAO Modules 18-20: Network Defense",
+      "moduleShortLabel": "IAO 18-20",
+      "questionNumber": 3,
+      "type": "single",
+      "promptHtml": "<p><b>What is the first line of defense when an organization is using a defense-in-depth approach to network security?</b></p>",
+      "promptText": "What is the first line of defense when an organization is using a defense-in-depth approach to network security?",
+      "options": [
+        {
+          "id": "A",
+          "text": "edge router"
+        },
+        {
+          "id": "B",
+          "text": "firewall"
+        },
+        {
+          "id": "C",
+          "text": "proxy server"
+        },
+        {
+          "id": "D",
+          "text": "IPS"
+        }
+      ],
+      "correctOptionIds": [
+        "A"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>A defense-in-depth approach uses layers of security measures starting at the network edge, working through the network, and finally ending at the network endpoints. Routers at the network edge are the first line of defense and forward traffic intended for the internal network to the firewall.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-18-20-network-defense-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m18-20-q004",
+      "moduleId": "iao-m18-20",
+      "moduleLabel": "IAO Modules 18-20: Network Defense",
+      "moduleShortLabel": "IAO 18-20",
+      "questionNumber": 4,
+      "type": "multiple",
+      "promptHtml": "<p><b>What three goals does a BYOD security policy accomplish? (Choose three.)</b></p>",
+      "promptText": "What three goals does a BYOD security policy accomplish? (Choose three.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "identify all malware signatures and synchronize them across corporate databases"
+        },
+        {
+          "id": "B",
+          "text": "identify which employees can bring their own devices"
+        },
+        {
+          "id": "C",
+          "text": "identify safeguards to put in place if a device is compromised"
+        },
+        {
+          "id": "D",
+          "text": "identify and prevent all heuristic virus signatures"
+        },
+        {
+          "id": "E",
+          "text": "identify a list of websites that users are not permitted to access"
+        },
+        {
+          "id": "F",
+          "text": "describe the rights to access and activities permitted to security personnel on the device"
+        }
+      ],
+      "correctOptionIds": [
+        "B",
+        "C",
+        "F"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>A comprehensive BYOD policy should accomplish the following:<br />\nIdentification of which employees can bring their own devices<br />\nIdentification of which devices will be supported<br />\nIdentification of the level of access employees are granted when using personal devices<br />\nDescribe the rights to access and activities permitted to security personnel on the device<br />\nIdentification of which regulations must be adhered to when using employee devices<br />\nIdentification of safeguards to put in place if a device is compromised</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-18-20-network-defense-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m18-20-q005",
+      "moduleId": "iao-m18-20",
+      "moduleLabel": "IAO Modules 18-20: Network Defense",
+      "moduleShortLabel": "IAO 18-20",
+      "questionNumber": 5,
+      "type": "multiple",
+      "promptHtml": "<p><b>Which two options are security best practices that help mitigate BYOD risks? (Choose two.)</b></p>",
+      "promptText": "Which two options are security best practices that help mitigate BYOD risks? (Choose two.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "Use paint that reflects wireless signals and glass that prevents the signals from going outside the building."
+        },
+        {
+          "id": "B",
+          "text": "Keep the device OS and software updated."
+        },
+        {
+          "id": "C",
+          "text": "Only allow devices that have been approved by the corporate IT team."
+        },
+        {
+          "id": "D",
+          "text": "Only turn on Wi-Fi when using the wireless network."
+        },
+        {
+          "id": "E",
+          "text": "Decrease the wireless antenna gain level."
+        },
+        {
+          "id": "F",
+          "text": "Use wireless MAC address filtering."
+        }
+      ],
+      "correctOptionIds": [
+        "B",
+        "D"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Many companies now support employees and visitors attaching and using wireless devices that connect to and use the corporate wireless network. This practice is known as a bring-your-own-device policy or BYOD. Commonly, BYOD security practices are included in the security policy. Some best practices that mitigate BYOD risks include the following:</p>\n<p>Use unique passwords for each device and account.</p>\n<p>Turn off Wi-Fi and Bluetooth connectivity when not being used. Only connect to trusted networks.</p>\n<p>Keep the device OS and other software updated.</p>\n<p>Backup any data stored on the device.</p>\n<p>Subscribe to a device locator service with a remote wipe feature.</p>\n<p>Provide antivirus software for approved BYODs.</p>\n<p>Use Mobile Device Management (MDM) software that allows IT teams to track the device and implement security settings and software controls.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-18-20-network-defense-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m18-20-q006",
+      "moduleId": "iao-m18-20",
+      "moduleLabel": "IAO Modules 18-20: Network Defense",
+      "moduleShortLabel": "IAO 18-20",
+      "questionNumber": 6,
+      "type": "single",
+      "promptHtml": "<p><b>What is the purpose of mobile device management (MDM) software?</b></p>",
+      "promptText": "What is the purpose of mobile device management (MDM) software?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It is used to create a security policy."
+        },
+        {
+          "id": "B",
+          "text": "It is used to implement security policies, setting, and software configurations on mobile devices."
+        },
+        {
+          "id": "C",
+          "text": "It is used to identify potential mobile device vulnerabilities."
+        },
+        {
+          "id": "D",
+          "text": "It is used by threat actors to penetrate the system."
+        }
+      ],
+      "correctOptionIds": [
+        "B"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Mobile device management (MDM) software is used with mobile devices so that corporate IT personnel can track the devices, implement security settings, as well as control software configurations.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-18-20-network-defense-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m18-20-q007",
+      "moduleId": "iao-m18-20",
+      "moduleLabel": "IAO Modules 18-20: Network Defense",
+      "moduleShortLabel": "IAO 18-20",
+      "questionNumber": 7,
+      "type": "single",
+      "promptHtml": "<p><b>What does the incident handling procedures security policy describe?</b></p>",
+      "promptText": "What does the incident handling procedures security policy describe?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It describes how security incidents are handled."
+        },
+        {
+          "id": "B",
+          "text": "It describes the procedure for auditing the network after a cyberattack."
+        },
+        {
+          "id": "C",
+          "text": "It describes the procedure for mitigating cyberattacks."
+        },
+        {
+          "id": "D",
+          "text": "It describes how to prevent various cyberattacks."
+        }
+      ],
+      "correctOptionIds": [
+        "A"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>The incident handling procedures security policy describes how security incidents are handled.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-18-20-network-defense-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m18-20-q008",
+      "moduleId": "iao-m18-20",
+      "moduleLabel": "IAO Modules 18-20: Network Defense",
+      "moduleShortLabel": "IAO 18-20",
+      "questionNumber": 8,
+      "type": "multiple",
+      "promptHtml": "<p><b>Match the type of business policy to the description.</b><br />\n<img src=\"assets/exhibits/iao-m18-20/q008-1-34c64c06a2.jpg\" alt=\"\" /></p>",
+      "promptText": "Match the type of business policy to the description.",
+      "options": [
+        {
+          "id": "A",
+          "text": "defines system requirements and objectives, rules, and requirements for users when they attach to or on the network ==> security"
+        },
+        {
+          "id": "B",
+          "text": "protects the rights of workers and the company interests ==> company"
+        },
+        {
+          "id": "C",
+          "text": "identifies salary, pay schedule, benefits, work schedule, vacations, etc. ==> employee"
+        }
+      ],
+      "correctOptionIds": [
+        "A",
+        "B",
+        "C"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "",
+      "sourceUrl": "https://itexamanswers.net/modules-18-20-network-defense-group-exam-answers.html",
+      "assetPaths": [
+        "assets/exhibits/iao-m18-20/q008-1-34c64c06a2.jpg"
+      ]
+    },
+    {
+      "id": "iao-m18-20-q009",
+      "moduleId": "iao-m18-20",
+      "moduleLabel": "IAO Modules 18-20: Network Defense",
+      "moduleShortLabel": "IAO 18-20",
+      "questionNumber": 9,
+      "type": "multiple",
+      "promptHtml": "<p><b>Match the threat intelligence sharing standards with the description.</b><br />\n<img src=\"assets/exhibits/iao-m18-20/q009-1-be735f648b.png\" alt=\"\" /></p>",
+      "promptText": "Match the threat intelligence sharing standards with the description.",
+      "options": [
+        {
+          "id": "A",
+          "text": "This is the specification for an application layer protocol that allows the communication of CTI over HTTPS. ==> TAXII"
+        },
+        {
+          "id": "B",
+          "text": "This is a set of specifications for exchanging cyberthreat information between organizations. ==> STIX"
+        },
+        {
+          "id": "C",
+          "text": "This is is a set of standardized schemata for specifying, capturing, characterizing, and communicating events and properties of network operations. ==> CybOX"
+        }
+      ],
+      "correctOptionIds": [
+        "A",
+        "B",
+        "C"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "",
+      "sourceUrl": "https://itexamanswers.net/modules-18-20-network-defense-group-exam-answers.html",
+      "assetPaths": [
+        "assets/exhibits/iao-m18-20/q009-1-be735f648b.png"
+      ]
+    },
+    {
+      "id": "iao-m18-20-q010",
+      "moduleId": "iao-m18-20",
+      "moduleLabel": "IAO Modules 18-20: Network Defense",
+      "moduleShortLabel": "IAO 18-20",
+      "questionNumber": 10,
+      "type": "single",
+      "promptHtml": "<p><b>What is the primary purpose of the Forum of Incident Response and Security Teams (FIRST)?</b></p>",
+      "promptText": "What is the primary purpose of the Forum of Incident Response and Security Teams (FIRST)?",
+      "options": [
+        {
+          "id": "A",
+          "text": "to enable a variety of computer security incident response teams to collaborate, cooperate, and coordinate information sharing, incident prevention, and rapid reaction strategies"
+        },
+        {
+          "id": "B",
+          "text": "to provide a security news portal that aggregates the latest breaking news pertaining to alerts, exploits, and vulnerabilities"
+        },
+        {
+          "id": "C",
+          "text": "to offer 24×7 cyberthreat warnings and advisories, vulnerability identification, and mitigation and incident response"
+        },
+        {
+          "id": "D",
+          "text": "to provide vendor neutral education products and career services to industry professionals worldwide"
+        }
+      ],
+      "correctOptionIds": [
+        "A"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>The primary purpose of the Forum of Incident Response and Security Teams (FIRST) is to enable a variety of computer security incident response teams to collaborate, cooperate, and coordinate information sharing, incident prevention, and rapid reaction between the teams.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-18-20-network-defense-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m18-20-q011",
+      "moduleId": "iao-m18-20",
+      "moduleLabel": "IAO Modules 18-20: Network Defense",
+      "moduleShortLabel": "IAO 18-20",
+      "questionNumber": 11,
+      "type": "single",
+      "promptHtml": "<p><b>What is the primary purpose of the Malware Information Sharing Platform (MISP) ?</b></p>",
+      "promptText": "What is the primary purpose of the Malware Information Sharing Platform (MISP) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "to publish all informational materials on known and newly discovered cyberthreats"
+        },
+        {
+          "id": "B",
+          "text": "to enable automated sharing of IOCs between people and machines using the STIX and other exports formats"
+        },
+        {
+          "id": "C",
+          "text": "to provide a set of standardized schemata for specifying and capturing events and properties of network operations"
+        },
+        {
+          "id": "D",
+          "text": "to exchange all the response mechanisms to known threats"
+        }
+      ],
+      "correctOptionIds": [
+        "B"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Malware Information Sharing Platform (MISP) is an open source platform that enables automated sharing of IOCs between people and machines using the STIX and other exports formats.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-18-20-network-defense-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m18-20-q012",
+      "moduleId": "iao-m18-20",
+      "moduleLabel": "IAO Modules 18-20: Network Defense",
+      "moduleShortLabel": "IAO 18-20",
+      "questionNumber": 12,
+      "type": "single",
+      "promptHtml": "<p><b>Which statement describes Trusted Automated Exchange of Indicator Information (TAXII)?</b></p>",
+      "promptText": "Which statement describes Trusted Automated Exchange of Indicator Information (TAXII)?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It is a set of specifications for exchanging cyber threat information between organizations."
+        },
+        {
+          "id": "B",
+          "text": "It is a signature-less engine utilizing stateful attack analysis to detect zero-day threats."
+        },
+        {
+          "id": "C",
+          "text": "It is a dynamic database of real-time vulnerabilities."
+        },
+        {
+          "id": "D",
+          "text": "It is the specification for an application layer protocol that allows the communication of CTI over HTTPS."
+        }
+      ],
+      "correctOptionIds": [
+        "D"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Trusted Automated Exchange of Indicator Information (TAXII) is the specification for an application layer protocol that allows the communication of CTI over HTTPS. TAXII is designed to support Structured Threat Information Expression (STIX).</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-18-20-network-defense-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m18-20-q013",
+      "moduleId": "iao-m18-20",
+      "moduleLabel": "IAO Modules 18-20: Network Defense",
+      "moduleShortLabel": "IAO 18-20",
+      "questionNumber": 13,
+      "type": "single",
+      "promptHtml": "<p><b>Which organization defines unique CVE Identifiers for publicly known information-security vulnerabilities that make it easier to share data?</b></p>",
+      "promptText": "Which organization defines unique CVE Identifiers for publicly known information-security vulnerabilities that make it easier to share data?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cisco Talos"
+        },
+        {
+          "id": "B",
+          "text": "DHS"
+        },
+        {
+          "id": "C",
+          "text": "FireEye"
+        },
+        {
+          "id": "D",
+          "text": "MITRE"
+        }
+      ],
+      "correctOptionIds": [
+        "D"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>The United States government sponsored the MITRE Corporation to create and maintain a catalog of known security threats called Common Vulnerabilities and Exposures (CVE). The CVE serves as a dictionary of common names (i.e., CVE Identifiers) for publicly known cybersecurity vulnerabilities.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-18-20-network-defense-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m18-20-q014",
+      "moduleId": "iao-m18-20",
+      "moduleLabel": "IAO Modules 18-20: Network Defense",
+      "moduleShortLabel": "IAO 18-20",
+      "questionNumber": 14,
+      "type": "single",
+      "promptHtml": "<p><b>How does FireEye detect and prevent zero-day attacks?</b></p>",
+      "promptText": "How does FireEye detect and prevent zero-day attacks?",
+      "options": [
+        {
+          "id": "A",
+          "text": "by establishing an authentication parameter prior to any data exchange"
+        },
+        {
+          "id": "B",
+          "text": "by addressing all stages of an attack lifecycle with a signature-less engine utilizing stateful attack analysis"
+        },
+        {
+          "id": "C",
+          "text": "by keeping a detailed analysis of all viruses and malware"
+        },
+        {
+          "id": "D",
+          "text": "by only accepting encrypted data packets that validate against their configured hash values"
+        }
+      ],
+      "correctOptionIds": [
+        "B"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>FireEye uses a three-pronged approach combining security intelligence, security expertise, and technology. It addresses all stages of an attack lifecycle with a signature-less engine utilizing stateful attack analysis to detect zero-day threats.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-18-20-network-defense-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m18-20-q015",
+      "moduleId": "iao-m18-20",
+      "moduleLabel": "IAO Modules 18-20: Network Defense",
+      "moduleShortLabel": "IAO 18-20",
+      "questionNumber": 15,
+      "type": "single",
+      "promptHtml": "<p><b>What is the primary function of the Center for Internet Security (CIS)?</b></p><div class=\"92f2483bb651eed307c93e619d752c78\" data-index=\"1\" style=\"float: none; margin:10px 0 10px 0; text-align:center;\">\n<div id=\"adngin-incontent_auto-0\"></div>\n</div>",
+      "promptText": "What is the primary function of the Center for Internet Security (CIS)?",
+      "options": [
+        {
+          "id": "A",
+          "text": "to maintain a list of common vulnerabilities and exposures (CVE) used by security organizations"
+        },
+        {
+          "id": "B",
+          "text": "to provide a security news portal that aggregates the latest breaking news pertaining to alerts, exploits, and vulnerabilities"
+        },
+        {
+          "id": "C",
+          "text": "to offer 24×7 cyberthreat warnings and advisories, vulnerability identification, and mitigation and incident responses"
+        },
+        {
+          "id": "D",
+          "text": "to provide vendor-neutral education products and career services to industry professionals worldwide"
+        }
+      ],
+      "correctOptionIds": [
+        "C"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>CIS offers 24&#215;7 cyberthreat warnings and advisories, vulnerability identification, and mitigation and incident responses to state, local, tribal, and territorial (SLTT) governments through the Multi-State Information Sharing and Analysis Center (MS-ISAC).</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-18-20-network-defense-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m18-20-q016",
+      "moduleId": "iao-m18-20",
+      "moduleLabel": "IAO Modules 18-20: Network Defense",
+      "moduleShortLabel": "IAO 18-20",
+      "questionNumber": 16,
+      "type": "single",
+      "promptHtml": "<p><b>What is CybOX?</b></p>",
+      "promptText": "What is CybOX?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It is a specification for an application layer protocol that allows the communication of CTI over HTTPS."
+        },
+        {
+          "id": "B",
+          "text": "It is a set of standardized schemata for specifying, capturing, characterizing, and communicating events and properties of network operations."
+        },
+        {
+          "id": "C",
+          "text": "It enables the real-time exchange of cyberthreat indicators between the U.S. Federal Government and the private sector."
+        },
+        {
+          "id": "D",
+          "text": "It is a catalog of known security threats called Common Vulnerabilities and Exposures (CVE) for publicly known cybersecurity vulnerabilities."
+        }
+      ],
+      "correctOptionIds": [
+        "B"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>CybOX is a set of open standards that provide the specifications that aid in the automated exchange of cyberthreat intelligence information in a standardized format. It is a set of standardized schemata for specifying, capturing, characterizing, and communicating events and properties of network operations that support many cybersecurity functions.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-18-20-network-defense-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m18-20-q017",
+      "moduleId": "iao-m18-20",
+      "moduleLabel": "IAO Modules 18-20: Network Defense",
+      "moduleShortLabel": "IAO 18-20",
+      "questionNumber": 17,
+      "type": "single",
+      "promptHtml": "<p><b>A web server administrator is configuring access settings to require users to authenticate first before accessing certain web pages. Which requirement of information security is addressed through the configuration?</b></p>",
+      "promptText": "A web server administrator is configuring access settings to require users to authenticate first before accessing certain web pages. Which requirement of information security is addressed through the configuration?",
+      "options": [
+        {
+          "id": "A",
+          "text": "availability"
+        },
+        {
+          "id": "B",
+          "text": "integrity"
+        },
+        {
+          "id": "C",
+          "text": "scalability"
+        },
+        {
+          "id": "D",
+          "text": "confidentiality"
+        }
+      ],
+      "correctOptionIds": [
+        "D"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Confidentiality ensures that data is accessed only by authorized individuals. Authentication will help verify the identity of the individuals.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-18-20-network-defense-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m18-20-q018",
+      "moduleId": "iao-m18-20",
+      "moduleLabel": "IAO Modules 18-20: Network Defense",
+      "moduleShortLabel": "IAO 18-20",
+      "questionNumber": 18,
+      "type": "single",
+      "promptHtml": "<p><b>When designing a prototype network for a new server farm, a network designer chooses to use redundant links to connect to the rest of the network. Which business goal will be addressed by this choice?</b></p>",
+      "promptText": "When designing a prototype network for a new server farm, a network designer chooses to use redundant links to connect to the rest of the network. Which business goal will be addressed by this choice?",
+      "options": [
+        {
+          "id": "A",
+          "text": "availability"
+        },
+        {
+          "id": "B",
+          "text": "manageability"
+        },
+        {
+          "id": "C",
+          "text": "security"
+        },
+        {
+          "id": "D",
+          "text": "scalability"
+        }
+      ],
+      "correctOptionIds": [
+        "A"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Availability is one of the components of information security where authorized users must have uninterrupted access to important resources and data.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-18-20-network-defense-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m18-20-q019",
+      "moduleId": "iao-m18-20",
+      "moduleLabel": "IAO Modules 18-20: Network Defense",
+      "moduleShortLabel": "IAO 18-20",
+      "questionNumber": 19,
+      "type": "single",
+      "promptHtml": "<p><b>When a security audit is performed at a company, the auditor reports that new users have access to network resources beyond their normal job roles. Additionally, users who move to different positions retain their prior permissions. What kind of violation is occurring?</b></p>",
+      "promptText": "When a security audit is performed at a company, the auditor reports that new users have access to network resources beyond their normal job roles. Additionally, users who move to different positions retain their prior permissions. What kind of violation is occurring?",
+      "options": [
+        {
+          "id": "A",
+          "text": "least privilege"
+        },
+        {
+          "id": "B",
+          "text": "network policy"
+        },
+        {
+          "id": "C",
+          "text": "password"
+        },
+        {
+          "id": "D",
+          "text": "audit"
+        }
+      ],
+      "correctOptionIds": [
+        "A"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Users should have access to information on a need to know basis. When a user moves from job role to job role, the same concept applies.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-18-20-network-defense-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m18-20-q020",
+      "moduleId": "iao-m18-20",
+      "moduleLabel": "IAO Modules 18-20: Network Defense",
+      "moduleShortLabel": "IAO 18-20",
+      "questionNumber": 20,
+      "type": "single",
+      "promptHtml": "<p><b>Which component of the zero trust security model focuses on secure access when an API, a microservice, or a container is accessing a database within an application?</b></p>",
+      "promptText": "Which component of the zero trust security model focuses on secure access when an API, a microservice, or a container is accessing a database within an application?",
+      "options": [
+        {
+          "id": "A",
+          "text": "workflow"
+        },
+        {
+          "id": "B",
+          "text": "workforce"
+        },
+        {
+          "id": "C",
+          "text": "workload"
+        },
+        {
+          "id": "D",
+          "text": "workplace"
+        }
+      ],
+      "correctOptionIds": [
+        "C"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>The workload pillar focuses on applications that are running in the cloud, in data centers, and other virtualized environments that interact with one another. It focuses on secure access when an API, a microservice, or a container is accessing a database within an application.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-18-20-network-defense-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m18-20-q021",
+      "moduleId": "iao-m18-20",
+      "moduleLabel": "IAO Modules 18-20: Network Defense",
+      "moduleShortLabel": "IAO 18-20",
+      "questionNumber": 21,
+      "type": "single",
+      "promptHtml": "<p><b>What is the purpose of the network security accounting function?</b></p>",
+      "promptText": "What is the purpose of the network security accounting function?",
+      "options": [
+        {
+          "id": "A",
+          "text": "to determine which resources a user can access"
+        },
+        {
+          "id": "B",
+          "text": "to provide challenge and response questions"
+        },
+        {
+          "id": "C",
+          "text": "to keep track of the actions of a user"
+        },
+        {
+          "id": "D",
+          "text": "to require users to prove who they are"
+        }
+      ],
+      "correctOptionIds": [
+        "C"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Authentication, authorization, and accounting are network services collectively known as AAA. Authentication requires users to prove who they are. Authorization determines which resources the user can access. Accounting keeps track of the actions of the user.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-18-20-network-defense-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m18-20-q022",
+      "moduleId": "iao-m18-20",
+      "moduleLabel": "IAO Modules 18-20: Network Defense",
+      "moduleShortLabel": "IAO 18-20",
+      "questionNumber": 22,
+      "type": "single",
+      "promptHtml": "<p><b>Which term describes the ability of a web server to keep a log of the users who access the server, as well as the length of time they use it?</b></p>",
+      "promptText": "Which term describes the ability of a web server to keep a log of the users who access the server, as well as the length of time they use it?",
+      "options": [
+        {
+          "id": "A",
+          "text": "authentication"
+        },
+        {
+          "id": "B",
+          "text": "accounting"
+        },
+        {
+          "id": "C",
+          "text": "assigning permissions"
+        },
+        {
+          "id": "D",
+          "text": "authorization"
+        }
+      ],
+      "correctOptionIds": [
+        "B"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Accounting records what users do and when they do it, including what is accessed, the amount of time the resource is accessed, and any changes that were made. Accounting keeps track of how network resources are used.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-18-20-network-defense-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m18-20-q023",
+      "moduleId": "iao-m18-20",
+      "moduleLabel": "IAO Modules 18-20: Network Defense",
+      "moduleShortLabel": "IAO 18-20",
+      "questionNumber": 23,
+      "type": "multiple",
+      "promptHtml": "<p><b>Match the information security component with the description.</b><br />\n<img src=\"assets/exhibits/iao-m18-20/q023-1-0622584e62.jpg\" alt=\"\" /></p>",
+      "promptText": "Match the information security component with the description.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only authorized individuals, entities, or processes can access sensitive information. : confidentiality"
+        },
+        {
+          "id": "B",
+          "text": "Data is protected from unauthorized alteration. : Integrity"
+        },
+        {
+          "id": "C",
+          "text": "Authorized users must have uninterrupted access to important resources and data. : availability"
+        }
+      ],
+      "correctOptionIds": [
+        "A",
+        "B",
+        "C"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "",
+      "sourceUrl": "https://itexamanswers.net/modules-18-20-network-defense-group-exam-answers.html",
+      "assetPaths": [
+        "assets/exhibits/iao-m18-20/q023-1-0622584e62.jpg"
+      ]
+    },
+    {
+      "id": "iao-m18-20-q024",
+      "moduleId": "iao-m18-20",
+      "moduleLabel": "IAO Modules 18-20: Network Defense",
+      "moduleShortLabel": "IAO 18-20",
+      "questionNumber": 24,
+      "type": "multiple",
+      "promptHtml": "<p><b>What are two characteristics of the RADIUS protocol? (Choose two.)</b></p>",
+      "promptText": "What are two characteristics of the RADIUS protocol? (Choose two.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "encryption of the entire body of the packet"
+        },
+        {
+          "id": "B",
+          "text": "encryption of the password only"
+        },
+        {
+          "id": "C",
+          "text": "the use of UDP ports for authentication and accounting"
+        },
+        {
+          "id": "D",
+          "text": "the separation of the authentication and authorization processes"
+        },
+        {
+          "id": "E",
+          "text": "the use of TCP port 49"
+        }
+      ],
+      "correctOptionIds": [
+        "B",
+        "C"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>RADIUS is an open-standard AAA protocol using UDP port 1645 or 1812 for authentication and UDP port 1646 or 1813 for accounting. It combines authentication and authorization into one process.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-18-20-network-defense-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m18-20-q025",
+      "moduleId": "iao-m18-20",
+      "moduleLabel": "IAO Modules 18-20: Network Defense",
+      "moduleShortLabel": "IAO 18-20",
+      "questionNumber": 25,
+      "type": "single",
+      "promptHtml": "<p><b>Which AAA component can be established using token cards?</b></p>",
+      "promptText": "Which AAA component can be established using token cards?",
+      "options": [
+        {
+          "id": "A",
+          "text": "accounting"
+        },
+        {
+          "id": "B",
+          "text": "authorization"
+        },
+        {
+          "id": "C",
+          "text": "authentication"
+        },
+        {
+          "id": "D",
+          "text": "auditing"
+        }
+      ],
+      "correctOptionIds": [
+        "C"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>The authentication component of AAA is established using username and password combinations, challenge and response questions, and token cards. The authorization component of AAA determines which resources the user can access and which operations the user is allowed to perform. The accounting and auditing component of AAA keeps track of how network resources are used.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-18-20-network-defense-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m18-20-q026",
+      "moduleId": "iao-m18-20",
+      "moduleLabel": "IAO Modules 18-20: Network Defense",
+      "moduleShortLabel": "IAO 18-20",
+      "questionNumber": 26,
+      "type": "single",
+      "promptHtml": "<p><b>What is a characteristic of the security artichoke, defense-in-depth approach?</b></p>",
+      "promptText": "What is a characteristic of the security artichoke, defense-in-depth approach?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Threat actors can easily compromise all layers safeguarding the data or systems."
+        },
+        {
+          "id": "B",
+          "text": "Threat actors no longer have to peel away each layer before reaching the target data or system."
+        },
+        {
+          "id": "C",
+          "text": "Threat actors can no longer penetrate any layers safeguarding the data or system."
+        },
+        {
+          "id": "D",
+          "text": "Each layer has to be penetrated before the threat actor can reach the target data or system."
+        }
+      ],
+      "correctOptionIds": [
+        "B"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>In the security artichoke, defense-in-depth approach not every layer needs to be penetrated by the threat actor in order to get to the data or systems. Each layer provides a layer of protection while simultaneously providing a path to attack.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-18-20-network-defense-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m18-20-q027",
+      "moduleId": "iao-m18-20",
+      "moduleLabel": "IAO Modules 18-20: Network Defense",
+      "moduleShortLabel": "IAO 18-20",
+      "questionNumber": 27,
+      "type": "single",
+      "promptHtml": "<p><b>What is a characteristic of a layered defense-in-depth security approach?</b></p>",
+      "promptText": "What is a characteristic of a layered defense-in-depth security approach?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Three or more devices are used."
+        },
+        {
+          "id": "B",
+          "text": "Routers are replaced with firewalls."
+        },
+        {
+          "id": "C",
+          "text": "One safeguard failure does not affect the effectiveness of other safeguards."
+        },
+        {
+          "id": "D",
+          "text": "When one device fails, another one takes over."
+        }
+      ],
+      "correctOptionIds": [
+        "C"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>When a layered defense-in-depth security approach is used, layers of security are placed through the organization-at the edge, within the network, and on endpoints. The layers work together to create the security architecture. In this environment, a failure of one safeguard does not affect the effectiveness of other safeguards.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-18-20-network-defense-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m18-20-q028",
+      "moduleId": "iao-m18-20",
+      "moduleLabel": "IAO Modules 18-20: Network Defense",
+      "moduleShortLabel": "IAO 18-20",
+      "questionNumber": 28,
+      "type": "single",
+      "promptHtml": "<p><b>What is the benefit of a defense-in-depth approach?</b></p>",
+      "promptText": "What is the benefit of a defense-in-depth approach?",
+      "options": [
+        {
+          "id": "A",
+          "text": "All network vulnerabilities are mitigated."
+        },
+        {
+          "id": "B",
+          "text": "The need for firewalls is eliminated."
+        },
+        {
+          "id": "C",
+          "text": "Only a single layer of security at the network core is required."
+        },
+        {
+          "id": "D",
+          "text": "The effectiveness of other security measures is not impacted when a security mechanism fails."
+        }
+      ],
+      "correctOptionIds": [
+        "D"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>The benefit of the defense-in-depth approach is that network defenses are implemented in layers so that failure of any single security mechanism does not impact other secuirty measures.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-18-20-network-defense-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m18-20-q029",
+      "moduleId": "iao-m18-20",
+      "moduleLabel": "IAO Modules 18-20: Network Defense",
+      "moduleShortLabel": "IAO 18-20",
+      "questionNumber": 29,
+      "type": "study",
+      "promptHtml": "<p><b>Match the term to the description.</b></p>\n<p><img src=\"assets/exhibits/iao-m18-20/q029-1-454bc01ea4.jpg\" alt=\"Exhibit Q29\" /></p>\n<p>Place the options in the following order:</p>",
+      "promptText": "Match the term to the description.\nPlace the options in the following order:",
+      "options": [],
+      "correctOptionIds": [],
+      "solutionHtml": "<table>\n<tbody>\n<tr>\n<td>assets</td>\n<td>information or equipment valuable enough to an organization to warrant protection</td>\n</tr>\n<tr>\n<td>threats</td>\n<td>potential dangers to a protected asset</td>\n</tr>\n<tr>\n<td>vulnerabilities</td>\n<td>weaknesses in a system or design</td>\n</tr>\n</tbody>\n</table>",
+      "explanationHtml": "",
+      "sourceUrl": "https://itexamanswers.net/modules-18-20-network-defense-group-exam-answers.html",
+      "assetPaths": [
+        "assets/exhibits/iao-m18-20/q029-1-454bc01ea4.jpg"
+      ]
+    },
+    {
+      "id": "iao-m18-20-q030",
+      "moduleId": "iao-m18-20",
+      "moduleLabel": "IAO Modules 18-20: Network Defense",
+      "moduleShortLabel": "IAO 18-20",
+      "questionNumber": 30,
+      "type": "single",
+      "promptHtml": "<p><b>What is the principle behind the nondiscretionary access control model?</b></p>",
+      "promptText": "What is the principle behind the nondiscretionary access control model?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It applies the strictest access control possible."
+        },
+        {
+          "id": "B",
+          "text": "It allows access decisions to be based on roles and responsibilities of a user within the organization."
+        },
+        {
+          "id": "C",
+          "text": "It allows users to control access to their data as owners of that data."
+        },
+        {
+          "id": "D",
+          "text": "It allows access based on attributes of the object be to accessed."
+        }
+      ],
+      "correctOptionIds": [
+        "B"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>The nondiscretionary access control model used the roles and responsibilities of the user as the basis for access decisions.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-18-20-network-defense-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m18-20-q031",
+      "moduleId": "iao-m18-20",
+      "moduleLabel": "IAO Modules 18-20: Network Defense",
+      "moduleShortLabel": "IAO 18-20",
+      "questionNumber": 31,
+      "type": "single",
+      "promptHtml": "<p><b>Which type of access control applies the strictest access control and is commonly used in military or mission critical applications?</b></p>",
+      "promptText": "Which type of access control applies the strictest access control and is commonly used in military or mission critical applications?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Non-discretionary access control"
+        },
+        {
+          "id": "B",
+          "text": "discretionary access control (DAC)"
+        },
+        {
+          "id": "C",
+          "text": "attribute-based access control (ABAC)"
+        },
+        {
+          "id": "D",
+          "text": "mandatory access control (MAC)"
+        }
+      ],
+      "correctOptionIds": [
+        "D"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p><b>Access control models are used to define the access controls implemented to protect corporate IT resources. The different types of access control models are as follows:</b></p>\n<p>Mandatory access control (MAC) – The strictest access control that is typically used in military or mission critical applications.</p>\n<p>Discretionary access control (DAC) – Allows users to control access to their data as owners of that data. Access control lists (ACLs) or other security measures may be used to specify who else may have access to the information.</p>\n<p>Non-discretionary access control – Also known as role-based access control (RBAC). Allows access based on the role and responsibilities of the individual within the organization.</p>\n<p>Attribute-based access control (ABAC) – Allows access based on the attributes of the resource to be accessed, the user accessing the resource, and the environmental factors such as the time of day.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-18-20-network-defense-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m18-20-q032",
+      "moduleId": "iao-m18-20",
+      "moduleLabel": "IAO Modules 18-20: Network Defense",
+      "moduleShortLabel": "IAO 18-20",
+      "questionNumber": 32,
+      "type": "single",
+      "promptHtml": "<p><b>Passwords, passphrases, and PINs are examples of which security term?</b></p>",
+      "promptText": "Passwords, passphrases, and PINs are examples of which security term?",
+      "options": [
+        {
+          "id": "A",
+          "text": "identification"
+        },
+        {
+          "id": "B",
+          "text": "access"
+        },
+        {
+          "id": "C",
+          "text": "authentication"
+        },
+        {
+          "id": "D",
+          "text": "authorization"
+        }
+      ],
+      "correctOptionIds": [
+        "C"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Authentication methods are used to strengthen access control systems. It is important to understand the available authentication methods.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-18-20-network-defense-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m18-20-q033",
+      "moduleId": "iao-m18-20",
+      "moduleLabel": "IAO Modules 18-20: Network Defense",
+      "moduleShortLabel": "IAO 18-20",
+      "questionNumber": 33,
+      "type": "single",
+      "promptHtml": "<p><b>How does AIS address a newly discovered threat?</b></p>",
+      "promptText": "How does AIS address a newly discovered threat?",
+      "options": [
+        {
+          "id": "A",
+          "text": "by creating response strategies against the new threat"
+        },
+        {
+          "id": "B",
+          "text": "by advising the U.S. Federal Government to publish internal response strategies"
+        },
+        {
+          "id": "C",
+          "text": "by enabling real-time exchange of cyberthreat indicators with U.S. Federal Government and the private sector"
+        },
+        {
+          "id": "D",
+          "text": "by mitigating the attack with active response defense mechanisms"
+        }
+      ],
+      "correctOptionIds": [
+        "C"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>AIS responds to a new threat as soon as it is recognized by immediately sharing it with U.S. Federal Government and the private sector to help them protect their networks against that particular threat.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-18-20-network-defense-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m21-23-q001",
+      "moduleId": "iao-m21-23",
+      "moduleLabel": "IAO Modules 21-23: Cryptography and Endpoint Protection",
+      "moduleShortLabel": "IAO 21-23",
+      "questionNumber": 1,
+      "type": "single",
+      "promptHtml": "<p><b>Which type of attack does the use of HMACs protect against?</b></p><div class=\"92f2483bb651eed307c93e619d752c78\" data-index=\"2\" style=\"float: none; margin:10px 0 10px 0; text-align:center;\">\n<div id=\"adngin-incontent_auto_large-0\"></div>\n</div>",
+      "promptText": "Which type of attack does the use of HMACs protect against?",
+      "options": [
+        {
+          "id": "A",
+          "text": "brute force"
+        },
+        {
+          "id": "B",
+          "text": "DDoS"
+        },
+        {
+          "id": "C",
+          "text": "DoS"
+        },
+        {
+          "id": "D",
+          "text": "man-in-the-middle"
+        }
+      ],
+      "correctOptionIds": [
+        "D"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Because only the sender and receiver know the secret key, only parties that have access to that key can compute the digest of an HMAC function. This defeats man-in-the-middle attacks and provides authentication of where the data originated.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-21-23-cryptography-and-endpoint-protection-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m21-23-q002",
+      "moduleId": "iao-m21-23",
+      "moduleLabel": "IAO Modules 21-23: Cryptography and Endpoint Protection",
+      "moduleShortLabel": "IAO 21-23",
+      "questionNumber": 2,
+      "type": "single",
+      "promptHtml": "<p><b>Which objective of secure communications is achieved by encrypting data?</b></p>",
+      "promptText": "Which objective of secure communications is achieved by encrypting data?",
+      "options": [
+        {
+          "id": "A",
+          "text": "confidentiality"
+        },
+        {
+          "id": "B",
+          "text": "integrity"
+        },
+        {
+          "id": "C",
+          "text": "availability"
+        },
+        {
+          "id": "D",
+          "text": "authentication"
+        }
+      ],
+      "correctOptionIds": [
+        "A"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>When data is encrypted, it is scrambled to keep the data private and confidential so that only authorized recipients can read the message. A hash function is another way of providing confidentiality.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-21-23-cryptography-and-endpoint-protection-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m21-23-q003",
+      "moduleId": "iao-m21-23",
+      "moduleLabel": "IAO Modules 21-23: Cryptography and Endpoint Protection",
+      "moduleShortLabel": "IAO 21-23",
+      "questionNumber": 3,
+      "type": "multiple",
+      "promptHtml": "<p><b>Which two statements correctly describe certificate classes used in the PKI? (Choose two.)</b></p>",
+      "promptText": "Which two statements correctly describe certificate classes used in the PKI? (Choose two.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "A class 4 certificate is for online business transactions between companies."
+        },
+        {
+          "id": "B",
+          "text": "A class 0 certificate is more trusted than a class 1 certificate."
+        },
+        {
+          "id": "C",
+          "text": "A class 0 certificate is for testing purposes."
+        },
+        {
+          "id": "D",
+          "text": "The lower the class number, the more trusted the certificate."
+        },
+        {
+          "id": "E",
+          "text": "A class 5 certificate is for users with a focus on verification of email."
+        }
+      ],
+      "correctOptionIds": [
+        "A",
+        "C"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>A digital certificate class is identified by a number. The higher the number, the more trusted the certificate. The classes include the following:<br />\nClass 0 is for testing purposes in which no checks have been performed.<br />\nClass 1 is for individuals with a focus on verification of email.<br />\nClass 2 is for organizations for which proof of identity is required.<br />\nClass 3 is for servers and software signing for which independent verification and checking of identity and authority is done by the issuing certificate authority.<br />\nClass 4 is for online business transactions between companies.<br />\nClass 5 is for private organizations or governmental security.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-21-23-cryptography-and-endpoint-protection-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m21-23-q004",
+      "moduleId": "iao-m21-23",
+      "moduleLabel": "IAO Modules 21-23: Cryptography and Endpoint Protection",
+      "moduleShortLabel": "IAO 21-23",
+      "questionNumber": 4,
+      "type": "single",
+      "promptHtml": "<p><b>A customer purchases an item from an e-commerce site. The e-commerce site must maintain proof that the data exchange took place between the site and the customer. Which feature of digital signatures is required?</b></p>",
+      "promptText": "A customer purchases an item from an e-commerce site. The e-commerce site must maintain proof that the data exchange took place between the site and the customer. Which feature of digital signatures is required?",
+      "options": [
+        {
+          "id": "A",
+          "text": "nonrepudiation of the transaction"
+        },
+        {
+          "id": "B",
+          "text": "integrity of digitally signed data"
+        },
+        {
+          "id": "C",
+          "text": "authenticity of digitally signed data"
+        },
+        {
+          "id": "D",
+          "text": "confidentiality of the public key"
+        }
+      ],
+      "correctOptionIds": [
+        "A"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Digital signatures provide three basic security services:<br />\nAuthenticity of digitally signed data &#8211; Digital signatures authenticate a source, proving that a certain party has seen and signed the data in question.<br />\nIntegrity of digitally signed data &#8211; Digital signatures guarantee that the data has not changed from the time it was signed.<br />\nNonrepudiation of the transaction &#8211; The recipient can take the data to a third party, and the third party accepts the digital signature as a proof that this data exchange did take place. The signing party cannot repudiate that it has signed the data.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-21-23-cryptography-and-endpoint-protection-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m21-23-q005",
+      "moduleId": "iao-m21-23",
+      "moduleLabel": "IAO Modules 21-23: Cryptography and Endpoint Protection",
+      "moduleShortLabel": "IAO 21-23",
+      "questionNumber": 5,
+      "type": "single",
+      "promptHtml": "<p><b>What is the purpose of a digital certificate?</b></p>",
+      "promptText": "What is the purpose of a digital certificate?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It provides proof that data has a traditional signature attached."
+        },
+        {
+          "id": "B",
+          "text": "It guarantees that a website has not been hacked."
+        },
+        {
+          "id": "C",
+          "text": "It ensures that the person who is gaining access to a network device is authorized."
+        },
+        {
+          "id": "D",
+          "text": "It authenticates a website and establishes a secure connection to exchange confidential data."
+        }
+      ],
+      "correctOptionIds": [
+        "D"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Digital signatures commonly use digital certificates that are used to verify the identity of the originator in order to authenticate a vendor website and establish an encrypted connection to exchange confidential data. One such example is when a person logs into a financial institution from a web browser.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-21-23-cryptography-and-endpoint-protection-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m21-23-q006",
+      "moduleId": "iao-m21-23",
+      "moduleLabel": "IAO Modules 21-23: Cryptography and Endpoint Protection",
+      "moduleShortLabel": "IAO 21-23",
+      "questionNumber": 6,
+      "type": "single",
+      "promptHtml": "<p><b>In a hierarchical CA topology, where can a subordinate CA obtain a certificate for itself?</b></p>",
+      "promptText": "In a hierarchical CA topology, where can a subordinate CA obtain a certificate for itself?",
+      "options": [
+        {
+          "id": "A",
+          "text": "from the root CA or another subordinate CA at a higher level"
+        },
+        {
+          "id": "B",
+          "text": "from the root CA or another subordinate CA at the same level"
+        },
+        {
+          "id": "C",
+          "text": "from the root CA or from self-generation"
+        },
+        {
+          "id": "D",
+          "text": "from the root CA only"
+        },
+        {
+          "id": "E",
+          "text": "from the root CA or another subordinate CA anywhere in the tree"
+        }
+      ],
+      "correctOptionIds": [
+        "A"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>In a hierarchical CA topology, CAs can issue certificates to end users and to subordinate CAs, which in turn issue their certificates to end users, other lower level CAs, or both. In this way, a tree of CAs and end users is built in which every CA can issue certificates to lower level CAs and end users. Only the root CA can issue a self-signing certificate in a hierarchical CA topology.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-21-23-cryptography-and-endpoint-protection-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m21-23-q007",
+      "moduleId": "iao-m21-23",
+      "moduleLabel": "IAO Modules 21-23: Cryptography and Endpoint Protection",
+      "moduleShortLabel": "IAO 21-23",
+      "questionNumber": 7,
+      "type": "single",
+      "promptHtml": "<p><b>What is the purpose for using digital signatures for code signing?</b></p>",
+      "promptText": "What is the purpose for using digital signatures for code signing?",
+      "options": [
+        {
+          "id": "A",
+          "text": "to establish an encrypted connection to exchange confidential data with a vendor website"
+        },
+        {
+          "id": "B",
+          "text": "to verify the integrity of executable files downloaded from a vendor website"
+        },
+        {
+          "id": "C",
+          "text": "to authenticate the identity of the system with a vendor website"
+        },
+        {
+          "id": "D",
+          "text": "to generate a virtual ID"
+        }
+      ],
+      "correctOptionIds": [
+        "B"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Code signing is used to verify the integrity of executable files downloaded from a vendor website. Code signing uses digital certificates to authenticate and verify the identity of a website.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-21-23-cryptography-and-endpoint-protection-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m21-23-q008",
+      "moduleId": "iao-m21-23",
+      "moduleLabel": "IAO Modules 21-23: Cryptography and Endpoint Protection",
+      "moduleShortLabel": "IAO 21-23",
+      "questionNumber": 8,
+      "type": "single",
+      "promptHtml": "<p><b>What technology has a function of using trusted third-party protocols to issue credentials that are accepted as an authoritative identity?</b></p>",
+      "promptText": "What technology has a function of using trusted third-party protocols to issue credentials that are accepted as an authoritative identity?",
+      "options": [
+        {
+          "id": "A",
+          "text": "digital signatures"
+        },
+        {
+          "id": "B",
+          "text": "hashing algorithms"
+        },
+        {
+          "id": "C",
+          "text": "PKI certificates"
+        },
+        {
+          "id": "D",
+          "text": "symmetric keys"
+        }
+      ],
+      "correctOptionIds": [
+        "C"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Digital certificates are used to prove the authenticity and integrity of PKI certificates, but a PKI Certificate Authority is a trusted third-party entity that issues PKI certificates. PKI certificates are public information and are used to provide authenticity, confidentiality, integrity, and nonrepudiation services that can scale to large requirements.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-21-23-cryptography-and-endpoint-protection-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m21-23-q009",
+      "moduleId": "iao-m21-23",
+      "moduleLabel": "IAO Modules 21-23: Cryptography and Endpoint Protection",
+      "moduleShortLabel": "IAO 21-23",
+      "questionNumber": 9,
+      "type": "single",
+      "promptHtml": "<p><b>In addressing a risk that has low potential impact and relatively high cost of mitigation or reduction, which strategy will accept the risk and its consequences?</b></p>",
+      "promptText": "In addressing a risk that has low potential impact and relatively high cost of mitigation or reduction, which strategy will accept the risk and its consequences?",
+      "options": [
+        {
+          "id": "A",
+          "text": "risk avoidance"
+        },
+        {
+          "id": "B",
+          "text": "risk reduction"
+        },
+        {
+          "id": "C",
+          "text": "risk retention"
+        },
+        {
+          "id": "D",
+          "text": "risk sharing"
+        }
+      ],
+      "correctOptionIds": [
+        "C"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>There are four potential strategies for responding to risks that have been identified:<br />\n<b>Risk avoidance</b> &#8211; Stop performing the activities that create risk.<br />\n<b>Risk reduction</b> &#8211; Decrease the risk by taking measures to reduce vulnerability.<br />\n<b>Risk sharing</b> &#8211; Shift some of the risk to other parties.<br />\n<b>Risk retention</b> &#8211; Accept the risk and its consequences.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-21-23-cryptography-and-endpoint-protection-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m21-23-q010",
+      "moduleId": "iao-m21-23",
+      "moduleLabel": "IAO Modules 21-23: Cryptography and Endpoint Protection",
+      "moduleShortLabel": "IAO 21-23",
+      "questionNumber": 10,
+      "type": "multiple",
+      "promptHtml": "<p><b>Which two classes of metrics are included in the CVSS Base Metric Group? (Choose two.)</b></p>",
+      "promptText": "Which two classes of metrics are included in the CVSS Base Metric Group? (Choose two.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "Confidentiality Requirement"
+        },
+        {
+          "id": "B",
+          "text": "Modified Base"
+        },
+        {
+          "id": "C",
+          "text": "Exploit Code Maturity"
+        },
+        {
+          "id": "D",
+          "text": "Exploitability"
+        },
+        {
+          "id": "E",
+          "text": "Impact metrics"
+        }
+      ],
+      "correctOptionIds": [
+        "D",
+        "E"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>The Base Metric Group of CVSS represents the characteristics of a vulnerability that are constant over time and across contexts. It contains two classes of metrics, Exploitability and Impact.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-21-23-cryptography-and-endpoint-protection-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m21-23-q011",
+      "moduleId": "iao-m21-23",
+      "moduleLabel": "IAO Modules 21-23: Cryptography and Endpoint Protection",
+      "moduleShortLabel": "IAO 21-23",
+      "questionNumber": 11,
+      "type": "multiple",
+      "promptHtml": "<p><b>Match the NIST Cybersecurity Framework core function with the description. (Not all options are used.)</b><br />\n<img src=\"assets/exhibits/iao-m21-23/q011-1-a092b8bf8d.jpg\" alt=\"\" /></p>",
+      "promptText": "Match the NIST Cybersecurity Framework core function with the description. (Not all options are used.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "develop and implement the appropriate activities to identify the occurrence of a cybersecurity event : detect"
+        },
+        {
+          "id": "B",
+          "text": "develop and implement the appropriate safeguards to ensure delivery of critical infrastructure services : protect"
+        },
+        {
+          "id": "C",
+          "text": "develop and implement the appropriate activities to act on a detected cybersecurity event"
+        },
+        {
+          "id": "D",
+          "text": "develop an organizational understanding to manage cybersecurity risk to systems, assets, data, and capabilities : identify"
+        }
+      ],
+      "correctOptionIds": [
+        "A",
+        "B",
+        "D"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "",
+      "sourceUrl": "https://itexamanswers.net/modules-21-23-cryptography-and-endpoint-protection-group-exam-answers.html",
+      "assetPaths": [
+        "assets/exhibits/iao-m21-23/q011-1-a092b8bf8d.jpg"
+      ]
+    },
+    {
+      "id": "iao-m21-23-q012",
+      "moduleId": "iao-m21-23",
+      "moduleLabel": "IAO Modules 21-23: Cryptography and Endpoint Protection",
+      "moduleShortLabel": "IAO 21-23",
+      "questionNumber": 12,
+      "type": "single",
+      "promptHtml": "<p><b>A cybersecurity analyst is performing a CVSS assessment on an attack where a web link was sent to several employees. Once clicked, an internal attack was launched. Which CVSS Base Metric Group Exploitability metric is used to document that the user had to click on the link in order for the attack to occur?</b></p>",
+      "promptText": "A cybersecurity analyst is performing a CVSS assessment on an attack where a web link was sent to several employees. Once clicked, an internal attack was launched. Which CVSS Base Metric Group Exploitability metric is used to document that the user had to click on the link in order for the attack to occur?",
+      "options": [
+        {
+          "id": "A",
+          "text": "scope"
+        },
+        {
+          "id": "B",
+          "text": "integrity requirement"
+        },
+        {
+          "id": "C",
+          "text": "availability requirement"
+        },
+        {
+          "id": "D",
+          "text": "user interaction"
+        }
+      ],
+      "correctOptionIds": [
+        "D"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>The CVSS Base Metric Group has the following metrics: attack vector, attack complexity, privileges required, user interaction, and scope. The user interaction metric expresses the presence or absence of the requirement for user interaction in order for an exploit to be successful.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-21-23-cryptography-and-endpoint-protection-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m21-23-q013",
+      "moduleId": "iao-m21-23",
+      "moduleLabel": "IAO Modules 21-23: Cryptography and Endpoint Protection",
+      "moduleShortLabel": "IAO 21-23",
+      "questionNumber": 13,
+      "type": "single",
+      "promptHtml": "<p><b>In network security assessments, which type of test employs software to scan internal networks and Internet facing servers for various types of vulnerabilities?</b></p>",
+      "promptText": "In network security assessments, which type of test employs software to scan internal networks and Internet facing servers for various types of vulnerabilities?",
+      "options": [
+        {
+          "id": "A",
+          "text": "vulnerability assessment"
+        },
+        {
+          "id": "B",
+          "text": "risk analysis"
+        },
+        {
+          "id": "C",
+          "text": "strength of network security testing"
+        },
+        {
+          "id": "D",
+          "text": "penetration testing"
+        }
+      ],
+      "correctOptionIds": [
+        "A"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>In vulnerability assessment, security analysts use software to scan internal networks and Internet facing servers for various types of vulnerabilities. Tools for vulnerability assessment include the open source OpenVAS platform, Microsoft Baseline Security Analyzer, Nessus, Qualys, and Fireeye Mandiant services.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-21-23-cryptography-and-endpoint-protection-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m21-23-q014",
+      "moduleId": "iao-m21-23",
+      "moduleLabel": "IAO Modules 21-23: Cryptography and Endpoint Protection",
+      "moduleShortLabel": "IAO 21-23",
+      "questionNumber": 14,
+      "type": "multiple",
+      "promptHtml": "<p><b>What are the three outcomes of the NIST Cybersecurity Framework identify core function? (Choose three.)</b></p>",
+      "promptText": "What are the three outcomes of the NIST Cybersecurity Framework identify core function? (Choose three.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "information protection process and procedures"
+        },
+        {
+          "id": "B",
+          "text": "governance"
+        },
+        {
+          "id": "C",
+          "text": "mitigation"
+        },
+        {
+          "id": "D",
+          "text": "risk assessment"
+        },
+        {
+          "id": "E",
+          "text": "asset management"
+        },
+        {
+          "id": "F",
+          "text": "recovery planning"
+        }
+      ],
+      "correctOptionIds": [
+        "B",
+        "D",
+        "E"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>The identify core function is concerned with the development of organizational understanding to manage cybersecurity risk to systems, assets, data, and capabilities. It involves the following outcomes:<br />\nAsset management<br />\nBusiness environment<br />\nGovernance<br />\nRisk assessment<br />\nRisk management strategy</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-21-23-cryptography-and-endpoint-protection-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m21-23-q015",
+      "moduleId": "iao-m21-23",
+      "moduleLabel": "IAO Modules 21-23: Cryptography and Endpoint Protection",
+      "moduleShortLabel": "IAO 21-23",
+      "questionNumber": 15,
+      "type": "single",
+      "promptHtml": "<p><b>When a server profile for an organization is being established, which element describes the TCP and UDP daemons and ports that are allowed to be open on the server?</b></p>",
+      "promptText": "When a server profile for an organization is being established, which element describes the TCP and UDP daemons and ports that are allowed to be open on the server?",
+      "options": [
+        {
+          "id": "A",
+          "text": "critical asset address space"
+        },
+        {
+          "id": "B",
+          "text": "service accounts"
+        },
+        {
+          "id": "C",
+          "text": "software environment"
+        },
+        {
+          "id": "D",
+          "text": "listening ports"
+        }
+      ],
+      "correctOptionIds": [
+        "D"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>A server profile will often contain the following:<br />\nListening ports – the TCP and UDP daemons and ports that are allowed to be open on the server<br />\nUser accounts – the parameters defining user access and behavior<br />\nService accounts – the definitions of the type of service that an application is allowed to run on a server<br />\nSoftware environment – the tasks, processes, and applications that are permitted to run on the server</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-21-23-cryptography-and-endpoint-protection-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m21-23-q016",
+      "moduleId": "iao-m21-23",
+      "moduleLabel": "IAO Modules 21-23: Cryptography and Endpoint Protection",
+      "moduleShortLabel": "IAO 21-23",
+      "questionNumber": 16,
+      "type": "single",
+      "promptHtml": "<p><b>What is an action that should be taken in the discovery step of the vulnerability management life cycle?</b></p>",
+      "promptText": "What is an action that should be taken in the discovery step of the vulnerability management life cycle?",
+      "options": [
+        {
+          "id": "A",
+          "text": "documenting the security plan"
+        },
+        {
+          "id": "B",
+          "text": "assigning business value to assets"
+        },
+        {
+          "id": "C",
+          "text": "developing a network baseline"
+        },
+        {
+          "id": "D",
+          "text": "determining a risk profile"
+        }
+      ],
+      "correctOptionIds": [
+        "C"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>During the discovery step of the vulnerability management life cycle, an inventory of all network assets is made. A network baseline is developed, and security vulnerabilities are identified.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-21-23-cryptography-and-endpoint-protection-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m21-23-q017",
+      "moduleId": "iao-m21-23",
+      "moduleLabel": "IAO Modules 21-23: Cryptography and Endpoint Protection",
+      "moduleShortLabel": "IAO 21-23",
+      "questionNumber": 17,
+      "type": "single",
+      "promptHtml": "<p><b>In what order are the steps in the vulnerability management life cycle conducted?</b></p>",
+      "promptText": "In what order are the steps in the vulnerability management life cycle conducted?",
+      "options": [
+        {
+          "id": "A",
+          "text": "discover, assess, prioritize assets, report, remediate, verify"
+        },
+        {
+          "id": "B",
+          "text": "discover, prioritize assets, assess, remediate, report, verify"
+        },
+        {
+          "id": "C",
+          "text": "discover, prioritize assets, assess, remediate, verify, report"
+        },
+        {
+          "id": "D",
+          "text": "discover, prioritize assets, assess, report, remediate, verify"
+        }
+      ],
+      "correctOptionIds": [
+        "D"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>There are six steps in the vulnerability management life cycle:</p>\n<ul>\n<li>Discover</li>\n<li>Prioritize assets</li>\n<li>Assess</li>\n<li>Report</li>\n<li>Remediate</li>\n<li>Verify</li>\n</ul>\n<p></p>",
+      "sourceUrl": "https://itexamanswers.net/modules-21-23-cryptography-and-endpoint-protection-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m21-23-q017",
+      "moduleId": "iao-m21-23",
+      "moduleLabel": "IAO Modules 21-23: Cryptography and Endpoint Protection",
+      "moduleShortLabel": "IAO 21-23",
+      "questionNumber": 17,
+      "type": "single",
+      "promptHtml": "<p><b>What does the telemetry function provide in host-based security software?</b></p><div class=\"92f2483bb651eed307c93e619d752c78\" data-index=\"1\" style=\"float: none; margin:10px 0 10px 0; text-align:center;\">\n<div id=\"adngin-incontent_auto-0\"></div>\n</div>",
+      "promptText": "What does the telemetry function provide in host-based security software?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It updates the heuristic antivirus signature database."
+        },
+        {
+          "id": "B",
+          "text": "It blocks the passage of zero-day attacks."
+        },
+        {
+          "id": "C",
+          "text": "It enables updates of malware signatures."
+        },
+        {
+          "id": "D",
+          "text": "It enables host-based security programs to have comprehensive logging functions."
+        }
+      ],
+      "correctOptionIds": [
+        "D"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>The telemetry function allows for robust logging functionality that is essential to cybersecurity operations. Some host-based security programs will submit logs to a central location for analysis.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-21-23-cryptography-and-endpoint-protection-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m21-23-q019",
+      "moduleId": "iao-m21-23",
+      "moduleLabel": "IAO Modules 21-23: Cryptography and Endpoint Protection",
+      "moduleShortLabel": "IAO 21-23",
+      "questionNumber": 19,
+      "type": "single",
+      "promptHtml": "<p><b>A security professional is making recommendations to a company for enhancing endpoint security. Which security endpoint technology would be recommended as an agent-based system to protect hosts against malware?</b></p>",
+      "promptText": "A security professional is making recommendations to a company for enhancing endpoint security. Which security endpoint technology would be recommended as an agent-based system to protect hosts against malware?",
+      "options": [
+        {
+          "id": "A",
+          "text": "IPS"
+        },
+        {
+          "id": "B",
+          "text": "HIDS"
+        },
+        {
+          "id": "C",
+          "text": "blacklisting"
+        },
+        {
+          "id": "D",
+          "text": "baselining"
+        }
+      ],
+      "correctOptionIds": [
+        "B"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>A host-based intrusion detection systems (HIDS) is a comprehensive security application that provides antimalware applications, a firewall, and monitoring and reporting.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-21-23-cryptography-and-endpoint-protection-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m21-23-q020",
+      "moduleId": "iao-m21-23",
+      "moduleLabel": "IAO Modules 21-23: Cryptography and Endpoint Protection",
+      "moduleShortLabel": "IAO 21-23",
+      "questionNumber": 20,
+      "type": "single",
+      "promptHtml": "<p><b>What is a feature of distributed firewalls?</b></p>",
+      "promptText": "What is a feature of distributed firewalls?",
+      "options": [
+        {
+          "id": "A",
+          "text": "They all use an open sharing standard platform."
+        },
+        {
+          "id": "B",
+          "text": "They use only TCP wrappers to configure rule-based access control and logging systems."
+        },
+        {
+          "id": "C",
+          "text": "They use only iptables to configure network rules."
+        },
+        {
+          "id": "D",
+          "text": "They combine the feature of host-based firewalls with centralized management."
+        }
+      ],
+      "correctOptionIds": [
+        "D"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Distributed firewalls combine features of host-based firewalls with centralized management, which pushes rules to the hosts.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-21-23-cryptography-and-endpoint-protection-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m21-23-q021",
+      "moduleId": "iao-m21-23",
+      "moduleLabel": "IAO Modules 21-23: Cryptography and Endpoint Protection",
+      "moduleShortLabel": "IAO 21-23",
+      "questionNumber": 21,
+      "type": "single",
+      "promptHtml": "<p><b>An administrator suspects polymorphic malware has successfully entered the network past the HIDS system perimeter. The polymorphic malware is, however, successfully identified and isolated. What must the administrator do to create signatures to prevent the file from entering the network again?</b></p>",
+      "promptText": "An administrator suspects polymorphic malware has successfully entered the network past the HIDS system perimeter. The polymorphic malware is, however, successfully identified and isolated. What must the administrator do to create signatures to prevent the file from entering the network again?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Execute the polymorphic file in the Cisco Threat Grid Glovebox."
+        },
+        {
+          "id": "B",
+          "text": "Run the Cisco Talos security intelligence service."
+        },
+        {
+          "id": "C",
+          "text": "Use Cisco AMP to track the trajectory of a file through the network."
+        },
+        {
+          "id": "D",
+          "text": "Run a baseline to establish an accepted amount of risk, and the environmental components that contribute to the risk level of the polymorphic malware."
+        }
+      ],
+      "correctOptionIds": [
+        "A"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>The isolated polymorphic malware file should be run in a sandbox environment like Cisco Threat Grid Glovebox, and the activities of the file documented by the system. This information can then be used to create signatures to prevent the file from entering the network again.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-21-23-cryptography-and-endpoint-protection-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m21-23-q022",
+      "moduleId": "iao-m21-23",
+      "moduleLabel": "IAO Modules 21-23: Cryptography and Endpoint Protection",
+      "moduleShortLabel": "IAO 21-23",
+      "questionNumber": 22,
+      "type": "single",
+      "promptHtml": "<p><b>On a Windows host, which tool can be used to create and maintain blacklists and whitelists?</b></p>",
+      "promptText": "On a Windows host, which tool can be used to create and maintain blacklists and whitelists?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Local Users and Groups"
+        },
+        {
+          "id": "B",
+          "text": "Group Policy Editor"
+        },
+        {
+          "id": "C",
+          "text": "Task Manager"
+        },
+        {
+          "id": "D",
+          "text": "Computer Management"
+        }
+      ],
+      "correctOptionIds": [
+        "B"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>In Windows, blacklisting and whitelisting settings can be managed through the Group Policy Editor.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-21-23-cryptography-and-endpoint-protection-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m21-23-q023",
+      "moduleId": "iao-m21-23",
+      "moduleLabel": "IAO Modules 21-23: Cryptography and Endpoint Protection",
+      "moduleShortLabel": "IAO 21-23",
+      "questionNumber": 23,
+      "type": "single",
+      "promptHtml": "<p><b>What is blacklisting?</b></p>",
+      "promptText": "What is blacklisting?",
+      "options": [
+        {
+          "id": "A",
+          "text": "This is an application list that can dictate which user applications are not permitted to run on a computer."
+        },
+        {
+          "id": "B",
+          "text": "This is a user list to prevent blacklisted users from accessing a computer."
+        },
+        {
+          "id": "C",
+          "text": "This is a network process list to stop a listed process from running on a computer."
+        },
+        {
+          "id": "D",
+          "text": "This is a Heuristics-based list to prevent a process from running on a computer."
+        }
+      ],
+      "correctOptionIds": [
+        "A"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Blacklisting can dictate which user applications are not permitted to run on a computer. Windows Local Group Policy Editor can be used to add entries for blacklisted applications.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-21-23-cryptography-and-endpoint-protection-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m21-23-q024",
+      "moduleId": "iao-m21-23",
+      "moduleLabel": "IAO Modules 21-23: Cryptography and Endpoint Protection",
+      "moduleShortLabel": "IAO 21-23",
+      "questionNumber": 24,
+      "type": "single",
+      "promptHtml": "<p><b>Which technology is used by Cisco Advanced Malware Protection (AMP) in defending and protecting against known and emerging threats?</b></p>",
+      "promptText": "Which technology is used by Cisco Advanced Malware Protection (AMP) in defending and protecting against known and emerging threats?",
+      "options": [
+        {
+          "id": "A",
+          "text": "network admission control"
+        },
+        {
+          "id": "B",
+          "text": "network profiling"
+        },
+        {
+          "id": "C",
+          "text": "website filtering and blacklisting"
+        },
+        {
+          "id": "D",
+          "text": "threat intelligence"
+        }
+      ],
+      "correctOptionIds": [
+        "D"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Cisco AMP uses threat intelligence along with known file signatures to identify and block policy-violating file types and exploitations.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-21-23-cryptography-and-endpoint-protection-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m21-23-q025",
+      "moduleId": "iao-m21-23",
+      "moduleLabel": "IAO Modules 21-23: Cryptography and Endpoint Protection",
+      "moduleShortLabel": "IAO 21-23",
+      "questionNumber": 25,
+      "type": "single",
+      "promptHtml": "<p><b>Which technique could be used by security personnel to analyze a suspicious file in a safe environment?</b></p>",
+      "promptText": "Which technique could be used by security personnel to analyze a suspicious file in a safe environment?",
+      "options": [
+        {
+          "id": "A",
+          "text": "sandboxing"
+        },
+        {
+          "id": "B",
+          "text": "baselining"
+        },
+        {
+          "id": "C",
+          "text": "whitelisting"
+        },
+        {
+          "id": "D",
+          "text": "blacklisting"
+        }
+      ],
+      "correctOptionIds": [
+        "A"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Sandboxing allows suspicious files to be executed and analyzed in a safe environment. There are free public sandboxes that allow for malware samples to be uploaded or submitted and analyzed.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-21-23-cryptography-and-endpoint-protection-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m21-23-q026",
+      "moduleId": "iao-m21-23",
+      "moduleLabel": "IAO Modules 21-23: Cryptography and Endpoint Protection",
+      "moduleShortLabel": "IAO 21-23",
+      "questionNumber": 26,
+      "type": "single",
+      "promptHtml": "<p><b>Which statement describes the term iptables?</b></p>",
+      "promptText": "Which statement describes the term iptables?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It is a file used by a DHCP server to store current active IP addresses."
+        },
+        {
+          "id": "B",
+          "text": "It is a rule-based firewall application in Linux."
+        },
+        {
+          "id": "C",
+          "text": "It is a DHCP application in Windows."
+        },
+        {
+          "id": "D",
+          "text": "It is a DNS daemon in Linux."
+        }
+      ],
+      "correctOptionIds": [
+        "B"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Iptables is an application that allows Linux system administrators to configure network access rules.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-21-23-cryptography-and-endpoint-protection-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m21-23-q027",
+      "moduleId": "iao-m21-23",
+      "moduleLabel": "IAO Modules 21-23: Cryptography and Endpoint Protection",
+      "moduleShortLabel": "IAO 21-23",
+      "questionNumber": 27,
+      "type": "single",
+      "promptHtml": "<p><b>What is the difference between an HIDS and a firewall?</b></p>",
+      "promptText": "What is the difference between an HIDS and a firewall?",
+      "options": [
+        {
+          "id": "A",
+          "text": "An HIDS works like an IPS, whereas a firewall just monitors traffic."
+        },
+        {
+          "id": "B",
+          "text": "An HIDS monitors operating systems on host computers and processes file system activity. Firewalls allow or deny traffic between the computer and other systems."
+        },
+        {
+          "id": "C",
+          "text": "A firewall performs packet filtering and therefore is limited in effectiveness, whereas an HIDS blocks intrusions."
+        },
+        {
+          "id": "D",
+          "text": "An HIDS blocks intrusions, whereas a firewall filters them."
+        },
+        {
+          "id": "E",
+          "text": "A firewall allows and denies traffic based on rules and an HIDS monitors network traffic."
+        }
+      ],
+      "correctOptionIds": [
+        "B"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>In order to monitor local activity an HIDS should be implemented. Network activity monitors are concerned with traffic and not operating system activity.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-21-23-cryptography-and-endpoint-protection-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m21-23-q028",
+      "moduleId": "iao-m21-23",
+      "moduleLabel": "IAO Modules 21-23: Cryptography and Endpoint Protection",
+      "moduleShortLabel": "IAO 21-23",
+      "questionNumber": 28,
+      "type": "single",
+      "promptHtml": "<p><b>Which statement describes the Cisco Threat Grid Glovebox?</b></p>",
+      "promptText": "Which statement describes the Cisco Threat Grid Glovebox?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It is a network-based IDS/IPS."
+        },
+        {
+          "id": "B",
+          "text": "It is a host-based intrusion detection system (HIDS) solution to fight against malware."
+        },
+        {
+          "id": "C",
+          "text": "It is a sandbox product for analyzing malware behaviors."
+        },
+        {
+          "id": "D",
+          "text": "It is a firewall appliance."
+        }
+      ],
+      "correctOptionIds": [
+        "C"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Cisco ThreatGrid Glovebox is a sandbox product for analyzing malware behaviors.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-21-23-cryptography-and-endpoint-protection-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m21-23-q029",
+      "moduleId": "iao-m21-23",
+      "moduleLabel": "IAO Modules 21-23: Cryptography and Endpoint Protection",
+      "moduleShortLabel": "IAO 21-23",
+      "questionNumber": 29,
+      "type": "single",
+      "promptHtml": "<p><b>Which statement describes the policy-based intrusion detection approach?</b></p>",
+      "promptText": "Which statement describes the policy-based intrusion detection approach?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It compares the signatures of incoming traffic to a known intrusion database."
+        },
+        {
+          "id": "B",
+          "text": "It compares the operations of a host against well-defined security rules."
+        },
+        {
+          "id": "C",
+          "text": "It compares the antimalware definitions to a central repository for the latest updates."
+        },
+        {
+          "id": "D",
+          "text": "It compares the behaviors of a host to an established baseline to identify potential intrusion."
+        }
+      ],
+      "correctOptionIds": [
+        "B"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>With the anomaly-based intrusion detection approach, a set of rules or policies are applied to a host. Violation of these policies is interpreted to be the result of a potential intrusion.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-21-23-cryptography-and-endpoint-protection-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m21-23-q030",
+      "moduleId": "iao-m21-23",
+      "moduleLabel": "IAO Modules 21-23: Cryptography and Endpoint Protection",
+      "moduleShortLabel": "IAO 21-23",
+      "questionNumber": 30,
+      "type": "single",
+      "promptHtml": "<p><b>What is the purpose of the DH algorithm?</b></p>",
+      "promptText": "What is the purpose of the DH algorithm?",
+      "options": [
+        {
+          "id": "A",
+          "text": "to provide nonrepudiation support"
+        },
+        {
+          "id": "B",
+          "text": "to generate a shared secret between two hosts that have not communicated before"
+        },
+        {
+          "id": "C",
+          "text": "to encrypt data traffic after a VPN is established"
+        },
+        {
+          "id": "D",
+          "text": "to support email data confidentiality"
+        }
+      ],
+      "correctOptionIds": [
+        "B"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>DH is an asymmetric mathematical algorithm that allows two computers to generate an identical shared secret, without having communicated before. Asymmetric key systems are extremely slow for any sort of bulk encryption. It is common to encrypt the bulk of the traffic using a symmetric algorithm such as DES, 3DES, or AES, and use the DH algorithm to create keys that will be used by the symmetric encryption algorithm.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-21-23-cryptography-and-endpoint-protection-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m21-23-q031",
+      "moduleId": "iao-m21-23",
+      "moduleLabel": "IAO Modules 21-23: Cryptography and Endpoint Protection",
+      "moduleShortLabel": "IAO 21-23",
+      "questionNumber": 31,
+      "type": "single",
+      "promptHtml": "<p><b>What is a difference between symmetric and asymmetric encryption algorithms?</b></p>",
+      "promptText": "What is a difference between symmetric and asymmetric encryption algorithms?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Symmetric encryption algorithms are used to authenticate secure communications. Asymmetric encryption algorithms are used to repudiate messages."
+        },
+        {
+          "id": "B",
+          "text": "Symmetric encryption algorithms are used to encrypt data. Asymmetric encryption algorithms are used to decrypt data."
+        },
+        {
+          "id": "C",
+          "text": "Symmetric encryption algorithms use pre-shared keys. Asymmetric encryption algorithms use different keys to encrypt and decrypt data."
+        },
+        {
+          "id": "D",
+          "text": "Symmetric algorithms are typically hundreds to thousands of times slower than asymmetric algorithms."
+        }
+      ],
+      "correctOptionIds": [
+        "C"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Asymmetric algorithms can use very long key lengths in order to avoid being hacked. This results in the use of significantly increased resources and time compared to symmetric algorithms.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-21-23-cryptography-and-endpoint-protection-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m21-23-q032",
+      "moduleId": "iao-m21-23",
+      "moduleLabel": "IAO Modules 21-23: Cryptography and Endpoint Protection",
+      "moduleShortLabel": "IAO 21-23",
+      "questionNumber": 32,
+      "type": "multiple",
+      "promptHtml": "<p><b>A company implements a security policy that ensures that a file sent from the headquarters office to the branch office can only be opened with a predetermined code. This code is changed every day. Which two algorithms can be used to achieve this task? (Choose two.)</b></p>",
+      "promptText": "A company implements a security policy that ensures that a file sent from the headquarters office to the branch office can only be opened with a predetermined code. This code is changed every day. Which two algorithms can be used to achieve this task? (Choose two.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "HMAC"
+        },
+        {
+          "id": "B",
+          "text": "MD5"
+        },
+        {
+          "id": "C",
+          "text": "3DES"
+        },
+        {
+          "id": "D",
+          "text": "SHA-1"
+        },
+        {
+          "id": "E",
+          "text": "AES"
+        }
+      ],
+      "correctOptionIds": [
+        "C",
+        "E"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>The task to ensure that only authorized personnel can open a file is data confidentiality, which can be implemented with encryption. AES and 3DES are two encryption algorithms. HMAC can be used for ensuring origin authentication. MD5 and SHA-1 can be used to ensure data integrity.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-21-23-cryptography-and-endpoint-protection-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m21-23-q033",
+      "moduleId": "iao-m21-23",
+      "moduleLabel": "IAO Modules 21-23: Cryptography and Endpoint Protection",
+      "moduleShortLabel": "IAO 21-23",
+      "questionNumber": 33,
+      "type": "single",
+      "promptHtml": "<p><b>Which security management plan specifies a component that involves tracking the location and configuration of networked devices and software across an enterprise?</b></p>",
+      "promptText": "Which security management plan specifies a component that involves tracking the location and configuration of networked devices and software across an enterprise?",
+      "options": [
+        {
+          "id": "A",
+          "text": "asset management"
+        },
+        {
+          "id": "B",
+          "text": "patch management"
+        },
+        {
+          "id": "C",
+          "text": "vulnerability management"
+        },
+        {
+          "id": "D",
+          "text": "risk management"
+        }
+      ],
+      "correctOptionIds": [
+        "A"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Asset management involves tracking the location and configuration of networked devices and software across an enterprise.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-21-23-cryptography-and-endpoint-protection-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m21-23-q034",
+      "moduleId": "iao-m21-23",
+      "moduleLabel": "IAO Modules 21-23: Cryptography and Endpoint Protection",
+      "moduleShortLabel": "IAO 21-23",
+      "questionNumber": 34,
+      "type": "single",
+      "promptHtml": "<p><b>In addressing an identified risk, which strategy aims to stop performing the activities that create risk?</b></p>",
+      "promptText": "In addressing an identified risk, which strategy aims to stop performing the activities that create risk?",
+      "options": [
+        {
+          "id": "A",
+          "text": "risk retention"
+        },
+        {
+          "id": "B",
+          "text": "risk avoidance"
+        },
+        {
+          "id": "C",
+          "text": "risk sharing"
+        },
+        {
+          "id": "D",
+          "text": "risk reduction"
+        }
+      ],
+      "correctOptionIds": [
+        "B"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>There are four potential strategies for responding to risks that have been identified:</p>\n<ul>\n<li>Risk avoidance – Stop performing the activities that create risk.</li>\n<li>Risk reduction – Decrease the risk by taking measures to reduce vulnerability.</li>\n<li>Risk sharing – Shift some of the risk to other parties.</li>\n<li>Risk retention – Accept the risk and its consequences.</li>\n</ul>\n<p></p>",
+      "sourceUrl": "https://itexamanswers.net/modules-21-23-cryptography-and-endpoint-protection-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m21-23-q035",
+      "moduleId": "iao-m21-23",
+      "moduleLabel": "IAO Modules 21-23: Cryptography and Endpoint Protection",
+      "moduleShortLabel": "IAO 21-23",
+      "questionNumber": 35,
+      "type": "single",
+      "promptHtml": "<p><b>A company is developing a security policy for secure communication. In the exchange of critical messages between a headquarters office and a branch office, a hash value should only be recalculated with a predetermined code, thus ensuring the validity of data source. Which aspect of secure communications is addressed?</b></p>",
+      "promptText": "A company is developing a security policy for secure communication. In the exchange of critical messages between a headquarters office and a branch office, a hash value should only be recalculated with a predetermined code, thus ensuring the validity of data source. Which aspect of secure communications is addressed?",
+      "options": [
+        {
+          "id": "A",
+          "text": "data integrity"
+        },
+        {
+          "id": "B",
+          "text": "data confidentiality"
+        },
+        {
+          "id": "C",
+          "text": "non-repudiation"
+        },
+        {
+          "id": "D",
+          "text": "origin authentication"
+        }
+      ],
+      "correctOptionIds": [
+        "D"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p><b>Secure communications consists of four elements:</b><br />\n<b>Data confidentiality</b> &#8211; guarantees that only authorized users can read the message<br />\n<b>Data integrity</b> &#8211; guarantees that the message was not altered<br />\n<b>Origin authentication</b> &#8211; guarantees that the message is not a forgery and does actually come from whom it states<br />\n<b>Data nonrepudiation</b> – guarantees that the sender cannot repudiate, or refute, the validity of a message sent</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-21-23-cryptography-and-endpoint-protection-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m21-23-q036",
+      "moduleId": "iao-m21-23",
+      "moduleLabel": "IAO Modules 21-23: Cryptography and Endpoint Protection",
+      "moduleShortLabel": "IAO 21-23",
+      "questionNumber": 36,
+      "type": "study",
+      "promptHtml": "<p><b>Match the network profile element to the description. (Not all options are used.)</b><br />\n<img src=\"assets/exhibits/iao-m21-23/q036-1-9a2cf73f4a.jpg\" alt=\"\" /><br />",
+      "promptText": "Match the network profile element to the description. (Not all options are used.)",
+      "options": [],
+      "correctOptionIds": [],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Important elements of a network profile include:</p>\n<ul>\n<li><b>Total throughput</b> &#8211; the amount of data passing from a given source to a given destination in a given period of time</li>\n<li><b>Session duration</b> &#8211; the time between the establishment of a data flow and its termination</li>\n<li><b>Ports used</b> &#8211; a list of TCP or UDP processes that are available to accept data</li>\n<li><b>Critical asset address space</b> &#8211; the IP addresses or the logical location of essential systems or data</li>\n</ul>\n<p></p>",
+      "sourceUrl": "https://itexamanswers.net/modules-21-23-cryptography-and-endpoint-protection-group-exam-answers.html",
+      "assetPaths": [
+        "assets/exhibits/iao-m21-23/q036-1-9a2cf73f4a.jpg"
+      ]
+    },
+    {
+      "id": "iao-m21-23-q037",
+      "moduleId": "iao-m21-23",
+      "moduleLabel": "IAO Modules 21-23: Cryptography and Endpoint Protection",
+      "moduleShortLabel": "IAO 21-23",
+      "questionNumber": 37,
+      "type": "multiple",
+      "promptHtml": "<p><strong>Which three security services are provided by digital signatures? (Choose three.)</strong></p>",
+      "promptText": "Which three security services are provided by digital signatures? (Choose three.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "provides nonrepudiation using HMAC functions"
+        },
+        {
+          "id": "B",
+          "text": "guarantees data has not changed in transit"
+        },
+        {
+          "id": "C",
+          "text": "provides data encryption"
+        },
+        {
+          "id": "D",
+          "text": "authenticates the source"
+        },
+        {
+          "id": "E",
+          "text": "provides confidentiality of digitally signed data"
+        },
+        {
+          "id": "F",
+          "text": "authenticates the destination"
+        }
+      ],
+      "correctOptionIds": [
+        "B",
+        "C",
+        "D"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Digital signatures are a mathematical technique used to provide three basic security services. Digital signatures have specific properties that enable entity authentication and data integrity. In addition, digital signatures provide nonrepudiation of the transaction. In other words, the digital signature serves as legal proof that the data exchange did take place.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-21-23-cryptography-and-endpoint-protection-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m24-25-q001",
+      "moduleId": "iao-m24-25",
+      "moduleLabel": "IAO Modules 24-25: Protocols and Log Files",
+      "moduleShortLabel": "IAO 24-25",
+      "questionNumber": 1,
+      "type": "single",
+      "promptHtml": "<p><b>Which ICMP message type should be stopped inbound?</b></p><div class=\"92f2483bb651eed307c93e619d752c78\" data-index=\"2\" style=\"float: none; margin:10px 0 10px 0; text-align:center;\">\n<div id=\"adngin-incontent_auto_large-0\"></div>\n</div>",
+      "promptText": "Which ICMP message type should be stopped inbound?",
+      "options": [
+        {
+          "id": "A",
+          "text": "source quench"
+        },
+        {
+          "id": "B",
+          "text": "echo-reply"
+        },
+        {
+          "id": "C",
+          "text": "echo"
+        },
+        {
+          "id": "D",
+          "text": "unreachable"
+        }
+      ],
+      "correctOptionIds": [
+        "C"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>The echo ICMP packet should not be allowed inbound on an interface. The echo-reply should be allowed so that when an internal device pings an external device, the reply is allowed to return.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-24-25-protocols-and-log-files-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m24-25-q002",
+      "moduleId": "iao-m24-25",
+      "moduleLabel": "IAO Modules 24-25: Protocols and Log Files",
+      "moduleShortLabel": "IAO 24-25",
+      "questionNumber": 2,
+      "type": "single",
+      "promptHtml": "<p><b>How can IMAP be a security threat to a company?</b></p>",
+      "promptText": "How can IMAP be a security threat to a company?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Someone inadvertently clicks on a hidden iFrame."
+        },
+        {
+          "id": "B",
+          "text": "Encrypted data is decrypted."
+        },
+        {
+          "id": "C",
+          "text": "An email can be used to bring malware to a host."
+        },
+        {
+          "id": "D",
+          "text": "It can be used to encode stolen data and send to a threat actor."
+        }
+      ],
+      "correctOptionIds": [
+        "C"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>IMAP, SMTP, and POP3 are email protocols. SMTP is used to send data from a host to a server or to send data between servers. IMAP and POP3 are used to download email messages and can be responsible for bringing malware to the receiving host.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-24-25-protocols-and-log-files-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m24-25-q003",
+      "moduleId": "iao-m24-25",
+      "moduleLabel": "IAO Modules 24-25: Protocols and Log Files",
+      "moduleShortLabel": "IAO 24-25",
+      "questionNumber": 3,
+      "type": "multiple",
+      "promptHtml": "<p><b>Which two technologies are primarily used on peer-to-peer networks? (Choose two.)</b></p>",
+      "promptText": "Which two technologies are primarily used on peer-to-peer networks? (Choose two.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "Bitcoin"
+        },
+        {
+          "id": "B",
+          "text": "BitTorrent"
+        },
+        {
+          "id": "C",
+          "text": "Wireshark"
+        },
+        {
+          "id": "D",
+          "text": "Darknet"
+        },
+        {
+          "id": "E",
+          "text": "Snort"
+        }
+      ],
+      "correctOptionIds": [
+        "A",
+        "B"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Bitcoin is used to share a distributed database or ledger. BitTorrent is used for file sharing.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-24-25-protocols-and-log-files-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m24-25-q004",
+      "moduleId": "iao-m24-25",
+      "moduleLabel": "IAO Modules 24-25: Protocols and Log Files",
+      "moduleShortLabel": "IAO 24-25",
+      "questionNumber": 4,
+      "type": "single",
+      "promptHtml": "<p><b>Which protocol is exploited by cybercriminals who create malicious iFrames?</b></p>",
+      "promptText": "Which protocol is exploited by cybercriminals who create malicious iFrames?",
+      "options": [
+        {
+          "id": "A",
+          "text": "HTTP"
+        },
+        {
+          "id": "B",
+          "text": "ARP"
+        },
+        {
+          "id": "C",
+          "text": "DHCP"
+        },
+        {
+          "id": "D",
+          "text": "DNS"
+        }
+      ],
+      "correctOptionIds": [
+        "A"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>An HTML element known as an inline frame or iFrame allows the browser to load a different web page from another source.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-24-25-protocols-and-log-files-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m24-25-q005",
+      "moduleId": "iao-m24-25",
+      "moduleLabel": "IAO Modules 24-25: Protocols and Log Files",
+      "moduleShortLabel": "IAO 24-25",
+      "questionNumber": 5,
+      "type": "single",
+      "promptHtml": "<p><b>Which method is used by some malware to transfer files from infected hosts to a threat actor host?</b></p>",
+      "promptText": "Which method is used by some malware to transfer files from infected hosts to a threat actor host?",
+      "options": [
+        {
+          "id": "A",
+          "text": "UDP infiltration"
+        },
+        {
+          "id": "B",
+          "text": "ICMP tunneling"
+        },
+        {
+          "id": "C",
+          "text": "HTTPS traffic encryption"
+        },
+        {
+          "id": "D",
+          "text": "iFrame injection"
+        }
+      ],
+      "correctOptionIds": [
+        "B"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>ICMP traffic from inside the company is also a threat. Some varieties of malware use ICMP packets to transfer files from infected hosts to threat actors via ICMP tunneling.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-24-25-protocols-and-log-files-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m24-25-q006",
+      "moduleId": "iao-m24-25",
+      "moduleLabel": "IAO Modules 24-25: Protocols and Log Files",
+      "moduleShortLabel": "IAO 24-25",
+      "questionNumber": 6,
+      "type": "single",
+      "promptHtml": "<p><b>Why does HTTPS technology add complexity to network security monitoring?</b></p>",
+      "promptText": "Why does HTTPS technology add complexity to network security monitoring?",
+      "options": [
+        {
+          "id": "A",
+          "text": "HTTPS dynamically changes the port number on the web server."
+        },
+        {
+          "id": "B",
+          "text": "HTTPS uses tunneling technology for confidentiality."
+        },
+        {
+          "id": "C",
+          "text": "HTTPS hides the true source IP address using NAT/PAT."
+        },
+        {
+          "id": "D",
+          "text": "HTTPS conceals data traffic through end-to-end encryption."
+        }
+      ],
+      "correctOptionIds": [
+        "D"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>With HTTPS, a symmetric key is generated by the client after the client verifies the trustworthiness of the web server. The symmetric key is encrypted with the public key of the web server and then sent to the web server. The web server uses its public key to decrypt the key. The key is then used to encrypt the data requested by the client and the data is sent to the client. This end-to-end encryption complicates inline network security monitoring. The HTTPS port number, typically 443, is configured statically on the web server.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-24-25-protocols-and-log-files-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m24-25-q007",
+      "moduleId": "iao-m24-25",
+      "moduleLabel": "IAO Modules 24-25: Protocols and Log Files",
+      "moduleShortLabel": "IAO 24-25",
+      "questionNumber": 7,
+      "type": "single",
+      "promptHtml": "<p><b>Which approach is intended to prevent exploits that target syslog?</b></p>",
+      "promptText": "Which approach is intended to prevent exploits that target syslog?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Use a Linux-based server."
+        },
+        {
+          "id": "B",
+          "text": "Use syslog-ng."
+        },
+        {
+          "id": "C",
+          "text": "Create an ACL that permits only TCP traffic to the syslog server."
+        },
+        {
+          "id": "D",
+          "text": "Use a VPN between a syslog client and the syslog server."
+        }
+      ],
+      "correctOptionIds": [
+        "B"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Hackers may try to block clients from sending data to the syslog server, manipulate or erase logged data, or manipulate the software used to transmit messages between the clients and the server. Syslog-ng is the next generation of syslog and it contains improvements to prevent some of the exploits.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-24-25-protocols-and-log-files-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m24-25-q008",
+      "moduleId": "iao-m24-25",
+      "moduleLabel": "IAO Modules 24-25: Protocols and Log Files",
+      "moduleShortLabel": "IAO 24-25",
+      "questionNumber": 8,
+      "type": "single",
+      "promptHtml": "<p><b>Which type of attack is carried out by threat actors against a network to determine which IP addresses, protocols, and ports are allowed by ACLs?</b></p>",
+      "promptText": "Which type of attack is carried out by threat actors against a network to determine which IP addresses, protocols, and ports are allowed by ACLs?",
+      "options": [
+        {
+          "id": "A",
+          "text": "phishing"
+        },
+        {
+          "id": "B",
+          "text": "denial of service"
+        },
+        {
+          "id": "C",
+          "text": "reconnaissance"
+        },
+        {
+          "id": "D",
+          "text": "social engineering"
+        }
+      ],
+      "correctOptionIds": [
+        "C"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Packet filtering ACLs use rules to filter incoming and outgoing traffic. These rules are defined by specifying IP addresses, port numbers, and protocols to be matched. Threat actors can use a reconnaissance attack involving port scanning or penetration testing to determine which IP addresses, protocols, and ports are allowed by ACLs.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-24-25-protocols-and-log-files-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m24-25-q009",
+      "moduleId": "iao-m24-25",
+      "moduleLabel": "IAO Modules 24-25: Protocols and Log Files",
+      "moduleShortLabel": "IAO 24-25",
+      "questionNumber": 9,
+      "type": "multiple",
+      "promptHtml": "<p><b>Which two application layer protocols manage the exchange of messages between a client with a web browser and a remote web server? (Choose two.)</b></p>",
+      "promptText": "Which two application layer protocols manage the exchange of messages between a client with a web browser and a remote web server? (Choose two.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "HTTP"
+        },
+        {
+          "id": "B",
+          "text": "HTTPS"
+        },
+        {
+          "id": "C",
+          "text": "DNS"
+        },
+        {
+          "id": "D",
+          "text": "DHCP"
+        },
+        {
+          "id": "E",
+          "text": "HTML"
+        }
+      ],
+      "correctOptionIds": [
+        "A",
+        "B"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Hypertext Transfer Protocol (HTTP) and HTTP Secure (HTTPS) are two application layer protocols that manage the content requests from clients and the responses from the web server. HTML (Hypertext Mark-up Language) is the encoding language that describes the content and display features of a web page. DNS is for domain name to IP address resolution. DHCP manages and provides dynamic IP configurations to clients.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-24-25-protocols-and-log-files-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m24-25-q010",
+      "moduleId": "iao-m24-25",
+      "moduleLabel": "IAO Modules 24-25: Protocols and Log Files",
+      "moduleShortLabel": "IAO 24-25",
+      "questionNumber": 10,
+      "type": "single",
+      "promptHtml": "<p><b>What is Tor?</b></p>",
+      "promptText": "What is Tor?",
+      "options": [
+        {
+          "id": "A",
+          "text": "a rule created in order to match a signature of a known exploit"
+        },
+        {
+          "id": "B",
+          "text": "a software platform and network of P2P hosts that function as Internet routers"
+        },
+        {
+          "id": "C",
+          "text": "a way to share processors between network devices across the Internet"
+        },
+        {
+          "id": "D",
+          "text": "a type of Instant Messaging (IM) software used on the darknet"
+        }
+      ],
+      "correctOptionIds": [
+        "B"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>A special browser is used to access the Tor network. This browser allows a user to browse the Internet anonymously.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-24-25-protocols-and-log-files-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m24-25-q011",
+      "moduleId": "iao-m24-25",
+      "moduleLabel": "IAO Modules 24-25: Protocols and Log Files",
+      "moduleShortLabel": "IAO 24-25",
+      "questionNumber": 11,
+      "type": "single",
+      "promptHtml": "<p><b>Which protocol is a name resolution protocol often used by malware to communicate with command-and-control (CnC) servers?</b></p>",
+      "promptText": "Which protocol is a name resolution protocol often used by malware to communicate with command-and-control (CnC) servers?",
+      "options": [
+        {
+          "id": "A",
+          "text": "IMAP"
+        },
+        {
+          "id": "B",
+          "text": "DNS"
+        },
+        {
+          "id": "C",
+          "text": "HTTPS"
+        },
+        {
+          "id": "D",
+          "text": "ICMP"
+        }
+      ],
+      "correctOptionIds": [
+        "B"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Domain Name Service (DNS) is used to convert domain names into IP addresses. Some organizations have less stringent policies in place to protect against DNS-based threats than they have in place for other exploits.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-24-25-protocols-and-log-files-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m24-25-q012",
+      "moduleId": "iao-m24-25",
+      "moduleLabel": "IAO Modules 24-25: Protocols and Log Files",
+      "moduleShortLabel": "IAO 24-25",
+      "questionNumber": 12,
+      "type": "single",
+      "promptHtml": "<p><b>Which technique is necessary to ensure a private transfer of data using a VPN?</b></p>",
+      "promptText": "Which technique is necessary to ensure a private transfer of data using a VPN?",
+      "options": [
+        {
+          "id": "A",
+          "text": "authorization"
+        },
+        {
+          "id": "B",
+          "text": "scalability"
+        },
+        {
+          "id": "C",
+          "text": "encryption"
+        },
+        {
+          "id": "D",
+          "text": "virtualization"
+        }
+      ],
+      "correctOptionIds": [
+        "C"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Confidential and secure transfers of data with VPNs require data encryption.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-24-25-protocols-and-log-files-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m24-25-q013",
+      "moduleId": "iao-m24-25",
+      "moduleLabel": "IAO Modules 24-25: Protocols and Log Files",
+      "moduleShortLabel": "IAO 24-25",
+      "questionNumber": 13,
+      "type": "single",
+      "promptHtml": "<p><b>Which technology would be used to create the server logs generated by network devices and reviewed by an entry level network person who works the night shift at a data center?</b></p>",
+      "promptText": "Which technology would be used to create the server logs generated by network devices and reviewed by an entry level network person who works the night shift at a data center?",
+      "options": [
+        {
+          "id": "A",
+          "text": "syslog"
+        },
+        {
+          "id": "B",
+          "text": "NAT"
+        },
+        {
+          "id": "C",
+          "text": "ACL"
+        },
+        {
+          "id": "D",
+          "text": "VPN"
+        }
+      ],
+      "correctOptionIds": [
+        "A"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Syslog is a daemon or service run on a server that accepts messages sent by network devices. These logs are frequently examined to detect inconsistencies and issues within the network.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-24-25-protocols-and-log-files-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m24-25-q014",
+      "moduleId": "iao-m24-25",
+      "moduleLabel": "IAO Modules 24-25: Protocols and Log Files",
+      "moduleShortLabel": "IAO 24-25",
+      "questionNumber": 14,
+      "type": "single",
+      "promptHtml": "<p><b>Which function is provided by the Sguil application?</b></p>",
+      "promptText": "Which function is provided by the Sguil application?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It reports conversations between hosts on the network."
+        },
+        {
+          "id": "B",
+          "text": "It makes Snort-generated alerts readable and searchable."
+        },
+        {
+          "id": "C",
+          "text": "It detects potential network intrusions."
+        },
+        {
+          "id": "D",
+          "text": "It prevents malware from attacking a host."
+        }
+      ],
+      "correctOptionIds": [
+        "B"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Applications such as Snorby and Sguil can be used to read and search alert messages generated by NIDS/NIPS.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-24-25-protocols-and-log-files-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m24-25-q015",
+      "moduleId": "iao-m24-25",
+      "moduleLabel": "IAO Modules 24-25: Protocols and Log Files",
+      "moduleShortLabel": "IAO 24-25",
+      "questionNumber": 15,
+      "type": "single",
+      "promptHtml": "<p><b>Which statement describes a Cisco Web Security Appliance (WSA)?</b></p>",
+      "promptText": "Which statement describes a Cisco Web Security Appliance (WSA)?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It protects a web server by preventing security threats from accessing the server."
+        },
+        {
+          "id": "B",
+          "text": "It provides high performance web services."
+        },
+        {
+          "id": "C",
+          "text": "It acts as an SSL-based VPN server for an enterprise."
+        },
+        {
+          "id": "D",
+          "text": "It functions as a web proxy."
+        }
+      ],
+      "correctOptionIds": [
+        "D"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Cisco Web Security Appliance (WSA) devices provide a wide range of functionalities for security monitoring. WSA effectively acts as a web proxy. It logs all inbound and outbound transaction information for HTTP traffic.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-24-25-protocols-and-log-files-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m24-25-q016",
+      "moduleId": "iao-m24-25",
+      "moduleLabel": "IAO Modules 24-25: Protocols and Log Files",
+      "moduleShortLabel": "IAO 24-25",
+      "questionNumber": 16,
+      "type": "single",
+      "promptHtml": "<p><b>Which statement describes session data in security logs?</b></p>",
+      "promptText": "Which statement describes session data in security logs?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It can be used to describe or predict network behavior."
+        },
+        {
+          "id": "B",
+          "text": "It shows the result of network sessions."
+        },
+        {
+          "id": "C",
+          "text": "It is a record of a conversation between network hosts."
+        },
+        {
+          "id": "D",
+          "text": "It reports detailed network activities between network hosts."
+        }
+      ],
+      "correctOptionIds": [
+        "C"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Session data is a record of a conversation between two network endpoints.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-24-25-protocols-and-log-files-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m24-25-q017",
+      "moduleId": "iao-m24-25",
+      "moduleLabel": "IAO Modules 24-25: Protocols and Log Files",
+      "moduleShortLabel": "IAO 24-25",
+      "questionNumber": 17,
+      "type": "multiple",
+      "promptHtml": "<p><b>Which two options are network security monitoring approaches that use advanced analytic techniques to analyze network telemetry data? (Choose two.)</b></p><div class=\"92f2483bb651eed307c93e619d752c78\" data-index=\"1\" style=\"float: none; margin:10px 0 10px 0; text-align:center;\">\n<div id=\"adngin-incontent_auto-0\"></div>\n</div>",
+      "promptText": "Which two options are network security monitoring approaches that use advanced analytic techniques to analyze network telemetry data? (Choose two.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "NBAD"
+        },
+        {
+          "id": "B",
+          "text": "Sguil"
+        },
+        {
+          "id": "C",
+          "text": "NetFlow"
+        },
+        {
+          "id": "D",
+          "text": "IPFIX"
+        },
+        {
+          "id": "E",
+          "text": "Snorby"
+        },
+        {
+          "id": "F",
+          "text": "NBA"
+        }
+      ],
+      "correctOptionIds": [
+        "A",
+        "F"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Network behavior analysis (NBA) and network behavior anomaly detection (NBAD) are approaches to network security monitoring that use advanced analytical techniques to analyze NetFlow or IPFIX network telemetry data.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-24-25-protocols-and-log-files-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m24-25-q018",
+      "moduleId": "iao-m24-25",
+      "moduleLabel": "IAO Modules 24-25: Protocols and Log Files",
+      "moduleShortLabel": "IAO 24-25",
+      "questionNumber": 18,
+      "type": "single",
+      "promptHtml": "<p><b>How does a web proxy device provide data loss prevention (DLP) for an enterprise?</b></p>",
+      "promptText": "How does a web proxy device provide data loss prevention (DLP) for an enterprise?",
+      "options": [
+        {
+          "id": "A",
+          "text": "by functioning as a firewall"
+        },
+        {
+          "id": "B",
+          "text": "by inspecting incoming traffic for potential exploits"
+        },
+        {
+          "id": "C",
+          "text": "by scanning and logging outgoing traffic"
+        },
+        {
+          "id": "D",
+          "text": "by checking the reputation of external web servers"
+        }
+      ],
+      "correctOptionIds": [
+        "C"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>A web proxy device can inspect outgoing traffic as means of data loss prevention (DLP). DLP involves scanning outgoing traffic to detect whether the data that is leaving the enterprise network contains sensitive, confidential, or secret information.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-24-25-protocols-and-log-files-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m24-25-q019",
+      "moduleId": "iao-m24-25",
+      "moduleLabel": "IAO Modules 24-25: Protocols and Log Files",
+      "moduleShortLabel": "IAO 24-25",
+      "questionNumber": 19,
+      "type": "single",
+      "promptHtml": "<p><b>Which information can be provided by the Cisco NetFlow utility?</b></p>",
+      "promptText": "Which information can be provided by the Cisco NetFlow utility?",
+      "options": [
+        {
+          "id": "A",
+          "text": "security and user account restrictions"
+        },
+        {
+          "id": "B",
+          "text": "IDS and IPS capabilities"
+        },
+        {
+          "id": "C",
+          "text": "peak usage times and traffic routing"
+        },
+        {
+          "id": "D",
+          "text": "source and destination UDP port mapping"
+        }
+      ],
+      "correctOptionIds": [
+        "C"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>NetFlow efficiently provides an important set of services for IP applications including network traffic accounting, usage-based network billing, network planning, security, denial of service monitoring capabilities, and network monitoring. NetFlow provides valuable information about network users and applications, peak usage times, and traffic routing.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-24-25-protocols-and-log-files-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m24-25-q020",
+      "moduleId": "iao-m24-25",
+      "moduleLabel": "IAO Modules 24-25: Protocols and Log Files",
+      "moduleShortLabel": "IAO 24-25",
+      "questionNumber": 20,
+      "type": "single",
+      "promptHtml": "<p><b>Which statement describes statistical data in network security monitoring processes?</b></p>",
+      "promptText": "Which statement describes statistical data in network security monitoring processes?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It is created through an analysis of other forms of network data."
+        },
+        {
+          "id": "B",
+          "text": "It contains conversations between network hosts."
+        },
+        {
+          "id": "C",
+          "text": "It shows the results of network activities between network hosts."
+        },
+        {
+          "id": "D",
+          "text": "It lists each alert message along with statistical information."
+        }
+      ],
+      "correctOptionIds": [
+        "A"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Like session data, statistical data is about network traffic. Statistical data is created through the analysis of other forms of network data.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-24-25-protocols-and-log-files-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m24-25-q021",
+      "moduleId": "iao-m24-25",
+      "moduleLabel": "IAO Modules 24-25: Protocols and Log Files",
+      "moduleShortLabel": "IAO 24-25",
+      "questionNumber": 21,
+      "type": "multiple",
+      "promptHtml": "<p><b>Match the SIEM function with the description.</b><br />\n<img src=\"assets/exhibits/iao-m24-25/q021-1-fa74d46b41.jpg\" alt=\"\" /></p>",
+      "promptText": "Match the SIEM function with the description.",
+      "options": [
+        {
+          "id": "A",
+          "text": "links logs and events from disparate systems or applications, speeding detection of and reaction to security threats : correlation"
+        },
+        {
+          "id": "B",
+          "text": "satisfies the requirements of various compliance regulations :"
+        },
+        {
+          "id": "C",
+          "text": "reduces the volume of event data by consolidating duplicate event records : aggregation"
+        },
+        {
+          "id": "D",
+          "text": "maps log messages from different systems into a common data model : normalization"
+        }
+      ],
+      "correctOptionIds": [
+        "A",
+        "C",
+        "D"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "",
+      "sourceUrl": "https://itexamanswers.net/modules-24-25-protocols-and-log-files-group-exam-answers.html",
+      "assetPaths": [
+        "assets/exhibits/iao-m24-25/q021-1-fa74d46b41.jpg"
+      ]
+    },
+    {
+      "id": "iao-m24-25-q022",
+      "moduleId": "iao-m24-25",
+      "moduleLabel": "IAO Modules 24-25: Protocols and Log Files",
+      "moduleShortLabel": "IAO 24-25",
+      "questionNumber": 22,
+      "type": "multiple",
+      "promptHtml": "<p><b>Which two tools have a GUI interface and can be used to view and analyze full packet captures? (Choose two.)</b></p>",
+      "promptText": "Which two tools have a GUI interface and can be used to view and analyze full packet captures? (Choose two.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "nfdump"
+        },
+        {
+          "id": "B",
+          "text": "Wireshark"
+        },
+        {
+          "id": "C",
+          "text": "Cisco Prime Network Analysis Module"
+        },
+        {
+          "id": "D",
+          "text": "tcpdump"
+        },
+        {
+          "id": "E",
+          "text": "Splunk"
+        }
+      ],
+      "correctOptionIds": [
+        "B",
+        "C"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>The Network Analysis Module of the Cisco Prime Infrastructure system and Wireshark have GUI interfaces and can display full packet captures. The tcpdump tool is a command-line packet analyzer.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-24-25-protocols-and-log-files-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m24-25-q023",
+      "moduleId": "iao-m24-25",
+      "moduleLabel": "IAO Modules 24-25: Protocols and Log Files",
+      "moduleShortLabel": "IAO 24-25",
+      "questionNumber": 23,
+      "type": "single",
+      "promptHtml": "<p><b>Which Windows log contains information about installations of software, including Windows updates?</b></p>",
+      "promptText": "Which Windows log contains information about installations of software, including Windows updates?",
+      "options": [
+        {
+          "id": "A",
+          "text": "system logs"
+        },
+        {
+          "id": "B",
+          "text": "application logs"
+        },
+        {
+          "id": "C",
+          "text": "setup logs"
+        },
+        {
+          "id": "D",
+          "text": "security logs"
+        }
+      ],
+      "correctOptionIds": [
+        "C"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>On a Windows host, setup logs record information about the installation of software, including Windows updates.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-24-25-protocols-and-log-files-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m24-25-q024",
+      "moduleId": "iao-m24-25",
+      "moduleLabel": "IAO Modules 24-25: Protocols and Log Files",
+      "moduleShortLabel": "IAO 24-25",
+      "questionNumber": 24,
+      "type": "multiple",
+      "promptHtml": "<p><b>Match the Windows host log to the messages contained in it. (Not all options are used.)</b><br />\n<img src=\"assets/exhibits/iao-m24-25/q024-1-70eeef7939.png\" alt=\"\" /></p>",
+      "promptText": "Match the Windows host log to the messages contained in it. (Not all options are used.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "events logged by various applications : application logs"
+        },
+        {
+          "id": "B",
+          "text": "events related to the web server access and activity :"
+        },
+        {
+          "id": "C",
+          "text": "events related to the operation of drivers, processes, and hardware : system logs"
+        },
+        {
+          "id": "D",
+          "text": "information about the installation of software, including Windows updates : setup logs"
+        },
+        {
+          "id": "E",
+          "text": "events related to logon attempts and operations related to file or object management and access : security logs"
+        }
+      ],
+      "correctOptionIds": [
+        "A",
+        "C",
+        "D",
+        "E"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "",
+      "sourceUrl": "https://itexamanswers.net/modules-24-25-protocols-and-log-files-group-exam-answers.html",
+      "assetPaths": [
+        "assets/exhibits/iao-m24-25/q024-1-70eeef7939.png"
+      ]
+    },
+    {
+      "id": "iao-m24-25-q025",
+      "moduleId": "iao-m24-25",
+      "moduleLabel": "IAO Modules 24-25: Protocols and Log Files",
+      "moduleShortLabel": "IAO 24-25",
+      "questionNumber": 25,
+      "type": "single",
+      "promptHtml": "<p><b>Which Cisco appliance can be used to filter network traffic contents to report and deny traffic based on the web server reputation?</b></p>",
+      "promptText": "Which Cisco appliance can be used to filter network traffic contents to report and deny traffic based on the web server reputation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "WSA"
+        },
+        {
+          "id": "B",
+          "text": "AVC"
+        },
+        {
+          "id": "C",
+          "text": "ASA"
+        },
+        {
+          "id": "D",
+          "text": "ESA"
+        }
+      ],
+      "correctOptionIds": [
+        "A"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>The Cisco Web Security Appliance (WSA) acts as a web proxy for an enterprise network. WSA can provide many types of logs related to web traffic security including ACL decision logs, malware scan logs, and web reputation filtering logs. The Cisco Email Security Appliance (ESA) is a tool to monitor most aspects of email delivery, system functioning, antivirus, antispam operations, afnd blacklist and whitelist decisions. The Cisco ASA is a firewall appliance. The Cisco Application Visibility and Control (AVC) system combines multiple technologies to recognize, analyze, and control over 1000 applications.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-24-25-protocols-and-log-files-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m24-25-q026",
+      "moduleId": "iao-m24-25",
+      "moduleLabel": "IAO Modules 24-25: Protocols and Log Files",
+      "moduleShortLabel": "IAO 24-25",
+      "questionNumber": 26,
+      "type": "single",
+      "promptHtml": "<p><b>Which technique would a threat actor use to disguise traces of an ongoing exploit?</b></p>",
+      "promptText": "Which technique would a threat actor use to disguise traces of an ongoing exploit?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Create an invisible iFrame on a web page."
+        },
+        {
+          "id": "B",
+          "text": "Corrupt time information by attacking the NTP infrastructure."
+        },
+        {
+          "id": "C",
+          "text": "Encapsulate other protocols within DNS to evade security measures."
+        },
+        {
+          "id": "D",
+          "text": "Use SSL to encapsulate malware."
+        }
+      ],
+      "correctOptionIds": [
+        "B"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>The Network Time Protocol (NTP) uses a hierarchy of time sources to provide a consistent time clock to network infrastructure devices. Threat actors may attack the NTP infrastructure in order to corrupt time information that is used in network logs.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-24-25-protocols-and-log-files-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m24-25-q027",
+      "moduleId": "iao-m24-25",
+      "moduleLabel": "IAO Modules 24-25: Protocols and Log Files",
+      "moduleShortLabel": "IAO 24-25",
+      "questionNumber": 27,
+      "type": "single",
+      "promptHtml": "<p><b>A system administrator runs a file scan utility on a Windows PC and notices a file lsass.exe in the Program Files directory. What should the administrator do?</b></p>",
+      "promptText": "A system administrator runs a file scan utility on a Windows PC and notices a file lsass.exe in the Program Files directory. What should the administrator do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Delete the file because it is probably malware."
+        },
+        {
+          "id": "B",
+          "text": "Move it to Program Files (x86) because it is a 32bit application."
+        },
+        {
+          "id": "C",
+          "text": "Uninstall the lsass application because it is a legacy application and no longer required by Windows."
+        },
+        {
+          "id": "D",
+          "text": "Open the Task Manager, right-click on the lsass process and choose End Task ."
+        }
+      ],
+      "correctOptionIds": [
+        "A"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>On Windows computers, security logging and security policies enforcement are carried out by the Local Security Authority Subsystem Service (LSASS), running as lsass.exe. It should be running from the Windows\\System32 directory. If a file with this name, or a camouflaged name, such as 1sass.exe, is running or running from another directory, it could be malware.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-24-25-protocols-and-log-files-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m24-25-q028",
+      "moduleId": "iao-m24-25",
+      "moduleLabel": "IAO Modules 24-25: Protocols and Log Files",
+      "moduleShortLabel": "IAO 24-25",
+      "questionNumber": 28,
+      "type": "single",
+      "promptHtml": "<p><b>Refer to the exhibit. A network administrator is viewing some output on the Netflow collector. What can be determined from the output of the traffic flow shown?</b><br />\n<img src=\"assets/exhibits/iao-m24-25/q028-1-3d1d746cff.jpg\" alt=\"\" /></p>",
+      "promptText": "Refer to the exhibit. A network administrator is viewing some output on the Netflow collector. What can be determined from the output of the traffic flow shown?",
+      "options": [
+        {
+          "id": "A",
+          "text": "This is a UDP DNS request to a DNS server."
+        },
+        {
+          "id": "B",
+          "text": "This is a UDP DNS response to a client machine."
+        },
+        {
+          "id": "C",
+          "text": "This is a TCP DNS request to a DNS server."
+        },
+        {
+          "id": "D",
+          "text": "This is a TCP DNS response to a client machine."
+        }
+      ],
+      "correctOptionIds": [
+        "B"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>The traffic flow shown has a source port of 53 and a destination port of 1025. Port 53 is used for DNS and because the source port is 53, this traffic is responding to a client machine from a DNS server. The IP PROTOCOL is 17 and specifies that UDP is being used and the TCP flag is set to 0.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-24-25-protocols-and-log-files-group-exam-answers.html",
+      "assetPaths": [
+        "assets/exhibits/iao-m24-25/q028-1-3d1d746cff.jpg"
+      ]
+    },
+    {
+      "id": "iao-m24-25-q030",
+      "moduleId": "iao-m24-25",
+      "moduleLabel": "IAO Modules 24-25: Protocols and Log Files",
+      "moduleShortLabel": "IAO 24-25",
+      "questionNumber": 30,
+      "type": "single",
+      "promptHtml": "<p><b>What does it indicate if the timestamp in the HEADER section of a syslog message is preceded by a period or asterisk symbol?</b></p>",
+      "promptText": "What does it indicate if the timestamp in the HEADER section of a syslog message is preceded by a period or asterisk symbol?",
+      "options": [
+        {
+          "id": "A",
+          "text": "There is a problem associated with NTP."
+        },
+        {
+          "id": "B",
+          "text": "The timestamp represents the round trip duration value."
+        },
+        {
+          "id": "C",
+          "text": "The syslog message should be treated with high priority."
+        },
+        {
+          "id": "D",
+          "text": "The syslog message indicates the time an email is received."
+        }
+      ],
+      "correctOptionIds": [
+        "A"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>The HEADER section of the message contains the timestamp. If the timestamp is preceded by the period (.) or asterisk (*) symbols, a problem is indicated with NTP.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-24-25-protocols-and-log-files-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m26-28-q001",
+      "moduleId": "iao-m26-28",
+      "moduleLabel": "IAO Modules 26-28: Analyzing Security Data",
+      "moduleShortLabel": "IAO 26-28",
+      "questionNumber": 1,
+      "type": "multiple",
+      "promptHtml": "<p><b>Match the intrusion event defined in the Diamond Model of intrusion to the description.</b><br />\n<img src=\"assets/exhibits/iao-m26-28/q001-1-e9093bdd17.png\" alt=\"\" /></p><div class=\"92f2483bb651eed307c93e619d752c78\" data-index=\"2\" style=\"float: none; margin:10px 0 10px 0; text-align:center;\">\n<div id=\"adngin-incontent_auto_large-0\"></div>\n</div>",
+      "promptText": "Match the intrusion event defined in the Diamond Model of intrusion to the description.",
+      "options": [
+        {
+          "id": "A",
+          "text": "network path used to establish and maintain command and control : infrastructure"
+        },
+        {
+          "id": "B",
+          "text": "a tool or technique used to attack the victim : capability"
+        },
+        {
+          "id": "C",
+          "text": "the parties responsible for the intrusion : adversary"
+        },
+        {
+          "id": "D",
+          "text": "the target of the attack : victim"
+        }
+      ],
+      "correctOptionIds": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "",
+      "sourceUrl": "https://itexamanswers.net/modules-26-28-analyzing-security-data-group-exam-answers.html",
+      "assetPaths": [
+        "assets/exhibits/iao-m26-28/q001-1-e9093bdd17.png"
+      ]
+    },
+    {
+      "id": "iao-m26-28-q002",
+      "moduleId": "iao-m26-28",
+      "moduleLabel": "IAO Modules 26-28: Analyzing Security Data",
+      "moduleShortLabel": "IAO 26-28",
+      "questionNumber": 2,
+      "type": "multiple",
+      "promptHtml": "<p><b>What two shared sources of information are included within the MITRE ATT&amp;CK framework? (Choose two.)</b></p>",
+      "promptText": "What two shared sources of information are included within the MITRE ATT&CK framework? (Choose two.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "collection of digital evidence from most volatile evidence to least volatile"
+        },
+        {
+          "id": "B",
+          "text": "attacker tactics, techniques, and procedures"
+        },
+        {
+          "id": "C",
+          "text": "details about the handling of evidence including times, places, and personnel involved"
+        },
+        {
+          "id": "D",
+          "text": "eyewitness evidence from someone who directly observed criminal behavior"
+        },
+        {
+          "id": "E",
+          "text": "mapping the steps in an attack to a matrix of generalized tactics"
+        }
+      ],
+      "correctOptionIds": [
+        "B",
+        "E"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>The MITRE Framework uses stored information on attacker tactics, techniques, and procedures (TTP) as part of threat defense and attack attribution. This is done by mapping the steps in an attack to a matrix of generalized tactics and describing the techniques that are used in each tactic. These sources of information create models that assist in the ability to attribute a threat.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-26-28-analyzing-security-data-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m26-28-q003",
+      "moduleId": "iao-m26-28",
+      "moduleLabel": "IAO Modules 26-28: Analyzing Security Data",
+      "moduleShortLabel": "IAO 26-28",
+      "questionNumber": 3,
+      "type": "single",
+      "promptHtml": "<p><b>What information is gathered by the CSIRT when determining the scope of a security incident?</b></p>",
+      "promptText": "What information is gathered by the CSIRT when determining the scope of a security incident?",
+      "options": [
+        {
+          "id": "A",
+          "text": "the networks, systems, and applications affected by an incident"
+        },
+        {
+          "id": "B",
+          "text": "the amount of time and resources needed to handle an incident"
+        },
+        {
+          "id": "C",
+          "text": "the strategies and procedures used for incident containment"
+        },
+        {
+          "id": "D",
+          "text": "the processes used to preserve evidence"
+        }
+      ],
+      "correctOptionIds": [
+        "A"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>The scoping activity performed by the CSIRT after an incident determines which networks, systems, or applications are affected; who or what originated the incident; and how the incident is occurring.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-26-28-analyzing-security-data-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m26-28-q004",
+      "moduleId": "iao-m26-28",
+      "moduleLabel": "IAO Modules 26-28: Analyzing Security Data",
+      "moduleShortLabel": "IAO 26-28",
+      "questionNumber": 4,
+      "type": "single",
+      "promptHtml": "<p><b>According to NIST standards, which incident response stakeholder is responsible for coordinating an incident response with other stakeholders to minimize the damage of an incident?</b></p>",
+      "promptText": "According to NIST standards, which incident response stakeholder is responsible for coordinating an incident response with other stakeholders to minimize the damage of an incident?",
+      "options": [
+        {
+          "id": "A",
+          "text": "human resources"
+        },
+        {
+          "id": "B",
+          "text": "legal department"
+        },
+        {
+          "id": "C",
+          "text": "management"
+        },
+        {
+          "id": "D",
+          "text": "IT support"
+        }
+      ],
+      "correctOptionIds": [
+        "C"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>The management team creates the policies, designs the budget, and is in charge of staffing all departments. Management is also responsible for coordinating the incident response with other stakeholders and minimizing the damage of an incident.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-26-28-analyzing-security-data-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m26-28-q005",
+      "moduleId": "iao-m26-28",
+      "moduleLabel": "IAO Modules 26-28: Analyzing Security Data",
+      "moduleShortLabel": "IAO 26-28",
+      "questionNumber": 5,
+      "type": "single",
+      "promptHtml": "<p><b>According to NIST, which step in the digital forensics process involves drawing conclusions from data?</b></p>",
+      "promptText": "According to NIST, which step in the digital forensics process involves drawing conclusions from data?",
+      "options": [
+        {
+          "id": "A",
+          "text": "reporting"
+        },
+        {
+          "id": "B",
+          "text": "collection"
+        },
+        {
+          "id": "C",
+          "text": "examination"
+        },
+        {
+          "id": "D",
+          "text": "analysis"
+        }
+      ],
+      "correctOptionIds": [
+        "D"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>NIST describes the digital forensics process as involving the following four steps:<br />\nCollection – the identification of potential sources of forensic data and acquisition, handling, and storage of that data.<br />\nExamination – assessing and extracting relevant information from the collected data. This may involve decompression or decryption of the data.<br />\nAnalysis – drawing conclusions from the data. Salient features, such as people, places, times, events, and so on should be documented.<br />\nReporting – preparing and presenting information that resulted from the analysis. Reporting should be impartial and alternative explanations should be offered if appropriate.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-26-28-analyzing-security-data-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m26-28-q006",
+      "moduleId": "iao-m26-28",
+      "moduleLabel": "IAO Modules 26-28: Analyzing Security Data",
+      "moduleShortLabel": "IAO 26-28",
+      "questionNumber": 6,
+      "type": "single",
+      "promptHtml": "<p><b>A cybersecurity analyst has been called to a crime scene that contains several technology items including a computer. Which technique will be used so that the information found on the computer can be used in court?</b></p>",
+      "promptText": "A cybersecurity analyst has been called to a crime scene that contains several technology items including a computer. Which technique will be used so that the information found on the computer can be used in court?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tor"
+        },
+        {
+          "id": "B",
+          "text": "rootkit"
+        },
+        {
+          "id": "C",
+          "text": "unaltered disk image"
+        },
+        {
+          "id": "D",
+          "text": "log collection"
+        }
+      ],
+      "correctOptionIds": [
+        "C"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>A normal file copy does not recover all data on a storage device so an unaltered disk image is commonly made. An unaltered disk image preserves the original evidence, thus preventing inadvertent alteration during the discovery phase. It also allows recreation of the original evidence.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-26-28-analyzing-security-data-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m26-28-q007",
+      "moduleId": "iao-m26-28",
+      "moduleLabel": "IAO Modules 26-28: Analyzing Security Data",
+      "moduleShortLabel": "IAO 26-28",
+      "questionNumber": 7,
+      "type": "single",
+      "promptHtml": "<p><b>In which phase of the NIST incident response life cycle is evidence gathered that can assist subsequent investigations by authorities?</b></p>",
+      "promptText": "In which phase of the NIST incident response life cycle is evidence gathered that can assist subsequent investigations by authorities?",
+      "options": [
+        {
+          "id": "A",
+          "text": "postincident activities"
+        },
+        {
+          "id": "B",
+          "text": "detection and analysis"
+        },
+        {
+          "id": "C",
+          "text": "preparation"
+        },
+        {
+          "id": "D",
+          "text": "containment, eradication, and recovery"
+        }
+      ],
+      "correctOptionIds": [
+        "D"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>NIST defines four phases in the incident response process life cycle. It is in the containment, eradication, and recovery phase that evidence is gathered to resolve an incident and to help with subsequent investigations.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-26-28-analyzing-security-data-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m26-28-q008",
+      "moduleId": "iao-m26-28",
+      "moduleLabel": "IAO Modules 26-28: Analyzing Security Data",
+      "moduleShortLabel": "IAO 26-28",
+      "questionNumber": 8,
+      "type": "multiple",
+      "promptHtml": "<p><b>When dealing with security threats and using the Cyber Kill Chain model, which two approaches can an organization use to block a potential back door creation? (Choose two.)</b></p>",
+      "promptText": "When dealing with security threats and using the Cyber Kill Chain model, which two approaches can an organization use to block a potential back door creation? (Choose two.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "Audit endpoints to discover abnormal file creations."
+        },
+        {
+          "id": "B",
+          "text": "Establish an incident response playbook."
+        },
+        {
+          "id": "C",
+          "text": "Consolidate the number of Internet points of presence."
+        },
+        {
+          "id": "D",
+          "text": "Conduct damage assessment."
+        },
+        {
+          "id": "E",
+          "text": "Use HIPS to alert or place a block on common installation paths."
+        }
+      ],
+      "correctOptionIds": [
+        "A",
+        "E"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>In the installation phase of the Cyber Kill Chain, the threat actor establishes a back door into the system to allow for continued access to the target. Among other measures, using HIPS to alert or block on common installation paths and auditing endpoints to discover abnormal file creations can help block a potential back door creation.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-26-28-analyzing-security-data-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m26-28-q009",
+      "moduleId": "iao-m26-28",
+      "moduleLabel": "IAO Modules 26-28: Analyzing Security Data",
+      "moduleShortLabel": "IAO 26-28",
+      "questionNumber": 9,
+      "type": "single",
+      "promptHtml": "<p><b>What is defined in the SOP of a computer security incident response capability (CSIRC)?</b></p>",
+      "promptText": "What is defined in the SOP of a computer security incident response capability (CSIRC)?",
+      "options": [
+        {
+          "id": "A",
+          "text": "the details on how an incident is handled"
+        },
+        {
+          "id": "B",
+          "text": "the procedures that are followed during an incident response"
+        },
+        {
+          "id": "C",
+          "text": "the metrics for measuring incident response capabilities"
+        },
+        {
+          "id": "D",
+          "text": "the roadmap for increasing incident response capabilities"
+        }
+      ],
+      "correctOptionIds": [
+        "B"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>A CSIRC will include standard operating procedures (SOPs) that are followed during an incident response. Procedures include following technical processes, filling out forms, and following checklists.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-26-28-analyzing-security-data-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m26-28-q010",
+      "moduleId": "iao-m26-28",
+      "moduleLabel": "IAO Modules 26-28: Analyzing Security Data",
+      "moduleShortLabel": "IAO 26-28",
+      "questionNumber": 10,
+      "type": "single",
+      "promptHtml": "<p><b>How does an application program interact with the operating system?</b></p>",
+      "promptText": "How does an application program interact with the operating system?",
+      "options": [
+        {
+          "id": "A",
+          "text": "sending files"
+        },
+        {
+          "id": "B",
+          "text": "accessing BIOS or UEFI"
+        },
+        {
+          "id": "C",
+          "text": "making API calls"
+        },
+        {
+          "id": "D",
+          "text": "using processes"
+        }
+      ],
+      "correctOptionIds": [
+        "C"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Application programs interact with an operating system through system calls to the OS application programming interface (API). These system calls allow access to many aspects of system operation such as software process control, file management, device management, and network access.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-26-28-analyzing-security-data-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m26-28-q011",
+      "moduleId": "iao-m26-28",
+      "moduleLabel": "IAO Modules 26-28: Analyzing Security Data",
+      "moduleShortLabel": "IAO 26-28",
+      "questionNumber": 11,
+      "type": "single",
+      "promptHtml": "<p><b>Which tool included in the Security Onion provides a visual interface to NSM data?</b></p>",
+      "promptText": "Which tool included in the Security Onion provides a visual interface to NSM data?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Curator"
+        },
+        {
+          "id": "B",
+          "text": "Beats"
+        },
+        {
+          "id": "C",
+          "text": "Squert"
+        },
+        {
+          "id": "D",
+          "text": "OSSEC"
+        }
+      ],
+      "correctOptionIds": [
+        "C"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Dashboards provide a combination of data and visualizations designed to improve the access of individuals to large amounts of information. Kibana includes the capability of designing custom dashboards. In addition, other tools that are included in Security Onion, such as Squert, provide a visual interface to NSM data.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-26-28-analyzing-security-data-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m26-28-q012",
+      "moduleId": "iao-m26-28",
+      "moduleLabel": "IAO Modules 26-28: Analyzing Security Data",
+      "moduleShortLabel": "IAO 26-28",
+      "questionNumber": 12,
+      "type": "single",
+      "promptHtml": "<p><b>Which tool included in the Security Onion includes the capability of designing custom dashboards?</b></p>",
+      "promptText": "Which tool included in the Security Onion includes the capability of designing custom dashboards?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sguil"
+        },
+        {
+          "id": "B",
+          "text": "Kibana"
+        },
+        {
+          "id": "C",
+          "text": "Squert"
+        },
+        {
+          "id": "D",
+          "text": "OSSEC"
+        }
+      ],
+      "correctOptionIds": [
+        "B"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Dashboards are usually interactive and provide a combination of data and visualizations designed to improve the access of individuals to large amounts of information. Kibana includes the capability of designing custom dashboards.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-26-28-analyzing-security-data-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m26-28-q013",
+      "moduleId": "iao-m26-28",
+      "moduleLabel": "IAO Modules 26-28: Analyzing Security Data",
+      "moduleShortLabel": "IAO 26-28",
+      "questionNumber": 13,
+      "type": "single",
+      "promptHtml": "<p><b>How is the hash value of files useful in network security investigations?</b></p>",
+      "promptText": "How is the hash value of files useful in network security investigations?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It is used to decode files."
+        },
+        {
+          "id": "B",
+          "text": "It helps identify malware signatures."
+        },
+        {
+          "id": "C",
+          "text": "It verifies confidentiality of files."
+        },
+        {
+          "id": "D",
+          "text": "It is used as a key for encryption."
+        }
+      ],
+      "correctOptionIds": [
+        "B"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>When ELSA is used to investigate downloaded files, the hash value of each file is created and stored with other information about the file. If a cybersecurity analyst is suspicious of the file, the hash value can be submitted to an online malware repository site to determine if the file is known malware.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-26-28-analyzing-security-data-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m26-28-q014",
+      "moduleId": "iao-m26-28",
+      "moduleLabel": "IAO Modules 26-28: Analyzing Security Data",
+      "moduleShortLabel": "IAO 26-28",
+      "questionNumber": 14,
+      "type": "single",
+      "promptHtml": "<p><b>Which technology is a major standard consisting of a pattern of symbols that describe data to be matched in a query?</b></p>",
+      "promptText": "Which technology is a major standard consisting of a pattern of symbols that describe data to be matched in a query?",
+      "options": [
+        {
+          "id": "A",
+          "text": "OSSEC"
+        },
+        {
+          "id": "B",
+          "text": "POSIX"
+        },
+        {
+          "id": "C",
+          "text": "Squert"
+        },
+        {
+          "id": "D",
+          "text": "Sguil"
+        }
+      ],
+      "correctOptionIds": [
+        "B"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>A regular expression (regex) is a pattern of symbols that describe data to be matched in a query or other operation. Regular expressions are constructed similarly to arithmetic expressions, by using various operators to combine smaller expressions. There are two major standards of regular expression, POSIX and Perl.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-26-28-analyzing-security-data-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m26-28-q015",
+      "moduleId": "iao-m26-28",
+      "moduleLabel": "IAO Modules 26-28: Analyzing Security Data",
+      "moduleShortLabel": "IAO 26-28",
+      "questionNumber": 15,
+      "type": "single",
+      "promptHtml": "<p><b>Which tool is a Security Onion integrated host-based intrusion detection system?</b></p>",
+      "promptText": "Which tool is a Security Onion integrated host-based intrusion detection system?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Snort"
+        },
+        {
+          "id": "B",
+          "text": "OSSEC"
+        },
+        {
+          "id": "C",
+          "text": "ELK"
+        },
+        {
+          "id": "D",
+          "text": "Sguil"
+        }
+      ],
+      "correctOptionIds": [
+        "B"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>OSSEC is a host-based intrusion detection system (HIDS) that is integrated into Security Onion and actively monitors host system operation.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-26-28-analyzing-security-data-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m26-28-q016",
+      "moduleId": "iao-m26-28",
+      "moduleLabel": "IAO Modules 26-28: Analyzing Security Data",
+      "moduleShortLabel": "IAO 26-28",
+      "questionNumber": 16,
+      "type": "single",
+      "promptHtml": "<p><b>Which term is used to describe the process of converting log entries into a common format?</b></p>",
+      "promptText": "Which term is used to describe the process of converting log entries into a common format?",
+      "options": [
+        {
+          "id": "A",
+          "text": "classification"
+        },
+        {
+          "id": "B",
+          "text": "systemization"
+        },
+        {
+          "id": "C",
+          "text": "normalization"
+        },
+        {
+          "id": "D",
+          "text": "standardization"
+        }
+      ],
+      "correctOptionIds": [
+        "C"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>For processing log entries, data normalization can organize and convert data values in datasets from difference sources into common format. The normalization makes it easy for further data analysis and reporting.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-26-28-analyzing-security-data-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m26-28-q017",
+      "moduleId": "iao-m26-28",
+      "moduleLabel": "IAO Modules 26-28: Analyzing Security Data",
+      "moduleShortLabel": "IAO 26-28",
+      "questionNumber": 17,
+      "type": "single",
+      "promptHtml": "<p><b>What is the purpose for data normalization?</b></p>",
+      "promptText": "What is the purpose for data normalization?",
+      "options": [
+        {
+          "id": "A",
+          "text": "to simplify searching for correlated events"
+        },
+        {
+          "id": "B",
+          "text": "to reduce the amount of alert data"
+        },
+        {
+          "id": "C",
+          "text": "to enhance the secure transmission of alert data"
+        },
+        {
+          "id": "D",
+          "text": "to make the alert data transmission fast"
+        }
+      ],
+      "correctOptionIds": [
+        "A"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>With data normalization various sources of data are combined into a common display format, which simplifies the searching for similar or relevant events.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-26-28-analyzing-security-data-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m26-28-q018",
+      "moduleId": "iao-m26-28",
+      "moduleLabel": "IAO Modules 26-28: Analyzing Security Data",
+      "moduleShortLabel": "IAO 26-28",
+      "questionNumber": 18,
+      "type": "single",
+      "promptHtml": "<p><b>Which personnel in a SOC is assigned the task of verifying whether an alert triggered by monitoring software represents a true security incident?</b></p><div class=\"92f2483bb651eed307c93e619d752c78\" data-index=\"1\" style=\"float: none; margin:10px 0 10px 0; text-align:center;\">\n<div id=\"adngin-incontent_auto-0\"></div>\n</div>",
+      "promptText": "Which personnel in a SOC is assigned the task of verifying whether an alert triggered by monitoring software represents a true security incident?",
+      "options": [
+        {
+          "id": "A",
+          "text": "SOC Manager"
+        },
+        {
+          "id": "B",
+          "text": "Tier 3 personnel"
+        },
+        {
+          "id": "C",
+          "text": "Tier 2 personnel"
+        },
+        {
+          "id": "D",
+          "text": "Tier 1 personnel"
+        }
+      ],
+      "correctOptionIds": [
+        "D"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>In a SOC, the job of a Tier 1 Alert Analyst includes monitoring incoming alerts and verifying that a true security incident has occurred.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-26-28-analyzing-security-data-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m26-28-q019",
+      "moduleId": "iao-m26-28",
+      "moduleLabel": "IAO Modules 26-28: Analyzing Security Data",
+      "moduleShortLabel": "IAO 26-28",
+      "questionNumber": 19,
+      "type": "single",
+      "promptHtml": "<p><b>Refer to the exhibit. A security analyst is reviewing an alert message generated by Snort. What does the number 2100498 in the message indicate?</b><br />\n<img src=\"assets/exhibits/iao-m26-28/q019-1-062f824bc5.jpg\" alt=\"\" /></p>",
+      "promptText": "Refer to the exhibit. A security analyst is reviewing an alert message generated by Snort. What does the number 2100498 in the message indicate?",
+      "options": [
+        {
+          "id": "A",
+          "text": "the id of the user that triggers the alert"
+        },
+        {
+          "id": "B",
+          "text": "the message length in bits"
+        },
+        {
+          "id": "C",
+          "text": "the Snort rule that is triggered"
+        },
+        {
+          "id": "D",
+          "text": "the session number of the message"
+        }
+      ],
+      "correctOptionIds": [
+        "C"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>The sid field in a Snort alert message indicates the Snort security rule that is triggered.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-26-28-analyzing-security-data-group-exam-answers.html",
+      "assetPaths": [
+        "assets/exhibits/iao-m26-28/q019-1-062f824bc5.jpg"
+      ]
+    },
+    {
+      "id": "iao-m26-28-q020",
+      "moduleId": "iao-m26-28",
+      "moduleLabel": "IAO Modules 26-28: Analyzing Security Data",
+      "moduleShortLabel": "IAO 26-28",
+      "questionNumber": 20,
+      "type": "single",
+      "promptHtml": "<p><b>What are security event logs commonly based on when sourced by traditional firewalls?</b></p>",
+      "promptText": "What are security event logs commonly based on when sourced by traditional firewalls?",
+      "options": [
+        {
+          "id": "A",
+          "text": "static filtering"
+        },
+        {
+          "id": "B",
+          "text": "application analysis"
+        },
+        {
+          "id": "C",
+          "text": "signatures"
+        },
+        {
+          "id": "D",
+          "text": "5-tuples"
+        }
+      ],
+      "correctOptionIds": [
+        "D"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Traditional firewalls commonly provide security event logs based on the 5-tuples of source IP address and port number, destination IP address and port number, and the protocol in use.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-26-28-analyzing-security-data-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m26-28-q021",
+      "moduleId": "iao-m26-28",
+      "moduleLabel": "IAO Modules 26-28: Analyzing Security Data",
+      "moduleShortLabel": "IAO 26-28",
+      "questionNumber": 21,
+      "type": "single",
+      "promptHtml": "<p><b>A threat actor has successfully breached the network firewall without being detected by the IDS system. What condition describes the lack of alert?</b></p>",
+      "promptText": "A threat actor has successfully breached the network firewall without being detected by the IDS system. What condition describes the lack of alert?",
+      "options": [
+        {
+          "id": "A",
+          "text": "false negative"
+        },
+        {
+          "id": "B",
+          "text": "true negative"
+        },
+        {
+          "id": "C",
+          "text": "true positive"
+        },
+        {
+          "id": "D",
+          "text": "false positive"
+        }
+      ],
+      "correctOptionIds": [
+        "A"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>A false negative is where no alert exists and exploits are not being detected by the security systems that are in place.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-26-28-analyzing-security-data-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m26-28-q022",
+      "moduleId": "iao-m26-28",
+      "moduleLabel": "IAO Modules 26-28: Analyzing Security Data",
+      "moduleShortLabel": "IAO 26-28",
+      "questionNumber": 22,
+      "type": "single",
+      "promptHtml": "<p><b>What information is contained in the options section of a Snort rule?</b></p>",
+      "promptText": "What information is contained in the options section of a Snort rule?",
+      "options": [
+        {
+          "id": "A",
+          "text": "direction of traffic flow"
+        },
+        {
+          "id": "B",
+          "text": "text describing the event"
+        },
+        {
+          "id": "C",
+          "text": "action to be taken"
+        },
+        {
+          "id": "D",
+          "text": "source and destination address"
+        }
+      ],
+      "correctOptionIds": [
+        "B"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Snort rules consist of two sections, the rules header and the rule options. The rule options section of a snort rule consists of the messages text displayed to describe an alert as well as metadata about the alert.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-26-28-analyzing-security-data-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m26-28-q023",
+      "moduleId": "iao-m26-28",
+      "moduleLabel": "IAO Modules 26-28: Analyzing Security Data",
+      "moduleShortLabel": "IAO 26-28",
+      "questionNumber": 23,
+      "type": "single",
+      "promptHtml": "<p><b>A network administrator is trying to download a valid file from an internal server. However, the process triggers an alert on a NMS tool. What condition describes this alert?</b></p>",
+      "promptText": "A network administrator is trying to download a valid file from an internal server. However, the process triggers an alert on a NMS tool. What condition describes this alert?",
+      "options": [
+        {
+          "id": "A",
+          "text": "false negative"
+        },
+        {
+          "id": "B",
+          "text": "false positive"
+        },
+        {
+          "id": "C",
+          "text": "true negative"
+        },
+        {
+          "id": "D",
+          "text": "true positive"
+        }
+      ],
+      "correctOptionIds": [
+        "B"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Alerts can be classified as follows:</p>\n<p>True Positive: The alert has been verified to be an actual security incident.<br />\nFalse Positive: The alert does not indicate an actual security incident. Benign activity that results in a false positive is sometimes referred to as a benign trigger.<br />\nAn alternative situation is that an alert was not generated. The absence of an alert can be classified as:</p>\n<p>True Negative: No security incident has occurred. The activity is benign.<br />\nFalse Negative: An undetected incident has occurred.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-26-28-analyzing-security-data-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m26-28-q024",
+      "moduleId": "iao-m26-28",
+      "moduleLabel": "IAO Modules 26-28: Analyzing Security Data",
+      "moduleShortLabel": "IAO 26-28",
+      "questionNumber": 24,
+      "type": "single",
+      "promptHtml": "<p><b>What is indicated by a Snort signature ID that is below 3464?</b></p>",
+      "promptText": "What is indicated by a Snort signature ID that is below 3464?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The SID was created by Sourcefire and distributed under a GPL agreement."
+        },
+        {
+          "id": "B",
+          "text": "This is a custom signature developed by the organization to address locally observed rules."
+        },
+        {
+          "id": "C",
+          "text": "The SID was created by the Snort community and is maintained in Community Rules."
+        },
+        {
+          "id": "D",
+          "text": "The SID was created by members of EmergingThreats."
+        }
+      ],
+      "correctOptionIds": [
+        "A"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Snort is an open source network intrusion prevention system (NIPS) and network intrusion detection system (NIDS) developed by Sourcefire. It has the ability to perform real time traffic analysis and packet logging on Internet Protocol (IP) networks and can also be used to detect probes or attacks.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-26-28-analyzing-security-data-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m26-28-q025",
+      "moduleId": "iao-m26-28",
+      "moduleLabel": "IAO Modules 26-28: Analyzing Security Data",
+      "moduleShortLabel": "IAO 26-28",
+      "questionNumber": 25,
+      "type": "single",
+      "promptHtml": "<p><b>After a security monitoring tool identifies a malware attachment entering the network, what is the benefit of performing a retrospective analysis?</b></p>",
+      "promptText": "After a security monitoring tool identifies a malware attachment entering the network, what is the benefit of performing a retrospective analysis?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A retrospective analysis can help in tracking the behavior of the malware from the identification point forward."
+        },
+        {
+          "id": "B",
+          "text": "It can identify how the malware originally entered the network."
+        },
+        {
+          "id": "C",
+          "text": "It can calculate the probability of a future incident."
+        },
+        {
+          "id": "D",
+          "text": "It can determine which network host was first affected."
+        }
+      ],
+      "correctOptionIds": [
+        "A"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>General security monitoring can identify when a malware attachment enters a network and which host is first infected. Retrospective analysis takes the next step and is the tracking of the behavior of the malware from that point forward.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-26-28-analyzing-security-data-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m26-28-q026",
+      "moduleId": "iao-m26-28",
+      "moduleLabel": "IAO Modules 26-28: Analyzing Security Data",
+      "moduleShortLabel": "IAO 26-28",
+      "questionNumber": 26,
+      "type": "single",
+      "promptHtml": "<p><b>A threat actor collects information from web servers of an organization and searches for employee contact information. The information collected is further used to search personal information on the Internet. To which attack phase do these activities belong according to the Cyber Kill Chain model?</b></p>",
+      "promptText": "A threat actor collects information from web servers of an organization and searches for employee contact information. The information collected is further used to search personal information on the Internet. To which attack phase do these activities belong according to the Cyber Kill Chain model?",
+      "options": [
+        {
+          "id": "A",
+          "text": "action on objectives"
+        },
+        {
+          "id": "B",
+          "text": "exploitation"
+        },
+        {
+          "id": "C",
+          "text": "reconnaissance"
+        },
+        {
+          "id": "D",
+          "text": "weaponization"
+        }
+      ],
+      "correctOptionIds": [
+        "C"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>According to the Cyber Kill Chain model, in the reconnaissance phase the threat actor performs research, gathers intelligence, and selects targets.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-26-28-analyzing-security-data-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m26-28-q027",
+      "moduleId": "iao-m26-28",
+      "moduleLabel": "IAO Modules 26-28: Analyzing Security Data",
+      "moduleShortLabel": "IAO 26-28",
+      "questionNumber": 27,
+      "type": "single",
+      "promptHtml": "<p><b>Which HIDS is integrated into the Security Onion and uses rules to detect changes in host-based operating parameters caused by malware through system calls?</b></p>",
+      "promptText": "Which HIDS is integrated into the Security Onion and uses rules to detect changes in host-based operating parameters caused by malware through system calls?",
+      "options": [
+        {
+          "id": "A",
+          "text": "OSSEC"
+        },
+        {
+          "id": "B",
+          "text": "Bro"
+        },
+        {
+          "id": "C",
+          "text": "Snort"
+        },
+        {
+          "id": "D",
+          "text": "Suricata"
+        }
+      ],
+      "correctOptionIds": [
+        "A"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>OSSEC is a HIDS integrated into the Security Onion and uses rules to detect changes in host-based parameters like the execution of software processes, changes in user privileges, registry modifications, among many others. OSSEC rules will trigger events that occurred on the host, including indicators that malware may have interacted with the OS kernel. Bro, Snort, and Suricata are examples of NIDS systems.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-26-28-analyzing-security-data-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m26-28-q028",
+      "moduleId": "iao-m26-28",
+      "moduleLabel": "IAO Modules 26-28: Analyzing Security Data",
+      "moduleShortLabel": "IAO 26-28",
+      "questionNumber": 28,
+      "type": "single",
+      "promptHtml": "<p><b>Which type of events should be assigned to categories in Sguil?</b></p>",
+      "promptText": "Which type of events should be assigned to categories in Sguil?",
+      "options": [
+        {
+          "id": "A",
+          "text": "false positive"
+        },
+        {
+          "id": "B",
+          "text": "true positive"
+        },
+        {
+          "id": "C",
+          "text": "false negative"
+        },
+        {
+          "id": "D",
+          "text": "true negative"
+        }
+      ],
+      "correctOptionIds": [
+        "B"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>Sguil includes seven pre-built categories that can be assigned to events that have been identified as true positives.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-26-28-analyzing-security-data-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m26-28-q029",
+      "moduleId": "iao-m26-28",
+      "moduleLabel": "IAO Modules 26-28: Analyzing Security Data",
+      "moduleShortLabel": "IAO 26-28",
+      "questionNumber": 29,
+      "type": "single",
+      "promptHtml": "<p><b>A cybersecurity analyst is going to verify security alerts using the Security Onion. Which tool should the analyst visit first?</b></p>",
+      "promptText": "A cybersecurity analyst is going to verify security alerts using the Security Onion. Which tool should the analyst visit first?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Bro"
+        },
+        {
+          "id": "B",
+          "text": "Sguil"
+        },
+        {
+          "id": "C",
+          "text": "CapME"
+        },
+        {
+          "id": "D",
+          "text": "ELK"
+        }
+      ],
+      "correctOptionIds": [
+        "B"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>The primary duty of a cybersecurity analyst is the verification of security alerts. In the Security Onion, the first place that a cybersecurity analyst will go to verify alerts is Sguil because it provides a high-level console for investigating security alerts from a wide variety of sources.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-26-28-analyzing-security-data-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m26-28-q030",
+      "moduleId": "iao-m26-28",
+      "moduleLabel": "IAO Modules 26-28: Analyzing Security Data",
+      "moduleShortLabel": "IAO 26-28",
+      "questionNumber": 30,
+      "type": "single",
+      "promptHtml": "<p><b>Refer to the exhibit. Which field in the Sguil application window indicates the priority of an event or set of correlated events?</b><br />\n<img src=\"assets/exhibits/iao-m26-28/q030-1-37771fddba.jpg\" alt=\"\" /></p>",
+      "promptText": "Refer to the exhibit. Which field in the Sguil application window indicates the priority of an event or set of correlated events?",
+      "options": [
+        {
+          "id": "A",
+          "text": "ST"
+        },
+        {
+          "id": "B",
+          "text": "AlertID"
+        },
+        {
+          "id": "C",
+          "text": "Pr"
+        },
+        {
+          "id": "D",
+          "text": "CNT"
+        }
+      ],
+      "correctOptionIds": [
+        "A"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>The Sguil application window has several fields available that give information about an event. The ST field gives the status of an event that includes a color-coded priority from light yellow to red to indicate four levels of priority.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-26-28-analyzing-security-data-group-exam-answers.html",
+      "assetPaths": [
+        "assets/exhibits/iao-m26-28/q030-1-37771fddba.jpg"
+      ]
+    },
+    {
+      "id": "iao-m26-28-q031",
+      "moduleId": "iao-m26-28",
+      "moduleLabel": "IAO Modules 26-28: Analyzing Security Data",
+      "moduleShortLabel": "IAO 26-28",
+      "questionNumber": 31,
+      "type": "study",
+      "promptHtml": "<p><b>Match the Snort rule source to the description.</b><br />\n<img src=\"assets/exhibits/iao-m26-28/q031-1-7c5cf483aa.jpg\" alt=\"\" /></p>",
+      "promptText": "Match the Snort rule source to the description.",
+      "options": [],
+      "correctOptionIds": [],
+      "solutionHtml": "",
+      "explanationHtml": "",
+      "sourceUrl": "https://itexamanswers.net/modules-26-28-analyzing-security-data-group-exam-answers.html",
+      "assetPaths": [
+        "assets/exhibits/iao-m26-28/q031-1-7c5cf483aa.jpg"
+      ]
+    },
+    {
+      "id": "iao-m26-28-q032",
+      "moduleId": "iao-m26-28",
+      "moduleLabel": "IAO Modules 26-28: Analyzing Security Data",
+      "moduleShortLabel": "IAO 26-28",
+      "questionNumber": 32,
+      "type": "single",
+      "promptHtml": "<p><b>What is the purpose for data reduction as it relates to NSM?</b></p>",
+      "promptText": "What is the purpose for data reduction as it relates to NSM?",
+      "options": [
+        {
+          "id": "A",
+          "text": "to make the alert data transmission fast"
+        },
+        {
+          "id": "B",
+          "text": "to remove recurring data streams"
+        },
+        {
+          "id": "C",
+          "text": "to enhance the secure transmission of alert data"
+        },
+        {
+          "id": "D",
+          "text": "to diminish the quantity of NSM data to be handled"
+        }
+      ],
+      "correctOptionIds": [
+        "D"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>The amount of network traffic that is collected by packet captures and the number of log file entries and alerts that are generated by network and security devices can be enormous. For this reason, it is important to identify the NSM-related data that should be gathered. This process is called data reduction.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-26-28-analyzing-security-data-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m26-28-q033",
+      "moduleId": "iao-m26-28",
+      "moduleLabel": "IAO Modules 26-28: Analyzing Security Data",
+      "moduleShortLabel": "IAO 26-28",
+      "questionNumber": 33,
+      "type": "single",
+      "promptHtml": "<p><b>Why would threat actors prefer to use a zero-day attack in the Cyber Kill Chain weaponization phase?</b></p>",
+      "promptText": "Why would threat actors prefer to use a zero-day attack in the Cyber Kill Chain weaponization phase?",
+      "options": [
+        {
+          "id": "A",
+          "text": "to avoid detection by the target"
+        },
+        {
+          "id": "B",
+          "text": "to launch a DoS attack toward the target"
+        },
+        {
+          "id": "C",
+          "text": "to get a free malware package"
+        },
+        {
+          "id": "D",
+          "text": "to gain faster delivery of the attack on the target"
+        }
+      ],
+      "correctOptionIds": [
+        "A"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>When a threat actor prepares a weapon for an attack, the threat actor chooses an automated tool (weaponizer) that can be deployed through discovered vulnerabilities. Malware that will carry desired attacks is then built into the tool as the payload. The weapon (tool plus malware payload) will be delivered to the target system. By using a zero-day weaponizer, the threat actor hopes that the weapon will not be detected because it is unknown to security professionals and detection methods are not yet developed.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-26-28-analyzing-security-data-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m26-28-q034",
+      "moduleId": "iao-m26-28",
+      "moduleLabel": "IAO Modules 26-28: Analyzing Security Data",
+      "moduleShortLabel": "IAO 26-28",
+      "questionNumber": 34,
+      "type": "single",
+      "promptHtml": "<p><b>What is the objective the threat actor in establishing a two-way communication channel between the target system and a CnC infrastructure?</b></p>",
+      "promptText": "What is the objective the threat actor in establishing a two-way communication channel between the target system and a CnC infrastructure?",
+      "options": [
+        {
+          "id": "A",
+          "text": "to allow the threat actor to issue commands to the software that is installed on the target"
+        },
+        {
+          "id": "B",
+          "text": "to send user data stored on the target to the threat actor"
+        },
+        {
+          "id": "C",
+          "text": "to steal network bandwidth from the network where the target is located"
+        },
+        {
+          "id": "D",
+          "text": "to launch a buffer overflow attack"
+        }
+      ],
+      "correctOptionIds": [
+        "A"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>In the command and control phase of the Cyber Kill Chain, the threat actor establishes command and control (CnC) with the target system. With the two-way communication channel, the threat actor is able to issue commands to the malware software installed on the target.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-26-28-analyzing-security-data-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m26-28-q035",
+      "moduleId": "iao-m26-28",
+      "moduleLabel": "IAO Modules 26-28: Analyzing Security Data",
+      "moduleShortLabel": "IAO 26-28",
+      "questionNumber": 35,
+      "type": "single",
+      "promptHtml": "<p><b>Which meta-feature element in the Diamond Model describes information gained by the adversary?</b></p>",
+      "promptText": "Which meta-feature element in the Diamond Model describes information gained by the adversary?",
+      "options": [
+        {
+          "id": "A",
+          "text": "methodology"
+        },
+        {
+          "id": "B",
+          "text": "resources"
+        },
+        {
+          "id": "C",
+          "text": "results"
+        },
+        {
+          "id": "D",
+          "text": "direction"
+        }
+      ],
+      "correctOptionIds": [
+        "C"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>The meta-feature element results are used to delineate what the adversary gained from the intrusion event.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-26-28-analyzing-security-data-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m26-28-q036",
+      "moduleId": "iao-m26-28",
+      "moduleLabel": "IAO Modules 26-28: Analyzing Security Data",
+      "moduleShortLabel": "IAO 26-28",
+      "questionNumber": 36,
+      "type": "single",
+      "promptHtml": "<p><strong>In which step of the NIST incident response process does the CSIRT perform an analysis to determine which networks, systems, or applications are affected; who or what originated the incident; and how the incident is occurring?</strong></p>",
+      "promptText": "In which step of the NIST incident response process does the CSIRT perform an analysis to determine which networks, systems, or applications are affected; who or what originated the incident; and how the incident is occurring?",
+      "options": [
+        {
+          "id": "A",
+          "text": "incident notification"
+        },
+        {
+          "id": "B",
+          "text": "attacker identification"
+        },
+        {
+          "id": "C",
+          "text": "scoping"
+        },
+        {
+          "id": "D",
+          "text": "detection"
+        }
+      ],
+      "correctOptionIds": [
+        "C"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p>In the detection and analysis phase of the NIST incident response process life cycle, the CSIRT should immediately perform an initial analysis to determine the scope of the incident, such as which networks, systems, or applications are affected; who or what originated the incident; and how the incident is occurring.</p>",
+      "sourceUrl": "https://itexamanswers.net/modules-26-28-analyzing-security-data-group-exam-answers.html",
+      "assetPaths": []
+    },
+    {
+      "id": "iao-m26-28-q037",
+      "moduleId": "iao-m26-28",
+      "moduleLabel": "IAO Modules 26-28: Analyzing Security Data",
+      "moduleShortLabel": "IAO 26-28",
+      "questionNumber": 37,
+      "type": "single",
+      "promptHtml": "<p><strong>Which classification indicates that an alert is verified as an actual security incident?</strong></p>",
+      "promptText": "Which classification indicates that an alert is verified as an actual security incident?",
+      "options": [
+        {
+          "id": "A",
+          "text": "false negative"
+        },
+        {
+          "id": "B",
+          "text": "true positive"
+        },
+        {
+          "id": "C",
+          "text": "false positive"
+        },
+        {
+          "id": "D",
+          "text": "true negative"
+        }
+      ],
+      "correctOptionIds": [
+        "B"
+      ],
+      "solutionHtml": "",
+      "explanationHtml": "<p></p>\n<p>Alerts can be classified as follows:</p>\n<p>True Positive: The alert has been verified to be an actual security incident.<br />\nFalse Positive: The alert does not indicate an actual security incident. Benign activity that results in a false positive is sometimes referred to as a benign trigger.<br />\nAn alternative situation is that an alert was not generated. The absence of an alert can be classified as follows:</p>\n<p>True Negative: No security incident has occurred. The activity is benign.<br />\nFalse Negative: An undetected incident has occurred.</p>\n<p></p>",
+      "sourceUrl": "https://itexamanswers.net/modules-26-28-analyzing-security-data-group-exam-answers.html",
       "assetPaths": []
     }
   ]
